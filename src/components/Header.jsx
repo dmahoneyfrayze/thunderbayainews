@@ -1,29 +1,15 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
+import { motion, useScroll, useSpring } from 'framer-motion';
+import { Menu, X } from 'lucide-react';
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [scrolled, setScrolled] = useState(false);
-  const [scrollProgress, setScrollProgress] = useState(0);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      if (window.scrollY > 40) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
-
-      const totalScroll = document.documentElement.scrollHeight - window.innerHeight;
-      if (totalScroll > 0) {
-        setScrollProgress((window.scrollY / totalScroll) * 100);
-      }
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
+  const { scrollYProgress } = useScroll();
+  const scaleX = useSpring(scrollYProgress, {
+    stiffness: 100,
+    damping: 30,
+    restDelta: 0.001
+  });
 
   const handleScrollTo = (id) => {
     setMobileMenuOpen(false);
@@ -34,56 +20,86 @@ export default function Header() {
   };
 
   return (
-    <header style={styles.header} className={scrolled ? 'header-scrolled' : ''}>
-      <div className="scroll-progress-bar" style={{ width: `${scrollProgress}%` }}></div>
-      <div className="container nav-container-height" style={styles.navContainer}>
-        {/* Logo */}
-        <div style={styles.logo} onClick={() => handleScrollTo('hero')}>
+    <header style={styles.header}>
+      {/* Spring-physics progress bar (from Stitch) */}
+      <motion.div
+        style={{ scaleX, ...styles.progressBar }}
+      />
+
+      <div className="container" style={styles.navContainer}>
+        {/* Logo with entrance animation */}
+        <motion.div
+          initial={{ opacity: 0, x: -20 }}
+          animate={{ opacity: 1, x: 0 }}
+          style={styles.logo}
+          onClick={() => handleScrollTo('hero')}
+        >
           <span style={styles.logoIcon}>⚡</span>
           <span style={styles.logoText}>Thunder Bay <span className="accent-text">AI</span></span>
-        </div>
+        </motion.div>
 
-        {/* Desktop Navigation */}
+        {/* Desktop nav links with staggered entrance */}
         <nav style={styles.desktopNav}>
-          <span style={styles.navLink} onClick={() => handleScrollTo('radar')}>Funding Radar</span>
-          <span style={styles.navLink} onClick={() => handleScrollTo('intelligence')}>Intelligence Feed</span>
-          <span style={styles.navLink} onClick={() => handleScrollTo('funded-builds')}>Funded Builds</span>
-          <span style={styles.navLink} onClick={() => handleScrollTo('weekly-brief')}>Weekly Brief</span>
+          {[
+            { label: 'FUNDING', id: 'radar' },
+            { label: 'INTELLIGENCE', id: 'intelligence' },
+            { label: 'BUILDS', id: 'funded-builds' },
+            { label: 'BRIEF', id: 'weekly-brief' },
+          ].map((item, i) => (
+            <motion.span
+              key={item.id}
+              initial={{ opacity: 0, y: -10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: i * 0.1 }}
+              style={styles.navLink}
+              onClick={() => handleScrollTo(item.id)}
+            >
+              {item.label}
+            </motion.span>
+          ))}
         </nav>
 
-        <div style={styles.desktopCta}>
-          <button className="btn btn-secondary" onClick={() => handleScrollTo('weekly-brief')}>Subscribe</button>
-          <button className="btn btn-primary" onClick={() => handleScrollTo('funded-builds')}>Get Funded Build</button>
-        </div>
+        <motion.div
+          initial={{ opacity: 0, x: 20 }}
+          animate={{ opacity: 1, x: 0 }}
+          style={styles.desktopCta}
+        >
+          <button className="btn btn-cyan" onClick={() => handleScrollTo('funded-builds')}>
+            Get Funded Build
+          </button>
+        </motion.div>
 
         {/* Mobile Menu Toggle */}
-        <button 
-          style={styles.mobileMenuToggle} 
+        <motion.button
+          initial={{ opacity: 0, x: 20 }}
+          animate={{ opacity: 1, x: 0 }}
+          style={styles.mobileMenuToggle}
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           aria-label="Toggle navigation menu"
         >
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-            {mobileMenuOpen ? (
-              <path d="M18 6L6 18M6 6l12 12" />
-            ) : (
-              <path d="M4 6h16M4 12h16M4 18h16" />
-            )}
-          </svg>
-        </button>
+          {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+        </motion.button>
       </div>
 
       {/* Mobile Dropdown Menu */}
       {mobileMenuOpen && (
-        <div style={styles.mobileDropdown} className="glass-panel">
+        <motion.div
+          initial={{ opacity: 0, y: -10 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: -10 }}
+          style={styles.mobileDropdown}
+          className="glass-panel"
+        >
           <span style={styles.mobileNavLink} onClick={() => handleScrollTo('radar')}>Funding Radar</span>
           <span style={styles.mobileNavLink} onClick={() => handleScrollTo('intelligence')}>Intelligence Feed</span>
           <span style={styles.mobileNavLink} onClick={() => handleScrollTo('funded-builds')}>Funded Builds</span>
           <span style={styles.mobileNavLink} onClick={() => handleScrollTo('weekly-brief')}>Weekly Brief</span>
           <div style={styles.mobileCtaGroup}>
-            <button className="btn btn-secondary" style={{ width: '100%' }} onClick={() => handleScrollTo('weekly-brief')}>Subscribe</button>
-            <button className="btn btn-primary" style={{ width: '100%' }} onClick={() => handleScrollTo('funded-builds')}>Get Funded Build</button>
+            <button className="btn btn-cyan" style={{ width: '100%' }} onClick={() => handleScrollTo('funded-builds')}>
+              Get Funded Build
+            </button>
           </div>
-        </div>
+        </motion.div>
       )}
     </header>
   );
@@ -91,23 +107,31 @@ export default function Header() {
 
 const styles = {
   header: {
-    position: 'sticky',
+    position: 'fixed',
     top: 0,
     left: 0,
-    width: 100 + '%',
-    background: 'rgba(4, 5, 8, 0.75)',
+    width: '100%',
+    background: 'rgba(4, 5, 8, 0.6)',
     backdropFilter: 'blur(20px)',
     WebkitBackdropFilter: 'blur(20px)',
     borderBottom: '1px solid hsla(0, 0%, 100%, 0.05)',
-    zIndex: 999,
-    transition: 'all 0.3s ease',
+    zIndex: 50,
+  },
+  progressBar: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    right: 0,
+    height: '2px',
+    background: 'hsl(184, 100%, 48%)',
+    transformOrigin: 'left',
+    zIndex: 60,
   },
   navContainer: {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'space-between',
     height: '80px',
-    transition: 'all 0.3s ease',
   },
   logo: {
     display: 'flex',
@@ -130,20 +154,16 @@ const styles = {
   desktopNav: {
     display: 'flex',
     alignItems: 'center',
-    gap: '32px',
-    '@media (max-width: 768px)': {
-      display: 'none',
-    },
+    gap: '36px',
   },
   navLink: {
-    fontSize: '14px',
-    fontWeight: '500',
-    color: 'hsl(var(--text-secondary))',
+    fontFamily: 'var(--font-label)',
+    fontSize: '11px',
+    letterSpacing: '0.25em',
+    fontWeight: '400',
+    color: 'hsl(224, 16%, 60%)',
     cursor: 'pointer',
     transition: 'color 0.2s ease',
-    '&:hover': {
-      color: 'hsl(var(--text-primary))',
-    },
   },
   desktopCta: {
     display: 'flex',
@@ -154,7 +174,7 @@ const styles = {
     display: 'none',
     background: 'none',
     border: 'none',
-    color: 'hsl(var(--text-primary))',
+    color: 'hsl(0, 0%, 98%)',
     cursor: 'pointer',
   },
   mobileDropdown: {
@@ -170,9 +190,11 @@ const styles = {
     borderTopRightRadius: 0,
   },
   mobileNavLink: {
-    fontSize: '16px',
-    fontWeight: '600',
-    color: 'hsl(var(--text-secondary))',
+    fontFamily: 'var(--font-label)',
+    fontSize: '13px',
+    letterSpacing: '0.2em',
+    fontWeight: '400',
+    color: 'hsl(224, 16%, 76%)',
     padding: '8px 0',
     borderBottom: '1px solid hsla(0, 0%, 100%, 0.05)',
     cursor: 'pointer',
@@ -185,7 +207,7 @@ const styles = {
   },
 };
 
-// Simple media query handler for CSS objects in React inline styles
+// Responsive: hide desktop nav on mobile
 if (typeof window !== 'undefined' && window.innerWidth <= 868) {
   styles.desktopNav.display = 'none';
   styles.desktopCta.display = 'none';

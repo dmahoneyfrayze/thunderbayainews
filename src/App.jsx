@@ -1,5 +1,7 @@
-import React, { useEffect } from 'react';
+import React from 'react';
+import { motion } from 'framer-motion';
 import './App.css';
+import CustomCursor from './components/CustomCursor';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import FundingRadar from './components/FundingRadar';
@@ -7,38 +9,47 @@ import IntelligenceFeed from './components/IntelligenceFeed';
 import FundedBuilds from './components/FundedBuilds';
 import WeeklyBrief from './components/WeeklyBrief';
 
+// Marquee component (from Stitch)
+function Marquee() {
+  const brands = [
+    "FEDNOR RAII", "NOIC COSTARTER", "CEDC YOUTH EFFECT", "FRAYZE",
+    "NEXT LEVEL DIGITAL", "THUNDER BAY AI", "NWO INNOVATION", "AI ADOPTION WAVE"
+  ];
+
+  return (
+    <div style={marqueeStyles.wrapper}>
+      <div className="marquee-track">
+        {[...brands, ...brands, ...brands].map((brand, i) => (
+          <span key={i} style={marqueeStyles.brand}>
+            {brand}
+          </span>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+const marqueeStyles = {
+  wrapper: {
+    padding: '40px 0',
+    overflow: 'hidden',
+    borderTop: '1px solid hsla(0, 0%, 100%, 0.05)',
+    borderBottom: '1px solid hsla(0, 0%, 100%, 0.05)',
+    background: 'rgba(26, 25, 25, 0.1)',
+  },
+  brand: {
+    fontFamily: 'var(--font-heading)',
+    fontWeight: 800,
+    fontSize: 'clamp(28px, 4vw, 48px)',
+    letterSpacing: '-0.04em',
+    color: 'hsla(0, 0%, 100%, 0.06)',
+    cursor: 'default',
+    transition: 'color 0.3s ease',
+    flexShrink: 0,
+  },
+};
+
 export default function App() {
-  useEffect(() => {
-    // If browser supports CSS scroll-driven animations, let native CSS handle it
-    if (typeof CSS !== 'undefined' && CSS.supports && CSS.supports('(animation-timeline: view()) and (animation-range: entry)')) {
-      return;
-    }
-
-    // Fallback: use IntersectionObserver to add 'revealed' class
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('revealed');
-          } else {
-            entry.target.classList.remove('revealed');
-          }
-        });
-      },
-      {
-        threshold: 0.05,
-        rootMargin: '0px 0px -40px 0px'
-      }
-    );
-
-    const elements = document.querySelectorAll('.reveal-on-scroll');
-    elements.forEach((el) => observer.observe(el));
-
-    return () => {
-      elements.forEach((el) => observer.unobserve(el));
-    };
-  }, []);
-
   const handleScrollTo = (id) => {
     const element = document.getElementById(id);
     if (element) {
@@ -47,27 +58,42 @@ export default function App() {
   };
 
   return (
-    <div className="app-shell">
+    <div style={{ position: 'relative', minHeight: '100vh', cursor: 'none' }}>
+      {/* Custom cursor (from Stitch) */}
+      <CustomCursor />
+
+      {/* Interactive Background Grid (from Stitch) */}
+      <div className="interactive-grid" style={styles.interactiveGrid} />
+
+      {/* Film Grain Texture Overlay (from Stitch) */}
+      <div className="grain-texture" style={styles.grainOverlay} />
+
       {/* Navigation */}
       <Header />
 
       {/* Main Page Layout */}
       <main>
         <Hero />
+        <Marquee />
         <FundingRadar />
         <IntelligenceFeed />
         <FundedBuilds />
         <WeeklyBrief />
       </main>
 
-      {/* Footer (Premium branding and attributions) */}
+      {/* Footer */}
       <footer style={styles.footer}>
         <div className="container" style={styles.footerContainer}>
           <div style={styles.footerLeft}>
-            <div style={styles.logo}>
+            <motion.div
+              initial={{ opacity: 0, x: -20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              style={styles.logo}
+            >
               <span style={styles.logoIcon}>⚡</span>
               <span style={styles.logoText}>Thunder Bay <span className="accent-text">AI</span></span>
-            </div>
+            </motion.div>
             <p style={styles.description}>
               The autonomous intelligence asset and regional business-funding radar for Northwestern Ontario.
             </p>
@@ -99,6 +125,19 @@ export default function App() {
 }
 
 const styles = {
+  interactiveGrid: {
+    position: 'fixed',
+    inset: 0,
+    zIndex: 0,
+    pointerEvents: 'none',
+    opacity: 0.2,
+  },
+  grainOverlay: {
+    position: 'fixed',
+    inset: 0,
+    zIndex: 100,
+    pointerEvents: 'none',
+  },
   footer: {
     background: 'hsl(var(--bg-base))',
     borderTop: '1px solid hsla(0, 0%, 100%, 0.05)',
@@ -111,10 +150,6 @@ const styles = {
     justifyContent: 'space-between',
     gap: '60px',
     flexWrap: 'wrap',
-    '@media (max-width: 768px)': {
-      flexDirection: 'column',
-      gap: '40px',
-    },
   },
   footerLeft: {
     maxWidth: '360px',
@@ -155,9 +190,6 @@ const styles = {
     gap: '80px',
     flexWrap: 'wrap',
     textAlign: 'left',
-    '@media (max-width: 576px)': {
-      gap: '40px',
-    },
   },
   linksCol: {
     display: 'flex',
@@ -165,11 +197,12 @@ const styles = {
     gap: '12px',
   },
   linksTitle: {
-    fontSize: '14px',
-    fontWeight: '700',
+    fontFamily: 'var(--font-label)',
+    fontSize: '10px',
+    letterSpacing: '0.3em',
+    fontWeight: '400',
     color: 'hsl(var(--text-primary))',
     textTransform: 'uppercase',
-    letterSpacing: '0.05em',
     marginBottom: '8px',
   },
   footerLink: {
@@ -177,9 +210,6 @@ const styles = {
     color: 'hsl(var(--text-secondary))',
     cursor: 'pointer',
     transition: 'color 0.2s ease',
-    '&:hover': {
-      color: 'hsl(var(--primary-cyan))',
-    },
   },
   footerHref: {
     fontSize: '14px',
@@ -187,8 +217,5 @@ const styles = {
     textDecoration: 'none',
     transition: 'color 0.2s ease',
     cursor: 'pointer',
-    '&:hover': {
-      color: 'hsl(var(--primary-cyan))',
-    },
   },
 };

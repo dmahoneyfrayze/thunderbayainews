@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { motion } from 'framer-motion';
 import { GRANTS_DATA } from '../data';
 import TiltCard from './TiltCard';
 import { AnimatedGridPattern } from './AnimatedGridPattern';
@@ -216,12 +217,19 @@ export default function FundingRadar() {
         numSquares={20}
       />
       <div className="container" style={{ position: 'relative', zIndex: 1 }}>
-        <div style={styles.sectionHeader} className="reveal-on-scroll">
+        <motion.div
+          style={styles.sectionHeader}
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.3 }}
+          transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+        >
+          <span className="font-label" style={{ marginBottom: '16px', display: 'block' }}>ACTIVE PROGRAMS</span>
           <h2 style={styles.sectionTitle}>Regional <span className="accent-text">Funding Radar</span></h2>
           <p style={styles.sectionSubtitle}>
             We scan CEDC, NOIC, and FedNor channels weekly. Filter active programs and run the eligibility checker to match your growth objectives.
           </p>
-        </div>
+        </motion.div>
 
         {/* Filter Toolbar */}
         <div style={styles.toolbar} className="glass-panel">
@@ -255,39 +263,47 @@ export default function FundingRadar() {
         {/* Grid List of Grants */}
         <div style={styles.grantsGrid}>
           {filteredGrants.length > 0 ? (
-            filteredGrants.map((grant) => (
-              <TiltCard key={grant.id} className="glass-panel reveal-on-scroll" style={styles.grantCard}>
-                <div style={styles.cardHeader}>
-                  <span style={styles.sourceTag}>{grant.source}</span>
-                  <span className={`badge badge-${grant.badgeType}`}>{grant.status}</span>
-                </div>
-                
-                <h3 style={styles.cardTitle}>{grant.name}</h3>
-                <p style={styles.cardDescription}>{grant.description}</p>
-                
-                <div style={styles.metaRow}>
-                  <div style={styles.metaCol}>
-                    <span style={styles.metaLabel}>Max Funding</span>
-                    <span style={styles.metaValue} className="accent-text">{grant.maxAmount}</span>
+            filteredGrants.map((grant, i) => (
+              <motion.div
+                key={grant.id}
+                initial={{ opacity: 0, y: 30, scale: 0.95 }}
+                whileInView={{ opacity: 1, y: 0, scale: 1 }}
+                viewport={{ once: true, amount: 0.2 }}
+                transition={{ duration: 0.6, delay: i * 0.1, ease: [0.16, 1, 0.3, 1] }}
+              >
+                <TiltCard className="glass-panel" style={styles.grantCard}>
+                  <div style={styles.cardHeader}>
+                    <span style={styles.sourceTag}>{grant.source}</span>
+                    <span className={`badge badge-${grant.badgeType}`}>{grant.status}</span>
                   </div>
-                  <div style={styles.metaCol}>
-                    <span style={styles.metaLabel}>Coverage</span>
-                    <span style={styles.metaValue}>{grant.coverage}</span>
+                  
+                  <h3 style={styles.cardTitle}>{grant.name}</h3>
+                  <p style={styles.cardDescription}>{grant.description}</p>
+                  
+                  <div style={styles.metaRow}>
+                    <div style={styles.metaCol}>
+                      <span style={styles.metaLabel}>Max Funding</span>
+                      <span style={styles.metaValue} className="accent-text">{grant.maxAmount}</span>
+                    </div>
+                    <div style={styles.metaCol}>
+                      <span style={styles.metaLabel}>Coverage</span>
+                      <span style={styles.metaValue}>{grant.coverage}</span>
+                    </div>
+                    <div style={styles.metaCol}>
+                      <span style={styles.metaLabel}>Deadline</span>
+                      <span style={styles.metaValue}>{grant.deadline}</span>
+                    </div>
                   </div>
-                  <div style={styles.metaCol}>
-                    <span style={styles.metaLabel}>Deadline</span>
-                    <span style={styles.metaValue}>{grant.deadline}</span>
-                  </div>
-                </div>
 
-                <button 
-                  className="btn btn-primary" 
-                  style={styles.checkBtn}
-                  onClick={() => handleOpenCalculator(grant)}
-                >
-                  Verify Eligibility
-                </button>
-              </TiltCard>
+                  <button 
+                    className="btn btn-primary" 
+                    style={styles.checkBtn}
+                    onClick={() => handleOpenCalculator(grant)}
+                  >
+                    Verify Eligibility
+                  </button>
+                </TiltCard>
+              </motion.div>
             ))
           ) : (
             <div style={styles.noResults} className="glass-panel">

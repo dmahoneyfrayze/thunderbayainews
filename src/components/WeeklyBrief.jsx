@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { motion } from 'framer-motion';
 import { AnimatedGridPattern } from './AnimatedGridPattern';
 
 export default function WeeklyBrief() {
@@ -28,8 +29,15 @@ export default function WeeklyBrief() {
   return (
     <section id="weekly-brief" style={styles.briefSection}>
       <div className="container" style={styles.briefContainer}>
-        <div style={styles.contentWrapper} className="glass-panel">
-          {/* Animated background grid pattern from Stitch */}
+        <motion.div
+          style={styles.contentWrapper}
+          className="glass-panel"
+          initial={{ opacity: 0, y: 30, scale: 0.96 }}
+          whileInView={{ opacity: 1, y: 0, scale: 1 }}
+          viewport={{ once: true, amount: 0.3 }}
+          transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+        >
+          {/* Animated background grid pattern */}
           <AnimatedGridPattern
             style={styles.gridPattern}
             numSquares={15}
@@ -42,7 +50,7 @@ export default function WeeklyBrief() {
               tooldescription="Subscribe a business email address to the weekly NWO Funding and AI brief."
               toolautosubmit
             >
-              <span style={styles.label}>CASL-COMPLIANT UPDATES</span>
+              <span className="font-label" style={{ marginBottom: '20px' }}>CASL-COMPLIANT UPDATES</span>
               <h2 style={styles.title}>Stay Updated on Local Funding Waves</h2>
               <p style={styles.subtitle}>
                 Get a weekly digest of grant deadlines, newly eligible programs, and NWO business expansion news delivered directly to your inbox. No spam. Unsubscribe anytime.
@@ -71,7 +79,12 @@ export default function WeeklyBrief() {
               </span>
             </form>
           ) : (
-            <div style={styles.successState}>
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.5 }}
+              style={styles.successState}
+            >
               <span style={styles.successIcon}>✉️</span>
               <h2 style={styles.successTitle}>Subscription Confirmed!</h2>
               <p style={styles.successSubtitle}>
@@ -86,9 +99,9 @@ export default function WeeklyBrief() {
               >
                 Subscribe another email
               </button>
-            </div>
+            </motion.div>
           )}
-        </div>
+        </motion.div>
       </div>
     </section>
   );
@@ -138,13 +151,6 @@ const styles = {
     position: 'relative',
     zIndex: 1,
   },
-  label: {
-    fontSize: '11px',
-    fontWeight: '700',
-    color: 'hsl(var(--primary-cyan))',
-    letterSpacing: '0.1em',
-    marginBottom: '16px',
-  },
   title: {
     fontSize: '32px',
     marginBottom: '16px',
@@ -163,10 +169,6 @@ const styles = {
     maxWidth: '540px',
     gap: '12px',
     marginBottom: '16px',
-    '@media (max-width: 576px)': {
-      flexDirection: 'column',
-      gap: '12px',
-    },
   },
   emailInput: {
     flex: 1,

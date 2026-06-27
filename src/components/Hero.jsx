@@ -1,7 +1,20 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import { motion, useScroll, useTransform } from 'framer-motion';
+import { ChevronDown } from 'lucide-react';
 import { AnimatedGridPattern } from './AnimatedGridPattern';
 
 export default function Hero() {
+  const containerRef = useRef(null);
+  const { scrollYProgress } = useScroll({
+    target: containerRef,
+    offset: ["start start", "end start"]
+  });
+
+  // Stitch-style parallax transforms
+  const y = useTransform(scrollYProgress, [0, 1], ["0%", "50%"]);
+  const opacity = useTransform(scrollYProgress, [0, 0.5], [1, 0]);
+  const scale = useTransform(scrollYProgress, [0, 1], [1, 1.15]);
+
   const handleScrollTo = (id) => {
     const element = document.getElementById(id);
     if (element) {
@@ -10,162 +23,196 @@ export default function Hero() {
   };
 
   return (
-    <section id="hero" style={styles.heroSection}>
-      {/* Parallax background glows (3D scroll effect) */}
-      <div className="parallax-layer-1" style={styles.glowCircle1}></div>
-      <div className="parallax-layer-2" style={styles.glowCircle2}></div>
+    <section ref={containerRef} id="hero" style={styles.heroSection}>
+      {/* Parallax background layer with scale (Stitch effect) */}
+      <motion.div style={{ y, scale }} className="absolute inset-0 z-0">
+        {/* Gradient overlay */}
+        <div style={styles.gradientOverlay} />
+        {/* Animated grid pattern */}
+        <AnimatedGridPattern
+          style={styles.gridPattern}
+          numSquares={40}
+        />
+        {/* Cosmic glow circles */}
+        <div style={styles.glowCircle1} />
+        <div style={styles.glowCircle2} />
+        <div style={styles.glowCircle3} />
+      </motion.div>
 
-      {/* Animated background grid pattern from Stitch */}
-      <AnimatedGridPattern
-        style={styles.gridPattern}
-        numSquares={35}
-      />
-
-      <div className="container" style={styles.heroContainer}>
-        <div style={styles.badgeWrapper}>
-          <span className="badge badge-active" style={styles.waveBadge}>
-            <span style={styles.badgePulse}></span> $200M AI Adoption Wave Active
+      {/* Content with scroll-linked opacity */}
+      <div style={styles.contentWrap}>
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
+          style={{ opacity }}
+        >
+          <span className="font-label" style={styles.label}>
+            AI-POWERED FUNDING & GROWTH SYSTEMS
           </span>
-        </div>
-        
-        <h1 style={styles.title} className="gradient-text">
-          Unlock AI Funding for Northwestern Ontario Businesses
-        </h1>
-        
-        <p style={styles.subtitle}>
-          We track local funding programs, analyze your eligibility, and build custom AI-powered software and automation platforms for your business—fully funded by regional development grants.
-        </p>
-        
-        <div style={styles.ctaGroup}>
-          <button 
-            className="btn btn-cyan" 
+
+          <h1 style={styles.title}>
+            UNLOCK{' '}
+            <span className="accent-text">AI FUNDING</span>
+            <br />
+            FOR NWO BUSINESS
+          </h1>
+
+          <p style={styles.subtitle}>
+            We track local funding programs, analyze your eligibility, and build custom AI-powered software—fully funded by regional development grants.
+          </p>
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
+          style={styles.ctaGroup}
+        >
+          <button
+            className="btn btn-cyan"
             style={styles.ctaPrimary}
             onClick={() => handleScrollTo('radar')}
           >
             Explore Active Grants
-            <span style={styles.arrowIcon}>→</span>
+            <span>→</span>
           </button>
-          <button 
-            className="btn btn-secondary" 
+          <button
+            className="btn btn-secondary"
             style={styles.ctaSecondary}
             onClick={() => handleScrollTo('funded-builds')}
           >
             Book Free Assessment
           </button>
-        </div>
+        </motion.div>
 
-        {/* Floating statistics panel (Premium visual touch) */}
-        <div style={styles.statsContainer} className="glass-panel">
+        {/* Floating statistics panel */}
+        <motion.div
+          initial={{ opacity: 0, y: 30, scale: 0.95 }}
+          animate={{ opacity: 1, y: 0, scale: 1 }}
+          transition={{ duration: 1, delay: 0.6, ease: [0.16, 1, 0.3, 1] }}
+          style={styles.statsContainer}
+          className="glass-panel"
+        >
           <div style={styles.statBox}>
             <span style={styles.statNumber} className="accent-text">$200M</span>
             <span style={styles.statLabel}>Federal AI Budget</span>
           </div>
-          <div style={styles.statDivider}></div>
+          <div style={styles.statDivider} />
           <div style={styles.statBox}>
             <span style={styles.statNumber} className="accent-text">Up to 75%</span>
             <span style={styles.statLabel}>Cost Coverage</span>
           </div>
-          <div style={styles.statDivider}></div>
+          <div style={styles.statDivider} />
           <div style={styles.statBox}>
             <span style={styles.statNumber} className="accent-text">0-Spec</span>
             <span style={styles.statLabel}>Frayze Risk Build</span>
           </div>
-        </div>
+        </motion.div>
       </div>
+
+      {/* Bouncing scroll indicator (from Stitch) */}
+      <motion.div
+        animate={{ y: [0, 10, 0] }}
+        transition={{ repeat: Infinity, duration: 2 }}
+        style={styles.scrollIndicator}
+      >
+        <ChevronDown size={32} strokeWidth={1} color="hsl(224, 16%, 52%)" />
+      </motion.div>
     </section>
   );
 }
 
 const styles = {
   heroSection: {
-    padding: '120px 0 80px 0',
+    position: 'relative',
+    minHeight: '100vh',
     display: 'flex',
+    flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'center',
     textAlign: 'center',
-    position: 'relative',
     overflow: 'hidden',
   },
-  glowCircle1: {
+  gradientOverlay: {
     position: 'absolute',
-    top: '10%',
-    left: '8%',
-    width: '320px',
-    height: '320px',
-    background: 'radial-gradient(circle, hsla(184, 100%, 48%, 0.12) 0%, transparent 70%)',
-    borderRadius: '50%',
-    filter: 'blur(50px)',
-    pointerEvents: 'none',
-    zIndex: 1,
-  },
-  glowCircle2: {
-    position: 'absolute',
-    bottom: '5%',
-    right: '12%',
-    width: '420px',
-    height: '420px',
-    background: 'radial-gradient(circle, hsla(275, 80%, 56%, 0.1) 0%, transparent 70%)',
-    borderRadius: '50%',
-    filter: 'blur(60px)',
-    pointerEvents: 'none',
-    zIndex: 1,
+    inset: 0,
+    background: 'linear-gradient(to bottom, transparent 0%, rgba(4,5,8,0.2) 50%, hsl(224, 32%, 4%) 100%)',
+    zIndex: 10,
   },
   gridPattern: {
     position: 'absolute',
     inset: 0,
     width: '100%',
     height: '100%',
-    maskImage: 'radial-gradient(500px circle at center, white, transparent)',
-    WebkitMaskImage: 'radial-gradient(500px circle at center, white, transparent)',
-    stroke: 'hsla(184, 100%, 48%, 0.08)',
-    fill: 'hsla(184, 100%, 48%, 0.06)',
-    color: 'hsl(var(--primary-cyan))',
+    maskImage: 'radial-gradient(600px circle at center, white, transparent)',
+    WebkitMaskImage: 'radial-gradient(600px circle at center, white, transparent)',
+    stroke: 'hsla(184, 100%, 48%, 0.06)',
+    fill: 'hsla(184, 100%, 48%, 0.04)',
+    color: 'hsl(184, 100%, 48%)',
     pointerEvents: 'none',
     zIndex: 1,
   },
-  heroContainer: {
+  glowCircle1: {
+    position: 'absolute',
+    top: '5%',
+    left: '10%',
+    width: '400px',
+    height: '400px',
+    background: 'radial-gradient(circle, hsla(184, 100%, 48%, 0.15) 0%, transparent 70%)',
+    borderRadius: '50%',
+    filter: 'blur(60px)',
+    pointerEvents: 'none',
+  },
+  glowCircle2: {
+    position: 'absolute',
+    bottom: '10%',
+    right: '8%',
+    width: '500px',
+    height: '500px',
+    background: 'radial-gradient(circle, hsla(275, 80%, 56%, 0.12) 0%, transparent 70%)',
+    borderRadius: '50%',
+    filter: 'blur(80px)',
+    pointerEvents: 'none',
+  },
+  glowCircle3: {
+    position: 'absolute',
+    top: '40%',
+    right: '30%',
+    width: '300px',
+    height: '300px',
+    background: 'radial-gradient(circle, hsla(250, 84%, 56%, 0.1) 0%, transparent 70%)',
+    borderRadius: '50%',
+    filter: 'blur(50px)',
+    pointerEvents: 'none',
+  },
+  contentWrap: {
+    position: 'relative',
+    zIndex: 20,
+    padding: '120px 24px 60px',
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
-    justifyContent: 'center',
-    position: 'relative',
-    zIndex: 2,
+    maxWidth: '1000px',
   },
-  badgeWrapper: {
+  label: {
     marginBottom: '24px',
-  },
-  waveBadge: {
-    display: 'flex',
-    alignItems: 'center',
-    gap: '8px',
-    background: 'rgba(6, 182, 212, 0.1)',
-    color: 'hsl(var(--primary-cyan))',
-    border: '1px solid hsla(184, 100%, 48%, 0.2)',
-    padding: '6px 16px',
-    fontSize: '13px',
-    fontWeight: '700',
-  },
-  badgePulse: {
-    width: '8px',
-    height: '8px',
-    backgroundColor: 'hsl(var(--primary-cyan))',
-    borderRadius: '50%',
-    display: 'inline-block',
-    boxShadow: '0 0 8px hsl(var(--primary-cyan))',
-    animation: 'pulseGlow 2s infinite',
+    display: 'block',
   },
   title: {
-    fontSize: '54px',
-    lineHeight: '1.15',
-    maxWidth: '900px',
-    marginBottom: '24px',
+    fontFamily: 'var(--font-heading)',
+    fontWeight: 800,
+    fontSize: 'clamp(40px, 8vw, 80px)',
+    letterSpacing: '-0.04em',
+    lineHeight: 0.95,
+    marginBottom: '28px',
   },
   subtitle: {
     fontSize: '18px',
-    color: 'hsl(var(--text-secondary))',
-    maxWidth: '720px',
-    marginBottom: '40px',
-    lineHeight: '1.6',
+    color: 'hsl(224, 16%, 76%)',
+    maxWidth: '640px',
+    marginBottom: '44px',
+    lineHeight: 1.6,
   },
   ctaGroup: {
     display: 'flex',
@@ -173,18 +220,11 @@ const styles = {
     justifyContent: 'center',
     gap: '16px',
     marginBottom: '80px',
-    width: '100%',
-    '@media (max-width: 576px)': {
-      flexDirection: 'column',
-    },
+    flexWrap: 'wrap',
   },
   ctaPrimary: {
     fontSize: '16px',
     padding: '14px 32px',
-  },
-  arrowIcon: {
-    marginLeft: '4px',
-    transition: 'transform 0.2s ease',
   },
   ctaSecondary: {
     fontSize: '16px',
@@ -197,11 +237,6 @@ const styles = {
     width: '100%',
     maxWidth: '800px',
     padding: '30px 20px',
-    marginTop: '20px',
-    '@media (max-width: 600px)': {
-      flexDirection: 'column',
-      gap: '24px',
-    },
   },
   statBox: {
     display: 'flex',
@@ -216,18 +251,23 @@ const styles = {
     marginBottom: '4px',
   },
   statLabel: {
-    fontSize: '13px',
-    color: 'hsl(var(--text-muted))',
-    fontWeight: '600',
+    fontFamily: 'var(--font-label)',
+    fontSize: '10px',
+    letterSpacing: '0.2em',
+    color: 'hsl(224, 16%, 52%)',
+    fontWeight: '400',
     textTransform: 'uppercase',
-    letterSpacing: '0.05em',
   },
   statDivider: {
     width: '1px',
     height: '40px',
     background: 'hsla(0, 0%, 100%, 0.08)',
-    '@media (max-width: 600px)': {
-      display: 'none',
-    },
+  },
+  scrollIndicator: {
+    position: 'absolute',
+    bottom: '40px',
+    left: '50%',
+    transform: 'translateX(-50%)',
+    zIndex: 20,
   },
 };
