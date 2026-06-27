@@ -1,61 +1,34 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { motion } from 'framer-motion';
+import { Routes, Route, useLocation, Link } from 'react-router-dom';
 import './App.css';
+import BoltMark from './components/BoltMark';
+import { initSmoothScroll, destroySmoothScroll } from './lib/smoothScroll';
+import { useSectionNav } from './lib/useSectionNav';
 import CustomCursor from './components/CustomCursor';
 import Header from './components/Header';
-import Hero from './components/Hero';
-import FundingRadar from './components/FundingRadar';
-import IntelligenceFeed from './components/IntelligenceFeed';
-import FundedBuilds from './components/FundedBuilds';
-import WeeklyBrief from './components/WeeklyBrief';
-
-// Marquee component (from Stitch)
-function Marquee() {
-  const brands = [
-    "FEDNOR RAII", "NOIC COSTARTER", "CEDC YOUTH EFFECT", "FRAYZE",
-    "NEXT LEVEL DIGITAL", "THUNDER BAY AI", "NWO INNOVATION", "AI ADOPTION WAVE"
-  ];
-
-  return (
-    <div style={marqueeStyles.wrapper}>
-      <div className="marquee-track">
-        {[...brands, ...brands, ...brands].map((brand, i) => (
-          <span key={i} style={marqueeStyles.brand}>
-            {brand}
-          </span>
-        ))}
-      </div>
-    </div>
-  );
-}
-
-const marqueeStyles = {
-  wrapper: {
-    padding: '40px 0',
-    overflow: 'hidden',
-    borderTop: '1px solid hsla(0, 0%, 100%, 0.05)',
-    borderBottom: '1px solid hsla(0, 0%, 100%, 0.05)',
-    background: 'rgba(26, 25, 25, 0.1)',
-  },
-  brand: {
-    fontFamily: 'var(--font-heading)',
-    fontWeight: 800,
-    fontSize: 'clamp(28px, 4vw, 48px)',
-    letterSpacing: '-0.04em',
-    color: 'hsla(0, 0%, 100%, 0.06)',
-    cursor: 'default',
-    transition: 'color 0.3s ease',
-    flexShrink: 0,
-  },
-};
+import Home from './pages/Home';
+import Blog from './pages/Blog';
+import BlogPost from './pages/BlogPost';
 
 export default function App() {
-  const handleScrollTo = (id) => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+  const location = useLocation();
+  const goToSection = useSectionNav();
+
+  useEffect(() => {
+    initSmoothScroll();
+    return () => destroySmoothScroll();
+  }, []);
+
+  // Reset scroll to top on route change (except when a section target is set)
+  const sectionTarget = location.state && location.state.scrollTo;
+  useEffect(() => {
+    if (!sectionTarget) {
+      window.scrollTo(0, 0);
     }
-  };
+  }, [location.pathname, sectionTarget]);
+
+  const handleScrollTo = (id) => goToSection(id);
 
   return (
     <div style={{ position: 'relative', minHeight: '100vh', cursor: 'none' }}>
@@ -71,14 +44,14 @@ export default function App() {
       {/* Navigation */}
       <Header />
 
-      {/* Main Page Layout */}
+      {/* Routed Page Layout */}
       <main>
-        <Hero />
-        <Marquee />
-        <FundingRadar />
-        <IntelligenceFeed />
-        <FundedBuilds />
-        <WeeklyBrief />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/blog/:slug" element={<BlogPost />} />
+          <Route path="*" element={<Home />} />
+        </Routes>
       </main>
 
       {/* Footer */}
@@ -91,7 +64,7 @@ export default function App() {
               viewport={{ once: true }}
               style={styles.logo}
             >
-              <span style={styles.logoIcon}>⚡</span>
+              <BoltMark size={20} />
               <span style={styles.logoText}>Thunder Bay <span className="accent-text">AI</span></span>
             </motion.div>
             <p style={styles.description}>
@@ -108,6 +81,7 @@ export default function App() {
               <span style={styles.footerLink} onClick={() => handleScrollTo('radar')}>Funding Radar</span>
               <span style={styles.footerLink} onClick={() => handleScrollTo('intelligence')}>Intelligence Feed</span>
               <span style={styles.footerLink} onClick={() => handleScrollTo('weekly-brief')}>Weekly Brief</span>
+              <Link to="/blog" style={{ ...styles.footerHref, display: 'block' }}>Journal</Link>
             </div>
             <div style={styles.linksCol}>
               <h4 style={styles.linksTitle}>Operator</h4>

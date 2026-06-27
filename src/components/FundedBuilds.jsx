@@ -1,17 +1,13 @@
 import React, { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 import TiltCard from './TiltCard';
+import { scrollToId } from '../lib/smoothScroll';
 
 export default function FundedBuilds() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.3 });
 
-  const handleScrollTo = (id) => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
+  const handleScrollTo = (id) => scrollToId(id);
 
   // Stitch-style word-by-word reveal
   const headlineWords = "YOUR AI SYSTEM FUNDED IN WEEKS.".split(" ");

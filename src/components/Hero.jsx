@@ -1,7 +1,8 @@
 import React, { useRef } from 'react';
-import { motion, useScroll, useTransform } from 'framer-motion';
+import { motion, useScroll, useTransform, useSpring } from 'framer-motion';
 import { ChevronDown } from 'lucide-react';
 import { AnimatedGridPattern } from './AnimatedGridPattern';
+import { scrollToId } from '../lib/smoothScroll';
 
 export default function Hero() {
   const containerRef = useRef(null);
@@ -10,17 +11,13 @@ export default function Hero() {
     offset: ["start start", "end start"]
   });
 
-  // Stitch-style parallax transforms
-  const y = useTransform(scrollYProgress, [0, 1], ["0%", "50%"]);
-  const opacity = useTransform(scrollYProgress, [0, 0.5], [1, 0]);
-  const scale = useTransform(scrollYProgress, [0, 1], [1, 1.15]);
+  // Spring-smoothed scroll progress -> buttery parallax (the raw value was stiff)
+  const smooth = useSpring(scrollYProgress, { stiffness: 80, damping: 24, restDelta: 0.001 });
+  const y = useTransform(smooth, [0, 1], ["0%", "45%"]);
+  const opacity = useTransform(smooth, [0, 0.6], [1, 0]);
+  const scale = useTransform(smooth, [0, 1], [1, 1.12]);
 
-  const handleScrollTo = (id) => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
+  const handleScrollTo = (id) => scrollToId(id);
 
   return (
     <section ref={containerRef} id="hero" style={styles.heroSection}>

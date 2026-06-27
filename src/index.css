@@ -381,14 +381,15 @@ button:tool-submit-active {
   z-index: 9999;
   margin-left: -16px;
   margin-top: -16px;
-  transition: transform 0.3s ease-out, background 0.3s ease-out, border-color 0.3s ease-out;
+  /* transform is driven by rAF lerp in CustomCursor — only fade bg/border here */
+  transition: background 0.3s ease-out, border-color 0.3s ease-out;
+  will-change: transform;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .custom-cursor.hovering {
-  transform: scale(3);
   background: hsla(var(--primary-cyan) / 0.1);
   border-color: hsla(var(--primary-cyan) / 0.2);
 }
