@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { GRANTS_DATA } from '../data';
 import TiltCard from './TiltCard';
+import { AnimatedGridPattern } from './AnimatedGridPattern';
 
 const calculateGrantMatch = (grant, inNwo, isIncorporated, isScalable) => {
   if (!grant) return null;
@@ -209,7 +210,12 @@ export default function FundingRadar() {
 
   return (
     <section id="radar" style={styles.radarSection}>
-      <div className="container">
+      {/* Animated background grid pattern from Stitch */}
+      <AnimatedGridPattern
+        style={styles.gridPattern}
+        numSquares={20}
+      />
+      <div className="container" style={{ position: 'relative', zIndex: 1 }}>
         <div style={styles.sectionHeader} className="reveal-on-scroll">
           <h2 style={styles.sectionTitle}>Regional <span className="accent-text">Funding Radar</span></h2>
           <p style={styles.sectionSubtitle}>
@@ -484,6 +490,21 @@ export default function FundingRadar() {
 const styles = {
   radarSection: {
     background: 'linear-gradient(180deg, hsl(var(--bg-base)) 0%, hsl(var(--bg-surface)) 100%)',
+    position: 'relative',
+    overflow: 'hidden',
+  },
+  gridPattern: {
+    position: 'absolute',
+    inset: 0,
+    width: '100%',
+    height: '100%',
+    maskImage: 'radial-gradient(400px circle at 80% 20%, white, transparent)',
+    WebkitMaskImage: 'radial-gradient(400px circle at 80% 20%, white, transparent)',
+    stroke: 'hsla(184, 100%, 48%, 0.05)',
+    fill: 'hsla(184, 100%, 48%, 0.03)',
+    color: 'hsl(var(--primary-cyan))',
+    pointerEvents: 'none',
+    zIndex: 0,
   },
   sectionHeader: {
     textAlign: 'center',

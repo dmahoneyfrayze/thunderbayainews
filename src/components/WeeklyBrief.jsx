@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { AnimatedGridPattern } from './AnimatedGridPattern';
 
 export default function WeeklyBrief() {
   const [email, setEmail] = useState('');
@@ -28,6 +29,11 @@ export default function WeeklyBrief() {
     <section id="weekly-brief" style={styles.briefSection}>
       <div className="container" style={styles.briefContainer}>
         <div style={styles.contentWrapper} className="glass-panel">
+          {/* Animated background grid pattern from Stitch */}
+          <AnimatedGridPattern
+            style={styles.gridPattern}
+            numSquares={15}
+          />
           {!subscribed ? (
             <form 
               onSubmit={handleSubmit} 
@@ -108,12 +114,29 @@ const styles = {
     flexDirection: 'column',
     alignItems: 'center',
     borderColor: 'hsla(184, 100%, 48%, 0.1)',
+    position: 'relative',
+    overflow: 'hidden',
+  },
+  gridPattern: {
+    position: 'absolute',
+    inset: 0,
+    width: '100%',
+    height: '100%',
+    maskImage: 'radial-gradient(350px circle at center, white, transparent)',
+    WebkitMaskImage: 'radial-gradient(350px circle at center, white, transparent)',
+    stroke: 'hsla(184, 100%, 48%, 0.04)',
+    fill: 'hsla(184, 100%, 48%, 0.02)',
+    color: 'hsl(var(--primary-cyan))',
+    pointerEvents: 'none',
+    zIndex: 0,
   },
   form: {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
     width: '100%',
+    position: 'relative',
+    zIndex: 1,
   },
   label: {
     fontSize: '11px',
@@ -167,6 +190,8 @@ const styles = {
     alignItems: 'center',
     gap: '16px',
     maxWidth: '500px',
+    position: 'relative',
+    zIndex: 1,
   },
   successIcon: {
     fontSize: '44px',

@@ -1,4 +1,5 @@
 import React from 'react';
+import { AnimatedGridPattern } from './AnimatedGridPattern';
 
 export default function Hero() {
   const handleScrollTo = (id) => {
@@ -13,6 +14,12 @@ export default function Hero() {
       {/* Parallax background glows (3D scroll effect) */}
       <div className="parallax-layer-1" style={styles.glowCircle1}></div>
       <div className="parallax-layer-2" style={styles.glowCircle2}></div>
+
+      {/* Animated background grid pattern from Stitch */}
+      <AnimatedGridPattern
+        style={styles.gridPattern}
+        numSquares={35}
+      />
 
       <div className="container" style={styles.heroContainer}>
         <div style={styles.badgeWrapper}>
@@ -100,6 +107,19 @@ const styles = {
     background: 'radial-gradient(circle, hsla(275, 80%, 56%, 0.1) 0%, transparent 70%)',
     borderRadius: '50%',
     filter: 'blur(60px)',
+    pointerEvents: 'none',
+    zIndex: 1,
+  },
+  gridPattern: {
+    position: 'absolute',
+    inset: 0,
+    width: '100%',
+    height: '100%',
+    maskImage: 'radial-gradient(500px circle at center, white, transparent)',
+    WebkitMaskImage: 'radial-gradient(500px circle at center, white, transparent)',
+    stroke: 'hsla(184, 100%, 48%, 0.08)',
+    fill: 'hsla(184, 100%, 48%, 0.06)',
+    color: 'hsl(var(--primary-cyan))',
     pointerEvents: 'none',
     zIndex: 1,
   },
