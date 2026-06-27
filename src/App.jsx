@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 import Header from './components/Header';
 import Hero from './components/Hero';
@@ -8,6 +8,37 @@ import FundedBuilds from './components/FundedBuilds';
 import WeeklyBrief from './components/WeeklyBrief';
 
 export default function App() {
+  useEffect(() => {
+    // If browser supports CSS scroll-driven animations, let native CSS handle it
+    if (typeof CSS !== 'undefined' && CSS.supports && CSS.supports('(animation-timeline: view()) and (animation-range: entry)')) {
+      return;
+    }
+
+    // Fallback: use IntersectionObserver to add 'revealed' class
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('revealed');
+          } else {
+            entry.target.classList.remove('revealed');
+          }
+        });
+      },
+      {
+        threshold: 0.05,
+        rootMargin: '0px 0px -40px 0px'
+      }
+    );
+
+    const elements = document.querySelectorAll('.reveal-on-scroll');
+    elements.forEach((el) => observer.observe(el));
+
+    return () => {
+      elements.forEach((el) => observer.unobserve(el));
+    };
+  }, []);
+
   const handleScrollTo = (id) => {
     const element = document.getElementById(id);
     if (element) {

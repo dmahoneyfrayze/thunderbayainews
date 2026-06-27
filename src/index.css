@@ -378,22 +378,27 @@ button:tool-submit-active {
 @media (prefers-reduced-motion: no-preference) {
   @supports ((animation-timeline: view()) and (animation-range: entry)) {
     .reveal-on-scroll {
-      animation: reveal3D auto linear both;
+      animation-name: reveal3D;
       animation-timeline: view();
       animation-range: entry 10% cover 35%;
+      animation-fill-mode: both;
+      animation-timing-function: linear;
     }
     
     .parallax-layer-1 {
-      animation: driftParallax auto linear both;
+      animation-name: driftParallax;
       animation-timeline: view();
       animation-range: entry -40% exit 140%;
+      animation-fill-mode: both;
+      animation-timing-function: linear;
     }
     
     .parallax-layer-2 {
-      animation: driftParallax auto linear both;
+      animation-name: driftParallax;
       animation-timeline: view();
       animation-range: entry -40% exit 140%;
-      animation-duration: auto;
+      animation-fill-mode: both;
+      animation-timing-function: linear;
       transform: translateY(180px); /* fallback shift */
     }
   }
@@ -423,5 +428,20 @@ button:tool-submit-active {
   z-index: 1000;
   transition: width 0.1s ease-out;
 }
+
+/* Fallback for browsers without scroll-driven animations support (e.g. older Safari, Firefox) */
+@supports not ((animation-timeline: view()) and (animation-range: entry)) {
+  .reveal-on-scroll {
+    opacity: 0;
+    transform: translateY(40px) scale(0.98);
+    transition: opacity 0.8s cubic-bezier(0.25, 1, 0.5, 1), transform 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+  }
+  
+  .reveal-on-scroll.revealed {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
 
 
