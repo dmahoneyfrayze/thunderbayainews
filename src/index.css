@@ -337,3 +337,19 @@ h1, h2, h3, h4 {
     box-shadow: 0 0 35px 5px hsla(184, 100%, 48%, 0.35);
   }
 }
+
+/* WebMCP Agent Interaction Styling */
+form:tool-form-active {
+  outline: 2px dashed hsl(var(--primary-cyan)) !important;
+  outline-offset: 4px;
+  background: hsla(184, 100%, 48%, 0.03) !important;
+  box-shadow: var(--glass-shadow), 0 0 20px 0 hsla(184, 100%, 48%, 0.15) !important;
+}
+
+button:tool-submit-active {
+  outline: 2px dashed hsl(var(--primary-violet)) !important;
+  outline-offset: 4px;
+  box-shadow: var(--accent-shadow) !important;
+  animation: pulseGlow 1.5s infinite !important;
+}
+

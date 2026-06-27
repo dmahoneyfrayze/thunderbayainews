@@ -6,8 +6,21 @@ export default function WeeklyBrief() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (email) {
+    const formData = new FormData(e.target);
+    const submittedEmail = formData.get('subscriberEmail') || email;
+    
+    if (submittedEmail) {
+      setEmail(submittedEmail);
       setSubscribed(true);
+
+      const nativeEvent = e.nativeEvent || e;
+      if (nativeEvent.agentInvoked && typeof nativeEvent.respondWith === 'function') {
+        nativeEvent.respondWith(
+          Promise.resolve(
+            `Success: Subscribed ${submittedEmail} to the weekly Northwestern Ontario business funding and AI updates. First brief arrives next Thursday.`
+          )
+        );
+      }
     }
   };
 
@@ -16,7 +29,13 @@ export default function WeeklyBrief() {
       <div className="container" style={styles.briefContainer}>
         <div style={styles.contentWrapper} className="glass-panel">
           {!subscribed ? (
-            <form onSubmit={handleSubmit} style={styles.form}>
+            <form 
+              onSubmit={handleSubmit} 
+              style={styles.form}
+              toolname="subscribe_weekly_brief"
+              tooldescription="Subscribe a business email address to the weekly NWO Funding and AI brief."
+              toolautosubmit
+            >
               <span style={styles.label}>CASL-COMPLIANT UPDATES</span>
               <h2 style={styles.title}>Stay Updated on Local Funding Waves</h2>
               <p style={styles.subtitle}>
@@ -26,12 +45,15 @@ export default function WeeklyBrief() {
               <div style={styles.inputGroup}>
                 <input 
                   type="email" 
+                  id="subscriberEmail"
+                  name="subscriberEmail"
                   className="form-input" 
                   style={styles.emailInput} 
                   placeholder="Enter your business email address..."
                   required
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
+                  toolparamdescription="The business email address to subscribe to the weekly brief."
                 />
                 <button className="btn btn-cyan" type="submit" style={styles.submitBtn}>
                   Subscribe Brief

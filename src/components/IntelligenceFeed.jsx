@@ -1,7 +1,28 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { NEWS_DATA } from '../data';
 
 export default function IntelligenceFeed() {
+  useEffect(() => {
+    const modelContext = document.modelContext || navigator.modelContext;
+    if (modelContext && typeof modelContext.registerTool === 'function') {
+      const controller = new AbortController();
+
+      modelContext.registerTool({
+        name: "get_intelligence_news",
+        description: "Retrieves curated regional innovation news, funding updates, and AI developments for Thunder Bay and Northwestern Ontario.",
+        inputSchema: { type: "object", properties: {} },
+        execute() {
+          return NEWS_DATA;
+        },
+        annotations: { readOnlyHint: true }
+      }, { signal: controller.signal });
+
+      return () => {
+        controller.abort();
+      };
+    }
+  }, []);
+
   return (
     <section id="intelligence" style={styles.feedSection}>
       <div className="container">

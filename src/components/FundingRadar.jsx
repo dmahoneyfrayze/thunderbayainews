@@ -1,5 +1,68 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { GRANTS_DATA } from '../data';
+
+const calculateGrantMatch = (grant, inNwo, isIncorporated, isScalable) => {
+  if (!grant) return null;
+  
+  if (grant.id === 'fednor-raii') {
+    if (inNwo && isIncorporated) {
+      return {
+        status: 'Excellent Match',
+        class: 'success',
+        msg: 'Your business qualifies for up to 75% coverage under the FedNor RAII. Frayze can design and deploy your custom AI tool using these funds.'
+      };
+    } else if (inNwo && !isIncorporated) {
+      return {
+        status: 'Action Required',
+        class: 'warning',
+        msg: 'You must be incorporated to access FedNor RAII. Frayze can guide you through incorporation, or you can explore the NOIC Next Level grant which has broader SME criteria.'
+      };
+    } else {
+      return {
+        status: 'Low Match',
+        class: 'danger',
+        msg: 'This grant requires a physical presence in Northern Ontario. Let us help you check other programs or discuss custom options.'
+      };
+    }
+  }
+  
+  if (grant.id === 'noic-costarter') {
+    if (inNwo && isScalable) {
+      return {
+        status: 'Strong Match',
+        class: 'success',
+        msg: 'You are highly eligible for the $18K accelerator seed funding. Frayze can build your initial prototype as part of the accelerator program.'
+      };
+    } else if (!inNwo) {
+      return {
+        status: 'Ineligible',
+        class: 'danger',
+        msg: 'NOIC programs are restricted to businesses based in Northwestern Ontario.'
+      };
+    } else {
+      return {
+        status: 'Needs Validation',
+        class: 'warning',
+        msg: 'Costarter requires a scalable product concept. Share your idea with us below, and we can refine it to fit scalable tech criteria.'
+      };
+    }
+  }
+
+  // Default catch-all logic for other grants
+  if (inNwo) {
+    return {
+      status: 'Good Match',
+      class: 'success',
+      msg: `Your regional presence makes you a strong candidate for ${grant.name}. Contact us to draft the software development proposal.`
+    };
+  } else {
+    return {
+      status: 'Low Match',
+      class: 'danger',
+      msg: 'NWO location is a primary requirement for these regional development funds.'
+    };
+  }
+};
 
 export default function FundingRadar() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -18,6 +81,81 @@ export default function FundingRadar() {
   const [leadPhone, setLeadPhone] = useState('');
   const [leadConcept, setLeadConcept] = useState('');
   const [leadSubmitted, setLeadSubmitted] = useState(false);
+
+  // WebMCP Integration
+  useEffect(() => {
+    const modelContext = document.modelContext || navigator.modelContext;
+    if (modelContext && typeof modelContext.registerTool === 'function') {
+      const controller = new AbortController();
+
+      // Tool 1: Retrieve active grants
+      modelContext.registerTool({
+        name: "get_grants",
+        description: "Retrieves a list of all active business funding and grant programs for Northwestern Ontario, including source, max amount, and eligibility criteria.",
+        inputSchema: { type: "object", properties: {} },
+        execute() {
+          return GRANTS_DATA;
+        },
+        annotations: { readOnlyHint: true }
+      }, { signal: controller.signal });
+
+      // Tool 2: Check eligibility for a specific grant
+      modelContext.registerTool({
+        name: "check_grant_eligibility",
+        description: "Calculates match score and eligibility details for a specific grant based on business parameters.",
+        inputSchema: {
+          type: "object",
+          properties: {
+            grantId: {
+              type: "string",
+              enum: ["fednor-raii", "noic-costarter", "noic-next-level", "cedc-youth-effect"],
+              description: "The unique ID of the grant to check."
+            },
+            inNwo: {
+              type: "boolean",
+              description: "True if the business is physically based in Northwestern Ontario."
+            },
+            isIncorporated: {
+              type: "boolean",
+              description: "True if the business is provincially or federally incorporated."
+            },
+            isScalable: {
+              type: "boolean",
+              description: "True if the project involves building scalable technology, custom software, CRM, or AI."
+            }
+          },
+          required: ["grantId", "inNwo", "isIncorporated", "isScalable"]
+        },
+        execute(input) {
+          const grant = GRANTS_DATA.find(g => g.id === input.grantId);
+          if (!grant) {
+            return { error: `Grant program with ID '${input.grantId}' not found.` };
+          }
+
+          // Sync parameters to UI for visual state feedback
+          setSelectedGrant(grant);
+          setInNwo(input.inNwo);
+          setIsIncorporated(input.isIncorporated);
+          setIsScalable(input.isScalable);
+          setCalculatorChecked(true);
+
+          const result = calculateGrantMatch(grant, input.inNwo, input.isIncorporated, input.isScalable);
+          return {
+            grantName: grant.name,
+            matchStatus: result.status,
+            details: result.msg,
+            maxAmount: grant.maxAmount,
+            coverage: grant.coverage
+          };
+        },
+        annotations: { readOnlyHint: true }
+      }, { signal: controller.signal });
+
+      return () => {
+        controller.abort();
+      };
+    }
+  }, []);
 
   // Filter logic
   const filteredGrants = GRANTS_DATA.filter((grant) => {
@@ -55,74 +193,18 @@ export default function FundingRadar() {
   const handleLeadSubmit = (e) => {
     e.preventDefault();
     setLeadSubmitted(true);
-  };
 
-  // Determine eligibility status text & styling
-  const getEligibilityResult = () => {
-    if (!selectedGrant) return null;
-    
-    // Custom logic per grant
-    if (selectedGrant.id === 'fednor-raii') {
-      if (inNwo && isIncorporated) {
-        return {
-          status: 'Excellent Match',
-          class: 'success',
-          msg: 'Your business qualifies for up to 75% coverage under the FedNor RAII. Frayze can design and deploy your custom AI tool using these funds.'
-        };
-      } else if (inNwo && !isIncorporated) {
-        return {
-          status: 'Action Required',
-          class: 'warning',
-          msg: 'You must be incorporated to access FedNor RAII. Frayze can guide you through incorporation, or you can explore the NOIC Next Level grant which has broader SME criteria.'
-        };
-      } else {
-        return {
-          status: 'Low Match',
-          class: 'danger',
-          msg: 'This grant requires a physical presence in Northern Ontario. Let us help you check other programs or discuss custom options.'
-        };
-      }
-    }
-    
-    if (selectedGrant.id === 'noic-costarter') {
-      if (inNwo && isScalable) {
-        return {
-          status: 'Strong Match',
-          class: 'success',
-          msg: 'You are highly eligible for the $18K accelerator seed funding. Frayze can build your initial prototype as part of the accelerator program.'
-        };
-      } else if (!inNwo) {
-        return {
-          status: 'Ineligible',
-          class: 'danger',
-          msg: 'NOIC programs are restricted to businesses based in Northwestern Ontario.'
-        };
-      } else {
-        return {
-          status: 'Needs Validation',
-          class: 'warning',
-          msg: 'Costarter requires a scalable product concept. Share your idea with us below, and we can refine it to fit scalable tech criteria.'
-        };
-      }
-    }
-
-    // Default catch-all logic for other grants
-    if (inNwo) {
-      return {
-        status: 'Good Match',
-        class: 'success',
-        msg: `Your regional presence makes you a strong candidate for ${selectedGrant.name}. Contact us to draft the software development proposal.`
-      };
-    } else {
-      return {
-        status: 'Low Match',
-        class: 'danger',
-        msg: 'NWO location is a primary requirement for these regional development funds.'
-      };
+    const nativeEvent = e.nativeEvent || e;
+    if (nativeEvent.agentInvoked && typeof nativeEvent.respondWith === 'function') {
+      nativeEvent.respondWith(
+        Promise.resolve(
+          `Success: Project proposal submitted successfully for ${leadName} (${leadEmail}). A Frayze software and grant strategist will analyze details and follow up.`
+        )
+      );
     }
   };
 
-  const elResult = getEligibilityResult();
+  const elResult = calculateGrantMatch(selectedGrant, inNwo, isIncorporated, isScalable);
 
   return (
     <section id="radar" style={styles.radarSection}>
@@ -229,145 +311,167 @@ export default function FundingRadar() {
               <div style={styles.divider}></div>
 
               {/* Step 1: Eligibility Form */}
-              {!calculatorChecked ? (
-                <form onSubmit={handleCheckEligibility} style={styles.calcForm}>
-                  <h4 style={styles.formTitle}>Am I Eligible? (1-Min Assessment)</h4>
-                  
-                  <label style={styles.checkLabel}>
-                    <input 
-                      type="checkbox" 
-                      checked={inNwo}
-                      onChange={(e) => setInNwo(e.target.checked)}
-                      style={styles.checkbox}
-                    />
-                    Business is physically based in Northwestern Ontario
-                  </label>
+              <form 
+                onSubmit={handleCheckEligibility} 
+                style={{
+                  ...styles.calcForm,
+                  display: !calculatorChecked ? 'flex' : 'none'
+                }}
+              >
+                <h4 style={styles.formTitle}>Am I Eligible? (1-Min Assessment)</h4>
+                
+                <label style={styles.checkLabel}>
+                  <input 
+                    type="checkbox" 
+                    checked={inNwo}
+                    onChange={(e) => setInNwo(e.target.checked)}
+                    style={styles.checkbox}
+                  />
+                  Business is physically based in Northwestern Ontario
+                </label>
 
-                  <label style={styles.checkLabel}>
-                    <input 
-                      type="checkbox" 
-                      checked={isIncorporated}
-                      onChange={(e) => setIsIncorporated(e.target.checked)}
-                      style={styles.checkbox}
-                    />
-                    Business is incorporated (Provincial or Federal)
-                  </label>
+                <label style={styles.checkLabel}>
+                  <input 
+                    type="checkbox" 
+                    checked={isIncorporated}
+                    onChange={(e) => setIsIncorporated(e.target.checked)}
+                    style={styles.checkbox}
+                  />
+                  Business is incorporated (Provincial or Federal)
+                </label>
 
-                  <label style={styles.checkLabel}>
-                    <input 
-                      type="checkbox" 
-                      checked={isScalable}
-                      onChange={(e) => setIsScalable(e.target.checked)}
-                      style={styles.checkbox}
-                    />
-                    Project involves building scalable tech, CRM, AI, or automations
-                  </label>
+                <label style={styles.checkLabel}>
+                  <input 
+                    type="checkbox" 
+                    checked={isScalable}
+                    onChange={(e) => setIsScalable(e.target.checked)}
+                    style={styles.checkbox}
+                  />
+                  Project involves building scalable tech, CRM, AI, or automations
+                </label>
 
-                  <button className="btn btn-cyan" type="submit" style={{ width: '100%', marginTop: '15px' }}>
-                    Calculate Match Score
-                  </button>
-                </form>
-              ) : (
-                /* Step 2: Assessment Result & Lead Capture */
-                <div>
-                  <div style={{
-                    ...styles.resultPanel,
-                    borderLeft: `4px solid ${
+                <button className="btn btn-cyan" type="submit" style={{ width: '100%', marginTop: '15px' }}>
+                  Calculate Match Score
+                </button>
+              </form>
+
+              {/* Step 2: Assessment Result & Lead Capture */}
+              <div style={{ display: calculatorChecked ? 'block' : 'none' }}>
+                <div style={{
+                  ...styles.resultPanel,
+                  borderLeft: `4px solid ${
+                    elResult ? (
                       elResult.class === 'success' ? 'hsl(var(--success))' : 
                       elResult.class === 'warning' ? 'hsl(var(--warning))' : 'hsl(var(--danger))'
-                    }`
+                    ) : 'transparent'
+                  }`
+                }}>
+                  <h4 style={{
+                    fontWeight: '700',
+                    marginBottom: '8px',
+                    color: elResult ? (
+                      elResult.class === 'success' ? 'hsl(var(--success))' : 
+                      elResult.class === 'warning' ? 'hsl(var(--warning))' : 'hsl(var(--danger))'
+                    ) : 'transparent'
                   }}>
-                    <h4 style={{
-                      fontWeight: '700',
-                      marginBottom: '8px',
-                      color: 
-                        elResult.class === 'success' ? 'hsl(var(--success))' : 
-                        elResult.class === 'warning' ? 'hsl(var(--warning))' : 'hsl(var(--danger))'
-                    }}>
-                      {elResult.status}
-                    </h4>
-                    <p style={{ fontSize: '14px', lineHeight: '1.5' }}>{elResult.msg}</p>
-                    <button 
-                      style={styles.recalcBtn}
-                      onClick={() => setCalculatorChecked(false)}
-                    >
-                      ↩ Re-calculate details
-                    </button>
-                  </div>
+                    {elResult?.status}
+                  </h4>
+                  <p style={{ fontSize: '14px', lineHeight: '1.5' }}>{elResult?.msg}</p>
+                  <button 
+                    style={styles.recalcBtn}
+                    onClick={() => setCalculatorChecked(false)}
+                  >
+                    ↩ Re-calculate details
+                  </button>
+                </div>
 
-                  <div style={styles.divider}></div>
+                <div style={styles.divider}></div>
 
-                  {/* Lead Capture */}
-                  {!leadSubmitted ? (
-                    <form onSubmit={handleLeadSubmit} style={styles.leadForm}>
-                      <h4 style={styles.formTitle}>Book Free Software & Grant Proposal</h4>
-                      <p style={styles.leadSubtitle}>
-                        Frayze handles your application writing and builds the custom software/AI, paid by the grant. Zero out-of-pocket project proposals.
-                      </p>
+                {/* Lead Capture */}
+                <div style={{ display: !leadSubmitted ? 'block' : 'none' }}>
+                  <form 
+                    onSubmit={handleLeadSubmit} 
+                    style={styles.leadForm}
+                    toolname="submit_project_proposal"
+                    tooldescription="Submit a request for Frayze to build custom software/AI under a regional grant. Requires user review before final submission."
+                  >
+                    <h4 style={styles.formTitle}>Book Free Software & Grant Proposal</h4>
+                    <p style={styles.leadSubtitle}>
+                      Frayze handles your application writing and builds the custom software/AI, paid by the grant. Zero out-of-pocket project proposals.
+                    </p>
 
-                      <div className="grid-2" style={{ gap: '15px', marginBottom: '0px' }}>
-                        <div className="form-group">
-                          <label className="form-label">Full Name</label>
-                          <input 
-                            type="text" 
-                            className="form-input" 
-                            required 
-                            placeholder="John Doe"
-                            value={leadName}
-                            onChange={(e) => setLeadName(e.target.value)}
-                          />
-                        </div>
-                        <div className="form-group">
-                          <label className="form-label">Work Email</label>
-                          <input 
-                            type="email" 
-                            className="form-input" 
-                            required 
-                            placeholder="john@company.com"
-                            value={leadEmail}
-                            onChange={(e) => setLeadEmail(e.target.value)}
-                          />
-                        </div>
-                      </div>
-
+                    <div className="grid-2" style={{ gap: '15px', marginBottom: '0px' }}>
                       <div className="form-group">
-                        <label className="form-label">Phone Number</label>
+                        <label className="form-label" htmlFor="leadName">Full Name</label>
                         <input 
-                          type="tel" 
+                          type="text" 
+                          id="leadName"
+                          name="leadName"
                           className="form-input" 
-                          placeholder="807-555-0199"
-                          value={leadPhone}
-                          onChange={(e) => setLeadPhone(e.target.value)}
+                          required 
+                          placeholder="John Doe"
+                          value={leadName}
+                          onChange={(e) => setLeadName(e.target.value)}
                         />
                       </div>
-
                       <div className="form-group">
-                        <label className="form-label">What custom build does your business need? (e.g. AI chatbot, Client CRM, custom web portal)</label>
-                        <textarea 
+                        <label className="form-label" htmlFor="leadEmail">Work Email</label>
+                        <input 
+                          type="email" 
+                          id="leadEmail"
+                          name="leadEmail"
                           className="form-input" 
-                          rows="3" 
-                          placeholder="Briefly describe what you'd like us to build..."
-                          value={leadConcept}
-                          onChange={(e) => setLeadConcept(e.target.value)}
-                          style={{ resize: 'none', fontFamily: 'inherit' }}
-                        ></textarea>
+                          required 
+                          placeholder="john@company.com"
+                          value={leadEmail}
+                          onChange={(e) => setLeadEmail(e.target.value)}
+                        />
                       </div>
-
-                      <button className="btn btn-primary" type="submit" style={{ width: '100%' }}>
-                        Submit Project Request
-                      </button>
-                    </form>
-                  ) : (
-                    <div style={styles.successPanel}>
-                      <span style={{ fontSize: '40px', display: 'block', marginBottom: '10px' }}>🎉</span>
-                      <h4 style={{ fontWeight: '700', marginBottom: '8px' }}>Proposal Requested Successfully!</h4>
-                      <p style={{ color: 'hsl(var(--text-secondary))', fontSize: '14px' }}>
-                        Thanks {leadName}! A Frayze software and grant strategist will analyze your eligibility details and contact you within 24 hours to schedule a blueprint consultation.
-                      </p>
                     </div>
-                  )}
+
+                    <div className="form-group">
+                      <label className="form-label" htmlFor="leadPhone">Phone Number</label>
+                      <input 
+                        type="tel" 
+                        id="leadPhone"
+                        name="leadPhone"
+                        className="form-input" 
+                        placeholder="807-555-0199"
+                        value={leadPhone}
+                        onChange={(e) => setLeadPhone(e.target.value)}
+                        toolparamdescription="Your primary contact phone number (e.g., 807-555-0199)"
+                      />
+                    </div>
+
+                    <div className="form-group">
+                      <label className="form-label" htmlFor="leadConcept">What custom build does your business need? (e.g. AI chatbot, Client CRM, custom web portal)</label>
+                      <textarea 
+                        id="leadConcept"
+                        name="leadConcept"
+                        className="form-input" 
+                        rows="3" 
+                        placeholder="Briefly describe what you'd like us to build..."
+                        value={leadConcept}
+                        onChange={(e) => setLeadConcept(e.target.value)}
+                        style={{ resize: 'none', fontFamily: 'inherit' }}
+                        toolparamdescription="A description of the custom software, AI agent, CRM, or portal your business needs built."
+                      ></textarea>
+                    </div>
+
+                    <button className="btn btn-primary" type="submit" style={{ width: '100%' }}>
+                      Submit Project Request
+                    </button>
+                  </form>
                 </div>
-              )}
+
+                <div style={{ ...styles.successPanel, display: leadSubmitted ? 'block' : 'none' }}>
+                  <span style={{ fontSize: '40px', display: 'block', marginBottom: '10px' }}>🎉</span>
+                  <h4 style={{ fontWeight: '700', marginBottom: '8px' }}>Proposal Requested Successfully!</h4>
+                  <p style={{ color: 'hsl(var(--text-secondary))', fontSize: '14px' }}>
+                    Thanks {leadName}! A Frayze software and grant strategist will analyze your eligibility details and contact you within 24 hours to schedule a blueprint consultation.
+                  </p>
+                </div>
+              </div>
             </div>
           )}
         </div>
