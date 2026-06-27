@@ -2,24 +2,26 @@ import React, { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 import TiltCard from './TiltCard';
 import { scrollToId } from '../lib/smoothScroll';
+import { useIsMobile } from '../lib/useIsMobile';
 
 export default function FundedBuilds() {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, amount: 0.3 });
+  const isMobile = useIsMobile();
 
   const handleScrollTo = (id) => scrollToId(id);
 
   // Stitch-style word-by-word reveal
-  const headlineWords = "YOUR AI SYSTEM FUNDED IN WEEKS.".split(" ");
+  const headlineWords = "Run by an agent. Read by humans.".split(" ");
 
   return (
     <section id="funded-builds" style={styles.buildsSection}>
       <div className="container">
         {/* Word-by-word header reveal from Stitch */}
-        <div style={styles.headerGrid}>
+        <div style={{ ...styles.headerGrid, gridTemplateColumns: isMobile ? '1fr' : '1fr 1fr', gap: isMobile ? '40px' : '60px' }}>
           <motion.div ref={ref} style={styles.headerLeft}>
             <span className="font-label" style={{ marginBottom: '24px', display: 'block' }}>
-              VERTICAL INTEGRATION
+              THE AUTONOMOUS ENGINE
             </span>
             <h2 style={styles.bigTitle}>
               {headlineWords.map((word, i) => (
@@ -36,36 +38,39 @@ export default function FundedBuilds() {
             </h2>
             <div style={styles.bodyText}>
               <p>
-                Instead of spending your cash, leverage regional economic development funds. We help you write the application and build the technology it covers.
+                This hub is not hand-curated. An autonomous agent watches the sources across the
+                region around the clock, pulls out what is actually relevant to the Northwest, and
+                drafts it into plain-language briefs.
               </p>
               <p style={{ marginTop: '16px' }}>
-                Frayze's model is structurally better than standard grant-writing services because we don't stop at the application — we <strong>deliver what the grant funds</strong>.
+                The one rule it never breaks: <strong>nothing publishes unread</strong>. A human
+                checks every draft for accuracy before it goes live — signal, not slop.
               </p>
             </div>
           </motion.div>
 
           {/* Steps grid (Stitch skill-cards style) */}
-          <div style={styles.stepsGrid}>
+          <div style={{ ...styles.stepsGrid, gridTemplateColumns: isMobile ? '1fr' : 'repeat(2, 1fr)' }}>
             {[
               {
                 num: '01',
-                title: 'Discovery & Matching',
-                desc: 'We assess your business needs (AI chatbot, client portal, internal CRM, or custom database) and match them with active grants (FedNor RAII, NOIC, CEDC).',
+                title: 'Monitor',
+                desc: 'Scans regional and national sources around the clock — institutions, news, government and municipal pages, program updates — for anything AI-relevant to the Northwest.',
               },
               {
                 num: '02',
-                title: 'No-Spec Writing',
-                desc: 'Our grant writers draft and submit the technical proposal on your behalf. We handle the paperwork and align with institutional mandates at zero spec-cost.',
+                title: 'Structure',
+                desc: 'Extracts what actually matters — who, what, the deadline, who it affects — and dedupes the noise into a clean, searchable index.',
               },
               {
                 num: '03',
-                title: 'Deliver & Scale',
-                desc: 'Once approved, Frayze builds, deploys, and maintains your custom system. The project is paid for directly by the grant, protecting your operating cash.',
+                title: 'Surface',
+                desc: 'Ranks what is worth your attention and drafts it as plain-language briefs — the Journal and the weekly digest.',
               },
               {
                 num: '04',
-                title: 'Ongoing Support',
-                desc: 'Continued maintenance, analytics tracking, and growth automation. Your system compounds value long after the grant funds it.',
+                title: 'Human review',
+                desc: 'Nothing publishes unread. A person checks every draft for accuracy before it goes live — the guardrail against AI slop.',
               },
             ].map((step, i) => (
               <motion.div
@@ -95,19 +100,23 @@ export default function FundedBuilds() {
           viewport={{ once: true }}
           transition={{ duration: 0.8, delay: 0.2 }}
         >
-          <TiltCard style={styles.ctaBox} className="glass-panel">
+          <TiltCard
+            style={{ ...styles.ctaBox, flexDirection: isMobile ? 'column' : 'row', gap: isMobile ? '24px' : '0', padding: isMobile ? '32px 24px' : '48px 60px', textAlign: isMobile ? 'center' : 'left' }}
+            className="glass-panel"
+          >
             <div style={styles.ctaContent}>
-              <h3 style={styles.ctaTitle}>Ready to build your next system with grant funding?</h3>
+              <h3 style={styles.ctaTitle}>Get the signal, once a week.</h3>
               <p style={styles.ctaDesc}>
-                SMEs in Thunder Bay and Northern Ontario have access to a $200M federal AI wave. Let us verify your eligibility and write your tech application.
+                One email: the AI, funding, government, and tech moves that matter for Northwestern
+                Ontario — already filtered, no noise. Read by a human before it reaches you.
               </p>
             </div>
             <button
               className="btn btn-cyan"
               style={styles.ctaBtn}
-              onClick={() => handleScrollTo('radar')}
+              onClick={() => handleScrollTo('weekly-brief')}
             >
-              Match My Grant Now
+              Subscribe to the brief
               <span>→</span>
             </button>
           </TiltCard>

@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
+import { CheckCircle2 } from 'lucide-react';
 import { AnimatedGridPattern } from './AnimatedGridPattern';
+import { useIsMobile } from '../lib/useIsMobile';
 
 export default function WeeklyBrief() {
   const [email, setEmail] = useState('');
   const [subscribed, setSubscribed] = useState(false);
+  const isMobile = useIsMobile();
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -50,13 +53,15 @@ export default function WeeklyBrief() {
               tooldescription="Subscribe a business email address to the weekly NWO Funding and AI brief."
               toolautosubmit
             >
-              <span className="font-label" style={{ marginBottom: '20px' }}>CASL-COMPLIANT UPDATES</span>
-              <h2 style={styles.title}>Stay Updated on Local Funding Waves</h2>
+              <span className="font-label" style={{ marginBottom: '20px' }}>THE WEEKLY SIGNAL · CASL-COMPLIANT</span>
+              <h2 style={styles.title}>One email. The Northwest&rsquo;s AI week.</h2>
               <p style={styles.subtitle}>
-                Get a weekly digest of grant deadlines, newly eligible programs, and NWO business expansion news delivered directly to your inbox. No spam. Unsubscribe anytime.
+                A weekly digest of the AI news, local tech, government moves, funding deadlines, and
+                tools that matter for Northwestern Ontario — filtered by the agent, checked by a
+                human. No spam. Unsubscribe anytime.
               </p>
               
-              <div style={styles.inputGroup}>
+              <div style={{ ...styles.inputGroup, flexDirection: isMobile ? 'column' : 'row' }}>
                 <input 
                   type="email" 
                   id="subscriberEmail"
@@ -85,7 +90,7 @@ export default function WeeklyBrief() {
               transition={{ duration: 0.5 }}
               style={styles.successState}
             >
-              <span style={styles.successIcon}>✉️</span>
+              <CheckCircle2 size={44} color="hsl(var(--primary-cyan))" strokeWidth={1.5} />
               <h2 style={styles.successTitle}>Subscription Confirmed!</h2>
               <p style={styles.successSubtitle}>
                 Success! We have added <strong>{email}</strong> to our weekly distribution list. You will receive your first NWO Funding Brief next Thursday morning.

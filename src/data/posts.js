@@ -165,7 +165,7 @@ export const POSTS = [
       { type: 'callout', text: 'The honest limit: not every business qualifies for every program, and RAII in particular leans toward businesses with commercial scale. The funnel still works — it just means matching the business to the right program, not forcing one program onto every business.' },
       { type: 'h2', text: 'Why now' },
       { type: 'p', text: 'The timing is the whole point. The federal AI-adoption money is flowing through Northern Ontario now, the programs have a mandate to spend it, and the businesses that move while it is available are the ones that get a funded system out of it. The window is open; it will not stay open forever.' },
-      { type: 'p', text: 'Frayze runs this end to end — we help find and confirm the program, scope the project, and then actually build the website, CRM, or AI system the grant funds. The grant is the mechanism; the working system is the point.' },
+      { type: 'p', text: 'Done right, this runs end to end — find and confirm the program, scope the project, then actually build the website, CRM, or AI system the grant funds. The grant is the mechanism; the working system is the point. Connecting the two is exactly what this hub exists to help with.' },
       { type: 'source', text: 'Sources: fednor.canada.ca (RAII), nwoinnovation.ca/programs. Funding references are public; eligibility is determined by each program. Confirm your situation before relying on any figure here.' },
     ],
   },

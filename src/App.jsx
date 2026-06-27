@@ -68,7 +68,8 @@ export default function App() {
               <span style={styles.logoText}>Thunder Bay <span className="accent-text">AI</span></span>
             </motion.div>
             <p style={styles.description}>
-              The autonomous intelligence asset and regional business-funding radar for Northwestern Ontario.
+              The autonomous AI intelligence hub for Northwestern Ontario — tracking the news, local
+              tech, government moves, funding, and tools that matter for the region.
             </p>
             <span style={styles.copyright}>
               &copy; {new Date().getFullYear()} Thunder Bay AI. All rights reserved.
@@ -84,12 +85,10 @@ export default function App() {
               <Link to="/blog" style={{ ...styles.footerHref, display: 'block' }}>Journal</Link>
             </div>
             <div style={styles.linksCol}>
-              <h4 style={styles.linksTitle}>Operator</h4>
-              <a href="https://frayze.ca" target="_blank" rel="noopener noreferrer" style={styles.footerHref}>
-                Frayze
-              </a>
-              <span style={styles.footerLink} onClick={() => handleScrollTo('funded-builds')}>Funded Builds</span>
-              <a href="mailto:denis@frayze.ca" style={styles.footerHref}>Contact Denis</a>
+              <h4 style={styles.linksTitle}>The Hub</h4>
+              <span style={styles.footerLink} onClick={() => handleScrollTo('funded-builds')}>How it works</span>
+              <Link to="/blog" style={{ ...styles.footerHref, display: 'block' }}>Journal</Link>
+              <a href="mailto:denis@frayze.ca" style={styles.footerHref}>Contact</a>
             </div>
           </div>
         </div>

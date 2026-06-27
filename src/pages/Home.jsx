@@ -10,8 +10,8 @@ import WeeklyBrief from '../components/WeeklyBrief';
 // Infinite marquee band (from Stitch)
 function Marquee() {
   const brands = [
-    "FEDNOR RAII", "NOIC COSTARTER", "CEDC YOUTH EFFECT", "FRAYZE",
-    "NEXT LEVEL DIGITAL", "THUNDER BAY AI", "NWO INNOVATION", "AI ADOPTION WAVE",
+    "AI NEWS", "LOCAL TECH", "GOVERNMENT", "FUNDING & GRANTS", "MODEL WATCH",
+    "MUNICIPAL AI", "FEDNOR RAII", "NOIC", "NWO INNOVATION", "AI ADOPTION",
   ];
   return (
     <div style={marqueeStyles.wrapper}>

@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { motion } from 'framer-motion';
+import { Info } from 'lucide-react';
 import { NEWS_DATA } from '../data';
 import TiltCard from './TiltCard';
 
@@ -83,9 +84,9 @@ export default function IntelligenceFeed() {
           viewport={{ once: true }}
           transition={{ duration: 0.8, delay: 0.3 }}
         >
-          <div style={styles.moatIcon}>ℹ️</div>
+          <div style={styles.moatIcon}><Info size={20} color="hsl(var(--primary-cyan))" /></div>
           <div style={styles.moatText}>
-            <strong> Moat/GEO bet:</strong> This radar indexes and structures regional innovation news so it can be parsed and cited as the authoritative source on Northwestern Ontario AI adoption by search engines and LLM engines.
+            <strong>Built to be cited.</strong> The agent structures the region&rsquo;s AI and innovation news into a clean, machine-readable record — so when a person, a search engine, or an AI asks what is happening with AI in Northwestern Ontario, the answer traces back here.
           </div>
         </motion.div>
       </div>

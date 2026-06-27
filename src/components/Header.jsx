@@ -4,9 +4,11 @@ import { Menu, X } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import BoltMark from './BoltMark';
 import { useSectionNav } from '../lib/useSectionNav';
+import { useIsMobile } from '../lib/useIsMobile';
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const isMobile = useIsMobile(868);
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
     stiffness: 100,
@@ -40,6 +42,7 @@ export default function Header() {
         </motion.div>
 
         {/* Desktop nav links with staggered entrance */}
+        {!isMobile && (
         <nav style={styles.desktopNav}>
           {[
             { label: 'FUNDING', id: 'radar' },
@@ -66,18 +69,22 @@ export default function Header() {
             <Link to="/blog" style={{ ...styles.navLink, textDecoration: 'none' }}>JOURNAL</Link>
           </motion.span>
         </nav>
+        )}
 
+        {!isMobile && (
         <motion.div
           initial={{ opacity: 0, x: 20 }}
           animate={{ opacity: 1, x: 0 }}
           style={styles.desktopCta}
         >
-          <button className="btn btn-cyan" onClick={() => handleScrollTo('funded-builds')}>
-            Get Funded Build
+          <button className="btn btn-cyan" onClick={() => handleScrollTo('weekly-brief')}>
+            Get the Brief
           </button>
         </motion.div>
+        )}
 
         {/* Mobile Menu Toggle */}
+        {isMobile && (
         <motion.button
           initial={{ opacity: 0, x: 20 }}
           animate={{ opacity: 1, x: 0 }}
@@ -87,6 +94,7 @@ export default function Header() {
         >
           {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
         </motion.button>
+        )}
       </div>
 
       {/* Mobile Dropdown Menu */}
@@ -180,11 +188,14 @@ const styles = {
     gap: '12px',
   },
   mobileMenuToggle: {
-    display: 'none',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
     background: 'none',
     border: 'none',
     color: 'hsl(0, 0%, 98%)',
     cursor: 'pointer',
+    padding: 0,
   },
   mobileDropdown: {
     position: 'absolute',
@@ -215,10 +226,3 @@ const styles = {
     marginTop: '8px',
   },
 };
-
-// Responsive: hide desktop nav on mobile
-if (typeof window !== 'undefined' && window.innerWidth <= 868) {
-  styles.desktopNav.display = 'none';
-  styles.desktopCta.display = 'none';
-  styles.mobileMenuToggle.display = 'block';
-}

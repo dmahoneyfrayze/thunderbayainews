@@ -1,11 +1,14 @@
 import React, { useRef } from 'react';
+import { Link } from 'react-router-dom';
 import { motion, useScroll, useTransform, useSpring } from 'framer-motion';
 import { ChevronDown } from 'lucide-react';
 import { AnimatedGridPattern } from './AnimatedGridPattern';
 import { scrollToId } from '../lib/smoothScroll';
+import { useIsMobile } from '../lib/useIsMobile';
 
 export default function Hero() {
   const containerRef = useRef(null);
+  const isMobile = useIsMobile();
   const { scrollYProgress } = useScroll({
     target: containerRef,
     offset: ["start start", "end start"]
@@ -45,18 +48,19 @@ export default function Hero() {
           style={{ opacity }}
         >
           <span className="font-label" style={styles.label}>
-            AI-POWERED FUNDING & GROWTH SYSTEMS
+            AUTONOMOUS AI INTELLIGENCE HUB
           </span>
 
           <h1 style={styles.title}>
-            UNLOCK{' '}
-            <span className="accent-text">AI FUNDING</span>
+            The AI signal for
             <br />
-            FOR NWO BUSINESS
+            <span className="accent-text">Northwestern Ontario</span>
           </h1>
 
           <p style={styles.subtitle}>
-            We track local funding programs, analyze your eligibility, and build custom AI-powered software—fully funded by regional development grants.
+            An autonomous agent tracks the AI news, local tech, government and municipal
+            projects, funding, and tools that matter for the Northwest — then surfaces the
+            signal. Monitored continuously. Reviewed by humans.
           </p>
         </motion.div>
 
@@ -66,20 +70,20 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
           style={styles.ctaGroup}
         >
-          <button
+          <Link
+            to="/blog"
             className="btn btn-cyan"
-            style={styles.ctaPrimary}
-            onClick={() => handleScrollTo('radar')}
+            style={{ ...styles.ctaPrimary, textDecoration: 'none' }}
           >
-            Explore Active Grants
+            Read the Journal
             <span>→</span>
-          </button>
+          </Link>
           <button
             className="btn btn-secondary"
             style={styles.ctaSecondary}
-            onClick={() => handleScrollTo('funded-builds')}
+            onClick={() => handleScrollTo('weekly-brief')}
           >
-            Book Free Assessment
+            Get the weekly brief
           </button>
         </motion.div>
 
@@ -88,22 +92,22 @@ export default function Hero() {
           initial={{ opacity: 0, y: 30, scale: 0.95 }}
           animate={{ opacity: 1, y: 0, scale: 1 }}
           transition={{ duration: 1, delay: 0.6, ease: [0.16, 1, 0.3, 1] }}
-          style={styles.statsContainer}
+          style={{ ...styles.statsContainer, flexDirection: isMobile ? 'column' : 'row', gap: isMobile ? '24px' : 0 }}
           className="glass-panel"
         >
           <div style={styles.statBox}>
+            <span style={styles.statNumber} className="accent-text">24/7</span>
+            <span style={styles.statLabel}>Autonomous monitoring</span>
+          </div>
+          {!isMobile && <div style={styles.statDivider} />}
+          <div style={styles.statBox}>
             <span style={styles.statNumber} className="accent-text">$200M</span>
-            <span style={styles.statLabel}>Federal AI Budget</span>
+            <span style={styles.statLabel}>Regional AI funding tracked</span>
           </div>
-          <div style={styles.statDivider} />
+          {!isMobile && <div style={styles.statDivider} />}
           <div style={styles.statBox}>
-            <span style={styles.statNumber} className="accent-text">Up to 75%</span>
-            <span style={styles.statLabel}>Cost Coverage</span>
-          </div>
-          <div style={styles.statDivider} />
-          <div style={styles.statBox}>
-            <span style={styles.statNumber} className="accent-text">0-Spec</span>
-            <span style={styles.statLabel}>Frayze Risk Build</span>
+            <span style={styles.statNumber} className="accent-text">6</span>
+            <span style={styles.statLabel}>Beats covered</span>
           </div>
         </motion.div>
       </div>

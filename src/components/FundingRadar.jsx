@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
+import { CheckCircle2, Search } from 'lucide-react';
 import { GRANTS_DATA } from '../data';
 import TiltCard from './TiltCard';
 import { AnimatedGridPattern } from './AnimatedGridPattern';
@@ -12,13 +13,13 @@ const calculateGrantMatch = (grant, inNwo, isIncorporated, isScalable) => {
       return {
         status: 'Excellent Match',
         class: 'success',
-        msg: 'Your business qualifies for up to 75% coverage under the FedNor RAII. Frayze can design and deploy your custom AI tool using these funds.'
+        msg: 'Your business qualifies for up to 75% coverage under the FedNor RAII. These funds can cover the design and deployment of a custom AI tool — confirm eligibility with the program.'
       };
     } else if (inNwo && !isIncorporated) {
       return {
         status: 'Action Required',
         class: 'warning',
-        msg: 'You must be incorporated to access FedNor RAII. Frayze can guide you through incorporation, or you can explore the NOIC Next Level grant which has broader SME criteria.'
+        msg: 'You must be incorporated to access FedNor RAII. You can explore the NOIC Next Level grant, which has broader SME criteria, or look into incorporating first.'
       };
     } else {
       return {
@@ -34,7 +35,7 @@ const calculateGrantMatch = (grant, inNwo, isIncorporated, isScalable) => {
       return {
         status: 'Strong Match',
         class: 'success',
-        msg: 'You are highly eligible for the $18K accelerator seed funding. Frayze can build your initial prototype as part of the accelerator program.'
+        msg: 'You are highly eligible for the $18K accelerator seed funding, which can fund an initial prototype as part of the accelerator program.'
       };
     } else if (!inNwo) {
       return {
@@ -201,7 +202,7 @@ export default function FundingRadar() {
     if (nativeEvent.agentInvoked && typeof nativeEvent.respondWith === 'function') {
       nativeEvent.respondWith(
         Promise.resolve(
-          `Success: Project proposal submitted successfully for ${leadName} (${leadEmail}). A Frayze software and grant strategist will analyze details and follow up.`
+          `Success: Project proposal submitted for ${leadName} (${leadEmail}). A grant and software specialist will review the details and follow up.`
         )
       );
     }
@@ -234,7 +235,7 @@ export default function FundingRadar() {
         {/* Filter Toolbar */}
         <div style={styles.toolbar} className="glass-panel">
           <div style={styles.searchBox}>
-            <span style={styles.searchIcon}>🔍</span>
+            <span style={styles.searchIcon}><Search size={17} /></span>
             <input 
               type="text" 
               placeholder="Search programs, sources, or tech keywords..." 
@@ -307,7 +308,7 @@ export default function FundingRadar() {
             ))
           ) : (
             <div style={styles.noResults} className="glass-panel">
-              <span style={{ fontSize: '32px' }}>🔎</span>
+              <Search size={32} color="hsl(var(--text-muted))" strokeWidth={1.5} />
               <p>No funding programs match your search criteria. Try a different filter or search term.</p>
             </div>
           )}
@@ -416,11 +417,11 @@ export default function FundingRadar() {
                     onSubmit={handleLeadSubmit} 
                     style={styles.leadForm}
                     toolname="submit_project_proposal"
-                    tooldescription="Submit a request for Frayze to build custom software/AI under a regional grant. Requires user review before final submission."
+                    tooldescription="Submit a request to get matched with funding and a partner to build custom software/AI under a regional grant. Requires user review before final submission."
                   >
-                    <h4 style={styles.formTitle}>Book Free Software & Grant Proposal</h4>
+                    <h4 style={styles.formTitle}>Get matched: funding + a build partner</h4>
                     <p style={styles.leadSubtitle}>
-                      Frayze handles your application writing and builds the custom software/AI, paid by the grant. Zero out-of-pocket project proposals.
+                      Get matched to the right program and connected with a partner who writes the application and builds the funded system. Zero out-of-pocket project proposals.
                     </p>
 
                     <div className="grid-2" style={{ gap: '15px', marginBottom: '0px' }}>
@@ -488,10 +489,10 @@ export default function FundingRadar() {
                 </div>
 
                 <div style={{ ...styles.successPanel, display: leadSubmitted ? 'block' : 'none' }}>
-                  <span style={{ fontSize: '40px', display: 'block', marginBottom: '10px' }}>🎉</span>
+                  <CheckCircle2 size={40} color="hsl(var(--primary-cyan))" strokeWidth={1.5} style={{ display: 'block', margin: '0 auto 10px' }} />
                   <h4 style={{ fontWeight: '700', marginBottom: '8px' }}>Proposal Requested Successfully!</h4>
                   <p style={{ color: 'hsl(var(--text-secondary))', fontSize: '14px' }}>
-                    Thanks {leadName}! A Frayze software and grant strategist will analyze your eligibility details and contact you within 24 hours to schedule a blueprint consultation.
+                    Thanks {leadName}! A grant and software specialist will review your eligibility details and contact you within 24 hours to schedule a consultation.
                   </p>
                 </div>
               </div>

@@ -90,13 +90,13 @@ export default function BlogPost() {
 
         {/* CTA */}
         <div className="glass-panel" style={styles.cta}>
-          <h3 style={styles.ctaTitle}>Think a program fits your business?</h3>
+          <h3 style={styles.ctaTitle}>Stay on top of this</h3>
           <p style={styles.ctaDek}>
-            Frayze finds the grant, confirms eligibility, and builds what it funds. Start with a
-            free assessment — no obligation.
+            The agent tracks every program, deadline, and AI shift in the region. Get the ones that
+            matter in a weekly email — filtered, and checked by a human.
           </p>
-          <Link to="/" state={{ scrollTo: 'funded-builds' }} className="btn btn-cyan" style={{ textDecoration: 'none' }}>
-            Book a free assessment
+          <Link to="/" state={{ scrollTo: 'weekly-brief' }} className="btn btn-cyan" style={{ textDecoration: 'none' }}>
+            Get the weekly brief
           </Link>
         </div>
 
