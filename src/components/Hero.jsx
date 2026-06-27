@@ -10,6 +10,10 @@ export default function Hero() {
 
   return (
     <section id="hero" style={styles.heroSection}>
+      {/* Parallax background glows (3D scroll effect) */}
+      <div className="parallax-layer-1" style={styles.glowCircle1}></div>
+      <div className="parallax-layer-2" style={styles.glowCircle2}></div>
+
       <div className="container" style={styles.heroContainer}>
         <div style={styles.badgeWrapper}>
           <span className="badge badge-active" style={styles.waveBadge}>
@@ -74,6 +78,30 @@ const styles = {
     textAlign: 'center',
     position: 'relative',
     overflow: 'hidden',
+  },
+  glowCircle1: {
+    position: 'absolute',
+    top: '10%',
+    left: '8%',
+    width: '320px',
+    height: '320px',
+    background: 'radial-gradient(circle, hsla(184, 100%, 48%, 0.12) 0%, transparent 70%)',
+    borderRadius: '50%',
+    filter: 'blur(50px)',
+    pointerEvents: 'none',
+    zIndex: 1,
+  },
+  glowCircle2: {
+    position: 'absolute',
+    bottom: '5%',
+    right: '12%',
+    width: '420px',
+    height: '420px',
+    background: 'radial-gradient(circle, hsla(275, 80%, 56%, 0.1) 0%, transparent 70%)',
+    borderRadius: '50%',
+    filter: 'blur(60px)',
+    pointerEvents: 'none',
+    zIndex: 1,
   },
   heroContainer: {
     display: 'flex',

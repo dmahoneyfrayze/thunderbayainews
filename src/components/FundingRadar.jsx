@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { GRANTS_DATA } from '../data';
+import TiltCard from './TiltCard';
 
 const calculateGrantMatch = (grant, inNwo, isIncorporated, isScalable) => {
   if (!grant) return null;
@@ -209,7 +210,7 @@ export default function FundingRadar() {
   return (
     <section id="radar" style={styles.radarSection}>
       <div className="container">
-        <div style={styles.sectionHeader}>
+        <div style={styles.sectionHeader} className="reveal-on-scroll">
           <h2 style={styles.sectionTitle}>Regional <span className="accent-text">Funding Radar</span></h2>
           <p style={styles.sectionSubtitle}>
             We scan CEDC, NOIC, and FedNor channels weekly. Filter active programs and run the eligibility checker to match your growth objectives.
@@ -249,7 +250,7 @@ export default function FundingRadar() {
         <div style={styles.grantsGrid}>
           {filteredGrants.length > 0 ? (
             filteredGrants.map((grant) => (
-              <div key={grant.id} className="glass-panel" style={styles.grantCard}>
+              <TiltCard key={grant.id} className="glass-panel reveal-on-scroll" style={styles.grantCard}>
                 <div style={styles.cardHeader}>
                   <span style={styles.sourceTag}>{grant.source}</span>
                   <span className={`badge badge-${grant.badgeType}`}>{grant.status}</span>
@@ -280,7 +281,7 @@ export default function FundingRadar() {
                 >
                   Verify Eligibility
                 </button>
-              </div>
+              </TiltCard>
             ))
           ) : (
             <div style={styles.noResults} className="glass-panel">

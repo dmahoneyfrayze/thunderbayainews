@@ -1,4 +1,5 @@
 import React from 'react';
+import TiltCard from './TiltCard';
 
 export default function FundedBuilds() {
   const handleScrollTo = (id) => {
@@ -11,7 +12,7 @@ export default function FundedBuilds() {
   return (
     <section id="funded-builds" style={styles.buildsSection}>
       <div className="container">
-        <div style={styles.sectionHeader}>
+        <div style={styles.sectionHeader} className="reveal-on-scroll">
           <span style={styles.label}>VERTICAL INTEGRATION</span>
           <h2 style={styles.sectionTitle}>Frayze Grant-Funded Software Builds</h2>
           <p style={styles.sectionSubtitle}>
@@ -21,35 +22,35 @@ export default function FundedBuilds() {
 
         <div style={styles.stepsGrid}>
           {/* Step 1 */}
-          <div style={styles.stepCard} className="glass-panel">
+          <TiltCard style={styles.stepCard} className="glass-panel reveal-on-scroll">
             <div style={styles.stepNum} className="accent-text">01</div>
             <h3 style={styles.stepTitle}>Discovery & Matching</h3>
             <p style={styles.stepDesc}>
               We assess your business needs (AI chatbot, client portal, internal CRM, or custom database) and match them with active grants (FedNor RAII, NOIC, CEDC).
             </p>
-          </div>
+          </TiltCard>
 
           {/* Step 2 */}
-          <div style={styles.stepCard} className="glass-panel">
+          <TiltCard style={styles.stepCard} className="glass-panel reveal-on-scroll">
             <div style={styles.stepNum} className="accent-text">02</div>
             <h3 style={styles.stepTitle}>No-Spec Writing</h3>
             <p style={styles.stepDesc}>
               Our grant writers draft and submit the technical proposal on your behalf. We handle the paperwork and align with institutional mandates at zero spec-cost.
             </p>
-          </div>
+          </TiltCard>
 
           {/* Step 3 */}
-          <div style={styles.stepCard} className="glass-panel">
+          <TiltCard style={styles.stepCard} className="glass-panel reveal-on-scroll">
             <div style={styles.stepNum} className="accent-text">03</div>
             <h3 style={styles.stepTitle}>Deliver & Scale</h3>
             <p style={styles.stepDesc}>
               Once approved, Frayze builds, deploys, and maintains your custom system. The project is paid for directly by the grant, protecting your operating cash.
             </p>
-          </div>
+          </TiltCard>
         </div>
 
         {/* Call to Action Container */}
-        <div style={styles.ctaBox} className="glass-panel">
+        <TiltCard style={styles.ctaBox} className="glass-panel reveal-on-scroll">
           <div style={styles.ctaContent}>
             <h3 style={styles.ctaTitle}>Ready to build your next system with grant funding?</h3>
             <p style={styles.ctaDesc}>
@@ -64,7 +65,7 @@ export default function FundedBuilds() {
             Match My Grant Now
             <span style={{ marginLeft: '4px' }}>→</span>
           </button>
-        </div>
+        </TiltCard>
       </div>
     </section>
   );

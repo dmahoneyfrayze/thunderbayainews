@@ -1,7 +1,29 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+  const [scrollProgress, setScrollProgress] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 40) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+
+      const totalScroll = document.documentElement.scrollHeight - window.innerHeight;
+      if (totalScroll > 0) {
+        setScrollProgress((window.scrollY / totalScroll) * 100);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
 
   const handleScrollTo = (id) => {
     setMobileMenuOpen(false);
@@ -12,8 +34,9 @@ export default function Header() {
   };
 
   return (
-    <header style={styles.header}>
-      <div className="container" style={styles.navContainer}>
+    <header style={styles.header} className={scrolled ? 'header-scrolled' : ''}>
+      <div className="scroll-progress-bar" style={{ width: `${scrollProgress}%` }}></div>
+      <div className="container nav-container-height" style={styles.navContainer}>
         {/* Logo */}
         <div style={styles.logo} onClick={() => handleScrollTo('hero')}>
           <span style={styles.logoIcon}>⚡</span>
@@ -77,12 +100,14 @@ const styles = {
     WebkitBackdropFilter: 'blur(20px)',
     borderBottom: '1px solid hsla(0, 0%, 100%, 0.05)',
     zIndex: 999,
+    transition: 'all 0.3s ease',
   },
   navContainer: {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'space-between',
     height: '80px',
+    transition: 'all 0.3s ease',
   },
   logo: {
     display: 'flex',

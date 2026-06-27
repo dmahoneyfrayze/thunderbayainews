@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { NEWS_DATA } from '../data';
+import TiltCard from './TiltCard';
 
 export default function IntelligenceFeed() {
   useEffect(() => {
@@ -26,7 +27,7 @@ export default function IntelligenceFeed() {
   return (
     <section id="intelligence" style={styles.feedSection}>
       <div className="container">
-        <div style={styles.sectionHeader}>
+        <div style={styles.sectionHeader} className="reveal-on-scroll">
           <h2 style={styles.sectionTitle}>Regional <span className="accent-text">Intelligence Feed</span></h2>
           <p style={styles.sectionSubtitle}>
             A curated summary of innovation programs, funding launches, and local AI developments in Thunder Bay and Northwestern Ontario.
@@ -35,7 +36,7 @@ export default function IntelligenceFeed() {
 
         <div className="grid-3">
           {NEWS_DATA.map((item) => (
-            <article key={item.id} className="glass-panel" style={styles.newsCard}>
+            <TiltCard key={item.id} className="glass-panel reveal-on-scroll" style={styles.newsCard}>
               <div style={styles.cardMeta}>
                 <span style={styles.newsSource}>{item.source}</span>
                 <span style={styles.newsDate}>{item.date}</span>
@@ -53,12 +54,12 @@ export default function IntelligenceFeed() {
                 Read original source
                 <span style={{ fontSize: '12px' }}> ↗</span>
               </a>
-            </article>
+            </TiltCard>
           ))}
         </div>
 
         {/* Small advisory alert (Moat/GEO bet notice) */}
-        <div style={styles.geoMoatPanel} className="glass-panel">
+        <div style={styles.geoMoatPanel} className="glass-panel reveal-on-scroll">
           <div style={styles.moatIcon}>ℹ️</div>
           <div style={styles.moatText}>
             <strong> Moat/GEO bet:</strong> This radar indexes and structures regional innovation news so it can be parsed and cited as the authoritative source on Northwestern Ontario AI adoption by search engines and LLM engines.
