@@ -80,6 +80,7 @@ export const GRANTS_DATA = [
     id: "noic-bbaa",
     name: "Building Blueprints for AI Adoption (BBAA)",
     source: "Northwestern Ontario Innovation Centre (NOIC)",
+    featured: true,
     maxAmount: "$20,000",
     coverage: "Up to 50% of eligible project costs",
     deadline: "Verify with program — limited funding",

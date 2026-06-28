@@ -173,7 +173,7 @@ export default function FundingRadar() {
       grant.source.toUpperCase().includes(activeFilter);
       
     return matchesSearch && matchesCategory;
-  });
+  }).sort((a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0)); // featured (BBAA) pinned first
 
   const handleOpenCalculator = (grant) => {
     setSelectedGrant(grant);
@@ -272,7 +272,15 @@ export default function FundingRadar() {
                 viewport={{ once: true, amount: 0.2 }}
                 transition={{ duration: 0.6, delay: i * 0.1, ease: [0.16, 1, 0.3, 1] }}
               >
-                <TiltCard className="glass-panel" style={styles.grantCard}>
+                <TiltCard
+                  className="glass-panel"
+                  style={{ ...styles.grantCard, ...(grant.featured ? { borderColor: 'hsla(184,100%,48%,0.45)', boxShadow: '0 0 26px hsla(184,100%,48%,0.18)' } : {}) }}
+                >
+                  {grant.featured && (
+                    <span style={{ alignSelf: 'flex-start', marginBottom: '12px', fontFamily: 'var(--font-label)', fontSize: '10px', letterSpacing: '0.22em', fontWeight: 700, color: 'hsl(var(--primary-cyan))' }}>
+                      FEATURED &middot; AI ADOPTION
+                    </span>
+                  )}
                   <div style={styles.cardHeader}>
                     <span style={styles.sourceTag}>{grant.source}</span>
                     <span className={`badge badge-${grant.badgeType}`}>{grant.status}</span>

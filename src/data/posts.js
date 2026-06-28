@@ -4,6 +4,38 @@
 
 export const POSTS = [
   {
+    slug: 'bbaa-ai-adoption-grant-northwestern-ontario',
+    title: 'The BBAA grant: up to $20K to adopt AI in your Northwestern Ontario business',
+    dek: 'NOIC’s Building Blueprints for AI Adoption covers up to 50% of an AI project for local SMEs — but it starts with a plan, not an application. Here is how it works and how to be ready.',
+    category: 'Funding',
+    date: 'June 27, 2026',
+    iso: '2026-06-27',
+    readMins: 5,
+    accent: ['#00f0ff', '#b800ff'],
+    blocks: [
+      { type: 'p', text: 'If you run a Northwestern Ontario business and you actually want to adopt AI — not research it, not start a tech company, just put it to work — the Building Blueprints for AI Adoption (BBAA) program from the Northwestern Ontario Innovation Centre is the most directly relevant funding on the table. Most programs fund startups or R&D; this one funds adoption.' },
+      { type: 'h2', text: 'What it covers' },
+      { type: 'ul', items: [
+        'Up to $20,000, covering up to 50% of eligible project costs — AI software, consulting, and integration services.',
+        'Aimed at growth-oriented, for-profit SMEs in Northwestern Ontario with a valid Canadian business number.',
+        'Funding is limited and runs in intakes — confirm the current amount and whether applications are open with NOIC before planning around it.',
+      ]},
+      { type: 'h2', text: 'The part most people miss: it starts with a plan' },
+      { type: 'p', text: 'BBAA does not hand you an application first. You complete a 30/60/90-day AI Adoption Plan before the funding application. That sounds like a hurdle; it is actually the point. Scoping the project well is the hard part of any AI build, and a clear plan is what gets funded — a vague "we want to use AI" is a slow no.' },
+      { type: 'h2', text: 'Who it is for — and who it is not' },
+      { type: 'p', text: 'It is built for growth-oriented for-profit SMEs. Distributors, resellers, retail-only businesses, and — importantly — projects already underway are outside its scope. That last one matters: apply before you start the work, not after.' },
+      { type: 'callout', text: 'Eligibility, amounts, and intake timing are decided by NOIC, and the funding is limited. Treat everything here as a starting map and confirm your specific situation with the program before you build a plan around it.' },
+      { type: 'h2', text: 'How to be ready' },
+      { type: 'ul', items: [
+        'A concrete project — the specific workflow AI would change and the outcome you expect.',
+        'A rough cost estimate, since the funding is a share of eligible costs.',
+        'The productivity or competitiveness gain it drives — the lens the program evaluates against.',
+        'Then book the pre-application consultation and build the 30/60/90-day plan.',
+      ]},
+      { type: 'source', text: 'Sources: nwoinnovation.ca/programs/bbaa. Confirm eligibility, current amounts, and intake timing directly with NOIC (hussain@nwoinnovation.ca · 807-768-6682).' },
+    ],
+  },
+  {
     slug: 'practical-ai-uses-nwo-business-this-quarter',
     title: 'Practical ways a Northwestern Ontario business can use AI this quarter',
     dek: 'Forget the hype cycle. Here are concrete, low-risk ways a local business can put AI to work this quarter — each one you could start this week.',
