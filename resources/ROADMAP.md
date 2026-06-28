@@ -74,6 +74,23 @@ LinkedIn newsletter from Denis's profile (link in first comment per the no-url-i
 swaps; apply to Google News + the Perplexity Publisher Program. NEVER auto-post to strangers' threads / Reddit promo
 (ban risk), never CASL cold-blast, never bought traffic — those torch the authority that IS the product.
 
+### SOCIAL ENGINE — improvement experiments (review the monitor brief, then iterate)
+The IG engine is live (`scripts/social/` — carousel + reel + story, auto-scheduled to @thunderbayai; monitor brief
+Thu+Sun). Goal: viral + followers, which COMPOUNDS over weeks — so improve a little every cycle, guided by what the
+monitor says is working. Standing rules: scroll-stopping cover + follow/comment/save CTA; NEVER buy engagement; posts
+stay scheduled (review buffer). Backlog (work a couple per cycle; let engagement data pick winners):
+1. **Read `scripts/social/brief.txt` first.** Whatever format/topic/hook leads, bias the next `spec.json` toward it.
+   Note the experiment + result in `stats-history.jsonl` so the trend is legible over time.
+2. **Hook A/B** — vary the cover style between cycles (number-led vs word-led vs question-led) and compare engagement.
+3. **Image-gen backdrops** — try an Imagen/AI-Studio hero backdrop on the cover/CTA slide (USE SPARINGLY — prefunded
+   spend, per the model-economy rule). Compare against the coded-only cover. Keep type coded (never baked into AI gen).
+4. **Off-day lanes (still manual) → automate**: Tue story-poll, Thu "explainer" carousel from the 17-article library,
+   Fri "grant of the week" from the funding radar, weekend "save this" tip. Add these as scheduled lanes in run.sh.
+5. **Story auto-scheduling** — IG stories via the GHL API were left manual; test the story `type` and wire it.
+6. **Facebook cross-post** — once a TBAI FB page is connected, add it to the target accounts (free reach).
+7. **Reel polish** — the reel is a frame-flip; test smoother motion / a hooky first 1s; measure watch-through if GHL exposes it.
+8. **Richer insights** — GHL gives like/share/comment; reach/saves/follows need the Meta API. Evaluate connecting it.
+
 ### Original backlog (still valid; the night pass closed several — see DONE above)
 
 1. ~~**Schema.org structured data**~~ — DONE (commit `01064f2`): `Organization`/`WebSite` site-wide
