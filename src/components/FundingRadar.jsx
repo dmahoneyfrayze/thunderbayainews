@@ -13,7 +13,7 @@ const calculateGrantMatch = (grant, inNwo, isIncorporated, isScalable) => {
       return {
         status: 'Excellent Match',
         class: 'success',
-        msg: 'Your business qualifies for up to 75% coverage under the FedNor RAII. These funds can cover the design and deployment of a custom AI tool — confirm eligibility with the program.'
+        msg: 'You look like a strong fit for the FedNor RAII (up to 50% of eligible costs). These funds can help cover the design and deployment of a custom AI tool — confirm eligibility and amounts with FedNor.'
       };
     } else if (inNwo && !isIncorporated) {
       return {
@@ -331,6 +331,17 @@ export default function FundingRadar() {
                 <div><strong>Coverage:</strong> {selectedGrant.coverage}</div>
                 <div><strong>Deadline:</strong> {selectedGrant.deadline}</div>
               </div>
+
+              {selectedGrant.sourceUrl && (
+                <a
+                  href={selectedGrant.sourceUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ display: 'inline-block', marginTop: '14px', fontSize: '13px', fontWeight: 600, color: 'hsl(var(--primary-cyan))', textDecoration: 'none' }}
+                >
+                  View the official program page &rarr;
+                </a>
+              )}
 
               <div style={styles.divider}></div>
 

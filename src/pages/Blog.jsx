@@ -4,8 +4,14 @@ import { motion } from 'framer-motion';
 import { ArrowUpRight, Clock } from 'lucide-react';
 import TiltCard from '../components/TiltCard';
 import { POSTS } from '../data/posts';
+import { useDocumentMeta } from '../lib/useDocumentMeta';
 
 export default function Blog() {
+  useDocumentMeta({
+    title: 'The Journal — AI, tech, funding & government for Northwestern Ontario | Thunder Bay AI',
+    description: 'Structured, action-first breakdowns of the AI news, local tech, government moves, funding, model comparisons, and tips that matter for Northwestern Ontario.',
+    path: '/blog',
+  });
   return (
     <div style={styles.page}>
       {/* ambient glow */}

@@ -3,6 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Clock, Info } from 'lucide-react';
 import { getPost, POSTS } from '../data/posts';
+import { useDocumentMeta } from '../lib/useDocumentMeta';
 
 function Block({ block }) {
   switch (block.type) {
@@ -38,6 +39,12 @@ export default function BlogPost() {
   const post = getPost(slug);
 
   useEffect(() => { window.scrollTo(0, 0); }, [slug]);
+
+  useDocumentMeta({
+    title: post ? `${post.title} | Thunder Bay AI` : 'Not found | Thunder Bay AI',
+    description: post ? post.dek : undefined,
+    path: post ? `/blog/${post.slug}` : undefined,
+  });
 
   if (!post) {
     return (
