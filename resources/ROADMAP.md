@@ -40,6 +40,42 @@ not a second agency. It is the **neutral authority/media layer**; Frayze is the 
 ## Prioritized improvement backlog (the monthly agent pulls from the TOP)
 Work top-down; when an item ships, check it off (and note the commit) and add new ones you discover.
 
+### DONE 2026-06-28 (night-1 growth pass, deploys `8aff11c` + `1b9e776`)
+Closed from the list below: ~~#2 internal linking~~ (per-post "Related" + category-aware "Keep reading"),
+~~#3 Open Graph~~ (default share card `og.png` + Twitter cards site-wide; per-post custom cards still open),
+~~#4 `/funding` index page~~ (CollectionPage + ItemList schema), ~~#8 email capture~~ (Netlify Forms, real),
+~~#9 About page~~ (`/about`), ~~#10 analytics~~ (GA4 `G-26RYXCP42D` installed). Also: FAQPage + direct-answer
+blocks on BBAA/RAII/MFIPPA posts, news-sitemap.xml, share buttons, Frayze footer credit.
+
+### P0 GROWTH BACKLOG — MASSIVE VIEWS (Denis directive 2026-06-28; from the 3-agent review)
+Top priority. The first cluster is fast-ranking CONTENT the content engine should write next (proof-integrity:
+funding facts stay "confirm with the program," sourced):
+1. **"RAII vs BBAA: which grant is right for your NWO business"** — comparison post + table + FAQPage. The most-
+   searched UNANSWERED query in the NWO grant space; cross-links the two existing posts. Most time-sensitive.
+2. **"AI for Thunder Bay businesses — what's actually worth doing in 2026"** — highest-volume local query, near-zero
+   local competition; lead with missed-call recovery; name Thunder Bay/Kenora/Fort Frances; bridge to funding.
+3. **Per-program pages** — one citable URL per funding program (`/funding/<id>`) with GovernmentService/FAQ schema.
+   The big remaining GEO win (the index shipped; detail pages did not). One canonical URL per program.
+4. **Situational adoption posts** (low competition, strong local angle): AI for a NWO restaurant / construction co /
+   municipality; "missed-call AI for a local business"; **"ChatGPT vs Claude for a Canadian small business"** (data-
+   residency + the Fable 5 Canada block as the concrete hook).
+5. **Localization + infra posts**: Ring of Fire supply-chain + where AI fits; Ignace DGR tech/trades jobs; a standing
+   "Canadian AI access tracker" (Fable/Mythos). Every major national AI story gets a "what it means for NWO" version.
+6. **GEO citability polish**: lead every funding post with a 2-sentence direct answer (pattern shipped on BBAA/RAII —
+   extend to the rest); add HowTo schema to BBAA "how to be ready"; DefinedTerm for MFIPPA/RAII/BBAA; Dataset schema
+   on `/funding`; add **author byline / E-E-A-T** attribution (helps Google News).
+7. **Trust/UX**: surface "nothing publishes unread" near the hero; visible contact email; RSS feed; check the
+   FundingRadar modal body-scroll-lock on mobile; per-post custom OG cards (the og-image pattern).
+
+### DENIS-ONLY (off-site, can't be automated — distribution is the real fast-views lever for a new domain)
+Submit sitemap + news-sitemap to GSC + Request Indexing; route Netlify subscribers -> GHL (CASL double-opt-in);
+email NetNewsLedger (newsroom@netnewsledger.com) + NOIC (hussain@nwoinnovation.ca) the BBAA explainer; start a
+LinkedIn newsletter from Denis's profile (link in first comment per the no-url-in-body rule); Beehiiv recommendation
+swaps; apply to Google News + the Perplexity Publisher Program. NEVER auto-post to strangers' threads / Reddit promo
+(ban risk), never CASL cold-blast, never bought traffic — those torch the authority that IS the product.
+
+### Original backlog (still valid; the night pass closed several — see DONE above)
+
 1. ~~**Schema.org structured data**~~ — DONE (commit `01064f2`): `Organization`/`WebSite` site-wide
    (publisher: Frayze) + `Article` + `BreadcrumbList` per Journal post via `lib/useJsonLd.js`, captured
    by the prerender. FOLLOW-UP: add `ItemList`/`GovernmentService`-style markup for the funding programs
