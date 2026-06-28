@@ -8,7 +8,7 @@ import { useIsMobile } from '../lib/useIsMobile';
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const isMobile = useIsMobile(868);
+  const isMobile = useIsMobile(1024);
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
     stiffness: 100,
@@ -181,11 +181,12 @@ const styles = {
     fontSize: '20px',
     fontWeight: '800',
     letterSpacing: '-0.5px',
+    whiteSpace: 'nowrap',
   },
   desktopNav: {
     display: 'flex',
     alignItems: 'center',
-    gap: '36px',
+    gap: '30px',
   },
   navLink: {
     fontFamily: 'var(--font-label)',
@@ -222,6 +223,11 @@ const styles = {
     gap: '16px',
     borderTopLeftRadius: 0,
     borderTopRightRadius: 0,
+    background: 'hsl(224, 32%, 6%)',
+    backdropFilter: 'blur(24px)',
+    WebkitBackdropFilter: 'blur(24px)',
+    border: '1px solid hsla(0, 0%, 100%, 0.08)',
+    boxShadow: '0 24px 50px rgba(0, 0, 0, 0.6)',
   },
   mobileNavLink: {
     fontFamily: 'var(--font-label)',
