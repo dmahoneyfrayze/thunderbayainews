@@ -40,9 +40,10 @@ not a second agency. It is the **neutral authority/media layer**; Frayze is the 
 ## Prioritized improvement backlog (the monthly agent pulls from the TOP)
 Work top-down; when an item ships, check it off (and note the commit) and add new ones you discover.
 
-1. **Schema.org structured data** — add JSON-LD: `Organization`/`WebSite` site-wide, `Article` +
-   `BreadcrumbList` on each Journal post, and `ItemList`/`GovernmentService`-style markup for the
-   funding programs. This is high-leverage for GEO/AI-citation. (Per-route, injected like the meta.)
+1. ~~**Schema.org structured data**~~ — DONE (commit `01064f2`): `Organization`/`WebSite` site-wide
+   (publisher: Frayze) + `Article` + `BreadcrumbList` per Journal post via `lib/useJsonLd.js`, captured
+   by the prerender. FOLLOW-UP: add `ItemList`/`GovernmentService`-style markup for the funding programs
+   once they have their own pages (backlog item 4).
 2. **Internal linking** — link Journal posts to each other and to the relevant funding-radar programs;
    add "related programs" on posts and "related reading" on the radar. Crawl depth + topical authority.
 3. **Open Graph / share images** — per-page OG image so shares/AI previews look credible.
