@@ -121,3 +121,20 @@ Other agents and the operator also push to `main`, so your checkout may be behin
    sources you verified).
 5. If you are NOT confident the post is accurate and on-strategy, DO NOT publish — skip this run
    and email Denis why. A missed week is fine; a wrong post on an authority site is not.
+
+## Social spec — WEEKLY SIGNAL LANE ONLY (feeds the Instagram engine)
+After you publish the **weekly Signal** (Lane 1), also write `scripts/social/spec.json` and commit it
+in the SAME commit. A local job renders that spec into an Instagram **carousel + reel + story** and
+schedules them to the @thunderbayai IG (it consumes the committed spec; it never calls an LLM). Build
+the spec from the Signal you just wrote:
+- Pick the **5 strongest stories**. For each: a SHORT punchy visual keyword (`big` — a real number/dollar
+  figure like "$2B"/"$26B", or one strong word like "BLOCKED"/"RING OF FIRE"), a tight `title`, 1-2
+  flashcard sentences (`body`), and an open-loop `tease` ("Next: ..."; last one "The throughline ->").
+- A **scroll-stopping cover hook** (lead with the single most dramatic story that is TRUE to the Signal)
+  + a curiosity-gap `sub`.
+- The `summary` (the week's throughline) + `captions` (carousel + reel — no emoji, end with hashtags,
+  link-in-bio, no raw URL in the body).
+- **Exact schema + rules: `scripts/social/make-spec-prompt.md`.** Proof-integrity: every hook and number
+  must be TRUE to the Signal; no emoji; flashcard-tight. This is the ONLY extra file the Signal lane
+  writes — the bi-weekly deep posts (Lane 2) skip it. If you cannot produce a confident spec, leave the
+  old spec.json in place (the local job dedups by `iso`, so it simply will not re-post).

@@ -1,0 +1,28 @@
+{
+  "iso": "2026-06-28",
+  "issueNo": "01",
+  "dateLabel": "JUN 28",
+  "handle": "thunderbayai",
+  "cover": {
+    "hook": "Canada just lost access to the world’s newest AI.",
+    "sub": "Plus a $26B project near Ignace, and 3 more moves that matter for the Northwest this week."
+  },
+  "reelSub": "And 4 more moves that hit the Northwest this week.",
+  "storySub": "What it means for a Northwest business.",
+  "items": [
+    { "tag": "NATIONAL", "big": "$2B", "bigSize": "180px", "title": "Canada just bet $2B on AI", "body": "A national strategy with a regional fund aimed beyond Toronto. The North is named in scope.", "tease": "Next: the model ban that hit Canada", "reelLine": "Canada’s new national AI bet — the North is in scope." },
+    { "tag": "MODEL WATCH", "big": "BLOCKED", "bigSize": "120px", "title": "Canada cut off from the newest AI", "body": "A US order pulled two new models for foreign users. Lesson: never build on one provider.", "tease": "Next: a $26B project up north", "reelLine": "A US order pulled two new models for foreign users." },
+    { "tag": "INFRASTRUCTURE", "big": "$26B", "bigSize": "180px", "title": "A $26B build is coming near Ignace", "body": "Ottawa is fast-tracking the deep geological repository. Decades of construction and skilled jobs.", "tease": "Next: the Ring of Fire road", "reelLine": "A project fast-tracked near Ignace." },
+    { "tag": "LOCAL", "big": "RING OF FIRE", "bigSize": "86px", "title": "The access road cleared its last gate", "body": "Thunder Bay is the logistics hub. Procurement and services are starting to move.", "tease": "Next: flights are back", "reelLine": "The access road cleared its final gate." },
+    { "tag": "LOCAL", "big": "REOPENED", "bigSize": "112px", "title": "Fort Frances flights return July 6", "body": "North Star Air restores the Thunder Bay link lost in 2024. Same-day, no four-hour drive.", "tease": "The throughline ->", "reelLine": "Fort Frances–Thunder Bay flights return July 6." }
+  ],
+  "summary": {
+    "title": "Money is flowing into the North — and AI access just got political.",
+    "body": "Federal billions, a $26B build, and a corridor opening up. The opportunity is real. The risk is depending on tools a government can switch off."
+  },
+  "captions": {
+    "carousel": "This week in Northwestern Ontario AI.\n\nCanada committed $2B to AI, with Northern Ontario explicitly in scope. A US directive cut Canadian access to two newly launched models. A $26B project is being fast-tracked near Ignace. And the Ring of Fire access road cleared its final environmental gate — with Thunder Bay as the logistics hub.\n\nThe full breakdown, sourced, with what each one means for the Northwest, is in the weekly Signal. Free, one email, reviewed by humans. Link in bio.\n\n#ThunderBay #NorthwesternOntario #AINews #NWOntario #RingOfFire #CanadaAI",
+    "reel": "The week in Northwestern Ontario AI. Canada bet $2B, got cut off from the newest models, and a $26B project is headed for Ignace. Full breakdown — link in bio. Follow for the weekly Signal. #ThunderBay #NorthwesternOntario #AINews #NWOntario",
+    "story": "Story frame — add a poll sticker (\"Does this worry you? Yes / No\") and a link sticker to thunderbayai.com."
+  }
+}
