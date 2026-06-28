@@ -45,6 +45,7 @@ export default function BlogPost() {
     title: post ? `${post.title} | Thunder Bay AI` : 'Not found | Thunder Bay AI',
     description: post ? post.dek : undefined,
     path: post ? `/blog/${post.slug}` : undefined,
+    type: 'article',
   });
 
   const url = post ? `https://thunderbayai.com/blog/${post.slug}` : undefined;
