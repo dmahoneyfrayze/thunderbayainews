@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { ArrowLeft, Clock, Info } from 'lucide-react';
 import { getPost, POSTS } from '../data/posts';
 import { useDocumentMeta } from '../lib/useDocumentMeta';
+import { useJsonLd } from '../lib/useJsonLd';
 
 function Block({ block }) {
   switch (block.type) {
@@ -45,6 +46,35 @@ export default function BlogPost() {
     description: post ? post.dek : undefined,
     path: post ? `/blog/${post.slug}` : undefined,
   });
+
+  const url = post ? `https://thunderbayai.com/blog/${post.slug}` : undefined;
+  useJsonLd(post ? {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'Article',
+        headline: post.title,
+        description: post.dek,
+        datePublished: post.iso,
+        dateModified: post.iso,
+        articleSection: post.category,
+        inLanguage: 'en-CA',
+        author: { '@type': 'Organization', name: 'Thunder Bay AI', url: 'https://thunderbayai.com' },
+        publisher: { '@type': 'Organization', name: 'Frayze', url: 'https://frayze.ca' },
+        isPartOf: { '@id': 'https://thunderbayai.com/#website' },
+        mainEntityOfPage: { '@type': 'WebPage', '@id': url },
+        url,
+      },
+      {
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://thunderbayai.com' },
+          { '@type': 'ListItem', position: 2, name: 'Journal', item: 'https://thunderbayai.com/blog' },
+          { '@type': 'ListItem', position: 3, name: post.title, item: url },
+        ],
+      },
+    ],
+  } : null);
 
   if (!post) {
     return (
