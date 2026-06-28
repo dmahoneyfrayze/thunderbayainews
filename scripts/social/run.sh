@@ -31,6 +31,13 @@ REEL=$(date -v+3d -u +%Y-%m-%dT13:00:00.000Z 2>/dev/null || date -u -d "+3 day" 
 note "scheduling carousel ($CAR) + reel ($REEL)..."
 RES=$(bash "$SOCIAL/post.sh" "$OUT" "$ACCT" "$CAR" "$REEL" 2>&1); note "$RES"
 
+# log created posts for the monitor (engagement feedback loop)
+HK=$(jq -r '.cover.hook' "$SPEC" | sed 's/"/\\"/g')
+CID=$(printf '%s\n' "$RES" | sed -n 's/.*carousel post -> HTTP 20[01] id=\([A-Za-z0-9]*\).*/\1/p')
+RID=$(printf '%s\n' "$RES" | sed -n 's/.*reel post -> HTTP 20[01] id=\([A-Za-z0-9]*\).*/\1/p')
+[ -n "$CID" ] && echo "{\"id\":\"$CID\",\"type\":\"carousel\",\"iso\":\"$ISO\",\"topic\":\"weekly-signal\",\"hook\":\"$HK\"}" >> "$SOCIAL/posts-log.jsonl"
+[ -n "$RID" ] && echo "{\"id\":\"$RID\",\"type\":\"reel\",\"iso\":\"$ISO\",\"topic\":\"weekly-signal\",\"hook\":\"$HK\"}" >> "$SOCIAL/posts-log.jsonl"
+
 if echo "$RES" | grep -q "HTTP 20[01]"; then
   echo "$ISO" > "$MARKER"; notify "scheduled this week's carousel + reel — review in the GHL planner"; note "done"
 else

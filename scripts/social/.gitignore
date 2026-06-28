@@ -1,5 +1,9 @@
 out/
 run.log
 launchd.log
+monitor.log
 .last-posted
 *.raw
+posts-log.jsonl
+stats-history.jsonl
+brief.txt
