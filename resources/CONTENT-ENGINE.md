@@ -29,6 +29,12 @@ thing standing between this and the AI-slop that gets authority sites penalized.
   post's `source` block with URLs.
 - **No fabricated news, dates, benchmarks, metrics, quotes, or events.** Ever. If you cannot
   confirm a specific, write the evergreen/explainer version or omit it.
+- **Major-AI claims are the HIGHEST hallucination risk — verify to the PRIMARY source.** Model
+  names/versions, benchmark numbers, release dates, who-said-what, and government actions must be
+  confirmed against the primary source (the lab's own announcement / the government's release) or
+  corroborated across two reputable outlets — never from memory and never from a single unreliable
+  blog. If a benchmark or capability claim can't be primary-sourced, describe it qualitatively or
+  leave it out. Getting a model fact wrong on an AI-authority site is the fastest way to lose trust.
 - **Funding/eligibility** is always "confirm with the program," never "you qualify." Never list
   closed programs (CDAP closed 2024; NOIC Next Level on hold).
 - **No emojis anywhere.** Plain, sharp prose. Lead with the point.
@@ -42,12 +48,23 @@ A weekly roundup of the AI / tech / funding / government developments that matte
 This lane is LOW hallucination-risk because it is summary + link, not invented analysis — lean
 into that: every item is a real story or update with a real source link.
 
-**Sources to scan (use WebSearch + WebFetch; prefer official + established local outlets):**
+**Sources to scan (use WebSearch + WebFetch; prefer official + established outlets):**
+- **Major AI news (cover the big stuff, then localize it):** major model releases and breakthroughs,
+  big AI-company moves, and AI **government intervention / regulation** — US, Canada, EU, global.
+  Sources: the labs' own announcements (Anthropic, OpenAI, Google DeepMind, Meta, Mistral, etc.),
+  reputable tech press (Reuters, TechCrunch, The Verge, Fortune, Bloomberg, The Hill), and government/
+  policy releases (US Commerce/export controls, Canada ISED / Innovation Canada + the federal AI
+  directive, the EU AI Act). Worked example of exactly the right story: the **US government forcing
+  Anthropic to pull Fable 5 / Mythos 5 worldwide via an export-control directive (June 2026)** — a
+  major event whose angle for us is "what a US AI-model ban means for a Canadian/Ontario business that
+  relies on these tools." Cover the announcement/breakthrough/regulation, then ALWAYS land the
+  NWO / Ontario / Canada / local-business angle. That local hook is the moat — anyone can report the
+  headline; few connect it to a Thunder Bay operator or Ontario policy.
 - Local: netnewsledger.com, northernontariobusiness.com, tbnewswatch.com, CBC Thunder Bay,
   the CEDC feed (gotothunderbay.ca), the City of Thunder Bay.
 - Funding bodies: fednor.canada.ca, nohfc.ca, nwoinnovation.ca (program updates/deadlines).
-- AI/tech: major AI news, but ONLY items with a credible NWO/Ontario/Canada angle or clear
-  relevance to a local business or government audience.
+- Regional industry AI (NWO-relevant verticals): AI in mining, forestry, energy, healthcare,
+  and public services — where it touches the Northwest's actual economy.
 
 **Build a roundup post** (category `News`, title like "The Signal: AI & funding in the Northwest,
 week of <Month DD>"): a short intro line, then 4-7 items. Each item = a `h2` short headline +
