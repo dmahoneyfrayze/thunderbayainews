@@ -3,13 +3,14 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowUpRight, Clock } from 'lucide-react';
 import TiltCard from '../components/TiltCard';
+import BriefSignup from '../components/BriefSignup';
 import { POSTS } from '../data/posts';
 import { useDocumentMeta } from '../lib/useDocumentMeta';
 
 export default function Blog() {
   useDocumentMeta({
     title: 'The Journal — AI, tech, funding & government for Northwestern Ontario | Thunder Bay AI',
-    description: 'Structured, action-first breakdowns of the AI news, local tech, government moves, funding, model comparisons, and tips that matter for Northwestern Ontario.',
+    description: 'Structured, source-linked breakdowns of the AI news, funding (FedNor RAII, NOIC BBAA), government moves, model comparisons, and practical tips that matter for Northwestern Ontario businesses.',
     path: '/blog',
   });
   return (
@@ -35,6 +36,7 @@ export default function Blog() {
             municipalities, and the people here. Model breakdowns, practical tips, government and
             funding moves, and honest takes on the tools. The signal for AI in the Northwest.
           </p>
+          <span style={styles.cadence}>New briefs published weekly — checked by a human before they go live.</span>
         </motion.div>
 
         <div style={styles.grid}>
@@ -65,6 +67,10 @@ export default function Blog() {
             </motion.div>
           ))}
         </div>
+
+        <div style={{ marginTop: '64px' }}>
+          <BriefSignup heading="Never miss the Northwest's AI signal" />
+        </div>
       </div>
     </div>
   );
@@ -94,6 +100,7 @@ const styles = {
     margin: '20px 0 24px',
   },
   dek: { fontSize: '18px', color: 'hsl(var(--text-secondary))', lineHeight: 1.6, maxWidth: '620px' },
+  cadence: { display: 'block', marginTop: '18px', fontFamily: 'var(--font-label)', fontSize: '12px', letterSpacing: '0.08em', color: 'hsl(var(--primary-cyan))' },
   grid: {
     display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(340px, 1fr))', gap: '28px',
   },

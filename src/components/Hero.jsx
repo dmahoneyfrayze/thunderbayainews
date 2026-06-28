@@ -5,6 +5,7 @@ import { ChevronDown } from 'lucide-react';
 import { AnimatedGridPattern } from './AnimatedGridPattern';
 import { scrollToId } from '../lib/smoothScroll';
 import { useIsMobile } from '../lib/useIsMobile';
+import { GRANTS_DATA } from '../data';
 
 export default function Hero() {
   const containerRef = useRef(null);
@@ -70,21 +71,21 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
           style={styles.ctaGroup}
         >
-          <Link
-            to="/blog"
-            className="btn btn-cyan"
-            style={{ ...styles.ctaPrimary, textDecoration: 'none' }}
-          >
-            Read the Journal
-            <span>→</span>
-          </Link>
           <button
-            className="btn btn-secondary"
-            style={styles.ctaSecondary}
+            className="btn btn-cyan"
+            style={styles.ctaPrimary}
             onClick={() => handleScrollTo('weekly-brief')}
           >
             Get the weekly brief
+            <span>→</span>
           </button>
+          <Link
+            to="/blog"
+            className="btn btn-secondary"
+            style={{ ...styles.ctaSecondary, textDecoration: 'none' }}
+          >
+            Read the Journal
+          </Link>
         </motion.div>
 
         {/* Floating statistics panel */}
@@ -106,8 +107,8 @@ export default function Hero() {
           </div>
           {!isMobile && <div style={styles.statDivider} />}
           <div style={styles.statBox}>
-            <span style={styles.statNumber} className="accent-text">6</span>
-            <span style={styles.statLabel}>Beats covered</span>
+            <span style={styles.statNumber} className="accent-text">{GRANTS_DATA.length}</span>
+            <span style={styles.statLabel}>Funding programs tracked</span>
           </div>
         </motion.div>
       </div>

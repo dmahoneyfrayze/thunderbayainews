@@ -14,7 +14,7 @@ import { POSTS } from '../src/data/posts.js';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const distPath = path.join(process.cwd(), 'dist');
 
-const routes = ['/', '/about', '/blog', ...POSTS.map((p) => `/blog/${p.slug}`)];
+const routes = ['/', '/about', '/funding', '/blog', ...POSTS.map((p) => `/blog/${p.slug}`)];
 
 const MIME = { '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.svg': 'image/svg+xml', '.png': 'image/png', '.jpg': 'image/jpeg', '.webp': 'image/webp', '.woff2': 'font/woff2', '.ico': 'image/x-icon' };
 
@@ -71,11 +71,23 @@ const run = async () => {
       path.join(distPath, 'sitemap.xml'),
       `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls}\n</urlset>\n`
     );
+
+    // Google News sitemap — only articles published in the last 2 days qualify
+    const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    const cutoff = new Date(Date.now() - 2 * 864e5).toISOString().slice(0, 10);
+    const newsItems = POSTS.filter((p) => p.iso >= cutoff).map((p) =>
+      `  <url>\n    <loc>${SITE}/blog/${p.slug}</loc>\n    <news:news>\n      <news:publication><news:name>Thunder Bay AI</news:name><news:language>en</news:language></news:publication>\n      <news:publication_date>${p.iso}</news:publication_date>\n      <news:title>${esc(p.title)}</news:title>\n    </news:news>\n  </url>`
+    ).join('\n');
+    fs.writeFileSync(
+      path.join(distPath, 'news-sitemap.xml'),
+      `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">\n${newsItems}\n</urlset>\n`
+    );
+
     fs.writeFileSync(
       path.join(distPath, 'robots.txt'),
-      `User-agent: *\nAllow: /\n\nSitemap: ${SITE}/sitemap.xml\n`
+      `User-agent: *\nAllow: /\n\nSitemap: ${SITE}/sitemap.xml\nSitemap: ${SITE}/news-sitemap.xml\n`
     );
-    console.log('  saved sitemap.xml + robots.txt');
+    console.log('  saved sitemap.xml + news-sitemap.xml + robots.txt');
     console.log('Prerendering complete.');
   } finally {
     await browser.close();

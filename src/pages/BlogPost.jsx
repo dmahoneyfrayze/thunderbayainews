@@ -1,10 +1,11 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { ArrowLeft, Clock, Info } from 'lucide-react';
+import { ArrowLeft, Clock, Info, Copy, Check, ArrowUpRight } from 'lucide-react';
 import { getPost, POSTS } from '../data/posts';
 import { useDocumentMeta } from '../lib/useDocumentMeta';
 import { useJsonLd } from '../lib/useJsonLd';
+import BriefSignup from '../components/BriefSignup';
 
 function Block({ block }) {
   switch (block.type) {
@@ -20,6 +21,13 @@ function Block({ block }) {
             </li>
           ))}
         </ul>
+      );
+    case 'answer':
+      return (
+        <div style={styles.answer}>
+          <span style={styles.answerLabel}>THE SHORT ANSWER</span>
+          <p style={styles.answerText}>{block.text}</p>
+        </div>
       );
     case 'callout':
       return (
@@ -38,6 +46,7 @@ function Block({ block }) {
 export default function BlogPost() {
   const { slug } = useParams();
   const post = getPost(slug);
+  const [copied, setCopied] = useState(false);
 
   useEffect(() => { window.scrollTo(0, 0); }, [slug]);
 
@@ -49,33 +58,41 @@ export default function BlogPost() {
   });
 
   const url = post ? `https://thunderbayai.com/blog/${post.slug}` : undefined;
-  useJsonLd(post ? {
-    '@context': 'https://schema.org',
-    '@graph': [
-      {
-        '@type': 'Article',
-        headline: post.title,
-        description: post.dek,
-        datePublished: post.iso,
-        dateModified: post.iso,
-        articleSection: post.category,
-        inLanguage: 'en-CA',
-        author: { '@type': 'Organization', name: 'Thunder Bay AI', url: 'https://thunderbayai.com' },
-        publisher: { '@type': 'Organization', name: 'Frayze', url: 'https://frayze.ca' },
-        isPartOf: { '@id': 'https://thunderbayai.com/#website' },
-        mainEntityOfPage: { '@type': 'WebPage', '@id': url },
-        url,
-      },
-      {
-        '@type': 'BreadcrumbList',
-        itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://thunderbayai.com' },
-          { '@type': 'ListItem', position: 2, name: 'Journal', item: 'https://thunderbayai.com/blog' },
-          { '@type': 'ListItem', position: 3, name: post.title, item: url },
-        ],
-      },
-    ],
-  } : null);
+  const jsonGraph = post ? [
+    {
+      '@type': 'Article',
+      headline: post.title,
+      description: post.dek,
+      datePublished: post.iso,
+      dateModified: post.iso,
+      articleSection: post.category,
+      inLanguage: 'en-CA',
+      author: { '@type': 'Organization', name: 'Thunder Bay AI', url: 'https://thunderbayai.com' },
+      publisher: { '@type': 'Organization', name: 'Frayze', url: 'https://frayze.ca' },
+      isPartOf: { '@id': 'https://thunderbayai.com/#website' },
+      mainEntityOfPage: { '@type': 'WebPage', '@id': url },
+      url,
+    },
+    {
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://thunderbayai.com' },
+        { '@type': 'ListItem', position: 2, name: 'Journal', item: 'https://thunderbayai.com/blog' },
+        { '@type': 'ListItem', position: 3, name: post.title, item: url },
+      ],
+    },
+  ] : null;
+  if (post && post.faq && post.faq.length) {
+    jsonGraph.push({
+      '@type': 'FAQPage',
+      mainEntity: post.faq.map((f) => ({
+        '@type': 'Question',
+        name: f.q,
+        acceptedAnswer: { '@type': 'Answer', text: f.a },
+      })),
+    });
+  }
+  useJsonLd(post ? { '@context': 'https://schema.org', '@graph': jsonGraph } : null);
 
   if (!post) {
     return (
@@ -89,7 +106,17 @@ export default function BlogPost() {
     );
   }
 
-  const more = POSTS.filter((p) => p.slug !== post.slug).slice(0, 2);
+  const sameCat = POSTS.filter((p) => p.slug !== post.slug && p.category === post.category);
+  const others = POSTS.filter((p) => p.slug !== post.slug && p.category !== post.category);
+  const more = [...sameCat, ...others].slice(0, 2);
+
+  const xUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(post.title)}&url=${encodeURIComponent(url)}`;
+  const liUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(url)}`;
+  const copyLink = () => {
+    if (navigator.clipboard && url) {
+      navigator.clipboard.writeText(url).then(() => { setCopied(true); setTimeout(() => setCopied(false), 1800); }).catch(() => {});
+    }
+  };
 
   return (
     <div style={styles.page}>
@@ -126,17 +153,49 @@ export default function BlogPost() {
           {post.blocks.map((b, i) => <Block key={i} block={b} />)}
         </motion.div>
 
-        {/* CTA */}
-        <div className="glass-panel" style={styles.cta}>
-          <h3 style={styles.ctaTitle}>Stay on top of this</h3>
-          <p style={styles.ctaDek}>
-            The agent tracks every program, deadline, and AI shift in the region. Get the ones that
-            matter in a weekly email — filtered, and checked by a human.
-          </p>
-          <Link to="/" state={{ scrollTo: 'weekly-brief' }} className="btn btn-cyan" style={{ textDecoration: 'none' }}>
-            Get the weekly brief
-          </Link>
+        {/* FAQ (also emitted as FAQPage schema) */}
+        {post.faq && post.faq.length > 0 && (
+          <section style={styles.faqWrap}>
+            <h2 style={styles.h2}>Frequently asked</h2>
+            {post.faq.map((f, i) => (
+              <div key={i} style={styles.faqItem}>
+                <h3 style={styles.faqQ}>{f.q}</h3>
+                <p style={styles.faqA}>{f.a}</p>
+              </div>
+            ))}
+          </section>
+        )}
+
+        {/* Share */}
+        <div style={styles.shareRow}>
+          <span style={styles.shareLabel}>Share this brief</span>
+          <div style={styles.shareBtns}>
+            <button onClick={copyLink} style={styles.shareBtn}>
+              {copied ? <Check size={15} /> : <Copy size={15} />} {copied ? 'Link copied' : 'Copy link'}
+            </button>
+            <a href={xUrl} target="_blank" rel="noopener noreferrer" style={styles.shareBtn}>Share on X</a>
+            <a href={liUrl} target="_blank" rel="noopener noreferrer" style={styles.shareBtn}>Share on LinkedIn</a>
+          </div>
         </div>
+
+        {/* Inline signup — capture at the moment of highest intent */}
+        <div style={{ marginTop: '44px' }}>
+          <BriefSignup heading="Get the weekly Signal" />
+        </div>
+
+        {/* Related cross-links */}
+        {post.related && post.related.length > 0 && (
+          <div style={styles.relatedWrap}>
+            <span className="font-label">RELATED ON THUNDER BAY AI</span>
+            <div style={styles.relatedList}>
+              {post.related.map((r, i) => (
+                <Link key={i} to={r.to} style={styles.relatedLink}>
+                  <span>{r.label}</span> <ArrowUpRight size={15} />
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
 
         {/* more */}
         <div style={styles.moreWrap}>
@@ -187,4 +246,40 @@ const styles = {
   moreGrid: { display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '20px', marginTop: '20px' },
   moreCard: { display: 'flex', flexDirection: 'column', gap: '14px', padding: '24px', borderRadius: '16px', textDecoration: 'none', color: 'inherit' },
   moreTitle: { fontFamily: 'var(--font-heading)', fontSize: '17px', fontWeight: 700, lineHeight: 1.3, letterSpacing: '-0.01em' },
+
+  // direct-answer lead box (GEO/citability)
+  answer: {
+    margin: '0 0 32px', padding: '22px 24px', borderRadius: '14px',
+    background: 'linear-gradient(135deg, hsla(184,100%,48%,0.07) 0%, hsla(275,80%,56%,0.05) 100%)',
+    borderLeft: '3px solid hsl(var(--primary-cyan))',
+  },
+  answerLabel: { fontFamily: 'var(--font-label)', fontSize: '10px', letterSpacing: '0.24em', color: 'hsl(var(--primary-cyan))', textTransform: 'uppercase', display: 'block', marginBottom: '10px' },
+  answerText: { fontSize: '17px', color: 'hsl(var(--text-primary))', lineHeight: 1.65, margin: 0 },
+
+  // FAQ
+  faqWrap: { marginTop: '56px' },
+  faqItem: { padding: '20px 0', borderTop: '1px solid hsla(0,0%,100%,0.07)' },
+  faqQ: { fontFamily: 'var(--font-heading)', fontSize: '18px', fontWeight: 700, marginBottom: '8px', letterSpacing: '-0.01em' },
+  faqA: { fontSize: '15.5px', color: 'hsl(var(--text-secondary))', lineHeight: 1.65, margin: 0 },
+
+  // share
+  shareRow: { marginTop: '48px', display: 'flex', alignItems: 'center', gap: '18px', flexWrap: 'wrap', paddingTop: '24px', borderTop: '1px solid hsla(0,0%,100%,0.07)' },
+  shareLabel: { fontFamily: 'var(--font-label)', fontSize: '11px', letterSpacing: '0.18em', textTransform: 'uppercase', color: 'hsl(var(--text-muted))' },
+  shareBtns: { display: 'flex', gap: '10px', flexWrap: 'wrap' },
+  shareBtn: {
+    display: 'inline-flex', alignItems: 'center', gap: '7px', cursor: 'pointer',
+    fontFamily: 'var(--font-body)', fontSize: '13px', color: 'hsl(var(--text-secondary))',
+    background: 'rgba(255,255,255,0.03)', border: '1px solid hsla(0,0%,100%,0.08)',
+    borderRadius: '8px', padding: '8px 14px', textDecoration: 'none',
+  },
+
+  // related cross-links
+  relatedWrap: { marginTop: '52px' },
+  relatedList: { display: 'flex', flexDirection: 'column', gap: '10px', marginTop: '16px' },
+  relatedLink: {
+    display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '12px',
+    padding: '14px 18px', borderRadius: '12px', textDecoration: 'none',
+    color: 'hsl(var(--text-primary))', fontSize: '15px', fontWeight: 600,
+    background: 'rgba(255,255,255,0.02)', border: '1px solid hsla(0,0%,100%,0.07)',
+  },
 };

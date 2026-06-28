@@ -11,6 +11,7 @@ import Home from './pages/Home';
 import Blog from './pages/Blog';
 import BlogPost from './pages/BlogPost';
 import About from './pages/About';
+import Funding from './pages/Funding';
 
 export default function App() {
   const location = useLocation();
@@ -50,6 +51,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/funding" element={<Funding />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/:slug" element={<BlogPost />} />
           <Route path="*" element={<Home />} />
@@ -76,12 +78,17 @@ export default function App() {
             <span style={styles.copyright}>
               &copy; {new Date().getFullYear()} Thunder Bay AI. All rights reserved.
             </span>
+            <span style={styles.credit}>
+              Built and operated by{' '}
+              <a href="https://frayze.ca" target="_blank" rel="noopener noreferrer" style={styles.creditLink}>Frayze</a>
+              {' '}— a Thunder Bay AI and automation studio.
+            </span>
           </div>
 
           <div style={styles.footerLinksGroup}>
             <div style={styles.linksCol}>
               <h4 style={styles.linksTitle}>Platform</h4>
-              <span style={styles.footerLink} onClick={() => handleScrollTo('radar')}>Funding Radar</span>
+              <Link to="/funding" style={{ ...styles.footerHref, display: 'block' }}>Funding Radar</Link>
               <span style={styles.footerLink} onClick={() => handleScrollTo('intelligence')}>Intelligence Feed</span>
               <span style={styles.footerLink} onClick={() => handleScrollTo('weekly-brief')}>Weekly Brief</span>
               <Link to="/blog" style={{ ...styles.footerHref, display: 'block' }}>Journal</Link>
@@ -160,6 +167,16 @@ const styles = {
     fontSize: '12px',
     color: 'hsl(var(--text-muted))',
     marginTop: '10px',
+  },
+  credit: {
+    fontSize: '12px',
+    color: 'hsl(var(--text-muted))',
+    marginTop: '6px',
+    lineHeight: 1.5,
+  },
+  creditLink: {
+    color: 'hsl(var(--text-secondary))',
+    textDecoration: 'none',
   },
   footerLinksGroup: {
     display: 'flex',

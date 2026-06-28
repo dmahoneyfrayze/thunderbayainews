@@ -52,6 +52,11 @@
     </script>
   </head>
   <body>
+    <!-- Netlify Forms detection target (hidden). Real React forms submit to this via fetch. -->
+    <form name="weekly-brief" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="email" name="email" />
+      <input type="text" name="bot-field" />
+    </form>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>

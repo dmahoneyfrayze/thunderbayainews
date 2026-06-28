@@ -45,7 +45,6 @@ export default function Header() {
         {!isMobile && (
         <nav style={styles.desktopNav}>
           {[
-            { label: 'FUNDING', id: 'radar' },
             { label: 'INTELLIGENCE', id: 'intelligence' },
             { label: 'BUILDS', id: 'funded-builds' },
             { label: 'BRIEF', id: 'weekly-brief' },
@@ -61,6 +60,13 @@ export default function Header() {
               {item.label}
             </motion.span>
           ))}
+          <motion.span
+            initial={{ opacity: 0, y: -10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.35 }}
+          >
+            <Link to="/funding" style={{ ...styles.navLink, textDecoration: 'none' }}>FUNDING</Link>
+          </motion.span>
           <motion.span
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
@@ -113,15 +119,15 @@ export default function Header() {
           style={styles.mobileDropdown}
           className="glass-panel"
         >
-          <span style={styles.mobileNavLink} onClick={() => handleScrollTo('radar')}>Funding Radar</span>
+          <Link to="/funding" style={{ ...styles.mobileNavLink, textDecoration: 'none' }} onClick={() => setMobileMenuOpen(false)}>Funding</Link>
           <span style={styles.mobileNavLink} onClick={() => handleScrollTo('intelligence')}>Intelligence Feed</span>
           <span style={styles.mobileNavLink} onClick={() => handleScrollTo('funded-builds')}>Funded Builds</span>
           <span style={styles.mobileNavLink} onClick={() => handleScrollTo('weekly-brief')}>Weekly Brief</span>
           <Link to="/blog" style={{ ...styles.mobileNavLink, textDecoration: 'none' }} onClick={() => setMobileMenuOpen(false)}>Journal</Link>
           <Link to="/about" style={{ ...styles.mobileNavLink, textDecoration: 'none' }} onClick={() => setMobileMenuOpen(false)}>About</Link>
           <div style={styles.mobileCtaGroup}>
-            <button className="btn btn-cyan" style={{ width: '100%' }} onClick={() => handleScrollTo('funded-builds')}>
-              Get Funded Build
+            <button className="btn btn-cyan" style={{ width: '100%' }} onClick={() => handleScrollTo('weekly-brief')}>
+              Get the weekly brief
             </button>
           </div>
         </motion.div>

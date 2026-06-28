@@ -4,8 +4,12 @@ import { CheckCircle2 } from 'lucide-react';
 import { AnimatedGridPattern } from './AnimatedGridPattern';
 import { useIsMobile } from '../lib/useIsMobile';
 
+const encodeForm = (data) =>
+  Object.keys(data).map((k) => encodeURIComponent(k) + '=' + encodeURIComponent(data[k])).join('&');
+
 export default function WeeklyBrief() {
   const [email, setEmail] = useState('');
+  const [botField, setBotField] = useState('');
   const [subscribed, setSubscribed] = useState(false);
   const isMobile = useIsMobile();
 
@@ -13,9 +17,15 @@ export default function WeeklyBrief() {
     e.preventDefault();
     const formData = new FormData(e.target);
     const submittedEmail = formData.get('subscriberEmail') || email;
-    
+
     if (submittedEmail) {
       setEmail(submittedEmail);
+      // Real capture: post to the Netlify "weekly-brief" form (detected via the hidden form in index.html)
+      fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: encodeForm({ 'form-name': 'weekly-brief', email: submittedEmail, 'bot-field': botField }),
+      }).catch(() => {});
       setSubscribed(true);
 
       const nativeEvent = e.nativeEvent || e;
@@ -61,26 +71,37 @@ export default function WeeklyBrief() {
                 human. No spam. Unsubscribe anytime.
               </p>
               
+              {/* honeypot — hidden from humans, filled by bots; Netlify rejects server-side */}
+              <input
+                type="text"
+                name="bot-field"
+                tabIndex={-1}
+                autoComplete="off"
+                aria-hidden="true"
+                value={botField}
+                onChange={(e) => setBotField(e.target.value)}
+                style={{ position: 'absolute', left: '-9999px', width: '1px', height: '1px', opacity: 0 }}
+              />
               <div style={{ ...styles.inputGroup, flexDirection: isMobile ? 'column' : 'row' }}>
-                <input 
-                  type="email" 
+                <input
+                  type="email"
                   id="subscriberEmail"
                   name="subscriberEmail"
-                  className="form-input" 
-                  style={styles.emailInput} 
-                  placeholder="Enter your business email address..."
+                  className="form-input"
+                  style={styles.emailInput}
+                  placeholder="Enter your email address..."
                   required
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   toolparamdescription="The business email address to subscribe to the weekly brief."
                 />
                 <button className="btn btn-cyan" type="submit" style={styles.submitBtn}>
-                  Subscribe Brief
+                  Get the weekly brief
                 </button>
               </div>
-              
+
               <span style={styles.disclaimer}>
-                By subscribing, you agree to receive email briefs from Thunder Bay AI. We protect your data.
+                One email a week from Thunder Bay AI — source-linked, checked by a human. Unsubscribe anytime; we never share your address.
               </span>
             </form>
           ) : (

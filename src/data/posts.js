@@ -36,7 +36,19 @@ export const POSTS = [
     iso: '2026-06-27',
     readMins: 5,
     accent: ['#00f0ff', '#b800ff'],
+    faq: [
+      { q: 'What does BBAA stand for?', a: 'BBAA is the Building Blueprints for AI Adoption program, run by the Northwestern Ontario Innovation Centre (NOIC).' },
+      { q: 'How much is the BBAA grant?', a: 'Up to $20,000, covering up to 50% of eligible project costs — AI software, consulting, and integration. Funding is limited and runs in intakes; confirm the current amount with NOIC.' },
+      { q: 'Who qualifies for the BBAA grant?', a: 'Growth-oriented, for-profit SMEs in Northwestern Ontario with a valid Canadian business number. Retail-only businesses, distributors, resellers, and projects already underway are outside its scope.' },
+      { q: 'How do I apply for BBAA?', a: 'You complete a pre-application consultation and a 30/60/90-day AI Adoption Plan before the funding application. Contact NOIC (hussain@nwoinnovation.ca, 807-768-6682) to begin.' },
+    ],
+    related: [
+      { label: 'FedNor RAII: who actually qualifies', to: '/blog/fednor-raii-who-qualifies-thunder-bay' },
+      { label: 'Fund a custom AI build with a grant', to: '/blog/fund-a-custom-ai-build-with-a-grant' },
+      { label: 'All 17 NWO funding programs', to: '/funding' },
+    ],
     blocks: [
+      { type: 'answer', text: 'The BBAA grant (Building Blueprints for AI Adoption), run by the Northwestern Ontario Innovation Centre, provides up to $20,000 — covering up to 50% of eligible project costs — to help growth-oriented, for-profit SMEs in Northwestern Ontario adopt AI. You complete a 30/60/90-day AI Adoption Plan first. Retail-only businesses, distributors, resellers, and projects already underway are not eligible. Confirm current eligibility, amounts, and intake timing with NOIC.' },
       { type: 'p', text: 'If you run a Northwestern Ontario business and you actually want to adopt AI — not research it, not start a tech company, just put it to work — the Building Blueprints for AI Adoption (BBAA) program from the Northwestern Ontario Innovation Centre is the most directly relevant funding on the table. Most programs fund startups or R&D; this one funds adoption.' },
       { type: 'h2', text: 'What it covers' },
       { type: 'ul', items: [
@@ -121,6 +133,7 @@ export const POSTS = [
     readMins: 6,
     accent: ['#7b61ff', '#b800ff'],
     blocks: [
+      { type: 'answer', text: 'MFIPPA — Ontario’s Municipal Freedom of Information and Protection of Privacy Act — governs how municipal bodies handle records and personal information, and gives the public access rights to those records. For a Northwestern Ontario municipality, library board, or public agency, it is the primary privacy law that shapes what can be put into a third-party AI tool, and how.' },
       { type: 'p', text: 'Public-sector AI gets discussed at two unhelpful extremes: it will transform government, or it is too risky to touch. The realistic middle is more useful for a Northwestern Ontario municipality, library board, or public agency deciding where to start.' },
       { type: 'h2', text: 'Where it genuinely helps' },
       { type: 'ul', items: [
@@ -146,7 +159,19 @@ export const POSTS = [
     iso: '2026-06-24',
     readMins: 5,
     accent: ['#00f0ff', '#7b61ff'],
+    faq: [
+      { q: 'What is FedNor RAII?', a: 'The Regional Artificial Intelligence Initiative — FedNor’s program deploying Budget 2024’s regional AI-adoption funding across Northern Ontario.' },
+      { q: 'How much does RAII cover?', a: 'Up to 50% of eligible costs (the government funding cap). The specific project maximum varies — confirm it with FedNor.' },
+      { q: 'Is my retail business eligible for RAII?', a: 'Generally no — simple retail and service businesses without commercial scale are outside RAII’s intent. Broader NOIC programs such as BBAA may fit better. Confirm with the program.' },
+      { q: 'When is the RAII application deadline?', a: 'RAII runs on continuous intake — there is no single annual deadline, so the constraint is project readiness, not the calendar.' },
+    ],
+    related: [
+      { label: 'The BBAA grant: up to $20K to adopt AI', to: '/blog/bbaa-ai-adoption-grant-northwestern-ontario' },
+      { label: 'Fund a custom AI build with a grant', to: '/blog/fund-a-custom-ai-build-with-a-grant' },
+      { label: 'All 17 NWO funding programs', to: '/funding' },
+    ],
     blocks: [
+      { type: 'answer', text: 'FedNor’s Regional Artificial Intelligence Initiative (RAII) covers up to 50% of eligible costs for incorporated SMEs and economic organizations in Northern Ontario adopting AI to improve productivity, scale, or create skilled jobs. Intake is continuous — there is no annual deadline. Simple retail and service businesses without commercial scale are generally outside its intent; broader NOIC programs may fit better. Confirm your eligibility and the project maximum directly with FedNor.' },
       { type: 'p', text: 'The Regional Artificial Intelligence Initiative (RAII) is FedNor’s vehicle for deploying Budget 2024’s commitment to regional AI adoption across Northern Ontario. For a Thunder Bay business, it is the most direct line to having a real AI or automation project paid for largely with public money instead of cash flow.' },
       { type: 'p', text: 'It is also widely misunderstood. The number gets repeated; the eligibility rarely does. Here is the structured version.' },
       { type: 'h2', text: 'What the program offers' },
@@ -208,6 +233,11 @@ export const POSTS = [
     iso: '2026-06-18',
     readMins: 6,
     accent: ['#00f0ff', '#b800ff'],
+    related: [
+      { label: 'The BBAA grant: up to $20K to adopt AI', to: '/blog/bbaa-ai-adoption-grant-northwestern-ontario' },
+      { label: 'FedNor RAII: who actually qualifies', to: '/blog/fednor-raii-who-qualifies-thunder-bay' },
+      { label: 'All 17 NWO funding programs', to: '/funding' },
+    ],
     blocks: [
       { type: 'p', text: 'There is a quiet mismatch in Northern Ontario right now. Public programs are actively trying to push money into business AI adoption — and most owners who would qualify have no idea how to access it, so they either pay for software out of pocket or do nothing.' },
       { type: 'p', text: 'The play is to close that gap deliberately. A custom AI or automation build is, in the eyes of these programs, exactly the kind of adoption they exist to fund. So instead of treating the build as a cash expense, treat the grant as its funding mechanism.' },
