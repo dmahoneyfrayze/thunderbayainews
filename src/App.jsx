@@ -30,6 +30,17 @@ export default function App() {
     }
   }, [location.pathname, sectionTarget]);
 
+  // GA4 page_view per SPA route (config uses send_page_view:false); skip prerender/bots
+  useEffect(() => {
+    if (typeof window.gtag === 'function' && !navigator.webdriver) {
+      window.gtag('event', 'page_view', {
+        page_path: location.pathname + location.search,
+        page_location: window.location.href,
+        page_title: document.title,
+      });
+    }
+  }, [location.pathname, location.search]);
+
   const handleScrollTo = (id) => goToSection(id);
 
   return (

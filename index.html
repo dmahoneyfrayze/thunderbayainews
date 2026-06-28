@@ -4,6 +4,16 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Analytics 4 — page_view sent per route from App.jsx (send_page_view:false); skipped for the prerender/bots (navigator.webdriver) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-26RYXCP42D"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      if (!navigator.webdriver) { gtag('config', 'G-26RYXCP42D', { send_page_view: false }); }
+    </script>
+
     <title>Thunder Bay AI — Autonomous AI Intelligence Hub for Northwestern Ontario</title>
     <meta name="description" content="An autonomous agent tracks the AI news, local tech, government and municipal projects, funding, and tools that matter for Northwestern Ontario — then surfaces the signal. Monitored continuously, reviewed by humans." />
 
