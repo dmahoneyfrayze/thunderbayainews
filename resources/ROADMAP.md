@@ -50,10 +50,10 @@ blocks on BBAA/RAII/MFIPPA posts, news-sitemap.xml, share buttons, Frayze footer
 ### P0 GROWTH BACKLOG — MASSIVE VIEWS (Denis directive 2026-06-28; from the 3-agent review)
 Top priority. The first cluster is fast-ranking CONTENT the content engine should write next (proof-integrity:
 funding facts stay "confirm with the program," sourced):
-1. **"RAII vs BBAA: which grant is right for your NWO business"** — comparison post + table + FAQPage. The most-
-   searched UNANSWERED query in the NWO grant space; cross-links the two existing posts. Most time-sensitive.
-2. **"AI for Thunder Bay businesses — what's actually worth doing in 2026"** — highest-volume local query, near-zero
-   local competition; lead with missed-call recovery; name Thunder Bay/Kenora/Fort Frances; bridge to funding.
+1. ~~**"RAII vs BBAA: which grant is right for your NWO business"**~~ — DONE 2026-06-28
+   (`/blog/raii-vs-bbaa-which-grant-northwestern-ontario`, answer box + side-by-side + FAQPage + cross-links).
+2. ~~**"AI for Thunder Bay businesses — what's actually worth doing in 2026"**~~ — DONE 2026-06-28
+   (`/blog/ai-for-thunder-bay-businesses-2026`, missed-call-first, funding bridge, FAQPage).
 3. **Per-program pages** — one citable URL per funding program (`/funding/<id>`) with GovernmentService/FAQ schema.
    The big remaining GEO win (the index shipped; detail pages did not). One canonical URL per program.
 4. **Situational adoption posts** (low competition, strong local angle): AI for a NWO restaurant / construction co /
