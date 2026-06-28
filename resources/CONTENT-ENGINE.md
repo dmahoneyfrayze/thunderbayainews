@@ -105,10 +105,18 @@ Sanity-check `src/data.js` (GRANTS_DATA) deadlines/status against official sourc
 passed or a program changed, update it (and note it in the commit message). Do not delete a
 program without a source confirming it closed.
 
+## Git discipline (so the autopilot never silently fails on a conflict)
+Other agents and the operator also push to `main`, so your checkout may be behind. ALWAYS:
+- **Before committing:** `git pull --rebase origin main` so you're on the latest.
+- **If `git push` is rejected** (non-fast-forward): `git pull --rebase origin main`, resolve any
+  conflict (your new post is additive at the TOP of the POSTS array — keep both), then push again.
+- Never force-push. Retry the pull+rebase up to a few times before giving up and emailing Denis.
+
 ## Publish (Lane 1 and Lane 2 both)
 1. Run the **self-verification pass** above. If anything is unverifiable, fix or cut it.
 2. Confirm: no emoji, sources cited, regionally specific, builds locally if you can.
-3. `git add -A && git commit -m "autopilot: <title>"` on `main`, then `git push`. Netlify deploys.
+3. `git pull --rebase origin main`, then `git add -A && git commit -m "autopilot: <title>"`, then
+   `git push` (retry with pull --rebase if rejected). Netlify deploys.
 4. Email denis@frayze.ca the summary + live URL + commit SHA (Lane-2 deep posts: include the
    sources you verified).
 5. If you are NOT confident the post is accurate and on-strategy, DO NOT publish — skip this run

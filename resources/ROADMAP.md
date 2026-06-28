@@ -73,7 +73,9 @@ Work top-down; when an item ships, check it off (and note the commit) and add ne
 3. **Verify before shipping (non-negotiable):** `npm run lint` clean, **`npm run build` MUST succeed**
    (it runs the prerender — a broken build = a broken deploy). If the build fails, do NOT push — revert
    your changes and email Denis what blocked you.
-4. Commit atomically (`autopilot: <change>`), push to `main`, Netlify deploys.
+4. **Git discipline:** `git pull --rebase origin main` BEFORE committing (other agents/the operator
+   push too, so your checkout may be behind). Commit atomically (`autopilot: <change>`), push to `main`;
+   if push is rejected, `git pull --rebase` and retry (never force-push). Netlify deploys.
 5. Update this ROADMAP: check off what shipped (with the commit), add follow-ups you found.
 6. Email denis@frayze.ca: what changed, why, the live URL, the commit SHA. Always leave him a trail.
 7. If nothing is confidently shippable, ship nothing and email why. Never push a change you cannot
