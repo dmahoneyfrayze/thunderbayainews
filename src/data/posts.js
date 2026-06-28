@@ -2,6 +2,8 @@
 // for NWO owners (not generic "news"). Proof-integrity: eligibility is always framed
 // as "confirm with the program"; only public figures are cited; no client metrics.
 
+import { POSTS_BATCH2 } from './posts-batch-2.js';
+
 export const POSTS = [
   {
     slug: 'signal-ai-funding-nwo-week-june-28-2026',
@@ -183,6 +185,7 @@ export const POSTS = [
       { type: 'source', text: 'A decision framework, not an endorsement of any specific model. The June 2026 access restriction on Anthropic’s Fable 5 and Mythos 5 is a public event (see the official Anthropic statement and contemporaneous reporting). Confirm current availability and data-handling terms with each provider directly.' },
     ],
   },
+  ...POSTS_BATCH2,
   {
     slug: 'bbaa-ai-adoption-grant-northwestern-ontario',
     title: 'The BBAA grant: up to $20K to adopt AI in your Northwestern Ontario business',
