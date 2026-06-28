@@ -38,6 +38,21 @@ function Block({ block }) {
       );
     case 'source':
       return <p style={styles.source}>{block.text}</p>;
+    case 'figure':
+      return (
+        <figure style={styles.figure}>
+          <img src={block.src} alt={block.alt} width={block.w} height={block.h} loading="lazy" decoding="async" style={styles.figureImg} />
+          {block.caption && <figcaption style={styles.figcaption}>{block.caption}</figcaption>}
+        </figure>
+      );
+    case 'feature':
+      return (
+        <figure style={styles.feature}>
+          {block.label && <span style={styles.featureLabel}>{block.label}</span>}
+          <img src={block.src} alt={block.alt} width={block.w} height={block.h} loading="lazy" decoding="async" style={styles.featureImg} />
+          {block.caption && <figcaption style={styles.figcaption}>{block.caption}</figcaption>}
+        </figure>
+      );
     default:
       return <p style={styles.p}>{block.text}</p>;
   }
@@ -239,6 +254,14 @@ const styles = {
   callout: { display: 'flex', gap: '14px', padding: '20px 22px', margin: '28px 0', borderRadius: '14px' },
   calloutText: { fontSize: '15.5px', color: 'hsl(var(--text-secondary))', lineHeight: 1.65, fontStyle: 'italic' },
   source: { fontSize: '13px', color: 'hsl(var(--text-muted))', lineHeight: 1.6, marginTop: '36px', paddingTop: '20px', borderTop: '1px solid hsla(0,0%,100%,0.06)' },
+
+  // in-body visuals (notebook-studio): landscape figure + portrait feature
+  figure: { margin: '36px 0', display: 'flex', flexDirection: 'column', gap: '12px' },
+  figureImg: { width: '100%', height: 'auto', borderRadius: '16px', border: '1px solid hsla(0,0%,100%,0.08)', boxShadow: '0 20px 60px -24px rgba(0,0,0,0.65)', display: 'block' },
+  figcaption: { fontSize: '13.5px', color: 'hsl(var(--text-muted))', lineHeight: 1.55, fontStyle: 'italic', textAlign: 'center', maxWidth: '560px', margin: '0 auto' },
+  feature: { margin: '44px 0', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '14px' },
+  featureLabel: { fontFamily: 'var(--font-label)', fontSize: '10px', letterSpacing: '0.24em', color: 'hsl(var(--primary-cyan))', textTransform: 'uppercase' },
+  featureImg: { width: '100%', maxWidth: '470px', height: 'auto', borderRadius: '18px', border: '1px solid hsla(0,0%,100%,0.1)', boxShadow: '0 28px 80px -28px rgba(0,0,0,0.75), 0 0 0 1px hsla(184,100%,48%,0.06)', display: 'block' },
   cta: { padding: '36px', marginTop: '56px', textAlign: 'center', borderRadius: '20px' },
   ctaTitle: { fontFamily: 'var(--font-heading)', fontSize: '24px', fontWeight: 700, marginBottom: '12px' },
   ctaDek: { fontSize: '16px', color: 'hsl(var(--text-secondary))', lineHeight: 1.6, maxWidth: '480px', margin: '0 auto 24px' },

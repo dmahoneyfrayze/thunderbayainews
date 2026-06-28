@@ -93,6 +93,9 @@ export const POSTS = [
     blocks: [
       { type: 'answer', text: 'FedNor RAII and NOIC BBAA both help Northwestern Ontario businesses pay for AI — but they fit different businesses. BBAA (up to $20,000, up to 50% of eligible costs) is built for everyday for-profit SMEs adopting AI, and starts with a 30/60/90-day plan. RAII leans toward incorporated SMEs with commercial scale that can show a productivity, scale, or skilled-jobs gain, and runs on continuous intake. Simple retail without scale usually fits BBAA, not RAII. Confirm eligibility with each program.' },
       { type: 'p', text: 'If you have looked into AI funding in Northwestern Ontario, you have heard both names — FedNor RAII and NOIC BBAA — often in the same breath. They are both real, both active, and both can cover a meaningful share of an AI project. They are not the same program, and applying to the wrong one is the most common way owners waste a month.' },
+      { type: 'figure', src: '/blog/raii-vs-bbaa/two-paths-hero.webp', w: 2000, h: 1083,
+        alt: 'Diagram of two AI funding paths for Northwestern Ontario businesses — FedNor RAII and NOIC BBAA — branching apart by business scale',
+        caption: 'Two active programs, two mandates. The split is business scale, not which grant is “better.”' },
       { type: 'h2', text: 'The short version' },
       { type: 'ul', items: [
         'BBAA (Building Blueprints for AI Adoption, NOIC) — up to $20,000 at up to 50% of eligible costs, built for growth-oriented for-profit SMEs adopting AI. Starts with a 30/60/90-day plan.',
@@ -105,6 +108,9 @@ export const POSTS = [
         'First step — BBAA: a 30/60/90-day AI Adoption Plan before the application. RAII: a concrete, scoped project you can show drives productivity or scale.',
         'Common exclusions — both lean away from simple retail/resale without scale, and from projects already underway. Apply before you start the work.',
       ]},
+      { type: 'feature', label: 'The full comparison', src: '/blog/raii-vs-bbaa/comparison.webp', w: 1151, h: 2000,
+        alt: 'Side-by-side comparison of the NOIC BBAA and FedNor RAII AI grants — eligibility, funding amount (BBAA up to $20,000 at up to 50% of eligible costs), first step, and exclusions for Northwestern Ontario businesses',
+        caption: 'RAII vs BBAA at a glance — who it is for, the amount, the first step, and the common exclusions. Confirm specifics with each program.' },
       { type: 'h2', text: 'Which one is you' },
       { type: 'p', text: 'If you run a typical Northwestern Ontario business — a shop, a clinic, a trades company, a local service — and you want to put AI to work in your operations, BBAA is usually the more natural fit, and the 30/60/90 plan doubles as the scoping you needed anyway. If you are an incorporated company with real commercial scale and a project that clearly drives productivity, new capacity, or skilled jobs, RAII is worth a direct conversation with FedNor. The honest dividing line is scale: RAII is not the universal answer it sometimes gets pitched as.' },
       { type: 'callout', text: 'Eligibility, amounts, and intake timing are decided by each program, not by us. Treat this as a starting map and confirm your specific situation with NOIC and FedNor before you build a plan around either one.' },
