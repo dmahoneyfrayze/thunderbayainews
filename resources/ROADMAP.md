@@ -12,6 +12,19 @@ builds**. Every change should make the site more trustworthy, more complete on t
 and more likely to be the answer an AI engine returns for a regional query. Regional specificity
 and proof-integrity are the moat — protect both above all.
 
+## Benefit Frayze, NEVER compete (the rule that governs everything)
+This hub is **operated by Frayze** (a Northwestern Ontario AI agency), but it is a different LAYER,
+not a second agency. It is the **neutral authority/media layer**; Frayze is the **services layer**.
+- **NEVER make the hub sell AI services under its own brand.** No "hire us to build your AI." That
+  would make it compete with Frayze and destroy the neutrality that is its entire value. The hub
+  informs and bridges; Frayze delivers.
+- **Neutrality is the asset.** Content (news, programs, radar) stays genuinely neutral and useful.
+  The only commercial element is a light, **disclosed** bridge ("need it built? get connected" →
+  Frayze) plus an honest "operated by Frayze" disclosure. The moment the hub reads as a Frayze ad,
+  it loses the authority that makes it worth anything.
+- The test for any change: *does this make the hub more trusted (good) or more like an ad (kills it)?*
+  Full rationale in the Denisbot STRATEGY doc ("Benefit Frayze, never compete").
+
 ## Phases
 - **Phase 1 — Foundation (DONE):** prerendered SPA, per-route SEO (title/desc/canonical), sitemap +
   robots, 17 verified funding programs, BBAA featured, the autonomous content engine, the domain live.
@@ -40,8 +53,14 @@ Work top-down; when an item ships, check it off (and note the commit) and add ne
 6. **Accessibility pass** — contrast, focus states, semantic headings, reduced-motion (the cursor/parallax).
 7. **Content depth** — ensure all six beats have several strong posts; fill gaps the content engine misses.
 8. **Email capture** — wire the weekly-brief form to a real list (GHL or similar) end-to-end, CASL-compliant.
-9. **About / methodology page** — "how this hub works + how the autonomous agent verifies" — transparency
-   builds trust and is itself citable.
+9. **About / "operated by Frayze" page** — honest disclosure that the hub is operated by Frayze (a NWO
+   AI agency) + how the autonomous agent works and verifies. This is the transparency that makes the
+   commercial bridge legitimate (Competition Bureau / trust), and it is itself citable. Keep it factual,
+   not salesy.
+11. **The Frayze bridge (light + disclosed)** — a single, honest "need this built? get connected" path
+    (the radar lead form already does this) routing commercial intent to Frayze, clearly disclosed. Do
+    NOT turn the hub into a Frayze sales site — one quiet bridge, not banners. Wire the lead capture to a
+    real list/CRM (pairs with item 8). This is the monetization layer; keep it subordinate to the content.
 10. **Analytics + Search Console loop** — once data exists, prune/improve low-performers, double down on
     what ranks; surface striking-distance queries.
 
