@@ -1,28 +1,68 @@
 {
-  "iso": "2026-06-28",
-  "issueNo": "01",
-  "dateLabel": "JUN 28",
+  "iso": "2026-06-29",
+  "issueNo": "02",
+  "dateLabel": "JUN 29",
   "handle": "thunderbayai",
   "cover": {
-    "hook": "Canada just lost access to the world’s newest AI.",
-    "sub": "Plus a $26B project near Ignace, and 3 more moves that matter for the Northwest this week."
+    "hook": "Two Ring of Fire corridor projects are simultaneously under construction — for the first time.",
+    "sub": "Plus OpenAI's first custom chip, Thunder Bay recruiting from Toronto, trades training going local, and 13 fires across the Northwest."
   },
-  "reelSub": "And 4 more moves that hit the Northwest this week.",
-  "storySub": "What it means for a Northwest business.",
+  "reelSub": "AI is getting cheaper and the Ring of Fire is building on two fronts.",
+  "storySub": "What this week's moves mean for a Northwestern Ontario business.",
   "items": [
-    { "tag": "NATIONAL", "big": "$2B", "bigSize": "180px", "title": "Canada just bet $2B on AI", "body": "A national strategy with a regional fund aimed beyond Toronto. The North is named in scope.", "tease": "Next: the model ban that hit Canada", "reelLine": "Canada’s new national AI bet — the North is in scope." },
-    { "tag": "MODEL WATCH", "big": "BLOCKED", "bigSize": "120px", "title": "Canada cut off from the newest AI", "body": "A US order pulled two new models for foreign users. Lesson: never build on one provider.", "tease": "Next: a $26B project up north", "reelLine": "A US order pulled two new models for foreign users." },
-    { "tag": "INFRASTRUCTURE", "big": "$26B", "bigSize": "180px", "title": "A $26B build is coming near Ignace", "body": "Ottawa is fast-tracking the deep geological repository. Decades of construction and skilled jobs.", "tease": "Next: the Ring of Fire road", "reelLine": "A project fast-tracked near Ignace." },
-    { "tag": "LOCAL", "big": "RING OF FIRE", "bigSize": "86px", "title": "The access road cleared its last gate", "body": "Thunder Bay is the logistics hub. Procurement and services are starting to move.", "tease": "Next: flights are back", "reelLine": "The access road cleared its final gate." },
-    { "tag": "LOCAL", "big": "REOPENED", "bigSize": "112px", "title": "Fort Frances flights return July 6", "body": "North Star Air restores the Thunder Bay link lost in 2024. Same-day, no four-hour drive.", "tease": "The throughline ->", "reelLine": "Fort Frances–Thunder Bay flights return July 6." }
+    {
+      "tag": "INFRASTRUCTURE",
+      "big": "$81.3M",
+      "bigSize": "120px",
+      "title": "Geraldton's Ring of Fire gateway gets rebuilt",
+      "body": "$81.3M reconstruction of Geraldton's main corridor — awarded to a First Nations firm — prepares the Ring of Fire gateway. Ring of Fire corridor infrastructure now under active construction on multiple fronts.",
+      "tease": "Next: AI is about to get cheaper.",
+      "reelLine": "$81.3M Ring of Fire road rebuild — the corridor is widening."
+    },
+    {
+      "tag": "MODEL WATCH",
+      "big": "9 MO",
+      "bigSize": "120px",
+      "title": "OpenAI built its first chip in 9 months — inference costs are heading down",
+      "body": "The Jalapeño processor, built with Broadcom, is designed for running AI models cheaper and faster. Custom silicon from model providers means lower per-query costs ahead.",
+      "tease": "Next: Thunder Bay is recruiting your next hire from southern Ontario.",
+      "reelLine": "OpenAI built its own chip in 9 months. AI inference is getting cheaper."
+    },
+    {
+      "tag": "LOCAL",
+      "big": "WORK HERE",
+      "bigSize": "86px",
+      "title": "Thunder Bay recruiting tradespeople and professionals from across Canada",
+      "body": "The CEDC 'Work Here' campaign runs nationally through September with GO Transit ads and workinthunderbay.ca. Regional employers benefit from the brand-awareness lift at no direct cost.",
+      "tease": "Next: trades apprentices can now train locally in Thunder Bay.",
+      "reelLine": "Thunder Bay is running a national campaign to fill your skilled-trades job listings."
+    },
+    {
+      "tag": "LOCAL",
+      "big": "TRADES",
+      "bigSize": "180px",
+      "title": "Confederation College approved to train General Machinists in Thunder Bay",
+      "body": "Ontario approved the 429A machinist apprenticeship at Confederation College on June 26. Apprentices in mining, manufacturing, and equipment repair no longer need to travel south.",
+      "tease": "Next: 13 fires burning across the Northwest.",
+      "reelLine": "Confederation College can now train machinists — a win for NWO trades retention."
+    },
+    {
+      "tag": "LOCAL",
+      "big": "13",
+      "bigSize": "180px",
+      "title": "Thirteen active wildfires in the Northwest — elevated risk for outdoor operations",
+      "body": "As of June 25, thirteen wildfires were active in the Northwest Region, four uncontrolled, with fire danger high to extreme. Forestry, construction, and outdoor operations should monitor the provincial fire portal.",
+      "tease": "The throughline ->",
+      "reelLine": "13 active fires across the Northwest — know the risk if you operate outdoors."
+    }
   ],
   "summary": {
-    "title": "Money is flowing into the North — and AI access just got political.",
-    "body": "Federal billions, a $26B build, and a corridor opening up. The opportunity is real. The risk is depending on tools a government can switch off."
+    "title": "Infrastructure builds, AI costs fall, and the labour market gets regional support",
+    "body": "This week's NWO picture: Ring of Fire corridor infrastructure enters active construction on multiple fronts, AI economics are shifting as model providers move to custom silicon, and regional institutions are doing the talent-attraction work individual employers cannot."
   },
   "captions": {
-    "carousel": "This week in Northwestern Ontario AI.\n\nCanada committed $2B to AI, with Northern Ontario explicitly in scope. A US directive cut Canadian access to two newly launched models. A $26B project is being fast-tracked near Ignace. And the Ring of Fire access road cleared its final environmental gate — with Thunder Bay as the logistics hub.\n\nThe full breakdown, sourced, with what each one means for the Northwest, is in the weekly Signal. Free, one email, reviewed by humans. Link in bio.\n\n#ThunderBay #NorthwesternOntario #AINews #NWOntario #RingOfFire #CanadaAI",
-    "reel": "The week in Northwestern Ontario AI. Canada bet $2B, got cut off from the newest models, and a $26B project is headed for Ignace. Full breakdown — link in bio. Follow for the weekly Signal. #ThunderBay #NorthwesternOntario #AINews #NWOntario",
-    "story": "Story frame — add a poll sticker (\"Does this worry you? Yes / No\") and a link sticker to thunderbayai.com."
+    "carousel": "Two Ring of Fire corridor projects are simultaneously under construction. OpenAI unveiled its first custom inference chip — and per-query AI costs are heading down. Thunder Bay is running a national campaign to attract tradespeople from across Canada. Confederation College can now train General Machinists locally. Five developments from this week in the Northwest — full breakdown in the Signal, link in bio. #ThunderBay #NorthwesternOntario #NorthernOntario #RingOfFire #AIbusiness #NWOntario",
+    "reel": "Ring of Fire building on two fronts. OpenAI's first custom chip. Thunder Bay recruiting nationally. Five moves for the Northwest this week. thunderbayai.com #NorthernOntario #ThunderBay #RingOfFire #AIbusiness",
+    "story": "Story frame — add a poll sticker and a link sticker to thunderbayai.com."
   }
 }
