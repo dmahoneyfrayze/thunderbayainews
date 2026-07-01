@@ -108,6 +108,28 @@ and publish steps as Lanes 1–2 below. If you are not confident it is accurate,
 
 ---
 
+## LANE 4 — Triggered site optimization  (PROPOSE-ONLY — never auto-edit live copy)
+The site-growth lane: milestone-driven copy updates ("we passed 1,000 visitors," a new proof point,
+a program deadline), homepage/CRO tweaks, page refreshes, internal-link and schema improvements on
+EXISTING pages. This lane edits pages people already read, so the risk is different from Lanes 1-3
+(which only ADD). The hard rule:
+
+- **Additive changes may auto-ship** (a brand-new page, a new internal link, a new schema block, a
+  new FAQ) — same discipline as Lane 3.
+- **Edits to EXISTING live copy — homepage hero, headlines, offers, nav, pricing/stat lines — are
+  PROPOSE-ONLY.** Do the work on a branch and open a PR (or append a dated entry to
+  `resources/PROPOSALS.md` with the exact before/after diff and the reasoning), then email Denis for
+  a one-click approve. NEVER push a rewrite of an existing live page straight to `main`. One bad
+  autonomous edit to the homepage is how an authority site quietly loses trust — the thing that IS
+  the product.
+- **Triggered, not daily.** This lane fires on an event (a benchmark, a new verified metric, a stale
+  page flagged by the review pass), not on the daily clock. Any metric used in copy must be REAL and
+  sourced (proof-integrity) — never invent a "1,200+ readers" line to fill a hero.
+
+Until a human approves a LANE 4 copy change, the live page stays as-is. Additive-auto, edits-approved.
+
+---
+
 ## Pick the beat / item, then write
 - 5-8 content blocks. Open with the point; structure with h2 + ul where useful; a `callout` for
   the key caveat; a `source` block citing official URLs at the end.
