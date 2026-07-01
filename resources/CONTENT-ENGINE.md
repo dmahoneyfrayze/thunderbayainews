@@ -80,6 +80,34 @@ proof-integrity risk (original claims), so the self-verification pass matters MO
 
 ---
 
+## LANE 3 — Daily weekday EVERGREEN cluster builder  (auto-publish, Tue–Fri)
+The volume lane — but volume that COMPOUNDS, not churn. Each weekday run publishes ONE durable,
+evergreen reference post that builds out the topic cluster around "AI + funding + Northwestern
+Ontario." Evergreen by design so it ranks and gets AI-cited for months, and so there's no
+fresh-news fabrication surface (timely news stays in the weekly Signal, Lane 1). Cadence: one post
+per run, Tuesday–Friday. Do NOT invent daily news here.
+
+**Pick the topic deterministically:** open `resources/BLOG-BACKLOG.md`, take the FIRST unchecked
+`- [ ]` topic, write it, then flip it to `- [x]` (with the published slug) in the SAME commit. If
+the backlog is empty, email Denis to refill it and skip the run — never manufacture a filler topic.
+
+**Three content pillars in the backlog:**
+- **Funding program pages** — one page per program, grounded in `src/data.js` (GRANTS_DATA). Verify
+  every amount / coverage / deadline against the official `sourceUrl` before publishing. Frame as
+  "confirm eligibility with the program," never "you qualify." Never cite a closed program.
+- **Sector guides** — "AI for [NWO sector]" (mining, forestry, healthcare, trades, tourism, retail…).
+  Keep claims general and practical; any stat needs a real source or gets cut. The moat is the
+  local angle, not invented numbers.
+- **Concept explainers** — localized "what is X for a business" pieces. Lowest risk; still no hype.
+
+**Quality bar (every LANE 3 post):** open with a **direct one-paragraph answer** to the title's
+question (this is what gets AI-cited), then 5–8 blocks, an `h2`-structured body, a `callout` for the
+key caveat, and a `source` block with official URLs. Add an FAQ section (2–3 real Q&As) where it fits
+— it earns FAQPage schema and answer-box real estate. Same data shape, safety layers, git discipline,
+and publish steps as Lanes 1–2 below. If you are not confident it is accurate, skip and email Denis.
+
+---
+
 ## Pick the beat / item, then write
 - 5-8 content blocks. Open with the point; structure with h2 + ul where useful; a `callout` for
   the key caveat; a `source` block citing official URLs at the end.
