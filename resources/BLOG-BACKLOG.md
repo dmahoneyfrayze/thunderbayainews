@@ -10,7 +10,7 @@ against `src/data.js` GRANTS_DATA + the official sourceUrl. "Confirm eligibility
 never "you qualify." No emojis. Direct-answer opening + a source block, every post.
 
 ## Funding program pages (source: GRANTS_DATA — verify each before publishing)
-- [ ] FedNor Business Scale-up and Productivity (BSP) — up to $500K, repayable — who qualifies + the AI/systems angle
+- [x] FedNor Business Scale-up and Productivity (BSP) — published: fednor-bsp-scale-up-productivity-northern-ontario
 - [ ] FedNor Regional Tariff Response Initiative (RTRI) — up to $1M non-repayable — what it covers, open to Mar 2028
 - [ ] NOHFC Invest North — Launch — up to $200K for early-stage NWO businesses
 - [ ] NOHFC Invest North — Grow — $400K grant / $1M loan, quarterly intake
