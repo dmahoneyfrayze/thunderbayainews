@@ -95,7 +95,7 @@ export default function App() {
             </span>
             <span style={styles.credit}>
               Built and operated by{' '}
-              <a href="https://frayze.ca" target="_blank" rel="noopener noreferrer" style={styles.creditLink}>Frayze</a>
+              <a href="https://frayze.ca/?utm_source=thunderbayai&utm_medium=referral&utm_campaign=hub&utm_content=footer" target="_blank" rel="noopener noreferrer" style={styles.creditLink}>Frayze</a>
               {' '}— a Thunder Bay AI and automation studio.
             </span>
             <span style={styles.legal}>

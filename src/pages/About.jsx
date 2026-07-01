@@ -164,7 +164,7 @@ export default function About() {
           <h2 style={styles.h2}>Who runs it</h2>
           <p style={styles.body}>
             Thunder Bay AI is built and operated by{' '}
-            <a href="https://frayze.ca" target="_blank" rel="noopener noreferrer" style={styles.link}>Frayze</a>,
+            <a href="https://frayze.ca/?utm_source=thunderbayai&utm_medium=referral&utm_campaign=hub&utm_content=about" target="_blank" rel="noopener noreferrer" style={styles.link}>Frayze</a>,
             a Thunder Bay AI, web, and automation studio. We run it because we live in this region
             and we&apos;d want this to exist whether or not we built it. The hub stays deliberately
             neutral: it reports the landscape, it doesn&apos;t pitch you a product under its own
