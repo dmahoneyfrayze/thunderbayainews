@@ -105,6 +105,9 @@ question (this is what gets AI-cited), then 5–8 blocks, an `h2`-structured bod
 key caveat, and a `source` block with official URLs. Add an FAQ section (2–3 real Q&As) where it fits
 — it earns FAQPage schema and answer-box real estate. Same data shape, safety layers, git discipline,
 and publish steps as Lanes 1–2 below. If you are not confident it is accurate, skip and email Denis.
+Every LANE 3 post is graded against `resources/blog-post.outcome.md` by an independent gate before
+it goes live (deterministic checks + an isolated LLM judge); a post that fails any criterion is
+discarded and Denis is emailed. Write to clear every criterion.
 
 ---
 
