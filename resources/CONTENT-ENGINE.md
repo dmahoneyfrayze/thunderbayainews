@@ -107,7 +107,9 @@ key caveat, and a `source` block with official URLs. Add an FAQ section (2–3 r
 and publish steps as Lanes 1–2 below. If you are not confident it is accurate, skip and email Denis.
 Every LANE 3 post is graded against `resources/blog-post.outcome.md` by an independent gate before
 it goes live (deterministic checks + an isolated LLM judge); a post that fails any criterion is
-discarded and Denis is emailed. Write to clear every criterion.
+discarded and Denis is emailed. Write to clear every criterion. **This OVERRIDES the push step in
+"Publish" below: for LANE 3, commit your post LOCALLY and do NOT `git push` — the gate pushes it
+on PASS. Pushing yourself bypasses the gate.**
 
 ---
 
