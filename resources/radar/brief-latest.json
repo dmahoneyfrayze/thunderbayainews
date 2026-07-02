@@ -1,0 +1,636 @@
+{
+  "date": "2026-07-02",
+  "items": [
+    {
+      "group": "press",
+      "source": "MIT Technology Review",
+      "title": "LLMs are stuck in a groupthink groove. This startup is trying to get them out.",
+      "link": "https://www.technologyreview.com/2026/07/01/1140003/llms-are-stuck-in-a-groupthink-rut-this-startup-is-trying-to-get-them-out/",
+      "date": "2026-07-01",
+      "snippet": "Let’s start with a game. Open up your chatbot of choice—Claude, ChatGPT, Gemini—and type “Give me a random number between 1 and 10.” You’re going to get 7. Almost always. Now type “Another” and you’ll get 3 or 4. Type “Another” again and yo",
+      "score": 12
+    },
+    {
+      "group": "press",
+      "source": "The Verge AI",
+      "title": "Lawmakers want to ban AI companies from selling your health data",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/959033/health-location-data-protection-act-ai-warren-scanlon",
+      "date": "2026-06-29",
+      "snippet": "A new proposal would ban the sale of Americans' health and location information to data brokers - including information people reveal to an AI chatbot like ChatGPT or Claude. In the coming weeks, Senator Elizabeth Warren (D-MA) and Represen",
+      "score": 10
+    },
+    {
+      "group": "press",
+      "source": "TechCrunch AI",
+      "title": "Anthropic launches Claude Sonnet 5 as a cheaper way to run agents",
+      "link": "https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/",
+      "date": "2026-06-30",
+      "snippet": "Anthropic’s Claude Sonnet 5 brings stronger agentic capabilities, lower pricing, and improved safety, positioning the model as a cheaper alternative to Opus, GPT-5.5, and Gemini Pro.",
+      "score": 10
+    },
+    {
+      "group": "providers",
+      "source": "OpenAI News",
+      "title": "How ChatGPT adoption has expanded",
+      "link": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
+      "date": "2026-06-30",
+      "snippet": "New OpenAI Signals data shows how ChatGPT adoption is growing globally, with users increasing usage, exploring more capabilities, and driving growth across regions and languages.",
+      "score": 6
+    },
+    {
+      "group": "providers",
+      "source": "OpenAI News",
+      "title": "Mapping Europe’s AI Workforce Opportunity",
+      "link": "https://openai.com/index/mapping-ai-jobs-transition-eu",
+      "date": "2026-06-29",
+      "snippet": "A new OpenAI report maps how AI could reshape jobs across the EU, highlighting which occupations may face automation, growth, or workflow changes.",
+      "score": 6
+    },
+    {
+      "group": "hardware",
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA BioNeMo Agent Toolkit Brings Accelerated AI to Life Sciences Researchers in Claude Science",
+      "link": "https://blogs.nvidia.com/blog/claude-science-bionemo-agent-toolkit/",
+      "date": "2026-06-30",
+      "snippet": "Life sciences has entered an era of computational scale, and for more than a decade, NVIDIA has built the full GPU-accelerated computing stack — spanning hardware, frameworks, libraries, models, microservices and domain-specific tools — to ",
+      "score": 6
+    },
+    {
+      "group": "hardware",
+      "source": "NVIDIA Blog",
+      "title": "Claude Meets Blackwell Ultra: Anthropic’s Models Now Run on NVIDIA GB300 in Azure",
+      "link": "https://blogs.nvidia.com/blog/anthropic-nvidia-gb300-blackwell-ultra-microsoft-azure/",
+      "date": "2026-06-29",
+      "snippet": "Anthropic’s Claude models in Microsoft Foundry — hosted on Microsoft Azure and running on NVIDIA GB300 Blackwell Ultra GPUs — are now generally available, giving Azure-native enterprises a powerful new way to build autonomous and domain-spe",
+      "score": 6
+    },
+    {
+      "group": "press",
+      "source": "TechCrunch AI",
+      "title": "Microsoft launches its own AI deployment company with $2.5 billion commitment",
+      "link": "https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/",
+      "date": "2026-07-02",
+      "snippet": "Microsoft follows Amazon, OpenAI, and Anthropic with its new AI deployment group.",
+      "score": 6
+    },
+    {
+      "group": "press",
+      "source": "MIT Technology Review",
+      "title": "Teaching AI to run with the turbines",
+      "link": "https://www.technologyreview.com/2026/07/02/1138433/teaching-ai-to-run-with-the-turbines/",
+      "date": "2026-07-02",
+      "snippet": "Artificial intelligence may have captured the public imagination through chatbots and image generators, but some of its most consequential use cases are unfolding far from consumer-facing tools. In industries where physical infrastructure, ",
+      "score": 6
+    },
+    {
+      "group": "press",
+      "source": "MIT Technology Review",
+      "title": "The Download: a startup has a solution for AI’s groupthink problem",
+      "link": "https://www.technologyreview.com/2026/07/02/1140027/the-download-ai-groupthink-llms/",
+      "date": "2026-07-02",
+      "snippet": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. LLMs are stuck in a groupthink groove. This startup is trying to get them out. Open up your chatbot of",
+      "score": 6
+    },
+    {
+      "group": "press",
+      "source": "TechCrunch AI",
+      "title": "OpenAI proposed donating 5% of its equity to a US sovereign wealth fund",
+      "link": "https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/",
+      "date": "2026-07-02",
+      "snippet": "OpenAI CEO Sam Altman has reportedly proposed giving 5% of the company’s equity to a U.S. sovereign wealth fund, reviving discussions about letting the public share in the financial gains from the AI boom.",
+      "score": 5
+    },
+    {
+      "group": "canada",
+      "source": "BetaKit",
+      "title": "Stathera raises $55 million USD for semiconductor clock tech amid data centre boom",
+      "link": "https://betakit.com/stathera-raises-55-million-usd-for-semiconductor-clock-tech-amid-data-centre-boom/",
+      "date": "2026-06-30",
+      "snippet": "CEO says there’s “no reason” precision timing tech can’t be built in Canada. The post Stathera raises $55 million USD for semiconductor clock tech amid data centre boom first appeared on BetaKit.",
+      "score": 5
+    },
+    {
+      "group": "providers",
+      "source": "OpenAI News",
+      "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
+      "link": "https://openai.com/index/hp-frontier-partnership",
+      "date": "2026-06-28",
+      "snippet": "HP Inc. scales its OpenAI Frontier partnership to deploy AI across customer experiences, software development, and enterprise operations.",
+      "score": 4
+    },
+    {
+      "group": "providers",
+      "source": "OpenAI News",
+      "title": "Previewing GPT-5.6 Sol: a next-generation model",
+      "link": "https://openai.com/index/previewing-gpt-5-6-sol",
+      "date": "2026-06-26",
+      "snippet": "OpenAI previews GPT-5.6 Sol, a next-generation model with stronger capabilities in coding, science, and cybersecurity, paired with its most advanced safety stack.",
+      "score": 4
+    },
+    {
+      "group": "hardware",
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA Unlocks AI Compute at Scale, Inviting Partners to Power the AI Infrastructure Buildout",
+      "link": "https://blogs.nvidia.com/blog/nvidia-unlocks-ai-compute-at-scale-capital-partners-to-power-ai-infrastructure-buildout/",
+      "date": "2026-07-02",
+      "snippet": "As AI moves from model development to production inference, compute demand is accelerating and shifting toward continuously operating AI factories that generate tokens at scale. This shift requires access to large‑scale, multi‑tenant accele",
+      "score": 4
+    },
+    {
+      "group": "hardware",
+      "source": "NVIDIA Blog",
+      "title": "How NVIDIA’s Inference Software Stack Powers the Lowest Token Cost",
+      "link": "https://blogs.nvidia.com/blog/inference-software-lowest-token-cost/",
+      "date": "2026-06-30",
+      "snippet": "As organizations move from AI pilots to production AI factories, infrastructure decisions have shifted from peak chip specifications to cost per token: how many useful tokens they can deliver per dollar, per watt and within required latency",
+      "score": 4
+    },
+    {
+      "group": "hardware",
+      "source": "NVIDIA Blog",
+      "title": "Into the Omniverse: Three Workflows for Improving Vision AI Agent Accuracy With Synthetic Data and Fine-Tuning",
+      "link": "https://blogs.nvidia.com/blog/vision-ai-agent-skills-omniverse-metropolis/",
+      "date": "2026-06-30",
+      "snippet": "Editor’s note: This post is part of Into the Omniverse, a series focused on how developers, 3D practitioners, and enterprises can transform their workflows using the latest advances in OpenUSD and NVIDIA Omniverse. Vision AI agents are beco",
+      "score": 4
+    },
+    {
+      "group": "press",
+      "source": "Ars Technica AI",
+      "title": "Google’s AI buildout drove 37% increase in electricity use in 2025",
+      "link": "https://arstechnica.com/ai/2026/07/googles-ai-buildout-drove-37-increase-in-electricity-use-in-2025/",
+      "date": "2026-07-02",
+      "snippet": "Google tries balancing AI data center emissions with clean energy efforts.",
+      "score": 4
+    },
+    {
+      "group": "press",
+      "source": "Ars Technica AI",
+      "title": "After spooking Trump into safety testing, Anthropic AI models get global release",
+      "link": "https://arstechnica.com/tech-policy/2026/07/after-spooking-trump-into-safety-testing-anthropic-ai-models-get-global-release/",
+      "date": "2026-07-01",
+      "snippet": "US lifts curbs on Anthropic’s advanced Fable and Mythos models.",
+      "score": 4
+    },
+    {
+      "group": "press",
+      "source": "Ars Technica AI",
+      "title": "New attack provides one more reason why AI browsers are a bad idea",
+      "link": "https://arstechnica.com/security/2026/06/ai-browsers-can-be-lulled-into-a-dream-world-where-guardrails-no-longer-apply/",
+      "date": "2026-06-30",
+      "snippet": "Telling an LLM that 2 + 2 = 5 is enough to make it follow forbidden instructions.",
+      "score": 4
+    },
+    {
+      "group": "press",
+      "source": "Ars Technica AI",
+      "title": "Notion killing Skiff-influenced email app since most users use AI agents instead",
+      "link": "https://arstechnica.com/gadgets/2026/06/notion-killing-skiff-influenced-email-app-since-most-users-use-ai-agents-instead/",
+      "date": "2026-06-25",
+      "snippet": "Notion is \"going all in on using agents to run your inbox.\"",
+      "score": 4
+    },
+    {
+      "group": "press",
+      "source": "The Verge AI",
+      "title": "OpenAI floats giving Trump administration 5 percent cut of AI boom",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/960588/openai-government-5-percent-stake-trump",
+      "date": "2026-07-02",
+      "snippet": "OpenAI has floated giving the US government a 5 percent ownership stake as a way of easing tensions with the Trump administration and blunting mounting public backlash against AI, according to the Financial Times. CEO Sam Altman argued that",
+      "score": 4
+    },
+    {
+      "group": "press",
+      "source": "The Verge AI",
+      "title": "Anthropic s long-sidelined Fable 5 is greenlit to return",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/958964/anthropic-claude-fable-5-is-back",
+      "date": "2026-07-01",
+      "snippet": "After weeks of negotiating with the Trump administration, Anthropic is finally going to be able to bring Claude Fable 5 back online. In a post on X, Anthropic said it plans to begin restoring access Wednesday to users globally on Claude pla",
+      "score": 4
+    },
+    {
+      "group": "press",
+      "source": "The Verge AI",
+      "title": "OpenAI is teasing new hardware… for Codex",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/959174/openai-codex-hardware-work-louder",
+      "date": "2026-06-29",
+      "snippet": "OpenAI is releasing some sort of device related to its AI-powered coding tool, Codex, on July 15th. In a video posted to X on Monday, OpenAI shows a square-shaped device with several buttons, alongside the caption, \"Your favorite Codex shor",
+      "score": 4
+    },
+    {
+      "group": "press",
+      "source": "TechCrunch AI",
+      "title": "Gemini Spark, Google’s agentic assistant, is now available on Mac",
+      "link": "https://techcrunch.com/2026/07/01/gemini-spark-googles-agentic-assistant-is-now-available-on-mac/",
+      "date": "2026-07-01",
+      "snippet": "Google's 24/7 agentic assistant, Gemini Spark, comes to Mac alongside other improvements, like real-time tracking and support for more apps.",
+      "score": 4
+    },
+    {
+      "group": "press",
+      "source": "TechCrunch AI",
+      "title": "Trump drops restrictions on Anthropic’s Mythos and Fable models",
+      "link": "https://techcrunch.com/2026/06/30/trump-drops-restrictions-on-anthropics-mythos-and-fable-models/",
+      "date": "2026-07-01",
+      "snippet": "The Trump administration's erratic approach to AI policymaking has left companies across the industry with little clarity about what will govern future model releases.",
+      "score": 4
+    },
+    {
+      "group": "press",
+      "source": "TechCrunch AI",
+      "title": "Nvidia competitor Etched hits $5B valuation, $1B in sales for AI chip",
+      "link": "https://techcrunch.com/2026/06/30/nvidia-competitor-etched-hits-5b-valuation-1b-in-sales-for-ai-chip/",
+      "date": "2026-06-30",
+      "snippet": "Nvidia AI chip competitor Etched says it has already booked $1 billion under contract for the inference systems powered by its chip.",
+      "score": 4
+    },
+    {
+      "group": "press",
+      "source": "TechCrunch AI",
+      "title": "Acti puts AI agents directly into your smartphone keyboard",
+      "link": "https://techcrunch.com/2026/06/30/acti-puts-ai-agents-directly-into-your-smartphone-keyboard/",
+      "date": "2026-06-30",
+      "snippet": "Acti is betting the smartphone keyboard is the next home for AI assistants. The startup's new keyboard for iOS and Android works across apps and lets users create custom AI-powered shortcuts using natural language.",
+      "score": 4
+    },
+    {
+      "group": "press",
+      "source": "MIT Technology Review",
+      "title": "The Download: Anthropic launches Claude Science, and California’s carbon manure math",
+      "link": "https://www.technologyreview.com/2026/07/01/1139996/the-download-anthropic-claude-science-california-carbon-manure/",
+      "date": "2026-07-01",
+      "snippet": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Claude Science is Anthropic’s newest flagship product At an event for pharmaceutical executives, biote",
+      "score": 4
+    },
+    {
+      "group": "press",
+      "source": "MIT Technology Review",
+      "title": "Claude Science is Anthropic’s newest flagship product",
+      "link": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/",
+      "date": "2026-06-30",
+      "snippet": "At an event for pharmaceutical executives, biotech founders, and researchers on Tuesday, Anthropic announced Claude Science, a major new product intended to support scientific research in the same way that Claude Code supports software engi",
+      "score": 4
+    },
+    {
+      "group": "press",
+      "source": "MIT Technology Review",
+      "title": "The Download: AI “coworkers” and stratospheric internet",
+      "link": "https://www.technologyreview.com/2026/06/30/1139954/the-download-ai-agents-coworkers-solar-powered-internet/",
+      "date": "2026-06-30",
+      "snippet": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. AI agents are not your “coworkers” Imagine coming in to work to learn that a new underling will report",
+      "score": 4
+    },
+    {
+      "group": "press",
+      "source": "MIT Technology Review",
+      "title": "Agriculture is ready for AI, but its data isn’t",
+      "link": "https://www.technologyreview.com/2026/06/30/1139513/agriculture-is-ready-for-ai-but-its-data-isnt/",
+      "date": "2026-06-30",
+      "snippet": "Artificial intelligence is transforming what is possible in agriculture, but industry leaders should be wary of investing in AI without first laying the groundwork. The use cases are promising, especially for an industry navigating volatile",
+      "score": 4
+    },
+    {
+      "group": "canada",
+      "source": "BetaKit",
+      "title": "Spellbook aims to write and renew the world’s contracts with AI",
+      "link": "https://betakit.com/spellbook-aims-to-write-and-renew-the-worlds-contracts-with-ai/",
+      "date": "2026-06-30",
+      "snippet": "CEO says new AI contract tool is “bigger” than launch of its first copilot product. The post Spellbook aims to write and renew the world’s contracts with AI first appeared on BetaKit.",
+      "score": 4
+    },
+    {
+      "group": "canada",
+      "source": "BetaKit",
+      "title": "Q&A: Why Alistair Croll built a virtual conference just for AI agents",
+      "link": "https://betakit.com/qa-why-alistair-croll-built-a-virtual-conference-just-for-ai-agents/",
+      "date": "2026-06-29",
+      "snippet": "Debuting next month at Startupfest, Envoi is “Moltbook, but a conference.” The post Q&A: Why Alistair Croll built a virtual conference just for AI agents first appeared on BetaKit.",
+      "score": 4
+    },
+    {
+      "group": "providers",
+      "source": "OpenAI News",
+      "title": "Introducing GeneBench-Pro",
+      "link": "https://openai.com/index/introducing-genebench-pro",
+      "date": "2026-06-30",
+      "snippet": "Introducing GeneBench-Pro, a new benchmark testing AI performance in genomics, biology, and scientific research using complex, real-world datasets.",
+      "score": 2
+    },
+    {
+      "group": "providers",
+      "source": "OpenAI News",
+      "title": "Core dump epidemiology: fixing an 18-year-old bug",
+      "link": "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug",
+      "date": "2026-06-30",
+      "snippet": "OpenAI engineers used large-scale core dump analysis to debug rare infrastructure crashes, uncovering both a hardware fault and a long-standing software bug.",
+      "score": 2
+    },
+    {
+      "group": "providers",
+      "source": "Google AI Blog",
+      "title": "The latest AI news we announced in June 2026",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
+      "date": "2026-07-01",
+      "snippet": "Here are Google’s latest AI updates from June 2026.",
+      "score": 2
+    },
+    {
+      "group": "providers",
+      "source": "Google AI Blog",
+      "title": "New York City educators and industry leaders gathered at Google’s offices to shape the future of AI in classrooms.",
+      "link": "https://blog.google/products-and-platforms/products/education/nyc-ai-summit/",
+      "date": "2026-07-01",
+      "snippet": "Google, the New York Jobs CEO Council and Urban Assembly hosted an AI summit for 150 education and industry leaders.",
+      "score": 2
+    },
+    {
+      "group": "providers",
+      "source": "Google AI Blog",
+      "title": "Unlocking Britain’s next era of productivity: Building a nation of AI trailblazers",
+      "link": "https://blog.google/company-news/inside-google/around-the-globe/google-europe/united-kingdom/unlocking-britains-next-era-of-productivity-building-a-nation-of-ai-trailblazers/",
+      "date": "2026-06-30",
+      "snippet": "Google UK shares its latest Economic Impact Report and how to enable more people to unlock the benefits of AI-powered technologies.",
+      "score": 2
+    },
+    {
+      "group": "providers",
+      "source": "Google AI Blog",
+      "title": "Ask an AI expert: What exactly is the full stack?",
+      "link": "https://blog.google/innovation-and-ai/technology/ai/full-stack-ai-explainer/",
+      "date": "2026-06-29",
+      "snippet": "A Google expert explains what it means to take a full-stack approach to AI and why it’s been the foundation of our AI work for so long.",
+      "score": 2
+    },
+    {
+      "group": "hardware",
+      "source": "NVIDIA Blog",
+      "title": "Open Models, Closed Environments: Palantir Brings Secure AI to US Agencies With NVIDIA Nemotron",
+      "link": "https://blogs.nvidia.com/blog/palantir-secure-ai-us-agencies-nemotron-open-models/",
+      "date": "2026-06-29",
+      "snippet": "Showcasing the importance of open source innovation in American AI, Palantir’s new intelligent engine — introduced today — uses NVIDIA Nemotron open models to serve the needs of U.S. government agencies. Open source software has long been a",
+      "score": 2
+    },
+    {
+      "group": "press",
+      "source": "Ars Technica AI",
+      "title": "Trump gets OpenAI to offer US 5% stake, far lower than Sanders’ target",
+      "link": "https://arstechnica.com/tech-policy/2026/07/openai-floats-giving-us-5-stake-to-win-over-ai-haters/",
+      "date": "2026-07-02",
+      "snippet": "Insiders say Sam Altman is in active talks with the Trump administration.",
+      "score": 2
+    },
+    {
+      "group": "press",
+      "source": "Ars Technica AI",
+      "title": "Musk’s X poses “serious risk to Americans’ privacy,” advocates warn FTC",
+      "link": "https://arstechnica.com/tech-policy/2026/07/musks-x-poses-serious-risk-to-americans-privacy-advocates-warn-ftc/",
+      "date": "2026-07-02",
+      "snippet": "FTC urged to reject Elon Musk’s bid to end X monitoring amid AI concerns.",
+      "score": 2
+    },
+    {
+      "group": "press",
+      "source": "Ars Technica AI",
+      "title": "Trump's plan to redesign every .gov website leads to AI-designed horrors",
+      "link": "https://arstechnica.com/tech-policy/2026/06/trumps-plan-to-redesign-every-gov-website-leads-to-ai-designed-horrors/",
+      "date": "2026-06-30",
+      "snippet": "A year in, National Design Studio delays plan to update government web standards.",
+      "score": 2
+    },
+    {
+      "group": "press",
+      "source": "Ars Technica AI",
+      "title": "South Korea to spend $1T on more memory chip production and humanoid robots",
+      "link": "https://arstechnica.com/ai/2026/06/south-korea-to-spend-1t-on-more-memory-chip-production-and-humanoid-robots/",
+      "date": "2026-06-29",
+      "snippet": "South Korea targets physical AI lead and commercial humanoid robots by 2028.",
+      "score": 2
+    },
+    {
+      "group": "press",
+      "source": "Ars Technica AI",
+      "title": "NYT slams Microsoft for building copyright-infringing supercomputer for OpenAI",
+      "link": "https://arstechnica.com/tech-policy/2026/06/microsoft-built-supercomputer-to-help-openai-infringe-copyrights-nyt-alleged/",
+      "date": "2026-06-26",
+      "snippet": "NYT shifts OpenAI/Microsoft copyright claims after SCOTUS ruling against Sony.",
+      "score": 2
+    },
+    {
+      "group": "press",
+      "source": "Ars Technica AI",
+      "title": "Google finally releases a Finance Android app, promises iOS version later in 2026",
+      "link": "https://arstechnica.com/google/2026/06/google-finance-finally-gets-a-mobile-app-as-ai-powered-overhaul-leaves-beta/",
+      "date": "2026-06-25",
+      "snippet": "It took 20 years, but the Finance app arrives just in time to be packed full of AI.",
+      "score": 2
+    },
+    {
+      "group": "press",
+      "source": "The Verge AI",
+      "title": "Google built a great smart speaker, but Gemini isn’t ready for it",
+      "link": "https://www.theverge.com/tech/959503/google-home-speaker-review-gemini-for-home",
+      "date": "2026-07-01",
+      "snippet": "The Google Home Speaker is Google’s first smart speaker in years. And it’s pretty! | Photo: Jennifer Patison Tuohy / The Verge Smart speakers have spent the past few years searching for a compelling second act. Beyond music, timers, and con",
+      "score": 2
+    },
+    {
+      "group": "press",
+      "source": "The Verge AI",
+      "title": "Google’s NotebookLM can sum up your research in a TikTok-style clip",
+      "link": "https://www.theverge.com/tech/959778/google-notebooklm-ai-clips",
+      "date": "2026-06-30",
+      "snippet": "Google's NotebookLM is adding a new way to catch up on your notes: TikTok-style AI videos. The new feature is rolling out to Google AI Ultra and Pro subscribers, allowing NotebookLM to generate 60-second vertical AI clips based on the sourc",
+      "score": 2
+    },
+    {
+      "group": "press",
+      "source": "The Verge AI",
+      "title": "Netflix is using an AI-generated Gene Wilder voice in its Willy Wonka reality show",
+      "link": "https://www.theverge.com/streaming/959684/netflix-wonka-golden-ticket-gene-wilder",
+      "date": "2026-06-30",
+      "snippet": "A new teaser trailer confirmed that Wonka's The Golden Ticket will premiere on Netflix on September 23rd, following its Squid Game reality show in the trend of creating real competitions based on fictional torture scenarios. While the sets ",
+      "score": 2
+    },
+    {
+      "group": "press",
+      "source": "The Verge AI",
+      "title": "Libby will filter out AI content, kind of",
+      "link": "https://www.theverge.com/column/959433/libby-ai-filter",
+      "date": "2026-06-30",
+      "snippet": "This is Lowpass by Janko Roettgers, a newsletter on the ever-evolving intersection of tech and entertainment, syndicated just for The Verge subscribers once a week. \"AI is the new frontier for us,\" says Marc DeBevoise, who took over as the ",
+      "score": 2
+    },
+    {
+      "group": "press",
+      "source": "The Verge AI",
+      "title": "Meet the lawyer who beat Elon Musk — twice",
+      "link": "https://www.theverge.com/column/959270/elon-musk-open-ai-bill-savitt-twitter",
+      "date": "2026-06-30",
+      "snippet": "“After college, my plan was to come to New York and get a record deal.” | Cath Virginia / The Verge, Getty Images Watching Elon Musk fulminate at Bill Savitt during Musk v. Altman - the case in which Musk sued Sam Altman and OpenAI instead ",
+      "score": 2
+    },
+    {
+      "group": "press",
+      "source": "The Verge AI",
+      "title": "Tidal won’t pay royalties on AI-generated music, but isn’t banning it outright",
+      "link": "https://www.theverge.com/tech/959211/tidal-ai-music-policy-demonetizingdetect-label",
+      "date": "2026-06-29",
+      "snippet": "Tidal shared its new policies regarding AI-generated music today and how the platform plans to \"protect artists\" and \"inform listeners.\" Instead of banning it outright, starting on July 15th Tidal will label tracks it has identified as bein",
+      "score": 2
+    },
+    {
+      "group": "press",
+      "source": "TechCrunch AI",
+      "title": "Yep, we’re using OpenClaw to date now",
+      "link": "https://techcrunch.com/2026/07/02/yep-were-using-openclaw-to-date-now/",
+      "date": "2026-07-02",
+      "snippet": "Ben Guez has \"a bunch of potential international wives in [his] DMs,\" thanks to an automated script he set up using OpenClaw, Claude code, and Instagram trials.",
+      "score": 2
+    },
+    {
+      "group": "press",
+      "source": "TechCrunch AI",
+      "title": "Indian tech tycoon bets $30M of his own money to build AI alternative to Microsoft Office",
+      "link": "https://techcrunch.com/2026/07/01/indian-tech-tycoon-bets-30m-to-build-an-ai-alternative-to-microsoft-office/",
+      "date": "2026-07-02",
+      "snippet": "Neo is Bhavin Turakhia’s fifth venture and his latest involving enterprise software. This time he's taking on Microsoft Office and Google Apps with AI.",
+      "score": 2
+    },
+    {
+      "group": "press",
+      "source": "TechCrunch AI",
+      "title": "SpaceX has an AI device prototype, and it sure sounds phone-ish",
+      "link": "https://techcrunch.com/2026/07/01/spacex-has-an-ai-device-prototype-and-it-sure-sounds-phone-ish/",
+      "date": "2026-07-01",
+      "snippet": "SpaceX reportedly showed investors a \"handset-like\" AI device before going public. It could be another signal SpaceX wants to expand into wireless.",
+      "score": 2
+    },
+    {
+      "group": "press",
+      "source": "TechCrunch AI",
+      "title": "Ashton Kutcher leaving Sound Ventures to launch new VC firm with Morgan Beller",
+      "link": "https://techcrunch.com/2026/07/01/ashton-kutcher-leaving-sound-ventures-to-launch-new-vc-firm-with-morgan-beller/",
+      "date": "2026-07-01",
+      "snippet": "Sound built its reputation on concentrated, high-conviction bets in category-leading AI labs, while Kutcher's new fund appears to be chasing the layer underneath those companies — the infrastructure and energy that power them.",
+      "score": 2
+    },
+    {
+      "group": "press",
+      "source": "TechCrunch AI",
+      "title": "Cloudflare’s new policy pushes AI companies to pay for publishers’ content",
+      "link": "https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/",
+      "date": "2026-07-01",
+      "snippet": "Cloudflare is giving AI companies until September 15 to separate web crawlers used for search from those used for AI training and agents, or risk being blocked by default on many publisher sites.",
+      "score": 2
+    },
+    {
+      "group": "press",
+      "source": "TechCrunch AI",
+      "title": "Venice AI becomes a unicorn with $65M Series A as its privacy-first AI platform takes off",
+      "link": "https://techcrunch.com/2026/07/01/venice-ai-becomes-a-unicorn-with-65m-series-a-as-its-privacy-first-ai-platform-takes-off/",
+      "date": "2026-07-01",
+      "snippet": "Venice AI is already profitable, with annualized run-rate revenues of over $70 million, CEO Erik Voorhees said.",
+      "score": 2
+    },
+    {
+      "group": "press",
+      "source": "TechCrunch AI",
+      "title": "Meta, like SpaceX, looks to turn excess AI compute into cash",
+      "link": "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash/",
+      "date": "2026-07-01",
+      "snippet": "Meta is developing plans for a cloud infrastructure business, selling access to AI compute power and models. The move would pit it against the big cloud providers like Amazon Web Services, Google Cloud, and Microsoft Azure.",
+      "score": 2
+    },
+    {
+      "group": "press",
+      "source": "TechCrunch AI",
+      "title": "Wayve launches $85M employee tender offer at $8.5B valuation",
+      "link": "https://techcrunch.com/2026/06/30/wayve-launches-85m-employee-tender-offer-at-8-5b-valuation/",
+      "date": "2026-07-01",
+      "snippet": "Wayve’s offering is part of a growing trend of AI startups using employee tenders as a strategic tool to attract and retain talent.",
+      "score": 2
+    },
+    {
+      "group": "press",
+      "source": "TechCrunch AI",
+      "title": "OpenClaw is finally available on Android and iOS",
+      "link": "https://techcrunch.com/2026/06/30/openclaw-is-finally-available-on-android-and-ios/",
+      "date": "2026-06-30",
+      "snippet": "The free open source agentic program is finally invading your phone.",
+      "score": 2
+    },
+    {
+      "group": "press",
+      "source": "TechCrunch AI",
+      "title": "The DeepMind trio who built a poker AI are now making money for quant hedge funds",
+      "link": "https://techcrunch.com/2026/06/30/the-deepmind-trio-who-built-a-poker-ai-are-now-making-money-for-quant-hedge-funds/",
+      "date": "2026-06-30",
+      "snippet": "EquiLibre Technologies, a Prague-based AI lab founded by three ex-DeepMind researchers, is now valued at more than $500 million.",
+      "score": 2
+    },
+    {
+      "group": "press",
+      "source": "TechCrunch AI",
+      "title": "Google introduces a faster, cheaper image generator with Nano Banana 2 Lite",
+      "link": "https://techcrunch.com/2026/06/30/google-introduces-a-faster-cheaper-image-generator-with-nano-banana-2-lite/",
+      "date": "2026-06-30",
+      "snippet": "Google is updating its image generator to make it faster and cheaper, making it a more useful tool for creators looking to make AI content.",
+      "score": 2
+    },
+    {
+      "group": "providers",
+      "source": "OpenAI News",
+      "title": "Inside Genebench-Pro",
+      "link": "https://openai.com/index/genebench-pro/case-studies",
+      "date": "2026-06-30",
+      "snippet": "",
+      "score": 0
+    },
+    {
+      "group": "press",
+      "source": "Ars Technica AI",
+      "title": "Google's new Nano Banana 2 Lite image model is its fastest and cheapest yet",
+      "link": "https://arstechnica.com/ai/2026/06/googles-new-nano-banana-2-lite-image-model-is-its-fastest-and-cheapest-yet/",
+      "date": "2026-06-30",
+      "snippet": "They may not look as good, but Nano Banana 2 Lite images only take a few seconds to create.",
+      "score": 0
+    },
+    {
+      "group": "press",
+      "source": "Ars Technica AI",
+      "title": "Trump asked Musk for SpaceX stock to seed US kids’ savings accounts, report says",
+      "link": "https://arstechnica.com/tech-policy/2026/06/spacex-may-donate-stock-to-trumps-savings-accounts-for-kids-report-says/",
+      "date": "2026-06-30",
+      "snippet": "Sources suggest Musk may be mulling big donation to Trump Accounts.",
+      "score": 0
+    },
+    {
+      "group": "press",
+      "source": "Ars Technica AI",
+      "title": "South Korea plans to train entire military as \"drone warriors\"",
+      "link": "https://arstechnica.com/ai/2026/06/south-korea-plans-to-train-entire-military-as-drone-warriors/",
+      "date": "2026-06-26",
+      "snippet": "Half-million-strong military will train on drones as “universal combat tool.”",
+      "score": 0
+    },
+    {
+      "group": "press",
+      "source": "TechCrunch AI",
+      "title": "Builders Stage agenda revealed: Practical strategies for scaling startups at TechCrunch Disrupt 2026",
+      "link": "https://techcrunch.com/2026/07/01/builders-stage-agenda-revealed-practical-strategies-for-scaling-startups-at-techcrunch-disrupt-2026/",
+      "date": "2026-07-01",
+      "snippet": "The Builders Stage is returning to TechCrunch Disrupt 2026, bringing together 10,000+ founders, startup operators, and investors for practical conversations. and Q&A on what it takes to build and scale successful companies. Register now to ",
+      "score": 0
+    },
+    {
+      "group": "press",
+      "source": "TechCrunch AI",
+      "title": "The ‘Father of the Internet’ is finally retiring",
+      "link": "https://techcrunch.com/2026/06/30/the-father-of-the-internet-is-finally-retiring/",
+      "date": "2026-07-01",
+      "snippet": "Vinton Cerf, one of the creators of the protocols underlying the internet, will step down as Google's chief internet evangelist next week.",
+      "score": 0
+    }
+  ],
+  "civicNew": []
+}
