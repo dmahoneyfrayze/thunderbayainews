@@ -54,8 +54,9 @@ funding facts stay "confirm with the program," sourced):
    (`/blog/raii-vs-bbaa-which-grant-northwestern-ontario`, answer box + side-by-side + FAQPage + cross-links).
 2. ~~**"AI for Thunder Bay businesses — what's actually worth doing in 2026"**~~ — DONE 2026-06-28
    (`/blog/ai-for-thunder-bay-businesses-2026`, missed-call-first, funding bridge, FAQPage).
-3. **Per-program pages** — one citable URL per funding program (`/funding/<id>`) with GovernmentService/FAQ schema.
-   The big remaining GEO win (the index shipped; detail pages did not). One canonical URL per program.
+3. ~~**Per-program pages**~~ — DONE 2026-07-02 (commit `9efbe71`). `/funding/<id>` for all 17 programs,
+   each with GovernmentService + FAQPage JSON-LD, direct-answer box, eligibility table, related programs,
+   and email CTA. Funding index ItemList now points to canonical thunderbayai.com URLs. Prerender updated.
 4. **Situational adoption posts** (low competition, strong local angle): AI for a NWO restaurant / construction co /
    municipality; "missed-call AI for a local business"; **"ChatGPT vs Claude for a Canadian small business"** (data-
    residency + the Fable 5 Canada block as the concrete hook).
