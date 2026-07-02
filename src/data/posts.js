@@ -6,6 +6,47 @@ import { POSTS_BATCH2 } from './posts-batch-2.js';
 
 export const POSTS = [
   {
+    slug: 'claude-sonnet-5-cheaper-ai-agents-nwo-business',
+    title: 'Claude Sonnet 5 made AI agents cheaper. The fine print matters more for Northwestern Ontario.',
+    dek: "Anthropic priced its new model well below its own flagship — but a tokenizer change quietly eats into the discount, and the cheap rate has an expiry date. What to check before betting a workflow on it.",
+    category: 'Models',
+    date: 'July 2, 2026',
+    iso: '2026-07-02',
+    readMins: 5,
+    accent: ['#7b61ff', '#00b4d8'],
+    faq: [
+      { q: 'Is Claude Sonnet 5 actually cheaper to run than the previous model?', a: "Its standard per-token price is unchanged from Sonnet 4.6 — $3 per million input tokens and $15 per million output tokens once introductory pricing ends. Anthropic's own documentation notes Sonnet 5 uses a new tokenizer that produces roughly 30% more tokens for the same text, so the cost of an equivalent request can differ from the previous model even though the per-token rate did not rise. The genuine discount — $2 input / $10 output per million tokens — is introductory pricing that runs through August 31, 2026." },
+      { q: 'Does this mean AI agents are now affordable for a small NWO business?', a: "It moves agent-capable AI from Opus-tier pricing ($5 input / $25 output per million tokens on Opus 4.8) into Sonnet-tier pricing, which is a real shift in what is financially reasonable to pilot. Whether it is actually affordable for your operation still depends on your own document volume — test with your own material before committing a budget to it." },
+      { q: 'Can a grant help cover the cost of piloting an AI agent tool?', a: "Possibly. NOIC's BBAA grant (up to $20,000, at up to 50% of eligible costs) and FedNor's RAII program are both built to help Northwestern Ontario businesses adopt AI. Confirm current eligibility and intake status directly with each program before applying — see the funding programs page for the full list." },
+    ],
+    related: [
+      { label: 'The BBAA grant: up to $20K to adopt AI', to: '/blog/bbaa-ai-adoption-grant-northwestern-ontario' },
+      { label: 'How to choose an AI model without the hype', to: '/blog/choose-an-ai-model-without-the-hype' },
+      { label: 'All 17 NWO funding programs', to: '/funding' },
+    ],
+    blocks: [
+      { type: 'answer', text: "On June 30, 2026, Anthropic launched Claude Sonnet 5 and priced it well below its own flagship Opus 4.8 model — $2 per million input tokens and $10 per million output tokens through August 31, 2026, versus Opus 4.8's $5 and $25. That matters because Sonnet 5 is built for agentic work — multi-step tasks like drafting, tool use, and autonomous coding — that previously needed Opus-tier spending to run well. For a Northwestern Ontario business sizing up its first AI agent pilot, the sticker price just moved into reach. But Anthropic's own documentation also discloses a new tokenizer that produces roughly 30% more tokens for the same text, and the discounted price reverts to Sonnet 4.6-level pricing on September 1. Read the launch as a real opportunity with a real deadline, not a permanent price cut — and test the actual cost against your own documents before building a workflow around it." },
+      { type: 'p', text: 'Every AI model release comes with a headline about how much cheaper and more capable it is than the last one. Most of those headlines do not change anything a business in Thunder Bay needs to act on this week. This one is different, and not entirely for the reason the press coverage led with.' },
+      { type: 'h2', text: 'What Anthropic actually announced' },
+      { type: 'p', text: "Claude Sonnet 5 launched June 30, 2026, as what Anthropic itself describes as a capability upgrade over the previous Sonnet 4.6 model, with the largest gains in coding and agentic tasks — the kind of AI that does not just answer a question but carries out a multi-step job: reading a document, deciding what to do with it, calling other tools, and producing a finished output. Getting that level of reliability out of Claude has generally meant paying Opus-tier prices: $5 per million input tokens and $25 per million output tokens for Opus 4.8. Sonnet 5 launched at $2 and $10 — a rate available through August 31, 2026 — putting Opus-class agent behaviour within a Sonnet-sized budget for the first time." },
+      { type: 'h2', text: "The number in the documentation, not the press release" },
+      { type: 'p', text: "Here is the part that did not make most of the coverage. Anthropic's technical documentation for Sonnet 5 states plainly that the model uses a new tokenizer, and that the same input text produces approximately 30% more tokens than on Claude Sonnet 4.6. The company is direct about the effect: per-token pricing is unchanged, but because the same text produces more tokens, the cost of an equivalent request can differ. In plain terms, the rate per token is lower, but a real document now gets chopped into more billable pieces. What that does to your actual invoice depends on what you are feeding the model — Anthropic does not promise it nets out in your favour." },
+      { type: 'p', text: "There is a second detail worth noting. The $2/$10 pricing is introductory. On September 1, 2026, it reverts to $3 per million input tokens and $15 per million output tokens — which is exactly what Sonnet 4.6 already costs today. Anthropic frames Sonnet 5 as a capability upgrade over Sonnet 4.6 at the same standard price, not a lasting discount. The window where it is genuinely cheaper than the outgoing model is about two months, not the new normal." },
+      { type: 'h2', text: 'Why this is worth an afternoon for a Northwestern Ontario operation' },
+      { type: 'p', text: "None of this is really a story about Anthropic. It is a story about the price of AI that does actual work — not just chat — dropping into a range a small operation can justify testing. A forestry consultancy triaging inspection reports, a Thunder Bay accounting office drafting client correspondence, a municipal office processing records requests, a healthcare administrator managing intake paperwork: these are exactly the multi-step, document-heavy jobs agentic AI is built for, and until this week the credible version of that tooling ran on Opus-tier pricing that made a pilot hard to justify against a real budget. That barrier just moved." },
+      { type: 'ul', items: [
+        "Get a real cost estimate, not a vendor's benchmark number — run your own documents through a pilot and measure the token count yourself. The 30% tokenizer increase means a generic per-token comparison will mislead you.",
+        'Treat August 31, 2026 as a decision deadline, not just a launch date. A pilot worth doing at introductory pricing needs to run and get evaluated before the rate reverts.',
+        "Do not commit a production workflow to Opus-tier spending you have not first tested at Sonnet-tier pricing — the capability gap between the two just narrowed.",
+        'If a pilot pencils out, that project cost is the kind of eligible expense some funding programs are built for — see below.',
+      ]},
+      { type: 'h2', text: 'A practical first step' },
+      { type: 'p', text: "Before scoping anything bigger, run one real task through Claude Sonnet 5 with your own material — an actual batch of client documents, inspection reports, or intake forms, not a demo. Measure the token count and the resulting invoice yourself, weigh it against what the same job costs you in staff time today, and do that math before September 1. If the economics work, NOIC's BBAA grant (up to $20,000, at up to 50% of eligible costs) and FedNor's RAII program both exist to help offset exactly this kind of AI adoption cost for Northwestern Ontario businesses — confirm current eligibility and intake status directly with each program. A local implementation partner can also help scope a pilot and get the token math right before you commit a workflow to it." },
+      { type: 'callout', text: 'The discount is temporary and the token count is not what it used to be. Before building any workflow around Claude Sonnet 5, measure the actual cost against your own documents — not the per-token sticker price — and do it before introductory pricing ends August 31, 2026.' },
+      { type: 'source', text: "Sources: Anthropic, 'Pricing' and 'What's new in Claude Sonnet 5' (platform.claude.com/docs/en/about-claude/pricing; platform.claude.com/docs/en/about-claude/models/whats-new-sonnet-5), accessed July 2, 2026; TechCrunch, 'Anthropic launches Claude Sonnet 5 as a cheaper way to run agents,' June 30, 2026 (techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/). Program references: NOIC BBAA (nwoinnovation.ca/programs/bbaa) and FedNor RAII (fednor.canada.ca) — confirm current terms and eligibility directly with each program." },
+    ],
+  },
+  {
     slug: 'nohfc-invest-north-launch-new-business-northern-ontario',
     title: 'NOHFC Invest North — Launch: up to $200,000 to start a new business in Northern Ontario',
     dek: 'A conditional contribution covering up to 50% of eligible startup costs — equipment, IT, leasehold improvements, limited marketing — for new Northern Ontario businesses in their first six months.',
