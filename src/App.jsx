@@ -12,6 +12,7 @@ import Blog from './pages/Blog';
 import BlogPost from './pages/BlogPost';
 import About from './pages/About';
 import Funding from './pages/Funding';
+import FundingProgram from './pages/FundingProgram';
 import Privacy from './pages/Privacy';
 import Terms from './pages/Terms';
 
@@ -65,6 +66,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/funding" element={<Funding />} />
+          <Route path="/funding/:id" element={<FundingProgram />} />
           <Route path="/privacy" element={<Privacy />} />
           <Route path="/terms" element={<Terms />} />
           <Route path="/blog" element={<Blog />} />

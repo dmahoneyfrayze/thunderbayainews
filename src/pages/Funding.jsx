@@ -41,7 +41,7 @@ export default function Funding() {
           '@type': 'ListItem',
           position: i + 1,
           name: g.name,
-          url: g.sourceUrl,
+          url: `${SITE}/funding/${g.id}`,
         })),
       },
       {
@@ -104,18 +104,25 @@ export default function Funding() {
                 <span style={styles.source}>{g.source}</span>
                 <span className={`badge badge-${g.badgeType}`}>{g.status}</span>
               </div>
-              <h2 style={styles.cardTitle}>{g.name}</h2>
+              <Link to={`/funding/${g.id}`} style={styles.cardTitleLink}>
+                <h2 style={styles.cardTitle}>{g.name}</h2>
+              </Link>
               <p style={styles.cardDesc}>{g.description}</p>
               <div style={styles.metaRow}>
                 <div style={styles.metaCol}><span style={styles.metaLabel}>Max funding</span><span style={styles.metaValue} className="accent-text">{g.maxAmount}</span></div>
                 <div style={styles.metaCol}><span style={styles.metaLabel}>Coverage</span><span style={styles.metaValue}>{g.coverage}</span></div>
                 <div style={styles.metaCol}><span style={styles.metaLabel}>Deadline</span><span style={styles.metaValue}>{g.deadline}</span></div>
               </div>
-              {g.sourceUrl && (
-                <a href={g.sourceUrl} target="_blank" rel="noopener noreferrer" style={styles.officialLink}>
-                  Official program page <ExternalLink size={14} />
-                </a>
-              )}
+              <div style={styles.cardLinks}>
+                <Link to={`/funding/${g.id}`} style={styles.detailLink}>
+                  Full program guide <ArrowUpRight size={14} />
+                </Link>
+                {g.sourceUrl && (
+                  <a href={g.sourceUrl} target="_blank" rel="noopener noreferrer" style={styles.officialLink}>
+                    Official page <ExternalLink size={14} />
+                  </a>
+                )}
+              </div>
             </motion.div>
           ))}
         </div>
@@ -158,6 +165,9 @@ const styles = {
   metaCol: { display: 'flex', flexDirection: 'column' },
   metaLabel: { fontSize: '10px', color: 'hsl(var(--text-muted))', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '4px' },
   metaValue: { fontSize: '12.5px', fontWeight: 600 },
+  cardTitleLink: { textDecoration: 'none', color: 'inherit' },
+  cardLinks: { display: 'flex', alignItems: 'center', gap: '20px', flexWrap: 'wrap' },
+  detailLink: { display: 'inline-flex', alignItems: 'center', gap: '6px', fontSize: '13px', fontWeight: 600, color: 'hsl(var(--text-primary))', textDecoration: 'none' },
   officialLink: { display: 'inline-flex', alignItems: 'center', gap: '7px', fontSize: '13px', fontWeight: 600, color: 'hsl(var(--primary-cyan))', textDecoration: 'none' },
   readsWrap: { marginTop: '64px' },
   readsList: { display: 'flex', flexDirection: 'column', gap: '10px', marginTop: '16px', maxWidth: '620px' },

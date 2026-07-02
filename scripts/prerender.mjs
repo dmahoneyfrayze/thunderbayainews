@@ -10,11 +10,16 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 import puppeteer from 'puppeteer';
 import { POSTS } from '../src/data/posts.js';
+import { GRANTS_DATA } from '../src/data.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const distPath = path.join(process.cwd(), 'dist');
 
-const routes = ['/', '/about', '/funding', '/privacy', '/terms', '/blog', ...POSTS.map((p) => `/blog/${p.slug}`)];
+const routes = [
+  '/', '/about', '/funding', '/privacy', '/terms', '/blog',
+  ...POSTS.map((p) => `/blog/${p.slug}`),
+  ...GRANTS_DATA.map((g) => `/funding/${g.id}`),
+];
 
 const MIME = { '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.svg': 'image/svg+xml', '.png': 'image/png', '.jpg': 'image/jpeg', '.webp': 'image/webp', '.woff2': 'font/woff2', '.ico': 'image/x-icon' };
 
