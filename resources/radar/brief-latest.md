@@ -38,13 +38,13 @@ Deterministic pull; every link is a real source. Consumers verify claims against
 - **LLMs are stuck in a groupthink groove. This startup is trying to get them out.** — MIT Technology Review, 2026-07-01. Let’s start with a game. Open up your chatbot of choice—Claude, ChatGPT, Gemini—and type “Give me a random number between 1 and 10.” You’re going to get 7. Almost always. Now type “Another” and you’ll get 3 or 4. Type “Another” again and yo [link](https://www.technologyreview.com/2026/07/01/1140003/llms-are-stuck-in-a-groupthink-rut-this-startup-is-trying-to-get-them-out/)
 - **Lawmakers want to ban AI companies from selling your health data** — The Verge AI, 2026-06-29. A new proposal would ban the sale of Americans' health and location information to data brokers - including information people reveal to an AI chatbot like ChatGPT or Claude. In the coming weeks, Senator Elizabeth Warren (D-MA) and Represen [link](https://www.theverge.com/ai-artificial-intelligence/959033/health-location-data-protection-act-ai-warren-scanlon)
 - **Anthropic launches Claude Sonnet 5 as a cheaper way to run agents** — TechCrunch AI, 2026-06-30. Anthropic’s Claude Sonnet 5 brings stronger agentic capabilities, lower pricing, and improved safety, positioning the model as a cheaper alternative to Opus, GPT-5.5, and Gemini Pro. [link](https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/)
+- **Anthropic is discussing a new custom chip with Samsung** — TechCrunch AI, 2026-07-02. The news comes about a week after OpenAI announced its own custom AI chip in a partnership with Broadcom. [link](https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/)
 - **Microsoft launches its own AI deployment company with $2.5 billion commitment** — TechCrunch AI, 2026-07-02. Microsoft follows Amazon, OpenAI, and Anthropic with its new AI deployment group. [link](https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/)
 - **Teaching AI to run with the turbines** — MIT Technology Review, 2026-07-02. Artificial intelligence may have captured the public imagination through chatbots and image generators, but some of its most consequential use cases are unfolding far from consumer-facing tools. In industries where physical infrastructure,  [link](https://www.technologyreview.com/2026/07/02/1138433/teaching-ai-to-run-with-the-turbines/)
 - **The Download: a startup has a solution for AI’s groupthink problem** — MIT Technology Review, 2026-07-02. This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. LLMs are stuck in a groupthink groove. This startup is trying to get them out. Open up your chatbot of [link](https://www.technologyreview.com/2026/07/02/1140027/the-download-ai-groupthink-llms/)
 - **OpenAI proposed donating 5% of its equity to a US sovereign wealth fund** — TechCrunch AI, 2026-07-02. OpenAI CEO Sam Altman has reportedly proposed giving 5% of the company’s equity to a U.S. sovereign wealth fund, reviving discussions about letting the public share in the financial gains from the AI boom. [link](https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/)
 - **Google’s AI buildout drove 37% increase in electricity use in 2025** — Ars Technica AI, 2026-07-02. Google tries balancing AI data center emissions with clean energy efforts. [link](https://arstechnica.com/ai/2026/07/googles-ai-buildout-drove-37-increase-in-electricity-use-in-2025/)
 - **After spooking Trump into safety testing, Anthropic AI models get global release** — Ars Technica AI, 2026-07-01. US lifts curbs on Anthropic’s advanced Fable and Mythos models. [link](https://arstechnica.com/tech-policy/2026/07/after-spooking-trump-into-safety-testing-anthropic-ai-models-get-global-release/)
-- **New attack provides one more reason why AI browsers are a bad idea** — Ars Technica AI, 2026-06-30. Telling an LLM that 2 + 2 = 5 is enough to make it follow forbidden instructions. [link](https://arstechnica.com/security/2026/06/ai-browsers-can-be-lulled-into-a-dream-world-where-guardrails-no-longer-apply/)
 
 ## Canada
 
@@ -67,7 +67,7 @@ Source status:
 - ok    TechCrunch AI (20 kept)
 - ok    MIT Technology Review (7 kept)
 - ok    BetaKit (3 kept)
-- FAIL  Hacker News 150+: Request timed out after 15000ms
+- ok    Hacker News 150+ (0 kept)
 - ok    NetNewsLedger (0 kept)
 - ok    TBNewswatch (0 kept)
 - ok    NW Ontario Innovation Centre (0 kept)
