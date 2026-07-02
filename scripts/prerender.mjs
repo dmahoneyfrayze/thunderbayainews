@@ -16,7 +16,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const distPath = path.join(process.cwd(), 'dist');
 
 const routes = [
-  '/', '/about', '/funding', '/privacy', '/terms', '/blog',
+  '/', '/about', '/funding', '/privacy', '/terms', '/blog', '/feed',
   ...POSTS.map((p) => `/blog/${p.slug}`),
   ...GRANTS_DATA.map((g) => `/funding/${g.id}`),
 ];

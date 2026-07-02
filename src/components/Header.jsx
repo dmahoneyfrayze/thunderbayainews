@@ -74,6 +74,9 @@ export default function Header() {
           >
             <Link to="/blog" style={{ ...styles.navLink, textDecoration: 'none' }}>JOURNAL</Link>
           </motion.span>
+          <motion.span initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.45 }}>
+            <Link to="/feed" style={{ ...styles.navLink, textDecoration: 'none' }}>FEED</Link>
+          </motion.span>
           <motion.span
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
@@ -124,6 +127,7 @@ export default function Header() {
           <span style={styles.mobileNavLink} onClick={() => handleScrollTo('funded-builds')}>Funded Builds</span>
           <span style={styles.mobileNavLink} onClick={() => handleScrollTo('weekly-brief')}>Weekly Brief</span>
           <Link to="/blog" style={{ ...styles.mobileNavLink, textDecoration: 'none' }} onClick={() => setMobileMenuOpen(false)}>Journal</Link>
+          <Link to="/feed" style={{ ...styles.mobileNavLink, textDecoration: 'none' }} onClick={() => setMobileMenuOpen(false)}>Feed</Link>
           <Link to="/about" style={{ ...styles.mobileNavLink, textDecoration: 'none' }} onClick={() => setMobileMenuOpen(false)}>About</Link>
           <div style={styles.mobileCtaGroup}>
             <button className="btn btn-cyan" style={{ width: '100%' }} onClick={() => handleScrollTo('weekly-brief')}>

@@ -15,6 +15,7 @@ import Funding from './pages/Funding';
 import FundingProgram from './pages/FundingProgram';
 import Privacy from './pages/Privacy';
 import Terms from './pages/Terms';
+import Feed from './pages/Feed';
 
 export default function App() {
   const location = useLocation();
@@ -70,6 +71,7 @@ export default function App() {
           <Route path="/privacy" element={<Privacy />} />
           <Route path="/terms" element={<Terms />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/feed" element={<Feed />} />
           <Route path="/blog/:slug" element={<BlogPost />} />
           <Route path="*" element={<Home />} />
         </Routes>
@@ -119,7 +121,9 @@ export default function App() {
               <h4 style={styles.linksTitle}>The Hub</h4>
               <Link to="/about" style={{ ...styles.footerHref, display: 'block' }}>Why we built this</Link>
               <span style={styles.footerLink} onClick={() => handleScrollTo('funded-builds')}>How it works</span>
-              <Link to="/blog" style={{ ...styles.footerHref, display: 'block' }}>Journal</Link>
+              <Link to="/feed" style={{ ...styles.footerHref, display: 'block' }}>The Feed</Link>
+              <a href="https://www.instagram.com/thunderbayai/" target="_blank" rel="noopener noreferrer" style={{ ...styles.footerHref, display: 'block' }}>Instagram</a>
+              <a href="https://www.facebook.com/profile.php?id=908676642332247" target="_blank" rel="noopener noreferrer" style={{ ...styles.footerHref, display: 'block' }}>Facebook</a>
               <a href="mailto:denis@frayze.ca" style={styles.footerHref}>Contact</a>
             </div>
           </div>
