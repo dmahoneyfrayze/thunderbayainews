@@ -67,7 +67,7 @@ Source status:
 - ok    TechCrunch AI (20 kept)
 - ok    MIT Technology Review (7 kept)
 - ok    BetaKit (3 kept)
-- ok    Hacker News 150+ (0 kept)
+- FAIL  Hacker News 150+: Request timed out after 15000ms
 - ok    NetNewsLedger (0 kept)
 - ok    TBNewswatch (0 kept)
 - ok    NW Ontario Innovation Centre (0 kept)
