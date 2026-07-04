@@ -133,8 +133,8 @@ const styles = {
   },
   newsDate: {
     fontFamily: 'var(--font-label)',
-    fontSize: '10px',
-    letterSpacing: '0.15em',
+    fontSize: '11px',
+    letterSpacing: '0.14em',
     color: 'hsl(var(--text-muted))',
   },
   newsTitle: {

@@ -178,12 +178,12 @@ const styles = {
     zIndex: 1,
   },
   title: {
-    fontSize: '32px',
+    fontSize: 'clamp(30px, 4vw, 40px)',
     marginBottom: '16px',
-    lineHeight: '1.25',
+    lineHeight: '1.15',
   },
   subtitle: {
-    fontSize: '15px',
+    fontSize: '16px',
     color: 'hsl(var(--text-secondary))',
     maxWidth: '600px',
     lineHeight: '1.6',

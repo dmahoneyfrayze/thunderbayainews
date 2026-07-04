@@ -179,16 +179,16 @@ const styles = {
   },
   stepLabel: {
     fontFamily: 'var(--font-label)',
-    fontSize: '10px',
-    letterSpacing: '0.2em',
-    color: 'hsl(224, 16%, 60%)',
+    fontSize: '11px',
+    letterSpacing: '0.18em',
+    color: 'hsl(224, 16%, 72%)',
     textTransform: 'uppercase',
     marginBottom: '4px',
   },
   stepValue: {
     fontSize: '13px',
-    color: 'hsl(224, 16%, 70%)',
-    lineHeight: 1.5,
+    color: 'hsl(224, 16%, 72%)',
+    lineHeight: 1.55,
   },
   ctaBox: {
     display: 'flex',
