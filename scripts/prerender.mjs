@@ -57,12 +57,21 @@ const run = async () => {
         // ship the hero, stats and funding cards invisible. Force every reveal element to
         // its visible resting state before capturing; real browsers re-hydrate and still
         // animate on scroll. See [[prerender-safe-motion]].
-        await page.evaluate(() => {
-          document.querySelectorAll('[style*="opacity: 0"], [style*="opacity:0"]').forEach((el) => {
-            el.style.opacity = '1';
-            el.style.transform = 'none';
+        // Catch ANY partial opacity (< 1), not just exactly 0 — on a slow build box a
+        // mount animation can be captured mid-flight (e.g. opacity:0.3), which an exact
+        // "opacity: 0" match would miss. Settle briefly, then force, twice.
+        const forceReveal = () => page.evaluate(() => {
+          document.querySelectorAll('[style]').forEach((el) => {
+            const m = (el.getAttribute('style') || '').match(/opacity:\s*([0-9.]+)/);
+            if (m && parseFloat(m[1]) < 1) {
+              el.style.opacity = '1';
+              el.style.transform = 'none';
+            }
           });
         });
+        await new Promise((r) => setTimeout(r, 400));
+        await forceReveal();
+        await forceReveal();
         const html = await page.content();
         const dir = route === '/' ? distPath : path.join(distPath, route.replace(/^\/|\/$/g, ''));
         fs.mkdirSync(dir, { recursive: true });
