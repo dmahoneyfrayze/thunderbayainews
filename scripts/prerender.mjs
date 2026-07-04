@@ -69,8 +69,12 @@ const run = async () => {
     // sitemap.xml + robots.txt (crawl essentials for ranking)
     const SITE = 'https://thunderbayai.com';
     const today = new Date().toISOString().slice(0, 10);
+    // Netlify pretty-URLs 301s every non-slash path to its trailing-slash form, so the
+    // sitemap MUST list the trailing-slash canonical — else Google files each URL as
+    // "Page with redirect" and never indexes it.
+    const canon = (r) => (r === '/' ? '/' : r.endsWith('/') ? r : `${r}/`);
     const urls = routes
-      .map((r) => `  <url><loc>${SITE}${r === '/' ? '/' : r}</loc><lastmod>${today}</lastmod></url>`)
+      .map((r) => `  <url><loc>${SITE}${canon(r)}</loc><lastmod>${today}</lastmod></url>`)
       .join('\n');
     fs.writeFileSync(
       path.join(distPath, 'sitemap.xml'),
@@ -81,7 +85,7 @@ const run = async () => {
     const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
     const cutoff = new Date(Date.now() - 2 * 864e5).toISOString().slice(0, 10);
     const newsItems = POSTS.filter((p) => p.iso >= cutoff).map((p) =>
-      `  <url>\n    <loc>${SITE}/blog/${p.slug}</loc>\n    <news:news>\n      <news:publication><news:name>Thunder Bay AI</news:name><news:language>en</news:language></news:publication>\n      <news:publication_date>${p.iso}</news:publication_date>\n      <news:title>${esc(p.title)}</news:title>\n    </news:news>\n  </url>`
+      `  <url>\n    <loc>${SITE}/blog/${p.slug}/</loc>\n    <news:news>\n      <news:publication><news:name>Thunder Bay AI</news:name><news:language>en</news:language></news:publication>\n      <news:publication_date>${p.iso}</news:publication_date>\n      <news:title>${esc(p.title)}</news:title>\n    </news:news>\n  </url>`
     ).join('\n');
     fs.writeFileSync(
       path.join(distPath, 'news-sitemap.xml'),
