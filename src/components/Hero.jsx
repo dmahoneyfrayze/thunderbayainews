@@ -254,9 +254,9 @@ const styles = {
   },
   statLabel: {
     fontFamily: 'var(--font-label)',
-    fontSize: '10px',
-    letterSpacing: '0.2em',
-    color: 'hsl(224, 16%, 52%)',
+    fontSize: '11px',
+    letterSpacing: '0.18em',
+    color: 'hsl(224, 16%, 70%)',
     fontWeight: '400',
     textTransform: 'uppercase',
   },

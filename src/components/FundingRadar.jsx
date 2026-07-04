@@ -645,8 +645,8 @@ const styles = {
   metaRow: {
     display: 'flex',
     justifyContent: 'space-between',
-    borderTop: '1px solid hsla(0, 0%, 100%, 0.05)',
-    paddingTop: '16px',
+    borderTop: '1px solid hsla(0, 0%, 100%, 0.09)',
+    paddingTop: '18px',
     marginBottom: '24px',
     gap: '12px',
   },
@@ -655,14 +655,14 @@ const styles = {
     flexDirection: 'column',
   },
   metaLabel: {
-    fontSize: '11px',
+    fontSize: '12px',
     color: 'hsl(var(--text-muted))',
     textTransform: 'uppercase',
-    letterSpacing: '0.05em',
-    marginBottom: '4px',
+    letterSpacing: '0.08em',
+    marginBottom: '5px',
   },
   metaValue: {
-    fontSize: '13px',
+    fontSize: '15px',
     fontWeight: '600',
   },
   checkBtn: {

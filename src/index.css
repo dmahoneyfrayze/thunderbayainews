@@ -12,9 +12,9 @@
   
   --text-primary: 0 0% 98%;
   --text-secondary: 224 16% 76%;
-  --text-muted: 224 12% 52%;
-  
-  --border-light: 0 0% 100% / 0.06;
+  --text-muted: 224 14% 64%;
+
+  --border-light: 0 0% 100% / 0.09;
   --border-glow: 184 100% 48% / 0.15;
   
   --success: 145 80% 50%;
@@ -27,7 +27,7 @@
   --font-label: 'Space Grotesk', ui-monospace, SFMono-Regular, monospace;
   
   /* Shadows & Glassmorphism */
-  --glass-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.4);
+  --glass-shadow: 0 14px 44px -10px rgba(0, 0, 0, 0.55);
   --accent-shadow: 0 0 30px 0 hsla(250, 84%, 56%, 0.25);
   --cyan-shadow: 0 0 20px 0 hsla(184, 100% 48%, 0.2);
 }
@@ -115,12 +115,12 @@ h1, h2, h3, h4 {
 
 /* Glassmorphism Panel */
 .glass-panel {
-  background: rgba(38, 38, 38, 0.4);
+  background: linear-gradient(180deg, hsla(224, 24%, 13%, 0.55), hsla(224, 28%, 8%, 0.5));
   backdrop-filter: blur(24px) saturate(180%);
   -webkit-backdrop-filter: blur(24px) saturate(180%);
   border: 1px solid hsla(var(--border-light));
   border-radius: 16px;
-  box-shadow: var(--glass-shadow);
+  box-shadow: var(--glass-shadow), inset 0 1px 0 0 hsla(0, 0%, 100%, 0.04);
   transition: border-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
