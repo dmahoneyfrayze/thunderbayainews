@@ -52,6 +52,17 @@ const run = async () => {
       try {
         await page.goto(`http://127.0.0.1:4178${route}`, { waitUntil: 'networkidle0', timeout: 60000 });
         try { await page.waitForSelector('h1, h2', { timeout: 15000 }); } catch { /* capture anyway */ }
+        // Reveal-safe capture: framer-motion ships initial={opacity:0} until a whileInView
+        // scroll fires — which a crawler never does — so the static HTML would otherwise
+        // ship the hero, stats and funding cards invisible. Force every reveal element to
+        // its visible resting state before capturing; real browsers re-hydrate and still
+        // animate on scroll. See [[prerender-safe-motion]].
+        await page.evaluate(() => {
+          document.querySelectorAll('[style*="opacity: 0"], [style*="opacity:0"]').forEach((el) => {
+            el.style.opacity = '1';
+            el.style.transform = 'none';
+          });
+        });
         const html = await page.content();
         const dir = route === '/' ? distPath : path.join(distPath, route.replace(/^\/|\/$/g, ''));
         fs.mkdirSync(dir, { recursive: true });
