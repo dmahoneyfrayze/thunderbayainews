@@ -210,11 +210,11 @@ const styles = {
     marginBottom: '28px',
   },
   subtitle: {
-    fontSize: '18px',
-    color: 'hsl(224, 16%, 76%)',
+    fontSize: '19px',
+    color: 'hsl(224, 20%, 85%)',
     maxWidth: '640px',
     marginBottom: '44px',
-    lineHeight: 1.6,
+    lineHeight: 1.65,
   },
   ctaGroup: {
     display: 'flex',

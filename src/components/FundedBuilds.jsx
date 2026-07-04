@@ -153,8 +153,8 @@ const styles = {
   },
   bodyText: {
     fontSize: '16px',
-    color: 'hsl(224, 16%, 70%)',
-    lineHeight: 1.6,
+    color: 'hsl(224, 18%, 83%)',
+    lineHeight: 1.65,
   },
   stepsGrid: {
     display: 'grid',
