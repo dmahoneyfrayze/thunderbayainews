@@ -4,6 +4,7 @@ import { CheckCircle2, Search } from 'lucide-react';
 import { GRANTS_DATA } from '../data';
 import TiltCard from './TiltCard';
 import { AnimatedGridPattern } from './AnimatedGridPattern';
+import { useIsMobile } from '../lib/useIsMobile';
 
 const calculateGrantMatch = (grant, inNwo, isIncorporated, isScalable) => {
   if (!grant) return null;
@@ -69,6 +70,7 @@ const calculateGrantMatch = (grant, inNwo, isIncorporated, isScalable) => {
 };
 
 export default function FundingRadar() {
+  const isMobile = useIsMobile();
   const [searchTerm, setSearchTerm] = useState('');
   const [activeFilter, setActiveFilter] = useState('ALL');
   const [selectedGrant, setSelectedGrant] = useState(null);
@@ -267,6 +269,7 @@ export default function FundingRadar() {
             filteredGrants.map((grant, i) => (
               <motion.div
                 key={grant.id}
+                style={grant.featured ? { gridColumn: '1 / -1' } : undefined}
                 initial={{ opacity: 0, y: 30, scale: 0.95 }}
                 whileInView={{ opacity: 1, y: 0, scale: 1 }}
                 viewport={{ once: true, amount: 0.2 }}
@@ -274,43 +277,85 @@ export default function FundingRadar() {
               >
                 <TiltCard
                   className="glass-panel"
-                  style={{ ...styles.grantCard, ...(grant.featured ? { borderColor: 'hsla(184,100%,48%,0.45)', boxShadow: '0 0 26px hsla(184,100%,48%,0.18)' } : {}) }}
+                  style={{
+                    ...styles.grantCard,
+                    ...(grant.featured
+                      ? { borderColor: 'hsla(184,100%,48%,0.45)', boxShadow: '0 0 40px -8px hsla(184,100%,48%,0.28)', padding: isMobile ? '30px' : '40px' }
+                      : {}),
+                  }}
                 >
-                  {grant.featured && (
-                    <span style={{ alignSelf: 'flex-start', marginBottom: '12px', fontFamily: 'var(--font-label)', fontSize: '10px', letterSpacing: '0.22em', fontWeight: 700, color: 'hsl(var(--primary-cyan))' }}>
-                      FEATURED &middot; AI ADOPTION
-                    </span>
-                  )}
-                  <div style={styles.cardHeader}>
-                    <span style={styles.sourceTag}>{grant.source}</span>
-                    <span className={`badge badge-${grant.badgeType}`}>{grant.status}</span>
-                  </div>
-                  
-                  <h3 style={styles.cardTitle}>{grant.name}</h3>
-                  <p style={styles.cardDescription}>{grant.description}</p>
-                  
-                  <div style={styles.metaRow}>
-                    <div style={styles.metaCol}>
-                      <span style={styles.metaLabel}>Max Funding</span>
-                      <span style={styles.metaValue} className="accent-text">{grant.maxAmount}</span>
+                  {grant.featured ? (
+                    <div style={{ display: 'flex', flexDirection: isMobile ? 'column' : 'row', gap: isMobile ? '26px' : '48px', width: '100%', alignItems: isMobile ? 'stretch' : 'center' }}>
+                      <div style={{ flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
+                        <span style={styles.featuredTag}>FEATURED &middot; AI ADOPTION</span>
+                        <div style={{ ...styles.cardHeader, width: '100%', marginBottom: '18px' }}>
+                          <span style={styles.sourceTag}>{grant.source}</span>
+                          <span className={`badge badge-${grant.badgeType}`}>{grant.status}</span>
+                        </div>
+                        <h3 style={{ ...styles.cardTitle, fontSize: isMobile ? '22px' : '28px', marginBottom: '14px' }}>{grant.name}</h3>
+                        <p style={{ ...styles.cardDescription, fontSize: '15px', marginBottom: '28px', flex: 'none' }}>{grant.description}</p>
+                        <button className="btn btn-primary" style={{ width: isMobile ? '100%' : 'auto', padding: '13px 36px' }} onClick={() => handleOpenCalculator(grant)}>
+                          Verify Eligibility
+                        </button>
+                      </div>
+                      <div
+                        style={{
+                          ...styles.featuredData,
+                          minWidth: isMobile ? 'auto' : '240px',
+                          paddingLeft: isMobile ? 0 : '44px',
+                          paddingTop: isMobile ? '24px' : 0,
+                          borderLeft: isMobile ? 'none' : '1px solid hsla(0, 0%, 100%, 0.09)',
+                          borderTop: isMobile ? '1px solid hsla(0, 0%, 100%, 0.09)' : 'none',
+                        }}
+                      >
+                        <div style={styles.metaCol}>
+                          <span style={styles.metaLabel}>Max Funding</span>
+                          <span style={{ ...styles.metaValue, fontSize: '26px' }} className="accent-text">{grant.maxAmount}</span>
+                        </div>
+                        <div style={styles.metaCol}>
+                          <span style={styles.metaLabel}>Coverage</span>
+                          <span style={{ ...styles.metaValue, fontSize: '16px' }}>{grant.coverage}</span>
+                        </div>
+                        <div style={styles.metaCol}>
+                          <span style={styles.metaLabel}>Deadline</span>
+                          <span style={{ ...styles.metaValue, fontSize: '16px' }}>{grant.deadline}</span>
+                        </div>
+                      </div>
                     </div>
-                    <div style={styles.metaCol}>
-                      <span style={styles.metaLabel}>Coverage</span>
-                      <span style={styles.metaValue}>{grant.coverage}</span>
-                    </div>
-                    <div style={styles.metaCol}>
-                      <span style={styles.metaLabel}>Deadline</span>
-                      <span style={styles.metaValue}>{grant.deadline}</span>
-                    </div>
-                  </div>
+                  ) : (
+                    <>
+                      <div style={styles.cardHeader}>
+                        <span style={styles.sourceTag}>{grant.source}</span>
+                        <span className={`badge badge-${grant.badgeType}`}>{grant.status}</span>
+                      </div>
 
-                  <button 
-                    className="btn btn-primary" 
-                    style={styles.checkBtn}
-                    onClick={() => handleOpenCalculator(grant)}
-                  >
-                    Verify Eligibility
-                  </button>
+                      <h3 style={styles.cardTitle}>{grant.name}</h3>
+                      <p style={styles.cardDescription}>{grant.description}</p>
+
+                      <div style={styles.metaRow}>
+                        <div style={styles.metaCol}>
+                          <span style={styles.metaLabel}>Max Funding</span>
+                          <span style={styles.metaValue} className="accent-text">{grant.maxAmount}</span>
+                        </div>
+                        <div style={styles.metaCol}>
+                          <span style={styles.metaLabel}>Coverage</span>
+                          <span style={styles.metaValue}>{grant.coverage}</span>
+                        </div>
+                        <div style={styles.metaCol}>
+                          <span style={styles.metaLabel}>Deadline</span>
+                          <span style={styles.metaValue}>{grant.deadline}</span>
+                        </div>
+                      </div>
+
+                      <button
+                        className="btn btn-primary"
+                        style={styles.checkBtn}
+                        onClick={() => handleOpenCalculator(grant)}
+                      >
+                        Verify Eligibility
+                      </button>
+                    </>
+                  )}
                 </TiltCard>
               </motion.div>
             ))
@@ -617,6 +662,19 @@ const styles = {
     display: 'flex',
     flexDirection: 'column',
     height: '100%',
+  },
+  featuredTag: {
+    marginBottom: '14px',
+    fontFamily: 'var(--font-label)',
+    fontSize: '10px',
+    letterSpacing: '0.22em',
+    fontWeight: 700,
+    color: 'hsl(var(--primary-cyan))',
+  },
+  featuredData: {
+    display: 'flex',
+    flexDirection: 'column',
+    gap: '18px',
   },
   cardHeader: {
     display: 'flex',
