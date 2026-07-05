@@ -1,0 +1,248 @@
+{
+  "startDate": "2026-07-06",
+  "handle": "thunderbayai",
+  "posts": [
+    {
+      "kind": "signal",
+      "issueNo": "03",
+      "dateLabel": "JUL 6",
+      "cover": {
+        "hook": "Anthropic just said it wants to develop its own drugs. That is not the strangest AI story this week.",
+        "sub": "Plus a custom chip deal in talks with Samsung, a 37 percent jump in Google's power bill, and a proposal to hand Washington a stake in OpenAI."
+      },
+      "items": [
+        {
+          "tag": "SCIENCE",
+          "big": "$30K",
+          "bigSize": "140px",
+          "title": "Anthropic launches an AI workbench for scientists - and plans to make its own drugs",
+          "body": "Claude Science, released June 30, gives researchers one environment with more than 60 tools for genomics, proteomics, and structural biology, plus an auditable record of how each result was produced. Anthropic is also funding up to 50 outside research projects with as much as $30,000 in compute credits each - applications close July 15 - and says it will start developing its own treatments for neglected diseases.",
+          "tease": "Next: the hardware Anthropic needs to run all of this.",
+          "reelLine": "Anthropic wants to build software for scientists - and drugs of its own."
+        },
+        {
+          "tag": "INFRASTRUCTURE",
+          "big": "GB300",
+          "bigSize": "120px",
+          "title": "Claude is now generally available on Nvidia's newest chip, inside Azure",
+          "body": "Anthropic's Claude Opus 4.8 and Claude Haiku 4 are now generally available in Microsoft Foundry, running on Nvidia's liquid-cooled GB300 Blackwell Ultra GPUs - clusters of 72 chips wired together for enterprise-scale agent workloads. It builds on the three-way Microsoft-Nvidia-Anthropic partnership announced last November.",
+          "tease": "Next: why Anthropic is also shopping for its own chip supplier.",
+          "reelLine": "Claude's newest models now run on Nvidia's newest chip, inside Azure."
+        },
+        {
+          "tag": "HARDWARE",
+          "big": "2NM",
+          "bigSize": "150px",
+          "title": "Anthropic is in early talks with Samsung to build a custom AI chip",
+          "body": "The discussions are exploratory - Anthropic has not settled on what the chip would do or how powerful it needs to be, and may not proceed. Samsung's advanced 2-nanometer manufacturing is reportedly the draw. It follows OpenAI's own custom chip deal with Broadcom the week before; Anthropic says Nvidia, Google, and Amazon chips remain central to its plans either way.",
+          "tease": "Next: the bill for all this compute is showing up somewhere unexpected.",
+          "reelLine": "Every major AI lab is now shopping for its own chip supplier."
+        },
+        {
+          "tag": "ENERGY",
+          "big": "37%",
+          "bigSize": "180px",
+          "title": "Google's electricity use jumped 37 percent in 2025 - its biggest one-year rise on record",
+          "body": "Google's own report ties the increase to its AI data centers, which drew roughly 42 million megawatt-hours over the year - comparable to New Zealand's entire annual usage. The company says it still matched 100% of its electricity with renewable purchases, but acknowledged its AI buildout is accelerating faster than the grid is decarbonizing.",
+          "tease": "Next: Washington wants an ownership stake in the companies building all this.",
+          "reelLine": "Google's AI buildout just posted its biggest jump in power use on record."
+        },
+        {
+          "tag": "POLICY",
+          "big": "5%",
+          "bigSize": "200px",
+          "title": "OpenAI proposed giving Washington a 5 percent stake in the company",
+          "body": "Sam Altman reportedly floated handing 5% of OpenAI - worth an estimated $42.6 billion at its latest $852 billion valuation - to a US sovereign wealth fund, with other AI labs potentially ceding similar stakes. It is an early proposal, not policy: any formal arrangement would likely need congressional approval.",
+          "tease": "The throughline ->",
+          "reelLine": "A proposal to make the US government a shareholder in the AI boom."
+        }
+      ],
+      "summary": {
+        "title": "AI is turning into infrastructure",
+        "body": "From a science lab to a power grid to a government balance sheet, this week's moves point the same way: AI is stopping being just software and becoming physical and political infrastructure - chips, electricity, and equity stakes - which changes who benefits and who bears the cost."
+      },
+      "reelSub": "5 stories, one throughline: AI is turning into infrastructure - chips, power, and government stakes.",
+      "storySub": "What it means for a Northwest business: the giants are building chips and power plants. The tools you would actually use just kept getting more capable and more available.",
+      "captions": {
+        "carousel": "This week: Anthropic launched Claude Science, an AI workbench for scientists, and said it will start developing its own drugs for neglected diseases. Its models also went generally available on Nvidia's newest GB300 Blackwell Ultra chips inside Microsoft Azure, even as the company opened early talks with Samsung to build a custom chip of its own. Meanwhile Google's electricity use jumped 37 percent in 2025 on its AI buildout, and OpenAI proposed handing Washington a 5 percent stake in the company. Full rundown and sources - link in bio.\n#ThunderBayAI #NorthwesternOntario #AINews #ArtificialIntelligence #TechPolicy #SmallBusiness",
+        "reel": "A drug-discovery AI lab, a custom chip in talks with Samsung, a 37 percent jump in Google's power bill, and a proposal to make Washington a shareholder in OpenAI. This week's AI signal, in five stories.\n#ThunderBayAI #AINews #NorthwesternOntario #TechPolicy #ArtificialIntelligence",
+        "story": "Story frame - add a poll sticker and a link sticker to thunderbayai.com.",
+        "followUpComment": "Full sources for this week's Signal: https://thunderbayai.com"
+      }
+    },
+    {
+      "kind": "card",
+      "pillar": "Funding",
+      "accent": "#22c55e",
+      "cover": {
+        "chip": "FUNDING",
+        "hook": "There is a FedNor program built specifically to fund AI adoption and scale-up in Northern Ontario",
+        "sub": "It covers up to 50 percent of eligible costs - but every application starts with a phone call."
+      },
+      "detailChip": "FedNor - Regional Artificial Intelligence Initiative (RAII)",
+      "title": "Who it's for and how to start",
+      "body": "Incorporated SMEs, not-for-profits, Indigenous communities and organizations, and municipalities in Northern Ontario working on AI commercialization or adoption. It excludes retail and service businesses without commercial scale, and the two-phase application only opens after a call with a FedNor officer.",
+      "why": {
+        "title": "Why it matters",
+        "body": "Most funding conversations treat AI adoption as an afterthought inside a bigger program. This one names it directly - which matters if the project you want funded is specifically an AI tool or integration, not a general capital purchase."
+      },
+      "cta": {
+        "hook": "Not sure if your project qualifies?",
+        "commentQ": "What would you use an AI adoption grant for first?"
+      },
+      "storyCta": "Confirm eligibility with FedNor - link in bio",
+      "captions": {
+        "carousel": "FedNor runs a program built specifically to fund AI adoption and scale-up in Northern Ontario: the Regional Artificial Intelligence Initiative covers up to 50 percent of eligible costs for incorporated SMEs, not-for-profits, Indigenous organizations, and municipalities. It excludes retail and service businesses without commercial scale, and every application starts with a call to a FedNor officer. Confirm eligibility with FedNor before applying. Details in bio.\n#ThunderBayAI #NorthernOntario #FedNor #AIFunding #SmallBusiness #NWOntario",
+        "story": "Story frame - link sticker to thunderbayai.com and a poll: would an AI adoption grant change your plans?",
+        "followUpComment": "Program details: https://fednor.canada.ca/en/our-programs/regional-artificial-intelligence-initiative-raii-northern-ontario"
+      },
+      "source": "https://fednor.canada.ca/en/our-programs/regional-artificial-intelligence-initiative-raii-northern-ontario"
+    },
+    {
+      "kind": "card",
+      "pillar": "AI for Business",
+      "accent": "#3b82f6",
+      "cover": {
+        "chip": "AI FOR BUSINESS",
+        "hook": "HP just expanded its AI partnership across three parts of the business: customer service, software development, and operations",
+        "sub": "You do not need HP's budget to use the same three-lane playbook."
+      },
+      "detailChip": "Enterprise AI deployment - HP x OpenAI",
+      "title": "The three places AI actually gets used",
+      "body": "HP's expanded OpenAI partnership targets exactly three areas: customer-facing support, software development, and internal operations. That is not a coincidence - those are the three places most organizations, regardless of size, see the fastest return from AI: answering customer questions, writing or reviewing code and content, and cutting time on repetitive internal tasks.",
+      "why": {
+        "title": "Why it matters for a small operation",
+        "body": "The playbook scales down even when the budget does not. A small Northwest business can pick one of these three lanes - customer replies, a specific ops task, or drafting - and get a real result without HP's contract."
+      },
+      "cta": {
+        "hook": "Which lane fits your business?",
+        "commentQ": "Customer service, operations, or content - where would AI help your business most right now?"
+      },
+      "storyCta": "The three-lane AI playbook, explained - link in bio",
+      "captions": {
+        "carousel": "HP just expanded its OpenAI partnership across three areas: customer-facing support, software development, and internal operations - the same three places most organizations, regardless of size, see the fastest return from AI. A small Northwest business does not need HP's contract to use the same playbook: pick one lane and prove it works before expanding. Link in bio.\n#ThunderBayAI #AIforBusiness #NorthwesternOntario #SmallBusiness #ArtificialIntelligence",
+        "story": "Story frame - poll sticker: customer service, ops, or content - where would AI help most? Plus a link sticker to thunderbayai.com.",
+        "followUpComment": "Source: https://openai.com/index/hp-frontier-partnership"
+      },
+      "source": "https://openai.com/index/hp-frontier-partnership"
+    },
+    {
+      "kind": "card",
+      "pillar": "How-To",
+      "accent": "#06b6d4",
+      "cover": {
+        "chip": "HOW-TO",
+        "hook": "A global energy company just proved the AI lesson every local operation should copy",
+        "sub": "Augment the expert. Do not replace them. Here is how that scales down."
+      },
+      "detailChip": "3 steps - industrial AI",
+      "title": "Build the copilot, not the replacement",
+      "body": "Woodside Energy's AI 'Startup Advisor' does not run its LNG plants on its own - it helps experienced operators manage a genuinely complex, high-stakes process, using governed data and a repeatable deployment pattern instead of one-off tools. The lesson scales down: pick one high-stakes, well-understood process in your operation, build the AI tool as a copilot for the person who already does it, and only expand once it is trusted.",
+      "why": {
+        "title": "Why it matters",
+        "body": "The failure mode for AI projects is rarely ambition - it is skipping straight to automation before anyone trusts the tool's data or judgment. Start narrow, keep a person in the loop, and prove it before you scale it."
+      },
+      "cta": {
+        "hook": "Where would a copilot help most?",
+        "commentQ": "What is the one process in your business where you would want AI assisting - not replacing - the person doing it?"
+      },
+      "storyCta": "The augment-don't-replace approach to industrial AI - link in bio",
+      "captions": {
+        "carousel": "Woodside Energy's AI 'Startup Advisor' does not run its LNG plants on its own - it is built to help experienced operators manage a genuinely complex process, on governed data and a repeatable pattern. The lesson scales down: build the AI tool as a copilot for the person who already does the job, not a replacement, and prove it narrow before you expand it. Link in bio.\n#ThunderBayAI #AIforBusiness #NorthwesternOntario #SmallBusiness #Productivity",
+        "story": "Story frame - link sticker to thunderbayai.com and a question sticker: what process would you want an AI copilot for?",
+        "followUpComment": "Source: https://www.technologyreview.com/2026/07/02/1138433/teaching-ai-to-run-with-the-turbines/"
+      },
+      "source": "https://www.technologyreview.com/2026/07/02/1138433/teaching-ai-to-run-with-the-turbines/"
+    },
+    {
+      "kind": "card",
+      "pillar": "Funding",
+      "accent": "#16a34a",
+      "cover": {
+        "chip": "FUNDING FRIDAY",
+        "hook": "There is up to $2 million available in Northern Ontario for commercializing new technology",
+        "sub": "NOHFC's Invest North - Innovation stream covers R&D, prototyping, and bringing it to market."
+      },
+      "big": "$2,000,000",
+      "bigLabel": "Maximum, combined",
+      "bigCaption": "NOHFC's Invest North - Innovation program covers up to 50% of eligible costs - R&D capped at $500K, or up to $2M combined for R&D, demonstration, and commercialization together.",
+      "bigSub": "A private-sector business must lead the application (academic partners can join), and total government funding cannot exceed 75% of eligible costs - confirm eligibility and the current intake with NOHFC before applying.",
+      "detailChip": "NOHFC - Invest North Innovation",
+      "title": "What it actually funds",
+      "body": "Technical labour, prototyping, testing and certification, IP protection, and commercialization-tied marketing for new technology developed in Northern Ontario. It excludes projects that are purely internal-efficiency plays, land purchases, and working capital.",
+      "why": {
+        "title": "Why it matters",
+        "body": "This is one of the larger non-dilutive funding pools available regionally for turning a technology idea - AI-based or otherwise - into something a Northern Ontario business can actually sell, not just internal tooling."
+      },
+      "cta": {
+        "hook": "Building something new?",
+        "commentQ": "Is your project closer to R&D, or ready to commercialize?"
+      },
+      "storyCta": "Full eligibility details - link in bio",
+      "captions": {
+        "carousel": "Northern Ontario has up to $2 million available for commercializing new technology: NOHFC's Invest North - Innovation program covers up to 50 percent of eligible costs, from prototyping and testing to IP protection and go-to-market work. The private-sector applicant has to lead, and total government funding cannot exceed 75 percent of eligible costs. Always confirm eligibility directly with NOHFC. Link in bio.\n#ThunderBayAI #NOHFC #NorthernOntario #SmallBusiness #Funding #NWOntario",
+        "story": "Story frame - link sticker to thunderbayai.com and a poll: R&D stage, or ready to commercialize?",
+        "followUpComment": "Program details: https://nohfc.ca/private-programs/invest-north-innovation/"
+      },
+      "source": "https://nohfc.ca/private-programs/invest-north-innovation/"
+    },
+    {
+      "kind": "card",
+      "pillar": "Local Use-Cases",
+      "accent": "#a855f7",
+      "cover": {
+        "chip": "LOCAL USE-CASES",
+        "hook": "4 unglamorous tasks Northwest businesses are already handing to AI",
+        "sub": "None of them are flashy. All of them free up real hours."
+      },
+      "list": [
+        { "title": "Sorting receipts and expense categorizing", "body": "Photographing or forwarding receipts to an AI tool that reads amounts, dates, and vendors, then drops them into the right expense category - cutting bookkeeping prep from hours to minutes each month." },
+        { "title": "Answering routine questions in a second language", "body": "Drafting a first-pass response to a customer inquiry in French or another language, so a small front-desk or tourism operation does not need a dedicated translator for every message." },
+        { "title": "Logging equipment maintenance notes", "body": "Turning a quick voice memo after a truck, mill, or equipment repair into a clean, searchable maintenance log - so the next person who touches that machine has the history instead of guessing." },
+        { "title": "Drafting job postings and screening questions", "body": "Writing a first version of a job posting and a short set of screening questions, then having a person adjust it before it goes out - useful for operations without a dedicated HR hire." }
+      ],
+      "why": {
+        "title": "Why it matters",
+        "body": "None of these replace judgment - they clear the small, repetitive work that eats a morning, which is exactly the kind of cost a modest AI-adoption grant is built to help cover."
+      },
+      "cta": {
+        "hook": "Already doing one of these?",
+        "commentQ": "Which of these four would save your business the most time right now?"
+      },
+      "storyCta": "Save this list for later - link in bio",
+      "captions": {
+        "carousel": "Four unglamorous tasks Northwestern Ontario businesses are already handing to AI: sorting receipts for bookkeeping, answering routine questions in a second language, logging equipment maintenance notes, and drafting job postings. None of it replaces judgment - all of it clears a morning's worth of repetitive work. Full list in bio.\n#ThunderBayAI #SmallBusiness #NorthwesternOntario #AIforBusiness #Productivity",
+        "story": "Story frame - link sticker to thunderbayai.com and a poll: which task would save your business the most time?",
+        "followUpComment": "More practical AI use-cases for Northwest businesses: https://thunderbayai.com"
+      }
+    },
+    {
+      "kind": "card",
+      "pillar": "Mindset",
+      "accent": "#6366f1",
+      "cover": {
+        "chip": "MINDSET",
+        "hook": "Ask any mainstream chatbot for a random number and you will almost always get 7",
+        "sub": "That is not a fun fact - it is a warning about what these tools optimize for, and why the Northwest cannot treat them as a neutral judge."
+      },
+      "detailChip": "The take",
+      "title": "AI gives you the consensus answer, not an independent one",
+      "body": "MIT Technology Review reported this week that ChatGPT, Claude, and Gemini converge on the same handful of answers for open-ended prompts - a random-number request almost always returns 7. An Australian startup, Springboards, built an alternative model called Flint on the open-source Qwen 3, trained to spot the specific moments in a response where more variety is possible and vary it there, rather than simply turning up randomness settings, which tends to make mainstream models incoherent.",
+      "why": {
+        "title": "Why it matters here",
+        "body": "For coding or drafting, that convergence toward the expected answer is often useful. For pricing a service, positioning a business, or planning around a market that looks nothing like the average training example, it is a limitation - the Northwest rarely resembles the statistically likely answer. Use AI to draft and organize; keep the calls that depend on local knowledge with the people who have it."
+      },
+      "cta": {
+        "hook": "Have you noticed this?",
+        "commentQ": "Has an AI tool ever handed you a generic answer that clearly did not fit a Northwest reality?"
+      },
+      "storyCta": "Why AI groupthink matters for local decisions - link in bio",
+      "captions": {
+        "carousel": "Ask a mainstream chatbot for a random number and you will almost always get 7 - a pattern MIT Technology Review traced this week to how these models converge on the statistically expected answer rather than an independent one. An Australian startup built an alternative trained to vary its answers at specific points instead of just turning up randomness. For a Northwest business, the takeaway: AI is a strong drafting and organizing tool, but the judgment calls specific to this region still belong to people who know it. Link in bio.\n#ThunderBayAI #ArtificialIntelligence #NorthwesternOntario #Mindset #SmallBusiness",
+        "story": "Story frame - poll sticker: do you trust AI's take on local decisions? Plus a link sticker to thunderbayai.com.",
+        "followUpComment": "Source: https://www.technologyreview.com/2026/07/01/1140003/llms-are-stuck-in-a-groupthink-rut-this-startup-is-trying-to-get-them-out/"
+      },
+      "source": "https://www.technologyreview.com/2026/07/01/1140003/llms-are-stuck-in-a-groupthink-rut-this-startup-is-trying-to-get-them-out/"
+    }
+  ]
+}
