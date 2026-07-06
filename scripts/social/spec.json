@@ -1,68 +1,68 @@
 {
-  "iso": "2026-06-29",
-  "issueNo": "02",
-  "dateLabel": "JUN 29",
+  "iso": "2026-07-06",
+  "issueNo": "03",
+  "dateLabel": "JUL 6",
   "handle": "thunderbayai",
   "cover": {
-    "hook": "Two Ring of Fire corridor projects are simultaneously under construction — for the first time.",
-    "sub": "Plus OpenAI's first custom chip, Thunder Bay recruiting from Toronto, trades training going local, and 13 fires across the Northwest."
+    "hook": "Fable 5 is back — the 19-day AI model ban on Canadian users is over.",
+    "sub": "Plus $39M for Northern Ontario communities, 74 active wildfires, a July 31 funding deadline, and Canada's biggest privacy law in 25 years."
   },
-  "reelSub": "AI is getting cheaper and the Ring of Fire is building on two fronts.",
-  "storySub": "What this week's moves mean for a Northwestern Ontario business.",
+  "reelSub": "Fable 5 returns, $39M for Northern Ontario, and 74 fires across the Northwest.",
+  "storySub": "Five moves from this week that affect how you build, fund, and run an NWO business.",
   "items": [
     {
-      "tag": "INFRASTRUCTURE",
-      "big": "$81.3M",
-      "bigSize": "120px",
-      "title": "Geraldton's Ring of Fire gateway gets rebuilt",
-      "body": "$81.3M reconstruction of Geraldton's main corridor — awarded to a First Nations firm — prepares the Ring of Fire gateway. Ring of Fire corridor infrastructure now under active construction on multiple fronts.",
-      "tease": "Next: AI is about to get cheaper.",
-      "reelLine": "$81.3M Ring of Fire road rebuild — the corridor is widening."
-    },
-    {
       "tag": "MODEL WATCH",
-      "big": "9 MO",
-      "bigSize": "120px",
-      "title": "OpenAI built its first chip in 9 months — inference costs are heading down",
-      "body": "The Jalapeño processor, built with Broadcom, is designed for running AI models cheaper and faster. Custom silicon from model providers means lower per-query costs ahead.",
-      "tease": "Next: Thunder Bay is recruiting your next hire from southern Ontario.",
-      "reelLine": "OpenAI built its own chip in 9 months. AI inference is getting cheaper."
-    },
-    {
-      "tag": "LOCAL",
-      "big": "WORK HERE",
+      "big": "19 DAYS",
       "bigSize": "86px",
-      "title": "Thunder Bay recruiting tradespeople and professionals from across Canada",
-      "body": "The CEDC 'Work Here' campaign runs nationally through September with GO Transit ads and workinthunderbay.ca. Regional employers benefit from the brand-awareness lift at no direct cost.",
-      "tease": "Next: trades apprentices can now train locally in Thunder Bay.",
-      "reelLine": "Thunder Bay is running a national campaign to fill your skilled-trades job listings."
+      "title": "Fable 5 ban lifted — Canadian users have access again",
+      "body": "US export controls on Fable 5 were lifted June 30; Anthropic restored global access July 1. A new safety classifier blocks the jailbreak that triggered the shutdown. The framework enabling a repeat is now more formalized.",
+      "tease": "Next: $39M flowing into Northern Ontario communities.",
+      "reelLine": "Fable 5 ban lifted July 1 — Canadian AI users are back online."
+    },
+    {
+      "tag": "FUNDING",
+      "big": "$39M",
+      "bigSize": "180px",
+      "title": "FedNor opens $39M for Northern Ontario community infrastructure",
+      "body": "Municipalities and Indigenous organizations across Northern Ontario can now apply to repair and upgrade community facilities through the federal Build Communities Strong Fund. Announced in Thunder Bay June 30.",
+      "tease": "Next: the fire count that jumped from 13 to 74.",
+      "reelLine": "$39M federal stream open now for Northern Ontario communities."
     },
     {
       "tag": "LOCAL",
-      "big": "TRADES",
+      "big": "74",
       "bigSize": "180px",
-      "title": "Confederation College approved to train General Machinists in Thunder Bay",
-      "body": "Ontario approved the 429A machinist apprenticeship at Confederation College on June 26. Apprentices in mining, manufacturing, and equipment repair no longer need to travel south.",
-      "tease": "Next: 13 fires burning across the Northwest.",
-      "reelLine": "Confederation College can now train machinists — a win for NWO trades retention."
+      "title": "74 active wildfires across the Northwest — 17 uncontrolled",
+      "body": "The Northwest Fire Region had 74 active fires as of July 4, up from 13 on June 25. Three large complexes are driving resources. A drying trend is expected to worsen conditions.",
+      "tease": "Next: a funding deadline 25 days away.",
+      "reelLine": "74 wildfires burning in the Northwest — 17 uncontrolled as of July 4."
     },
     {
-      "tag": "LOCAL",
-      "big": "13",
-      "bigSize": "180px",
-      "title": "Thirteen active wildfires in the Northwest — elevated risk for outdoor operations",
-      "body": "As of June 25, thirteen wildfires were active in the Northwest Region, four uncontrolled, with fire danger high to extreme. Forestry, construction, and outdoor operations should monitor the provincial fire portal.",
+      "tag": "FUNDING",
+      "big": "JUL 31",
+      "bigSize": "120px",
+      "title": "NORDS Fund closes July 31 — $400K available per Northern Ontario municipality",
+      "body": "All 144 Northern Ontario municipalities can apply for up to $400,000 in infrastructure grants through the provincial NORDS Fund before July 31 at 5 PM EDT. Up to 100% of eligible capital costs covered.",
+      "tease": "Next: Canada's biggest privacy law in 25 years.",
+      "reelLine": "NORDS Fund deadline: July 31. Up to $400K per NWO municipality."
+    },
+    {
+      "tag": "GOVERNMENT",
+      "big": "25 YRS",
+      "bigSize": "120px",
+      "title": "Canada tables its first AI-era privacy law — Bill C-36",
+      "body": "Bill C-36 requires businesses to explain automated decision-making, honour data-deletion requests, and disclose AI use affecting individuals. Not yet law; fines up to 5% of global revenue proposed.",
       "tease": "The throughline ->",
-      "reelLine": "13 active fires across the Northwest — know the risk if you operate outdoors."
+      "reelLine": "Bill C-36: Canada's first AI-era privacy law is before Parliament."
     }
   ],
   "summary": {
-    "title": "Infrastructure builds, AI costs fall, and the labour market gets regional support",
-    "body": "This week's NWO picture: Ring of Fire corridor infrastructure enters active construction on multiple fronts, AI economics are shifting as model providers move to custom silicon, and regional institutions are doing the talent-attraction work individual employers cannot."
+    "title": "AI access restored, public money flowing north, and new rules on the horizon",
+    "body": "This week the Fable 5 ban lifted and Canadian AI access is restored, $39M in federal community funding opened for Northern Ontario, a key provincial infrastructure deadline arrives July 31, and Canada's first AI-era privacy law started its path through Parliament."
   },
   "captions": {
-    "carousel": "Two Ring of Fire corridor projects are simultaneously under construction. OpenAI unveiled its first custom inference chip — and per-query AI costs are heading down. Thunder Bay is running a national campaign to attract tradespeople from across Canada. Confederation College can now train General Machinists locally. Five developments from this week in the Northwest — full breakdown in the Signal, link in bio. #ThunderBay #NorthwesternOntario #NorthernOntario #RingOfFire #AIbusiness #NWOntario",
-    "reel": "Ring of Fire building on two fronts. OpenAI's first custom chip. Thunder Bay recruiting nationally. Five moves for the Northwest this week. thunderbayai.com #NorthernOntario #ThunderBay #RingOfFire #AIbusiness",
+    "carousel": "Fable 5 is back for Canadian users after a 19-day ban. FedNor opened a $39M community infrastructure stream for Northern Ontario municipalities and Indigenous organizations. Wildfire conditions across the Northwest jumped from 13 to 74 active fires. The provincial NORDS Fund deadline is July 31 — up to $400K per municipality. And Canada's biggest privacy reform in 25 years is now before Parliament. Full breakdown in The Signal, link in bio. #ThunderBay #NorthwesternOntario #NorthernOntario #AIbusiness #FedNor #NWOntario",
+    "reel": "Fable 5 back online. $39M for Northern Ontario. 74 wildfires. July 31 funding deadline. Canada's AI-era privacy law. Five moves from this week. thunderbayai.com #NorthernOntario #ThunderBay #AIbusiness #FedNor",
     "story": "Story frame — add a poll sticker and a link sticker to thunderbayai.com."
   }
 }
