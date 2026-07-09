@@ -116,6 +116,7 @@ export default function App() {
               <span style={styles.footerLink} onClick={() => handleScrollTo('intelligence')}>Intelligence Feed</span>
               <span style={styles.footerLink} onClick={() => handleScrollTo('weekly-brief')}>Weekly Brief</span>
               <Link to="/blog" style={{ ...styles.footerHref, display: 'block' }}>Journal</Link>
+              <a href="/rss.xml" style={{ ...styles.footerHref, display: 'block' }}>RSS Feed</a>
             </div>
             <div style={styles.linksCol}>
               <h4 style={styles.linksTitle}>The Hub</h4>

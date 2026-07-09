@@ -65,8 +65,11 @@ funding facts stay "confirm with the program," sourced):
 6. **GEO citability polish**: lead every funding post with a 2-sentence direct answer (pattern shipped on BBAA/RAII —
    extend to the rest); add HowTo schema to BBAA "how to be ready"; DefinedTerm for MFIPPA/RAII/BBAA; Dataset schema
    on `/funding`; add **author byline / E-E-A-T** attribution (helps Google News).
-7. **Trust/UX**: surface "nothing publishes unread" near the hero; visible contact email; RSS feed; check the
-   FundingRadar modal body-scroll-lock on mobile; per-post custom OG cards (the og-image pattern).
+7. **Trust/UX**: surface "nothing publishes unread" near the hero; ~~visible contact email~~ (already live —
+   `mailto:denis@frayze.ca` in footer); ~~RSS feed~~ — DONE 2026-07-09 (full-text RSS 2.0 at `/rss.xml`,
+   generated in `scripts/prerender.mjs` from all 27 Journal posts, `<link rel="alternate">` discovery tag
+   in `index.html`, footer link added); check the FundingRadar modal body-scroll-lock on mobile; per-post
+   custom OG cards (the og-image pattern).
 
 ### DENIS-ONLY (off-site, can't be automated — distribution is the real fast-views lever for a new domain)
 Submit sitemap + news-sitemap to GSC + Request Indexing; route Netlify subscribers -> GHL (CASL double-opt-in);

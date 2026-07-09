@@ -117,6 +117,29 @@ const run = async () => {
       `User-agent: *\nAllow: /\n\nSitemap: ${SITE}/sitemap.xml\nSitemap: ${SITE}/news-sitemap.xml\n`
     );
     console.log('  saved sitemap.xml + news-sitemap.xml + robots.txt');
+
+    // rss.xml — full-text RSS 2.0 feed of the Journal, newest first. Syndication surface
+    // for feed readers and AI/news crawlers that prefer RSS over HTML discovery; also the
+    // asset for pitching NetNewsLedger-style aggregators and Google News.
+    const blockText = (b) => {
+      if (b.type === 'p') return `<p>${esc(b.text)}</p>`;
+      if (b.type === 'h2') return `<h3>${esc(b.text)}</h3>`;
+      if (b.type === 'ul') return `<ul>${b.items.map((it) => `<li>${esc(it)}</li>`).join('')}</ul>`;
+      if (b.type === 'callout') return `<p><em>${esc(b.text)}</em></p>`;
+      return '';
+    };
+    const rssPosts = [...POSTS].sort((a, b) => (a.iso < b.iso ? 1 : -1));
+    const rssItems = rssPosts.map((p) => {
+      const url = `${SITE}/blog/${p.slug}/`;
+      const pubDate = new Date(`${p.iso}T12:00:00Z`).toUTCString();
+      const contentHtml = p.blocks.filter((b) => b.type !== 'source').map(blockText).join('');
+      return `  <item>\n    <title>${esc(p.title)}</title>\n    <link>${url}</link>\n    <guid isPermaLink="true">${url}</guid>\n    <pubDate>${pubDate}</pubDate>\n    <category>${esc(p.category)}</category>\n    <description>${esc(p.dek)}</description>\n    <content:encoded><![CDATA[${contentHtml}]]></content:encoded>\n  </item>`;
+    }).join('\n');
+    fs.writeFileSync(
+      path.join(distPath, 'rss.xml'),
+      `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">\n<channel>\n  <title>Thunder Bay AI — Journal</title>\n  <link>${SITE}/blog/</link>\n  <atom:link href="${SITE}/rss.xml" rel="self" type="application/rss+xml" />\n  <description>AI, funding, and tech intelligence for Northwestern Ontario — the full Journal, newest first.</description>\n  <language>en-ca</language>\n  <lastBuildDate>${new Date(`${rssPosts[0].iso}T12:00:00Z`).toUTCString()}</lastBuildDate>\n${rssItems}\n</channel>\n</rss>\n`
+    );
+    console.log('  saved rss.xml');
     console.log('Prerendering complete.');
   } finally {
     await browser.close();
