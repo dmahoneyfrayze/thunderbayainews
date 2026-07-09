@@ -14,7 +14,7 @@ never "you qualify." No emojis. Direct-answer opening + a source block, every po
 - [x] FedNor Regional Tariff Response Initiative (RTRI) — up to $1M non-repayable — what it covers, open to Mar 2028 — fednor-rtri-tariff-response-northern-ontario
 - [x] NOHFC Invest North — Launch — up to $200K for early-stage NWO businesses — nohfc-invest-north-launch-new-business-northern-ontario
 - [x] nohfc-invest-north-grow-expansion-northern-ontario NOHFC Invest North — Grow — $400K grant / $1M loan, quarterly intake
-- [ ] NOHFC Invest North — Innovation — up to $2M for R&D to commercialization
+- [x] nohfc-invest-north-innovation-rd-commercialization-northern-ontario NOHFC Invest North — Innovation — up to $2M for R&D to commercialization
 - [ ] NOHFC Workforce Development — up to $35K/internship (fund an AI/tech hire)
 - [ ] NRC IRAP — R&D funding + advisory, typical $75K–$200K for first-timers
 - [ ] SR&ED tax credit — up to 35% refundable on R&D, incl. custom software (the one most owners miss)
