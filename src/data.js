@@ -1,15 +1,18 @@
 // Funding & grant programs relevant to Northwestern Ontario businesses.
-// VERIFIED June 2026 against each program's official source (sourceUrl). Eligibility
-// is guidance only — always "confirm with the program." No closed programs (CDAP closed
-// 2024; NOIC Next Level on hold; both excluded). See resources/CONTENT-ENGINE.md for the
-// upkeep cadence. Proof-integrity: do not edit a number/deadline without re-checking the source.
+// Each entry carries lastVerified — the date it was re-checked against its official source
+// (sourceUrl). Full sweep 2026-07-10 (see Denisbot projects/thunderbay-ai/FUNDING-VERIFICATION-2026-07-10.md).
+// Eligibility is guidance only — always "confirm with the program." Programs with a closed
+// current intake stay listed with status "2026 Intake Closed" (they reopen); permanently dead
+// programs are excluded (CDAP closed 2024; NOIC Next Level on hold). See resources/CONTENT-ENGINE.md
+// for the upkeep cadence. Proof-integrity: do not edit a number/deadline without re-checking the source.
 export const GRANTS_DATA = [
   {
     id: "fednor-raii",
+    lastVerified: "2026-07-10",
     name: "Regional Artificial Intelligence Initiative (RAII)",
     source: "FedNor",
     maxAmount: "Varies — confirm with program",
-    coverage: "Up to 50% of eligible costs (government funding cap)",
+    coverage: "Up to 50% of capital costs; up to 75% of non-capital costs (for-profits)",
     deadline: "Continuous Intake",
     status: "Active",
     badgeType: "active",
@@ -17,13 +20,14 @@ export const GRANTS_DATA = [
     eligibility: {
       location: "Northern Ontario",
       businessType: "Incorporated SMEs, not-for-profits, Indigenous communities & organizations, municipalities",
-      excludes: "Retail and service-based businesses without commercial scale",
+      excludes: "Retail and service-based businesses",
       requirements: "Contact a FedNor officer (1-877-333-6673) before applying; demonstrate AI readiness or scale-up potential."
     },
     sourceUrl: "https://fednor.canada.ca/en/our-programs/regional-artificial-intelligence-initiative-raii-northern-ontario"
   },
   {
     id: "fednor-bsp",
+    lastVerified: "2026-07-10",
     name: "Business Scale-up and Productivity (BSP)",
     source: "FedNor (REGI)",
     maxAmount: "$500,000",
@@ -42,6 +46,7 @@ export const GRANTS_DATA = [
   },
   {
     id: "fednor-rtri",
+    lastVerified: "2026-07-10",
     name: "Regional Tariff Response Initiative (RTRI)",
     source: "FedNor",
     maxAmount: "$1,000,000 non-repayable (more available as repayable)",
@@ -60,6 +65,7 @@ export const GRANTS_DATA = [
   },
   {
     id: "fednor-nodp-ced",
+    lastVerified: "2026-07-10",
     name: "Northern Ontario Development Program — Community Economic Development",
     source: "FedNor",
     maxAmount: "Varies — confirm with program",
@@ -71,13 +77,14 @@ export const GRANTS_DATA = [
     eligibility: {
       location: "Northern Ontario",
       businessType: "Not-for-profits, Indigenous communities & organizations, municipalities",
-      excludes: "Private for-profit businesses (separate NODP streams apply to those)",
+      excludes: "Private for-profit businesses (separate NODP streams apply); social infrastructure (education, health, long-term care); retail, wholesale, accommodation & administrative facilities; recreational/cultural infrastructure (museums, arenas, libraries); government services; land or rolling-stock purchases",
       requirements: "Minimum 10% applicant contribution; contact FedNor before applying (budget is limited due to demand)."
     },
     sourceUrl: "https://fednor.canada.ca/en/our-programs/northern-ontario-development-program-nodp/community-economic-development"
   },
   {
     id: "noic-bbaa",
+    lastVerified: "2026-07-10",
     name: "Building Blueprints for AI Adoption (BBAA)",
     source: "Northwestern Ontario Innovation Centre (NOIC)",
     featured: true,
@@ -97,6 +104,7 @@ export const GRANTS_DATA = [
   },
   {
     id: "noic-costarter",
+    lastVerified: "2026-07-10",
     name: "Costarter Accelerator",
     source: "Northwestern Ontario Innovation Centre (NOIC)",
     maxAmount: "Non-dilutive contribution + office space",
@@ -115,6 +123,7 @@ export const GRANTS_DATA = [
   },
   {
     id: "nohfc-invest-north-launch",
+    lastVerified: "2026-07-10",
     name: "NOHFC Invest North — Launch",
     source: "Northern Ontario Heritage Fund Corporation (NOHFC)",
     maxAmount: "$200,000",
@@ -133,6 +142,7 @@ export const GRANTS_DATA = [
   },
   {
     id: "nohfc-invest-north-grow",
+    lastVerified: "2026-07-10",
     name: "NOHFC Invest North — Grow",
     source: "Northern Ontario Heritage Fund Corporation (NOHFC)",
     maxAmount: "$1,000,000 loan / $400,000 grant",
@@ -151,6 +161,7 @@ export const GRANTS_DATA = [
   },
   {
     id: "nohfc-invest-north-innovation",
+    lastVerified: "2026-07-10",
     name: "NOHFC Invest North — Innovation",
     source: "Northern Ontario Heritage Fund Corporation (NOHFC)",
     maxAmount: "$2,000,000",
@@ -169,6 +180,7 @@ export const GRANTS_DATA = [
   },
   {
     id: "nohfc-workforce-development",
+    lastVerified: "2026-07-10",
     name: "NOHFC Workforce Development Program",
     source: "Northern Ontario Heritage Fund Corporation (NOHFC)",
     maxAmount: "$35,000 per internship / year",
@@ -187,9 +199,10 @@ export const GRANTS_DATA = [
   },
   {
     id: "nrc-irap",
+    lastVerified: "2026-07-10",
     name: "NRC Industrial Research Assistance Program (IRAP)",
     source: "National Research Council Canada (NRC)",
-    maxAmount: "Varies — first-time applicants typically $75,000–$200,000",
+    maxAmount: "Varies — scoped with your NRC Industrial Technology Advisor",
     coverage: "Financial contributions for R&D plus advisory support",
     deadline: "Continuous Intake",
     status: "Active",
@@ -205,14 +218,15 @@ export const GRANTS_DATA = [
   },
   {
     id: "sred-tax-credit",
+    lastVerified: "2026-07-10",
     name: "Scientific Research & Experimental Development (SR&ED) Tax Incentive",
     source: "Canada Revenue Agency (CRA)",
-    maxAmount: "Up to 35% refundable credit on up to $3M of eligible R&D (CCPCs)",
+    maxAmount: "Up to 35% refundable credit on up to $6M of eligible R&D (CCPCs)",
     coverage: "35% refundable ITC for CCPCs; 15% for other businesses",
     deadline: "Filed annually with your corporate tax return",
     status: "Active",
     badgeType: "active",
-    description: "A federal tax incentive that reduces income tax payable — or provides a cash refund — for qualifying R&D done in Canada. Applies to basic research, applied research, and experimental development, and can stack with provincial R&D credits.",
+    description: "A federal tax incentive that reduces income tax payable — or provides a cash refund — for qualifying R&D done in Canada. Applies to basic research, applied research, and experimental development, and can stack with provincial R&D credits. Changed in 2026: Budget 2025 (Bill C-15) doubled the enhanced-credit expenditure limit from $3M to $6M, retroactive to tax years beginning on or after December 16, 2024, and raised the taxable-capital phase-out to $15M–$75M.",
     eligibility: {
       location: "Canada (all provinces including Ontario)",
       businessType: "Canadian corporations, partnerships, or individuals doing eligible R&D; highest benefit for CCPCs",
@@ -223,6 +237,7 @@ export const GRANTS_DATA = [
   },
   {
     id: "futurpreneur-core-startup",
+    lastVerified: "2026-07-10",
     name: "Futurpreneur Canada — Core Startup",
     source: "Futurpreneur Canada",
     maxAmount: "$75,000",
@@ -233,50 +248,53 @@ export const GRANTS_DATA = [
     description: "Startup financing and a mandatory two-year mentorship for entrepreneurs aged 18–39, including in Thunder Bay and Northwestern Ontario. Combines a Futurpreneur loan with a BDC co-investment loan for up to $75,000 total.",
     eligibility: {
       location: "Canada (available in Thunder Bay & Northwestern Ontario)",
-      businessType: "For-profit startups operating full-time for 24 months or less",
-      excludes: "Contractor/agent arrangements for existing businesses; businesses beyond 24 months",
+      businessType: "For-profit startups and existing businesses with less than a year of significant sales",
+      excludes: "Contractor/agent arrangements for existing businesses; businesses with a year or more of significant sales",
       requirements: "Aged 18–39; Canadian citizen or permanent resident; complete business plan and 24-month cash-flow projection."
     },
     sourceUrl: "https://futurpreneur.ca/en/offering/core-startup/"
   },
   {
     id: "ontario-starter-company-plus",
+    lastVerified: "2026-07-10",
     name: "Starter Company Plus",
     source: "Ontario · Thunder Bay & District Entrepreneur Centre",
     maxAmount: "$5,000",
-    coverage: "Grant up to $5,000 (applicant invests at least 25% / $1,250)",
-    deadline: "Verify with program — contact the Entrepreneur Centre",
-    status: "Active",
-    badgeType: "active",
-    description: "A provincial grant and training program for Ontario entrepreneurs starting, buying, or expanding a small business — up to 15 hours of training, business-plan help, a grant up to $5,000, and a three-month mentorship. A dedicated Indigenous stream is available locally.",
+    coverage: "Grant up to $5,000 plus training and a three-month mentorship (applicant investment required — confirm the current terms)",
+    deadline: "2026 intake closed — ask the Entrepreneur Centre about the next intake",
+    status: "2026 Intake Closed",
+    badgeType: "closed",
+    description: "A provincial grant and training program for Ontario entrepreneurs starting, buying, or expanding a small business — up to 15 hours of training, business-plan help, a grant up to $5,000, and a three-month mentorship. A dedicated Indigenous stream is available locally. Applications for the 2026 program are closed; the program runs in intakes, so check with the Entrepreneur Centre for the next one.",
     eligibility: {
       location: "Thunder Bay & surrounding Northwestern Ontario",
       businessType: "For-profit small businesses starting, buying, or expanding",
       excludes: "Charities, non-profits, and certain regulated industries",
-      requirements: "18+; Ontario resident & Canadian citizen/PR; not a full-time student; invest at least $1,250 before applying; confirm open intake with the Entrepreneur Centre (807-625-3960)."
+      requirements: "18+; Ontario resident & Canadian citizen/PR; not a full-time student; confirm the next intake and investment terms with the Entrepreneur Centre (807-625-3960)."
     },
-    sourceUrl: "https://gotothunderbay.ca/how-we-help/entrepreneur-centre/starter-company-program/"
+    sourceUrl: "https://gotothunderbay.ca/supportprograms/starter-company-program/"
   },
   {
     id: "ontario-summer-company",
+    lastVerified: "2026-07-10",
     name: "Summer Company",
     source: "Ontario · Thunder Bay & District Entrepreneur Centre",
     maxAmount: "$3,000",
     coverage: "Up to $3,000 in seed funding plus coaching",
-    deadline: "Verify with program — seasonal intake",
-    status: "Active",
-    badgeType: "active",
-    description: "Up to $3,000 in seed funding plus hands-on coaching for full-time students aged 15–29 who want to start and run a summer business, working with local business leaders throughout the program.",
+    deadline: "2026 deadline was May 15 (closed) — reopens each spring",
+    status: "2026 Intake Closed",
+    badgeType: "closed",
+    description: "Up to $3,000 in seed funding plus hands-on coaching for full-time students aged 15–29 who want to start and run a summer business, working with local business leaders throughout the program. The 2026 application deadline (May 15) has passed; the program reopens seasonally each spring.",
     eligibility: {
       location: "Thunder Bay & surrounding Northwestern Ontario",
       businessType: "New summer businesses",
       excludes: "Applicants who previously received a Summer Company grant",
-      requirements: "Aged 15–29 and a full-time student; confirm the current intake with the Entrepreneur Centre."
+      requirements: "Aged 15–29 and a full-time student; confirm the next intake with the Entrepreneur Centre (807-625-3960)."
     },
-    sourceUrl: "https://gotothunderbay.ca/how-we-help/entrepreneur-centre/summer-company-program/"
+    sourceUrl: "https://www.ontario.ca/page/start-summer-company-students"
   },
   {
     id: "nadf-business-loans",
+    lastVerified: "2026-07-10",
     name: "NADF Business Loans (incl. Microloans & Indigenous Women in Business)",
     source: "Nishnawbe Aski Development Fund (NADF), Thunder Bay",
     maxAmount: "$500,000 (up to $1M in exceptional cases)",
@@ -295,6 +313,7 @@ export const GRANTS_DATA = [
   },
   {
     id: "thunder-bay-ventures-cfdc",
+    lastVerified: "2026-07-10",
     name: "Thunder Bay Ventures — Community Futures Loans",
     source: "Thunder Bay Ventures (CFDC, FedNor-funded)",
     maxAmount: "$600,000 (NWOIP) / $150,000 (term loans)",
@@ -312,6 +331,14 @@ export const GRANTS_DATA = [
     sourceUrl: "https://www.thunderbayventures.com/funding/"
   }
 ];
+
+// Render a program's lastVerified ISO date as "July 10, 2026" (deterministic, no locale).
+const MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+export function formatVerified(iso) {
+  if (!iso) return null;
+  const [y, m, d] = iso.split("-").map(Number);
+  return `${MONTHS[m - 1]} ${d}, ${y}`;
+}
 
 // Program spotlights for the Intelligence Feed. Real, source-linked items (no fabricated
 // dated "news"). The status label stands in for a date so nothing implies a false event.

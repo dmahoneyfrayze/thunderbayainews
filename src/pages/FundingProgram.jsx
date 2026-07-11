@@ -2,7 +2,7 @@ import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowLeft, ExternalLink, ArrowUpRight } from 'lucide-react';
-import { GRANTS_DATA } from '../data';
+import { GRANTS_DATA, formatVerified } from '../data';
 import { useDocumentMeta } from '../lib/useDocumentMeta';
 import { useJsonLd } from '../lib/useJsonLd';
 import BriefSignup from '../components/BriefSignup';
@@ -162,6 +162,12 @@ export default function FundingProgram() {
               <span style={styles.metaLabel}>Deadline</span>
               <span style={styles.metaValue}>{program.deadline}</span>
             </div>
+            {program.lastVerified && (
+              <div style={styles.metaCol}>
+                <span style={styles.metaLabel}>Last verified</span>
+                <span style={styles.metaValue}>{formatVerified(program.lastVerified)}</span>
+              </div>
+            )}
           </div>
         </motion.div>
 

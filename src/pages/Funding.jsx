@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowUpRight, ExternalLink } from 'lucide-react';
-import { GRANTS_DATA } from '../data';
+import { GRANTS_DATA, formatVerified } from '../data';
 import { useDocumentMeta } from '../lib/useDocumentMeta';
 import { useJsonLd } from '../lib/useJsonLd';
 import BriefSignup from '../components/BriefSignup';
@@ -113,6 +113,9 @@ export default function Funding() {
                 <div style={styles.metaCol}><span style={styles.metaLabel}>Coverage</span><span style={styles.metaValue}>{g.coverage}</span></div>
                 <div style={styles.metaCol}><span style={styles.metaLabel}>Deadline</span><span style={styles.metaValue}>{g.deadline}</span></div>
               </div>
+              {g.lastVerified && (
+                <p style={styles.verifiedNote}>Details last verified {formatVerified(g.lastVerified)} against the official source</p>
+              )}
               <div style={styles.cardLinks}>
                 <Link to={`/funding/${g.id}`} style={styles.detailLink}>
                   Full program guide <ArrowUpRight size={14} />
@@ -166,6 +169,7 @@ const styles = {
   metaLabel: { fontSize: '10px', color: 'hsl(var(--text-muted))', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '4px' },
   metaValue: { fontSize: '12.5px', fontWeight: 600 },
   cardTitleLink: { textDecoration: 'none', color: 'inherit' },
+  verifiedNote: { fontSize: '11px', color: 'hsl(var(--text-muted))', marginBottom: '14px' },
   cardLinks: { display: 'flex', alignItems: 'center', gap: '20px', flexWrap: 'wrap' },
   detailLink: { display: 'inline-flex', alignItems: 'center', gap: '6px', fontSize: '13px', fontWeight: 600, color: 'hsl(var(--text-primary))', textDecoration: 'none' },
   officialLink: { display: 'inline-flex', alignItems: 'center', gap: '7px', fontSize: '13px', fontWeight: 600, color: 'hsl(var(--primary-cyan))', textDecoration: 'none' },

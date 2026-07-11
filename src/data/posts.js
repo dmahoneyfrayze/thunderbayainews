@@ -248,7 +248,7 @@ export const POSTS = [
     faq: [
       { q: 'Is BDC LIFT a grant or a loan?', a: 'LIFT is a BDC loan — you receive financing for the project and repay it on agreed terms, with principal deferral for up to two years. It is not non-repayable. If you need non-repayable funding, FedNor RAII (for eligible projects) or NOIC BBAA (up to $20,000) may be a better fit.' },
       { q: 'Does the $500M regional AI allocation all go to Northern Ontario?', a: 'No. The $500M in the AI for All strategy is for all six of Canada\'s regional development agencies — FedNor is one of them, covering Northern Ontario. The North\'s specific share is not separately published. Contact FedNor (1-877-333-6673) to understand the current budget availability for your project.' },
-      { q: 'Does AI for All change the FedNor RAII eligibility requirements?', a: 'Based on the FedNor RAII program page as of mid-2026, core eligibility — incorporated SMEs, not-for-profits, Indigenous communities, municipalities; retail and service businesses without commercial scale excluded — has not changed. The strategy expanded the program\'s mandate and national budget. Confirm current requirements with FedNor before applying.' },
+      { q: 'Does AI for All change the FedNor RAII eligibility requirements?', a: 'Based on the FedNor RAII program page as of mid-2026, core eligibility — incorporated SMEs, not-for-profits, Indigenous communities, municipalities; retail and service-based businesses excluded — has not changed. The strategy expanded the program\'s mandate and national budget. Confirm current requirements with FedNor before applying.' },
     ],
     related: [
       { label: 'FedNor RAII: who actually qualifies', to: '/blog/fednor-raii-who-qualifies-thunder-bay' },
@@ -259,7 +259,7 @@ export const POSTS = [
       { type: 'answer', text: 'Prime Minister Carney launched Canada\'s "AI for All" national AI strategy on June 4, 2026 — a five-year, roughly $2-billion framework. For a Northwestern Ontario business, two programs matter most: FedNor\'s Regional Artificial Intelligence Initiative (RAII) received a $500-million national expansion through the strategy, and BDC launched a new $500-million LIFT loan fund in April 2026 offering financing from $25,000 for AI adoption and automation projects. Neither is a grant — both require a concrete project scope before you apply.' },
       { type: 'p', text: 'Every federal AI strategy since 2017 has been called a turning point, and most of them mattered less to a business in Dryden or Thunder Bay than the headlines suggested. This one includes two programs that are genuinely available to real businesses operating in the North right now — and one of them is new.' },
       { type: 'h2', text: 'What the strategy actually added to FedNor RAII' },
-      { type: 'p', text: 'The AI for All framework allocated $500 million nationally to expand the Regional Artificial Intelligence Initiative, delivered through Canada\'s six regional development agencies. FedNor is the agency for Northern Ontario, which means its RAII program — already running on continuous intake since Budget 2024 — received additional mandate and budget. The program\'s two pillars remain: Pillar 1 supports AI companies scaling from prototype to market (commercialization), and Pillar 2 funds established SMEs integrating AI into their operations (adoption). Eligibility continues to favour incorporated SMEs, not-for-profits, Indigenous communities, and municipalities. Simple retail and service businesses without commercial scale remain outside the program\'s intent. The $500M is split across all six RDAs — FedNor\'s Northern Ontario share is not separately published.' },
+      { type: 'p', text: 'The AI for All framework allocated $500 million nationally to expand the Regional Artificial Intelligence Initiative, delivered through Canada\'s six regional development agencies. FedNor is the agency for Northern Ontario, which means its RAII program — already running on continuous intake since Budget 2024 — received additional mandate and budget. The program\'s two pillars remain: Pillar 1 supports AI companies scaling from prototype to market (commercialization), and Pillar 2 funds established SMEs integrating AI into their operations (adoption). Eligibility continues to favour incorporated SMEs, not-for-profits, Indigenous communities, and municipalities. Retail and service-based businesses remain outside the program\'s intent. The $500M is split across all six RDAs — FedNor\'s Northern Ontario share is not separately published.' },
       { type: 'h2', text: 'The new piece: BDC LIFT' },
       { type: 'p', text: 'BDC launched LIFT (Lead with Innovation and Focus on Technology) on April 24, 2026 — a $500-million loan fund for Canadian SMEs investing in AI, digital tools, and automation. It was incorporated into the AI for All framework when the national strategy launched in June. The key details, from BDC\'s own program page:' },
       { type: 'ul', items: [
@@ -443,7 +443,7 @@ export const POSTS = [
     accent: ['#00f0ff', '#b800ff'],
     faq: [
       { q: 'Can I apply to both RAII and BBAA?', a: 'They are separate programs with different funders (FedNor and NOIC). In practice you build around the one that fits your business type and stage rather than both at once. Talk to each program about your specific project and confirm before planning.' },
-      { q: 'I run a retail shop — which one fits?', a: 'Generally BBAA rather than RAII. RAII leans toward businesses with commercial scale; simple retail without scale is usually outside its intent. Confirm with NOIC and FedNor.' },
+      { q: 'I run a retail shop — which one fits?', a: 'Generally BBAA rather than RAII. FedNor states that retail and service-based businesses will not be considered under RAII. Confirm with NOIC and FedNor.' },
       { q: 'Which one is faster to get?', a: 'Both run on continuous or rolling intake, so the constraint is readiness, not a deadline. BBAA requires a 30/60/90-day adoption plan first — budget time for that step.' },
     ],
     related: [
@@ -452,7 +452,7 @@ export const POSTS = [
       { label: 'All 17 NWO funding programs', to: '/funding' },
     ],
     blocks: [
-      { type: 'answer', text: 'FedNor RAII and NOIC BBAA both help Northwestern Ontario businesses pay for AI — but they fit different businesses. BBAA (up to $20,000, up to 50% of eligible costs) is built for everyday for-profit SMEs adopting AI, and starts with a 30/60/90-day plan. RAII leans toward incorporated SMEs with commercial scale that can show a productivity, scale, or skilled-jobs gain, and runs on continuous intake. Simple retail without scale usually fits BBAA, not RAII. Confirm eligibility with each program.' },
+      { type: 'answer', text: 'FedNor RAII and NOIC BBAA both help Northwestern Ontario businesses pay for AI — but they fit different businesses. BBAA (up to $20,000, up to 50% of eligible costs) is built for everyday for-profit SMEs adopting AI, and starts with a 30/60/90-day plan. RAII is aimed at incorporated SMEs that can show a productivity, scale, or skilled-jobs gain — retail and service-based businesses will not be considered — and runs on continuous intake. Retail usually fits BBAA, not RAII. Confirm eligibility with each program.' },
       { type: 'p', text: 'If you have looked into AI funding in Northwestern Ontario, you have heard both names — FedNor RAII and NOIC BBAA — often in the same breath. They are both real, both active, and both can cover a meaningful share of an AI project. They are not the same program, and applying to the wrong one is the most common way owners waste a month.' },
       { type: 'figure', src: '/blog/raii-vs-bbaa/two-paths-hero.webp', w: 2000, h: 1083,
         alt: 'Diagram of two AI funding paths for Northwestern Ontario businesses — FedNor RAII and NOIC BBAA — branching apart by business scale',
@@ -460,20 +460,20 @@ export const POSTS = [
       { type: 'h2', text: 'The short version' },
       { type: 'ul', items: [
         'BBAA (Building Blueprints for AI Adoption, NOIC) — up to $20,000 at up to 50% of eligible costs, built for growth-oriented for-profit SMEs adopting AI. Starts with a 30/60/90-day plan.',
-        'RAII (Regional Artificial Intelligence Initiative, FedNor) — up to 50% of eligible costs, aimed at incorporated SMEs and economic organizations with commercial scale that can show a productivity, scale, or skilled-jobs gain. Continuous intake.',
+        'RAII (Regional Artificial Intelligence Initiative, FedNor) — up to 50% of capital costs and 75% of non-capital costs, aimed at incorporated SMEs and economic organizations that can show a productivity, scale, or skilled-jobs gain; retail and service-based businesses will not be considered. Continuous intake.',
       ]},
       { type: 'h2', text: 'Side by side' },
       { type: 'ul', items: [
-        'Who it is for — BBAA: everyday for-profit NWO SMEs putting AI to work. RAII: incorporated SMEs with genuine commercial scale.',
+        'Who it is for — BBAA: everyday for-profit NWO SMEs putting AI to work. RAII: incorporated SMEs outside retail and service.',
         'Amount — BBAA: up to $20,000 (up to 50%). RAII: up to 50% of eligible costs; the project maximum varies, so confirm it.',
         'First step — BBAA: a 30/60/90-day AI Adoption Plan before the application. RAII: a concrete, scoped project you can show drives productivity or scale.',
-        'Common exclusions — both lean away from simple retail/resale without scale, and from projects already underway. Apply before you start the work.',
+        'Common exclusions — BBAA excludes distributors, resellers, and retail-only businesses; RAII will not consider retail and service-based businesses; both exclude projects already underway. Apply before you start the work.',
       ]},
       { type: 'feature', label: 'The full comparison', src: '/blog/raii-vs-bbaa/comparison.webp', w: 1151, h: 2000,
         alt: 'Side-by-side comparison of the NOIC BBAA and FedNor RAII AI grants — eligibility, funding amount (BBAA up to $20,000 at up to 50% of eligible costs), first step, and exclusions for Northwestern Ontario businesses',
         caption: 'RAII vs BBAA at a glance — who it is for, the amount, the first step, and the common exclusions. Confirm specifics with each program.' },
       { type: 'h2', text: 'Which one is you' },
-      { type: 'p', text: 'If you run a typical Northwestern Ontario business — a shop, a clinic, a trades company, a local service — and you want to put AI to work in your operations, BBAA is usually the more natural fit, and the 30/60/90 plan doubles as the scoping you needed anyway. If you are an incorporated company with real commercial scale and a project that clearly drives productivity, new capacity, or skilled jobs, RAII is worth a direct conversation with FedNor. The honest dividing line is scale: RAII is not the universal answer it sometimes gets pitched as.' },
+      { type: 'p', text: 'If you run a typical Northwestern Ontario business — a shop, a clinic, a trades company, a local service — and you want to put AI to work in your operations, BBAA is usually the more natural fit, and the 30/60/90 plan doubles as the scoping you needed anyway. If you are an incorporated company outside the retail/service exclusion with a project that clearly drives productivity, new capacity, or skilled jobs, RAII is worth a direct conversation with FedNor. The honest dividing line is the exclusion list: RAII is not the universal answer it sometimes gets pitched as.' },
       { type: 'callout', text: 'Eligibility, amounts, and intake timing are decided by each program, not by us. Treat this as a starting map and confirm your specific situation with NOIC and FedNor before you build a plan around either one.' },
       { type: 'p', text: 'Either way, the work that wins funding is the same: a concrete project, a rough cost, and a clear line on the gain it drives. That scoping is also what makes the build itself succeed — which is the whole logic of funding a build with a grant.' },
       { type: 'source', text: 'Sources: nwoinnovation.ca/programs/bbaa (NOIC BBAA); fednor.canada.ca (FedNor RAII). Figures are public program references. Confirm current terms, amounts, and your eligibility directly with each program — NOIC (hussain@nwoinnovation.ca · 807-768-6682) and FedNor (1-877-333-6673).' },
@@ -688,7 +688,7 @@ export const POSTS = [
     faq: [
       { q: 'What is FedNor RAII?', a: 'The Regional Artificial Intelligence Initiative — FedNor’s program deploying Budget 2024’s regional AI-adoption funding across Northern Ontario.' },
       { q: 'How much does RAII cover?', a: 'Up to 50% of eligible costs (the government funding cap). The specific project maximum varies — confirm it with FedNor.' },
-      { q: 'Is my retail business eligible for RAII?', a: 'Generally no — simple retail and service businesses without commercial scale are outside RAII’s intent. Broader NOIC programs such as BBAA may fit better. Confirm with the program.' },
+      { q: 'Is my retail business eligible for RAII?', a: 'Generally no — FedNor states flatly that retail and service-based businesses will not be considered under RAII. Broader NOIC programs such as BBAA may fit better. Confirm with the program.' },
       { q: 'When is the RAII application deadline?', a: 'RAII runs on continuous intake — there is no single annual deadline, so the constraint is project readiness, not the calendar.' },
     ],
     related: [
@@ -697,7 +697,7 @@ export const POSTS = [
       { label: 'All 17 NWO funding programs', to: '/funding' },
     ],
     blocks: [
-      { type: 'answer', text: 'FedNor’s Regional Artificial Intelligence Initiative (RAII) covers up to 50% of eligible costs for incorporated SMEs and economic organizations in Northern Ontario adopting AI to improve productivity, scale, or create skilled jobs. Intake is continuous — there is no annual deadline. Simple retail and service businesses without commercial scale are generally outside its intent; broader NOIC programs may fit better. Confirm your eligibility and the project maximum directly with FedNor.' },
+      { type: 'answer', text: 'FedNor’s Regional Artificial Intelligence Initiative (RAII) covers up to 50% of capital costs and up to 75% of non-capital costs for incorporated SMEs (not-for-profits up to 75% overall) in Northern Ontario adopting AI to improve productivity, scale, or create skilled jobs. Intake is continuous — there is no annual deadline. Retail and service-based businesses will not be considered; broader NOIC programs may fit better. Confirm your eligibility and the project maximum directly with FedNor.' },
       { type: 'p', text: 'The Regional Artificial Intelligence Initiative (RAII) is FedNor’s vehicle for deploying Budget 2024’s commitment to regional AI adoption across Northern Ontario. For a Thunder Bay business, it is the most direct line to having a real AI or automation project paid for largely with public money instead of cash flow.' },
       { type: 'p', text: 'It is also widely misunderstood. The number gets repeated; the eligibility rarely does. Here is the structured version.' },
       { type: 'h2', text: 'What the program offers' },
@@ -707,7 +707,7 @@ export const POSTS = [
         'Focus on SMEs adopting AI to improve productivity, scale operations, or create skilled jobs.',
       ]},
       { type: 'h2', text: 'Who it is for — and who it is not' },
-      { type: 'p', text: 'RAII is aimed at incorporated SMEs and economic organizations in Northern Ontario that can show a genuine productivity or capability gain from adopting AI. The honest caveat most pitches skip: simple retail and service businesses without commercial scale are generally outside the program’s intent. That does not mean a Thunder Bay shop is shut out of all funding — NOIC programs are broader — it means RAII specifically is not the universal answer.' },
+      { type: 'p', text: 'RAII is aimed at incorporated SMEs and economic organizations in Northern Ontario that can show a genuine productivity or capability gain from adopting AI. The honest caveat most pitches skip: FedNor states that retail and service-based businesses will not be considered. That does not mean a Thunder Bay shop is shut out of all funding — NOIC programs are broader — it means RAII specifically is not the universal answer.' },
       { type: 'callout', text: 'Eligibility is decided by FedNor, not by us. Treat everything here as a starting map and confirm your specific situation with the program before you build a plan around it.' },
       { type: 'h2', text: 'What to have ready before you apply' },
       { type: 'ul', items: [
@@ -774,7 +774,7 @@ export const POSTS = [
         'Scope and apply. Most of the work is turning a vague intention into a concrete project with costs and an expected outcome — the same scoping that makes the build itself succeed.',
         'Build what the grant funds. The funding is for the project, so the project has to actually get delivered. This is where the model either pays off or falls apart.',
       ]},
-      { type: 'callout', text: 'The honest limit: not every business qualifies for every program, and RAII in particular leans toward businesses with commercial scale. The funnel still works — it just means matching the business to the right program, not forcing one program onto every business.' },
+      { type: 'callout', text: 'The honest limit: not every business qualifies for every program, and RAII in particular will not consider retail and service-based businesses. The funnel still works — it just means matching the business to the right program, not forcing one program onto every business.' },
       { type: 'h2', text: 'Why now' },
       { type: 'p', text: 'The timing is the whole point. The federal AI-adoption money is flowing through Northern Ontario now, the programs have a mandate to spend it, and the businesses that move while it is available are the ones that get a funded system out of it. The window is open; it will not stay open forever.' },
       { type: 'p', text: 'Done right, this runs end to end — find and confirm the program, scope the project, then actually build the website, CRM, or AI system the grant funds. The grant is the mechanism; the working system is the point. Connecting the two is exactly what this hub exists to help with.' },

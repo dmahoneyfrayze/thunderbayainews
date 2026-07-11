@@ -206,6 +206,12 @@ h1, h2, h3, h4 {
   border: 1px solid hsla(var(--warning) / 0.3);
 }
 
+.badge-closed {
+  background: hsla(var(--text-muted) / 0.12);
+  color: hsl(var(--text-muted));
+  border: 1px solid hsla(var(--text-muted) / 0.3);
+}
+
 /* Interactive Drawer / Modal styling */
 .modal-overlay {
   position: fixed;
