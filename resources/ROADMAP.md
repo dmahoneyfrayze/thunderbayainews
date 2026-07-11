@@ -40,6 +40,15 @@ not a second agency. It is the **neutral authority/media layer**; Frayze is the 
 ## Prioritized improvement backlog (the monthly agent pulls from the TOP)
 Work top-down; when an item ships, check it off (and note the commit) and add new ones you discover.
 
+### STANDING MONTHLY: funding data re-verification (the trust layer — currency IS the product)
+Every monthly run, BEFORE backlog work: (1) `node scripts/linkcheck-sources.mjs` — every GRANTS_DATA
+sourceUrl must be live and redirect-free (exit 1 = fix the URL first; the 2026-07-10 sweep found two
+dead CEDC links from one site restructure). (2) Re-check each program's amounts/deadlines/intake
+status against its official page — the first sweep found 5 of 17 drifted (SR&ED limit doubled, two
+intakes closed). (3) Stamp every re-verified program `lastVerified: "YYYY-MM-DD"` in src/data.js
+(rendered on /funding cards + program pages). Proof-integrity: never edit a number without the source.
+Full method + first-run findings: Denisbot `projects/thunderbay-ai/FUNDING-VERIFICATION-2026-07-10.md`.
+
 ### DONE 2026-06-28 (night-1 growth pass, deploys `8aff11c` + `1b9e776`)
 Closed from the list below: ~~#2 internal linking~~ (per-post "Related" + category-aware "Keep reading"),
 ~~#3 Open Graph~~ (default share card `og.png` + Twitter cards site-wide; per-post custom cards still open),
