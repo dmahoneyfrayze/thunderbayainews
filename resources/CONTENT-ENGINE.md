@@ -91,14 +91,25 @@ per run, Tuesday–Friday. Do NOT invent daily news here.
 `- [ ]` topic, write it, then flip it to `- [x]` (with the published slug) in the SAME commit. If
 the backlog is empty, email Denis to refill it and skip the run — never manufacture a filler topic.
 
-**Three content pillars in the backlog:**
-- **Funding program pages** — one page per program, grounded in `src/data.js` (GRANTS_DATA). Verify
-  every amount / coverage / deadline against the official `sourceUrl` before publishing. Frame as
-  "confirm eligibility with the program," never "you qualify." Never cite a closed program.
-- **Sector guides** — "AI for [NWO sector]" (mining, forestry, healthcare, trades, tourism, retail…).
-  Keep claims general and practical; any stat needs a real source or gets cut. The moat is the
-  local angle, not invented numbers.
-- **Concept explainers** — localized "what is X for a business" pieces. Lowest risk; still no hype.
+**Five content pillars in the backlog — kept as a ROTATING MIX** (Denis, 2026-07-11: the blog was
+reading as a grant catalog; readers come for useful, opinionated content — funding is the
+high-intent layer, not the whole diet). The backlog's ordering IS the schedule: funding at most
+1 slot in 4, never more than two of any category in a row. Refills must preserve the rotation.
+- **Tips** (`category: "Tips"`) — quick wins, how-tos, plain-language explainers ("what is X for a
+  business"). Lowest risk; still no hype, still sourced.
+- **Playbook** (`category: "Playbook"`) — sector guides ("AI for [NWO sector]": mining, forestry,
+  healthcare, trades, tourism, retail…) and first-project pieces. Keep claims general and practical;
+  any stat needs a real source or gets cut. The moat is the local angle, not invented numbers.
+- **Trends** (`category: "Trends"`) — where things are heading, framed EVERGREEN: the shift and what
+  it means for a Northwestern Ontario business, not this week's headline (dated news stays in the
+  Signal; news-reactive opinion is the Wednesday op-ed).
+- **Perspective** (`category: "Perspective"`) — an argued point of view. The thesis is the opinion,
+  and the post opens with it stated plainly (that IS its direct-answer opening); every fact inside
+  still gets sourced. Direct, contrarian-where-earned, never rage-bait.
+- **Funding program pages** (`category: "Funding"`) — one page per program, grounded in `src/data.js`
+  (GRANTS_DATA). Verify every amount / coverage / deadline against the official `sourceUrl` before
+  publishing. Frame as "confirm eligibility with the program," never "you qualify." Never cite a
+  closed program.
 
 **Quality bar (every LANE 3 post):** open with a **direct one-paragraph answer** to the title's
 question (this is what gets AI-cited), then 5–8 blocks, an `h2`-structured body, a `callout` for the
