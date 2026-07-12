@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 import { scrollToId } from '../lib/smoothScroll';
 import { useDocumentMeta } from '../lib/useDocumentMeta';
+import { getOgImageUrl } from '../lib/og-images';
 import Hero from '../components/Hero';
 import FundingRadar from '../components/FundingRadar';
 import IntelligenceFeed from '../components/IntelligenceFeed';
@@ -51,6 +52,7 @@ export default function Home() {
     title: 'Thunder Bay AI — Autonomous AI Intelligence Hub for Northwestern Ontario',
     description: 'An autonomous agent tracks the AI news, local tech, government and municipal projects, funding, and tools that matter for Northwestern Ontario — then surfaces the signal. Reviewed by humans.',
     path: '/',
+    image: getOgImageUrl('/') || undefined,
   });
   // When navigated here from another route with a target section, scroll to it.
   useEffect(() => {

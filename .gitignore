@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# OG card build artifacts (keep backdrop.webp + scripts + public/tbai-og)
+scripts/og/out/
+scripts/og/backdrop-[0-9]*.webp

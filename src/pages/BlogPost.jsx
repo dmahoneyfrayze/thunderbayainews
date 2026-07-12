@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { ArrowLeft, Clock, Info, Copy, Check, ArrowUpRight } from 'lucide-react';
 import { getPost, POSTS } from '../data/posts';
 import { useDocumentMeta } from '../lib/useDocumentMeta';
+import { getOgImageUrl } from '../lib/og-images';
 import { useJsonLd } from '../lib/useJsonLd';
 import BriefSignup from '../components/BriefSignup';
 
@@ -69,6 +70,7 @@ export default function BlogPost() {
     title: post ? `${post.title} | Thunder Bay AI` : 'Not found | Thunder Bay AI',
     description: post ? post.dek : undefined,
     path: post ? `/blog/${post.slug}` : undefined,
+    image: post ? (getOgImageUrl(`/blog/${post.slug}`) || undefined) : undefined,
     type: 'article',
   });
 
