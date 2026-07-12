@@ -155,7 +155,7 @@ const styles = {
     fontSize: '13px',
     fontWeight: '600',
     textDecoration: 'none',
-    borderBottom: '1px solid hsla(0, 0%, 100%, 0.1)',
+    borderBottom: '1px solid hsla(var(--border-light))',
     alignSelf: 'flex-start',
     paddingBottom: '2px',
     transition: 'border-color 0.2s ease, color 0.2s ease',
@@ -167,7 +167,7 @@ const styles = {
     padding: '24px 30px',
     marginTop: '60px',
     borderColor: 'hsla(var(--primary-indigo) / 0.15)',
-    background: 'rgba(99, 102, 241, 0.02)',
+    background: 'rgba(99, 102, 241, 0.05)',
   },
   moatIcon: {
     fontSize: '24px',

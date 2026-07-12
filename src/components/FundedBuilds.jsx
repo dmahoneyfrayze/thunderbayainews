@@ -129,7 +129,7 @@ export default function FundedBuilds() {
 const styles = {
   buildsSection: {
     background: 'hsl(var(--bg-base))',
-    borderTop: '1px solid hsla(0, 0%, 100%, 0.03)',
+    borderTop: '1px solid hsla(var(--border-light))',
     overflow: 'hidden',
   },
   headerGrid: {
@@ -144,16 +144,16 @@ const styles = {
   },
   bigTitle: {
     fontFamily: 'var(--font-heading)',
-    fontWeight: 800,
-    fontSize: 'clamp(32px, 5vw, 56px)',
-    letterSpacing: '-0.04em',
-    lineHeight: 0.95,
+    fontWeight: 600,
+    fontSize: 'clamp(32px, 5vw, 54px)',
+    letterSpacing: '-0.015em',
+    lineHeight: 1.06,
     marginBottom: '24px',
     overflow: 'hidden',
   },
   bodyText: {
     fontSize: '16px',
-    color: 'hsl(224, 18%, 83%)',
+    color: 'hsl(var(--text-secondary))',
     lineHeight: 1.65,
   },
   stepsGrid: {
@@ -181,13 +181,13 @@ const styles = {
     fontFamily: 'var(--font-label)',
     fontSize: '11px',
     letterSpacing: '0.18em',
-    color: 'hsl(224, 16%, 72%)',
+    color: 'hsl(var(--text-primary))',
     textTransform: 'uppercase',
     marginBottom: '4px',
   },
   stepValue: {
     fontSize: '13px',
-    color: 'hsl(224, 16%, 72%)',
+    color: 'hsl(var(--text-muted))',
     lineHeight: 1.55,
   },
   ctaBox: {
@@ -197,7 +197,7 @@ const styles = {
     padding: '48px 60px',
     textAlign: 'left',
     background: 'linear-gradient(135deg, rgba(99, 102, 241, 0.08) 0%, rgba(6, 182, 212, 0.05) 100%)',
-    borderColor: 'hsla(184, 100%, 48%, 0.15)',
+    borderColor: 'hsla(192, 91%, 32%, 0.25)',
     boxShadow: 'var(--accent-shadow)',
     borderRadius: '24px',
   },

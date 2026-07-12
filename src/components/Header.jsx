@@ -45,45 +45,20 @@ export default function Header() {
         {!isMobile && (
         <nav style={styles.desktopNav}>
           {[
-            { label: 'INTELLIGENCE', id: 'intelligence' },
-            { label: 'BUILDS', id: 'funded-builds' },
-            { label: 'BRIEF', id: 'weekly-brief' },
+            { label: 'JOURNAL', to: '/blog' },
+            { label: 'FUNDING', to: '/funding' },
+            { label: 'FEED', to: '/feed' },
+            { label: 'ABOUT', to: '/about' },
           ].map((item, i) => (
             <motion.span
-              key={item.id}
+              key={item.to}
               initial={{ opacity: 0, y: -10 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: i * 0.1 }}
-              style={styles.navLink}
-              onClick={() => handleScrollTo(item.id)}
+              transition={{ delay: i * 0.08 }}
             >
-              {item.label}
+              <Link to={item.to} style={{ ...styles.navLink, textDecoration: 'none' }}>{item.label}</Link>
             </motion.span>
           ))}
-          <motion.span
-            initial={{ opacity: 0, y: -10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.35 }}
-          >
-            <Link to="/funding" style={{ ...styles.navLink, textDecoration: 'none' }}>FUNDING</Link>
-          </motion.span>
-          <motion.span
-            initial={{ opacity: 0, y: -10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.4 }}
-          >
-            <Link to="/blog" style={{ ...styles.navLink, textDecoration: 'none' }}>JOURNAL</Link>
-          </motion.span>
-          <motion.span initial={{ opacity: 0, y: -10 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.45 }}>
-            <Link to="/feed" style={{ ...styles.navLink, textDecoration: 'none' }}>FEED</Link>
-          </motion.span>
-          <motion.span
-            initial={{ opacity: 0, y: -10 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.5 }}
-          >
-            <Link to="/about" style={{ ...styles.navLink, textDecoration: 'none' }}>ABOUT</Link>
-          </motion.span>
         </nav>
         )}
 
@@ -122,11 +97,8 @@ export default function Header() {
           style={styles.mobileDropdown}
           className="glass-panel"
         >
-          <Link to="/funding" style={{ ...styles.mobileNavLink, textDecoration: 'none' }} onClick={() => setMobileMenuOpen(false)}>Funding</Link>
-          <span style={styles.mobileNavLink} onClick={() => handleScrollTo('intelligence')}>Intelligence Feed</span>
-          <span style={styles.mobileNavLink} onClick={() => handleScrollTo('funded-builds')}>Funded Builds</span>
-          <span style={styles.mobileNavLink} onClick={() => handleScrollTo('weekly-brief')}>Weekly Brief</span>
           <Link to="/blog" style={{ ...styles.mobileNavLink, textDecoration: 'none' }} onClick={() => setMobileMenuOpen(false)}>Journal</Link>
+          <Link to="/funding" style={{ ...styles.mobileNavLink, textDecoration: 'none' }} onClick={() => setMobileMenuOpen(false)}>Funding</Link>
           <Link to="/feed" style={{ ...styles.mobileNavLink, textDecoration: 'none' }} onClick={() => setMobileMenuOpen(false)}>Feed</Link>
           <Link to="/about" style={{ ...styles.mobileNavLink, textDecoration: 'none' }} onClick={() => setMobileMenuOpen(false)}>About</Link>
           <div style={styles.mobileCtaGroup}>
@@ -146,10 +118,10 @@ const styles = {
     top: 0,
     left: 0,
     width: '100%',
-    background: 'rgba(4, 5, 8, 0.6)',
+    background: 'rgba(251, 250, 247, 0.85)',
     backdropFilter: 'blur(20px)',
     WebkitBackdropFilter: 'blur(20px)',
-    borderBottom: '1px solid hsla(0, 0%, 100%, 0.05)',
+    borderBottom: '1px solid hsla(var(--border-light))',
     zIndex: 50,
   },
   progressBar: {
@@ -158,7 +130,7 @@ const styles = {
     left: 0,
     right: 0,
     height: '2px',
-    background: 'hsl(184, 100%, 48%)',
+    background: 'linear-gradient(90deg, hsl(192 89% 36%), hsl(var(--primary-violet)))',
     transformOrigin: 'left',
     zIndex: 60,
   },
@@ -181,7 +153,7 @@ const styles = {
     WebkitTextFillColor: 'transparent',
   },
   logoText: {
-    fontFamily: 'var(--font-heading)',
+    fontFamily: 'var(--font-heading-sans)',
     fontSize: '20px',
     fontWeight: '800',
     letterSpacing: '-0.5px',
@@ -197,7 +169,7 @@ const styles = {
     fontSize: '12px',
     letterSpacing: '0.13em',
     fontWeight: '500',
-    color: 'hsl(224, 18%, 82%)',
+    color: 'hsl(var(--text-muted))',
     cursor: 'pointer',
     transition: 'color 0.2s ease',
   },
@@ -212,7 +184,7 @@ const styles = {
     justifyContent: 'center',
     background: 'none',
     border: 'none',
-    color: 'hsl(0, 0%, 98%)',
+    color: 'hsl(var(--text-primary))',
     cursor: 'pointer',
     padding: 0,
   },
@@ -227,20 +199,18 @@ const styles = {
     gap: '16px',
     borderTopLeftRadius: 0,
     borderTopRightRadius: 0,
-    background: 'hsl(224, 32%, 6%)',
-    backdropFilter: 'blur(24px)',
-    WebkitBackdropFilter: 'blur(24px)',
-    border: '1px solid hsla(0, 0%, 100%, 0.08)',
-    boxShadow: '0 24px 50px rgba(0, 0, 0, 0.6)',
+    background: 'hsl(var(--bg-surface))',
+    border: '1px solid hsla(var(--border-light))',
+    boxShadow: '0 24px 50px -18px rgba(21, 26, 38, 0.25)',
   },
   mobileNavLink: {
     fontFamily: 'var(--font-label)',
     fontSize: '13px',
     letterSpacing: '0.2em',
     fontWeight: '400',
-    color: 'hsl(224, 16%, 76%)',
+    color: 'hsl(var(--text-secondary))',
     padding: '8px 0',
-    borderBottom: '1px solid hsla(0, 0%, 100%, 0.05)',
+    borderBottom: '1px solid hsla(var(--border-light))',
     cursor: 'pointer',
   },
   mobileCtaGroup: {

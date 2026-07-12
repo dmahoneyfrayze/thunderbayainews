@@ -146,6 +146,11 @@ Until a human approves a LANE 4 copy change, the live page stays as-is. Additive
 
 ---
 
+## UI / design work (any lane that touches components, pages, or styles)
+The site runs the LIGHT "civic clarity" design system (flipped 2026-07-11). Before any UI
+edit, read `resources/DESIGN.md` — tokens, the two intentional dark bands, and the
+hard rules (no dark backgrounds or neon values on light surfaces, readability first).
+
 ## Pick the beat / item, then write
 - 5-8 content blocks. Open with the point; structure with h2 + ul where useful; a `callout` for
   the key caveat; a `source` block citing official URLs at the end.

@@ -255,15 +255,15 @@ const styles = {
   bullet: { flexShrink: 0, width: '7px', height: '7px', borderRadius: '50%', marginTop: '9px', background: 'linear-gradient(135deg, hsl(var(--primary-cyan)), hsl(var(--primary-violet)))' },
   callout: { display: 'flex', gap: '14px', padding: '20px 22px', margin: '28px 0', borderRadius: '14px' },
   calloutText: { fontSize: '15.5px', color: 'hsl(var(--text-secondary))', lineHeight: 1.65, fontStyle: 'italic' },
-  source: { fontSize: '13px', color: 'hsl(var(--text-muted))', lineHeight: 1.6, marginTop: '36px', paddingTop: '20px', borderTop: '1px solid hsla(0,0%,100%,0.06)' },
+  source: { fontSize: '13px', color: 'hsl(var(--text-muted))', lineHeight: 1.6, marginTop: '36px', paddingTop: '20px', borderTop: '1px solid hsla(var(--border-light))' },
 
   // in-body visuals (notebook-studio): landscape figure + portrait feature
   figure: { margin: '36px 0', display: 'flex', flexDirection: 'column', gap: '12px' },
-  figureImg: { width: '100%', height: 'auto', borderRadius: '16px', border: '1px solid hsla(0,0%,100%,0.08)', boxShadow: '0 20px 60px -24px rgba(0,0,0,0.65)', display: 'block' },
+  figureImg: { width: '100%', height: 'auto', borderRadius: '16px', border: '1px solid hsla(var(--border-light))', boxShadow: '0 20px 60px -24px rgba(0,0,0,0.65)', display: 'block' },
   figcaption: { fontSize: '13.5px', color: 'hsl(var(--text-muted))', lineHeight: 1.55, fontStyle: 'italic', textAlign: 'center', maxWidth: '560px', margin: '0 auto' },
   feature: { margin: '44px 0', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '14px' },
   featureLabel: { fontFamily: 'var(--font-label)', fontSize: '10px', letterSpacing: '0.24em', color: 'hsl(var(--primary-cyan))', textTransform: 'uppercase' },
-  featureImg: { width: '100%', maxWidth: '470px', height: 'auto', borderRadius: '18px', border: '1px solid hsla(0,0%,100%,0.1)', boxShadow: '0 28px 80px -28px rgba(0,0,0,0.75), 0 0 0 1px hsla(184,100%,48%,0.06)', display: 'block' },
+  featureImg: { width: '100%', maxWidth: '470px', height: 'auto', borderRadius: '18px', border: '1px solid hsla(var(--border-light))', boxShadow: '0 28px 80px -28px rgba(0,0,0,0.75)', display: 'block' },
   cta: { padding: '36px', marginTop: '56px', textAlign: 'center', borderRadius: '20px' },
   ctaTitle: { fontFamily: 'var(--font-heading)', fontSize: '24px', fontWeight: 700, marginBottom: '12px' },
   ctaDek: { fontSize: '16px', color: 'hsl(var(--text-secondary))', lineHeight: 1.6, maxWidth: '480px', margin: '0 auto 24px' },
@@ -275,7 +275,7 @@ const styles = {
   // direct-answer lead box (GEO/citability)
   answer: {
     margin: '0 0 32px', padding: '22px 24px', borderRadius: '14px',
-    background: 'linear-gradient(135deg, hsla(184,100%,48%,0.07) 0%, hsla(275,80%,56%,0.05) 100%)',
+    background: 'linear-gradient(135deg, hsla(192, 91%, 32%, 0.08) 0%, hsla(262, 68%, 48%, 0.06) 100%)',
     borderLeft: '3px solid hsl(var(--primary-cyan))',
   },
   answerLabel: { fontFamily: 'var(--font-label)', fontSize: '10px', letterSpacing: '0.24em', color: 'hsl(var(--primary-cyan))', textTransform: 'uppercase', display: 'block', marginBottom: '10px' },
@@ -283,18 +283,18 @@ const styles = {
 
   // FAQ
   faqWrap: { marginTop: '56px' },
-  faqItem: { padding: '20px 0', borderTop: '1px solid hsla(0,0%,100%,0.07)' },
+  faqItem: { padding: '20px 0', borderTop: '1px solid hsla(var(--border-light))' },
   faqQ: { fontFamily: 'var(--font-heading)', fontSize: '18px', fontWeight: 700, marginBottom: '8px', letterSpacing: '-0.01em' },
   faqA: { fontSize: '15.5px', color: 'hsl(var(--text-secondary))', lineHeight: 1.65, margin: 0 },
 
   // share
-  shareRow: { marginTop: '48px', display: 'flex', alignItems: 'center', gap: '18px', flexWrap: 'wrap', paddingTop: '24px', borderTop: '1px solid hsla(0,0%,100%,0.07)' },
+  shareRow: { marginTop: '48px', display: 'flex', alignItems: 'center', gap: '18px', flexWrap: 'wrap', paddingTop: '24px', borderTop: '1px solid hsla(var(--border-light))' },
   shareLabel: { fontFamily: 'var(--font-label)', fontSize: '11px', letterSpacing: '0.18em', textTransform: 'uppercase', color: 'hsl(var(--text-muted))' },
   shareBtns: { display: 'flex', gap: '10px', flexWrap: 'wrap' },
   shareBtn: {
     display: 'inline-flex', alignItems: 'center', gap: '7px', cursor: 'pointer',
     fontFamily: 'var(--font-body)', fontSize: '13px', color: 'hsl(var(--text-secondary))',
-    background: 'rgba(255,255,255,0.03)', border: '1px solid hsla(0,0%,100%,0.08)',
+    background: 'hsla(222, 15%, 15%, 0.05)', border: '1px solid hsla(var(--border-light))',
     borderRadius: '8px', padding: '8px 14px', textDecoration: 'none',
   },
 
@@ -305,6 +305,6 @@ const styles = {
     display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '12px',
     padding: '14px 18px', borderRadius: '12px', textDecoration: 'none',
     color: 'hsl(var(--text-primary))', fontSize: '15px', fontWeight: 600,
-    background: 'rgba(255,255,255,0.02)', border: '1px solid hsla(0,0%,100%,0.07)',
+    background: 'hsla(222, 15%, 15%, 0.03)', border: '1px solid hsla(var(--border-light))',
   },
 };

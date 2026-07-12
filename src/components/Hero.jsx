@@ -49,19 +49,18 @@ export default function Hero() {
           style={{ opacity }}
         >
           <span className="font-label" style={styles.label}>
-            AUTONOMOUS AI INTELLIGENCE HUB
+            AI FOR NORTHWESTERN ONTARIO
           </span>
 
           <h1 style={styles.title}>
-            The AI signal for
+            Understand AI.
             <br />
-            <span className="accent-text">Northwestern Ontario</span>
+            <span className="accent-text">Find the funding.</span>
           </h1>
 
           <p style={styles.subtitle}>
-            An autonomous agent tracks the AI news, local tech, government and municipal
-            projects, funding, and tools that matter for the Northwest — then surfaces the
-            signal. Monitored continuously. Reviewed by humans.
+            A free local resource tracking the AI news, tools, and grants worth knowing for
+            Northwestern Ontario — in plain language, no hype. Updated weekly, reviewed by humans.
           </p>
         </motion.div>
 
@@ -71,21 +70,21 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
           style={styles.ctaGroup}
         >
-          <button
+          <Link
+            to="/blog"
             className="btn btn-cyan"
-            style={styles.ctaPrimary}
+            style={{ ...styles.ctaPrimary, textDecoration: 'none' }}
+          >
+            Read the Journal
+            <span>→</span>
+          </Link>
+          <button
+            className="btn btn-secondary"
+            style={styles.ctaSecondary}
             onClick={() => handleScrollTo('weekly-brief')}
           >
             Get the weekly brief
-            <span>→</span>
           </button>
-          <Link
-            to="/blog"
-            className="btn btn-secondary"
-            style={{ ...styles.ctaSecondary, textDecoration: 'none' }}
-          >
-            Read the Journal
-          </Link>
         </motion.div>
 
         {/* Floating statistics panel */}
@@ -97,8 +96,8 @@ export default function Hero() {
           className="glass-panel"
         >
           <div style={styles.statBox}>
-            <span style={styles.statNumber} className="accent-text">24/7</span>
-            <span style={styles.statLabel}>Autonomous monitoring</span>
+            <span style={styles.statNumber} className="accent-text">Free</span>
+            <span style={styles.statLabel}>Always free to read</span>
           </div>
           {!isMobile && <div style={styles.statDivider} />}
           <div style={styles.statBox}>
@@ -119,7 +118,7 @@ export default function Hero() {
         transition={{ repeat: Infinity, duration: 2 }}
         style={styles.scrollIndicator}
       >
-        <ChevronDown size={32} strokeWidth={1} color="hsl(224, 16%, 52%)" />
+        <ChevronDown size={32} strokeWidth={1} color="hsl(var(--text-muted))" />
       </motion.div>
     </section>
   );
@@ -139,7 +138,7 @@ const styles = {
   gradientOverlay: {
     position: 'absolute',
     inset: 0,
-    background: 'linear-gradient(to bottom, transparent 0%, rgba(4,5,8,0.2) 50%, hsl(224, 32%, 4%) 100%)',
+    background: 'linear-gradient(to bottom, transparent 0%, hsla(45, 33%, 98%, 0.25) 50%, hsl(45 33% 98%) 100%)',
     zIndex: 10,
   },
   gridPattern: {
@@ -149,9 +148,9 @@ const styles = {
     height: '100%',
     maskImage: 'radial-gradient(600px circle at center, white, transparent)',
     WebkitMaskImage: 'radial-gradient(600px circle at center, white, transparent)',
-    stroke: 'hsla(184, 100%, 48%, 0.06)',
-    fill: 'hsla(184, 100%, 48%, 0.04)',
-    color: 'hsl(184, 100%, 48%)',
+    stroke: 'hsla(222, 20%, 20%, 0.07)',
+    fill: 'hsla(222, 20%, 20%, 0.04)',
+    color: 'hsl(192 91% 36%)',
     pointerEvents: 'none',
     zIndex: 1,
   },
@@ -161,7 +160,7 @@ const styles = {
     left: '10%',
     width: '400px',
     height: '400px',
-    background: 'radial-gradient(circle, hsla(184, 100%, 48%, 0.15) 0%, transparent 70%)',
+    background: 'radial-gradient(circle, hsla(192, 91%, 40%, 0.12) 0%, transparent 70%)',
     borderRadius: '50%',
     filter: 'blur(60px)',
     pointerEvents: 'none',
@@ -172,7 +171,7 @@ const styles = {
     right: '8%',
     width: '500px',
     height: '500px',
-    background: 'radial-gradient(circle, hsla(275, 80%, 56%, 0.12) 0%, transparent 70%)',
+    background: 'radial-gradient(circle, hsla(262, 68%, 48%, 0.09) 0%, transparent 70%)',
     borderRadius: '50%',
     filter: 'blur(80px)',
     pointerEvents: 'none',
@@ -183,7 +182,7 @@ const styles = {
     right: '30%',
     width: '300px',
     height: '300px',
-    background: 'radial-gradient(circle, hsla(250, 84%, 56%, 0.1) 0%, transparent 70%)',
+    background: 'radial-gradient(circle, hsla(160, 60%, 40%, 0.07) 0%, transparent 70%)',
     borderRadius: '50%',
     filter: 'blur(50px)',
     pointerEvents: 'none',
@@ -203,15 +202,15 @@ const styles = {
   },
   title: {
     fontFamily: 'var(--font-heading)',
-    fontWeight: 800,
-    fontSize: 'clamp(40px, 8vw, 80px)',
-    letterSpacing: '-0.04em',
-    lineHeight: 0.95,
+    fontWeight: 600,
+    fontSize: 'clamp(38px, 7.5vw, 78px)',
+    letterSpacing: '-0.015em',
+    lineHeight: 1.04,
     marginBottom: '28px',
   },
   subtitle: {
     fontSize: '19px',
-    color: 'hsl(224, 20%, 85%)',
+    color: 'hsl(var(--text-secondary))',
     maxWidth: '640px',
     marginBottom: '44px',
     lineHeight: 1.65,
@@ -256,14 +255,14 @@ const styles = {
     fontFamily: 'var(--font-label)',
     fontSize: '11px',
     letterSpacing: '0.18em',
-    color: 'hsl(224, 16%, 70%)',
+    color: 'hsl(var(--text-muted))',
     fontWeight: '400',
     textTransform: 'uppercase',
   },
   statDivider: {
     width: '1px',
     height: '40px',
-    background: 'hsla(0, 0%, 100%, 0.08)',
+    background: 'hsla(var(--border-light))',
   },
   scrollIndicator: {
     position: 'absolute',

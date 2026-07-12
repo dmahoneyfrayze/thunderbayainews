@@ -270,7 +270,7 @@ const styles = {
   },
   glow: {
     position: 'absolute', top: '-5%', left: '-5%', width: '500px', height: '500px',
-    background: 'radial-gradient(circle, hsla(184,100%,48%,0.10) 0%, transparent 70%)',
+    background: 'radial-gradient(circle, hsla(192, 91%, 32%, 0.08) 0%, transparent 70%)',
     filter: 'blur(80px)', pointerEvents: 'none', zIndex: 1,
   },
   backLink: {
@@ -295,7 +295,7 @@ const styles = {
   },
   answer: {
     margin: '0 0 32px', padding: '22px 24px', borderRadius: '14px',
-    background: 'linear-gradient(135deg, hsla(184,100%,48%,0.07) 0%, hsla(275,80%,56%,0.05) 100%)',
+    background: 'linear-gradient(135deg, hsla(192, 91%, 32%, 0.08) 0%, hsla(262, 68%, 48%, 0.07) 100%)',
     borderLeft: '3px solid hsl(var(--primary-cyan))',
   },
   answerLabel: {
@@ -307,7 +307,7 @@ const styles = {
   },
   metaRow: {
     display: 'flex', flexWrap: 'wrap', gap: '0',
-    borderTop: '1px solid hsla(0,0%,100%,0.07)', borderBottom: '1px solid hsla(0,0%,100%,0.07)',
+    borderTop: '1px solid hsla(var(--border-light))', borderBottom: '1px solid hsla(var(--border-light))',
     padding: '20px 0', marginBottom: '44px',
   },
   metaCol: {
@@ -332,7 +332,7 @@ const styles = {
   },
   eligRow: {
     display: 'flex', gap: '20px', padding: '15px 22px',
-    borderBottom: '1px solid hsla(0,0%,100%,0.05)', flexWrap: 'wrap',
+    borderBottom: '1px solid hsla(var(--border-light))', flexWrap: 'wrap',
   },
   eligLabel: {
     fontSize: '11px', fontWeight: 700, color: 'hsl(var(--text-muted))',
@@ -347,7 +347,7 @@ const styles = {
     marginTop: '14px', fontStyle: 'italic',
   },
   faqItem: {
-    padding: '20px 0', borderTop: '1px solid hsla(0,0%,100%,0.07)',
+    padding: '20px 0', borderTop: '1px solid hsla(var(--border-light))',
   },
   faqQ: {
     fontFamily: 'var(--font-heading)', fontSize: '18px', fontWeight: 700,

@@ -81,11 +81,11 @@ export default function BriefSignup({
 }
 
 const styles = {
-  wrap: { padding: '28px 26px', borderRadius: '18px', borderColor: 'hsla(184, 100%, 48%, 0.16)', textAlign: 'center' },
+  wrap: { padding: '28px 26px', borderRadius: '18px', borderColor: 'hsla(192, 91%, 32%, 0.25)', textAlign: 'center' },
   heading: { fontFamily: 'var(--font-heading)', fontWeight: 700, letterSpacing: '-0.02em', marginBottom: '10px' },
   dek: { fontSize: '14.5px', color: 'hsl(var(--text-secondary))', lineHeight: 1.55, maxWidth: '520px', margin: '0 auto 20px' },
   form: { display: 'flex', gap: '10px', maxWidth: '480px', margin: '0 auto', flexWrap: 'wrap', justifyContent: 'center' },
-  input: { flex: 1, minWidth: '220px', borderRadius: '30px', padding: '13px 22px', border: '1px solid hsla(0,0%,100%,0.08)', background: 'rgba(0,0,0,0.2)' },
+  input: { flex: 1, minWidth: '220px', borderRadius: '30px', padding: '13px 22px', border: '1px solid hsla(var(--border-light))', background: 'hsl(var(--bg-surface))' },
   btn: { borderRadius: '30px', whiteSpace: 'nowrap', padding: '13px 26px' },
   note: { display: 'block', fontSize: '12px', color: 'hsl(var(--text-muted))', marginTop: '14px' },
   successRow: { display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '12px' },

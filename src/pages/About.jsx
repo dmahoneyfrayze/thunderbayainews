@@ -119,7 +119,7 @@ export default function About() {
               </ul>
             </div>
             <div className="glass-panel" style={styles.isCard}>
-              <span style={{ ...styles.isLabel, color: 'hsl(224, 16%, 60%)' }}>It isn&apos;t</span>
+              <span style={{ ...styles.isLabel, color: 'hsl(var(--text-muted))' }}>It isn&apos;t</span>
               <ul style={styles.isList}>
                 <li>A business directory — that lane is saturated and dead</li>
                 <li>A vendor trying to sell you an AI product under its own name</li>
@@ -204,7 +204,7 @@ const styles = {
   glow: {
     position: 'absolute', top: '-5%', left: '50%', transform: 'translateX(-50%)',
     width: '760px', height: '520px', filter: 'blur(100px)', pointerEvents: 'none', zIndex: 1,
-    background: 'radial-gradient(circle, hsla(184, 100%, 48%, 0.14) 0%, hsla(275, 80%, 56%, 0.08) 45%, transparent 72%)',
+    background: 'radial-gradient(circle, hsla(192, 91%, 32%, 0.14) 0%, hsla(262, 68%, 48%, 0.08) 45%, transparent 72%)',
   },
   wrap: { position: 'relative', zIndex: 2, maxWidth: '820px' },
   eyebrow: { display: 'block', marginBottom: '24px' },
@@ -212,13 +212,13 @@ const styles = {
     fontFamily: 'var(--font-heading)', fontWeight: 800, fontSize: 'clamp(32px, 5.5vw, 58px)',
     letterSpacing: '-0.03em', lineHeight: 1.05, marginBottom: '28px',
   },
-  lead: { fontSize: '20px', color: 'hsl(224, 16%, 78%)', lineHeight: 1.6, maxWidth: '720px' },
+  lead: { fontSize: '20px', color: 'hsl(var(--text-secondary))', lineHeight: 1.6, maxWidth: '720px' },
   section: { marginTop: '72px' },
   h2: {
     fontFamily: 'var(--font-heading)', fontSize: 'clamp(24px, 3.5vw, 34px)', fontWeight: 700,
     letterSpacing: '-0.02em', marginBottom: '20px', color: 'hsl(var(--text-primary))',
   },
-  body: { fontSize: '17px', color: 'hsl(224, 16%, 72%)', lineHeight: 1.75, marginBottom: '20px' },
+  body: { fontSize: '17px', color: 'hsl(var(--text-secondary))', lineHeight: 1.75, marginBottom: '20px' },
   link: { color: 'hsl(var(--primary-cyan))', textDecoration: 'none', fontWeight: 600 },
   isGrid: { display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '20px', marginTop: '8px' },
   isCard: { padding: '28px 26px', borderRadius: '18px', display: 'flex', flexDirection: 'column', gap: '14px' },
@@ -226,11 +226,11 @@ const styles = {
     fontFamily: 'var(--font-label)', fontSize: '11px', letterSpacing: '0.22em', textTransform: 'uppercase',
     color: 'hsl(var(--primary-cyan))', fontWeight: 600,
   },
-  isList: { listStyle: 'none', margin: 0, padding: 0, display: 'flex', flexDirection: 'column', gap: '12px', fontSize: '15.5px', color: 'hsl(224, 16%, 74%)', lineHeight: 1.5 },
+  isList: { listStyle: 'none', margin: 0, padding: 0, display: 'flex', flexDirection: 'column', gap: '12px', fontSize: '15.5px', color: 'hsl(var(--text-secondary))', lineHeight: 1.5 },
   stepsGrid: { display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '16px', marginTop: '24px' },
   stepCard: { padding: '26px 24px', borderRadius: '16px', display: 'flex', flexDirection: 'column', gap: '12px' },
   stepTitle: { fontFamily: 'var(--font-heading)', fontSize: '18px', fontWeight: 700, letterSpacing: '-0.01em' },
-  stepDesc: { fontSize: '14.5px', color: 'hsl(224, 16%, 70%)', lineHeight: 1.6, margin: 0 },
+  stepDesc: { fontSize: '14.5px', color: 'hsl(var(--text-secondary))', lineHeight: 1.6, margin: 0 },
   cta: { padding: '40px 36px', marginTop: '80px', textAlign: 'center', borderRadius: '22px' },
   ctaTitle: { fontFamily: 'var(--font-heading)', fontSize: '26px', fontWeight: 700, marginBottom: '12px' },
   ctaDesc: { fontSize: '16px', color: 'hsl(var(--text-secondary))', lineHeight: 1.6, maxWidth: '520px', margin: '0 auto 26px' },

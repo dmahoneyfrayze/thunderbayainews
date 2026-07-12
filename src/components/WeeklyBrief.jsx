@@ -40,11 +40,11 @@ export default function WeeklyBrief() {
   };
 
   return (
-    <section id="weekly-brief" style={styles.briefSection}>
+    <section id="weekly-brief" className="dark-band" style={styles.briefSection}>
+      <div className="aurora-d" />
       <div className="container" style={styles.briefContainer}>
         <motion.div
           style={styles.contentWrapper}
-          className="glass-panel"
           initial={{ opacity: 0, y: 30, scale: 0.96 }}
           whileInView={{ opacity: 1, y: 0, scale: 1 }}
           viewport={{ once: true, amount: 0.3 }}
@@ -111,7 +111,7 @@ export default function WeeklyBrief() {
               transition={{ duration: 0.5 }}
               style={styles.successState}
             >
-              <CheckCircle2 size={44} color="hsl(var(--primary-cyan))" strokeWidth={1.5} />
+              <CheckCircle2 size={44} color="hsl(var(--cyan-bright))" strokeWidth={1.5} />
               <h2 style={styles.successTitle}>Subscription Confirmed!</h2>
               <p style={styles.successSubtitle}>
                 Success! We have added <strong>{email}</strong> to our weekly distribution list. You will receive your first NWO Funding Brief next Thursday morning.
@@ -135,7 +135,8 @@ export default function WeeklyBrief() {
 
 const styles = {
   briefSection: {
-    background: 'linear-gradient(180deg, hsl(var(--bg-surface)) 0%, hsl(var(--bg-base)) 100%)',
+    background: '#0B1020',
+    overflow: 'hidden',
     position: 'relative',
     zIndex: 1,
   },
@@ -152,9 +153,7 @@ const styles = {
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
-    borderColor: 'hsla(184, 100%, 48%, 0.1)',
     position: 'relative',
-    overflow: 'hidden',
   },
   gridPattern: {
     position: 'absolute',
@@ -163,9 +162,9 @@ const styles = {
     height: '100%',
     maskImage: 'radial-gradient(350px circle at center, white, transparent)',
     WebkitMaskImage: 'radial-gradient(350px circle at center, white, transparent)',
-    stroke: 'hsla(184, 100%, 48%, 0.04)',
-    fill: 'hsla(184, 100%, 48%, 0.02)',
-    color: 'hsl(var(--primary-cyan))',
+    stroke: 'hsla(184, 100%, 48%, 0.05)',
+    fill: 'hsla(184, 100%, 48%, 0.03)',
+    color: 'hsl(var(--cyan-bright))',
     pointerEvents: 'none',
     zIndex: 0,
   },
@@ -184,7 +183,7 @@ const styles = {
   },
   subtitle: {
     fontSize: '16px',
-    color: 'hsl(var(--text-secondary))',
+    color: '#A9B4C6',
     maxWidth: '600px',
     lineHeight: '1.6',
     marginBottom: '32px',
@@ -200,8 +199,6 @@ const styles = {
     flex: 1,
     borderRadius: '30px',
     padding: '14px 24px',
-    border: '1px solid hsla(0, 0%, 100%, 0.08)',
-    background: 'rgba(0, 0, 0, 0.2)',
   },
   submitBtn: {
     borderRadius: '30px',
@@ -210,7 +207,7 @@ const styles = {
   },
   disclaimer: {
     fontSize: '12px',
-    color: 'hsl(var(--text-muted))',
+    color: '#7A8496',
   },
   successState: {
     display: 'flex',
@@ -230,7 +227,7 @@ const styles = {
   },
   successSubtitle: {
     fontSize: '15px',
-    color: 'hsl(var(--text-secondary))',
+    color: '#A9B4C6',
     lineHeight: '1.6',
     marginBottom: '12px',
   },

@@ -280,7 +280,7 @@ export default function FundingRadar() {
                   style={{
                     ...styles.grantCard,
                     ...(grant.featured
-                      ? { borderColor: 'hsla(184,100%,48%,0.45)', boxShadow: '0 0 40px -8px hsla(184,100%,48%,0.28)', padding: isMobile ? '30px' : '40px' }
+                      ? { borderColor: 'hsla(192, 91%, 32%, 0.35)', boxShadow: '0 0 40px -8px hsla(192, 91%, 32%, 0.16)', padding: isMobile ? '30px' : '40px' }
                       : {}),
                   }}
                 >
@@ -304,8 +304,8 @@ export default function FundingRadar() {
                           minWidth: isMobile ? 'auto' : '240px',
                           paddingLeft: isMobile ? 0 : '44px',
                           paddingTop: isMobile ? '24px' : 0,
-                          borderLeft: isMobile ? 'none' : '1px solid hsla(0, 0%, 100%, 0.09)',
-                          borderTop: isMobile ? '1px solid hsla(0, 0%, 100%, 0.09)' : 'none',
+                          borderLeft: isMobile ? 'none' : '1px solid hsla(var(--border-light))',
+                          borderTop: isMobile ? '1px solid hsla(var(--border-light))' : 'none',
                         }}
                       >
                         <div style={styles.metaCol}>
@@ -581,8 +581,8 @@ const styles = {
     height: '100%',
     maskImage: 'radial-gradient(400px circle at 80% 20%, white, transparent)',
     WebkitMaskImage: 'radial-gradient(400px circle at 80% 20%, white, transparent)',
-    stroke: 'hsla(184, 100%, 48%, 0.05)',
-    fill: 'hsla(184, 100%, 48%, 0.03)',
+    stroke: 'hsla(192, 91%, 32%, 0.08)',
+    fill: 'hsla(192, 91%, 32%, 0.04)',
     color: 'hsl(var(--primary-cyan))',
     pointerEvents: 'none',
     zIndex: 0,
@@ -612,8 +612,8 @@ const styles = {
   searchBox: {
     display: 'flex',
     alignItems: 'center',
-    background: 'rgba(255, 255, 255, 0.03)',
-    border: '1px solid hsla(0, 0%, 100%, 0.08)',
+    background: 'hsla(222, 15%, 15%, 0.05)',
+    border: '1px solid hsla(var(--border-light))',
     borderRadius: '10px',
     padding: '8px 16px',
     flex: 1,
@@ -637,8 +637,8 @@ const styles = {
     gap: '8px',
   },
   tabButton: {
-    background: 'rgba(255, 255, 255, 0.02)',
-    border: '1px solid hsla(0, 0%, 100%, 0.05)',
+    background: 'hsla(222, 15%, 15%, 0.04)',
+    border: '1px solid hsla(var(--border-light))',
     color: 'hsl(var(--text-secondary))',
     padding: '8px 18px',
     borderRadius: '8px',
@@ -703,7 +703,7 @@ const styles = {
   metaRow: {
     display: 'flex',
     justifyContent: 'space-between',
-    borderTop: '1px solid hsla(0, 0%, 100%, 0.09)',
+    borderTop: '1px solid hsla(var(--border-light))',
     paddingTop: '18px',
     marginBottom: '24px',
     gap: '12px',
@@ -760,14 +760,14 @@ const styles = {
     display: 'flex',
     flexDirection: 'column',
     gap: '8px',
-    background: 'rgba(0, 0, 0, 0.2)',
+    background: 'hsla(222, 15%, 15%, 0.05)',
     padding: '16px',
     borderRadius: '10px',
     fontSize: '14px',
   },
   divider: {
     height: '1px',
-    background: 'hsla(0, 0%, 100%, 0.06)',
+    background: 'hsla(var(--border-light))',
     margin: '24px 0',
   },
   calcForm: {
@@ -797,7 +797,7 @@ const styles = {
     accentColor: 'hsl(var(--primary-cyan))',
   },
   resultPanel: {
-    background: 'rgba(255, 255, 255, 0.02)',
+    background: 'hsla(222, 15%, 15%, 0.04)',
     padding: '20px',
     borderRadius: '8px',
     textAlign: 'left',

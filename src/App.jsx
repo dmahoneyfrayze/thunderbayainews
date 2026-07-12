@@ -5,7 +5,6 @@ import './App.css';
 import BoltMark from './components/BoltMark';
 import { initSmoothScroll, destroySmoothScroll } from './lib/smoothScroll';
 import { useSectionNav } from './lib/useSectionNav';
-import CustomCursor from './components/CustomCursor';
 import Header from './components/Header';
 import Home from './pages/Home';
 import Blog from './pages/Blog';
@@ -48,10 +47,7 @@ export default function App() {
   const handleScrollTo = (id) => goToSection(id);
 
   return (
-    <div style={{ position: 'relative', minHeight: '100vh', cursor: 'none' }}>
-      {/* Custom cursor (from Stitch) */}
-      <CustomCursor />
-
+    <div style={{ position: 'relative', minHeight: '100vh' }}>
       {/* Interactive Background Grid (from Stitch) */}
       <div className="interactive-grid" style={styles.interactiveGrid} />
 
@@ -78,7 +74,7 @@ export default function App() {
       </main>
 
       {/* Footer */}
-      <footer style={styles.footer}>
+      <footer className="dark-band" style={styles.footer}>
         <div className="container" style={styles.footerContainer}>
           <div style={styles.footerLeft}>
             <motion.div
@@ -149,8 +145,8 @@ const styles = {
     pointerEvents: 'none',
   },
   footer: {
-    background: 'hsl(var(--bg-base))',
-    borderTop: '1px solid hsla(0, 0%, 100%, 0.05)',
+    background: '#0B1020',
+    borderTop: '1px solid rgba(255, 255, 255, 0.07)',
     padding: '80px 0 40px 0',
     position: 'relative',
     zIndex: 1,
@@ -180,29 +176,30 @@ const styles = {
     WebkitTextFillColor: 'transparent',
   },
   logoText: {
-    fontFamily: 'var(--font-heading)',
+    fontFamily: 'var(--font-heading-sans)',
     fontSize: '18px',
     fontWeight: '800',
     letterSpacing: '-0.5px',
+    color: '#fff',
   },
   description: {
     fontSize: '14px',
-    color: 'hsl(var(--text-secondary))',
+    color: '#A9B4C6',
     lineHeight: '1.5',
   },
   copyright: {
     fontSize: '12px',
-    color: 'hsl(var(--text-muted))',
+    color: '#7A8496',
     marginTop: '10px',
   },
   credit: {
     fontSize: '12px',
-    color: 'hsl(var(--text-muted))',
+    color: '#7A8496',
     marginTop: '6px',
     lineHeight: 1.5,
   },
   creditLink: {
-    color: 'hsl(var(--text-secondary))',
+    color: '#C9D3E0',
     textDecoration: 'none',
   },
   legal: {
@@ -213,11 +210,11 @@ const styles = {
     fontSize: '12px',
   },
   legalLink: {
-    color: 'hsl(var(--text-muted))',
+    color: '#7A8496',
     textDecoration: 'none',
   },
   legalDot: {
-    color: 'hsl(var(--text-muted))',
+    color: '#7A8496',
   },
   footerLinksGroup: {
     display: 'flex',
@@ -233,21 +230,21 @@ const styles = {
   linksTitle: {
     fontFamily: 'var(--font-label)',
     fontSize: '10px',
-    letterSpacing: '0.3em',
-    fontWeight: '400',
-    color: 'hsl(var(--text-primary))',
+    letterSpacing: '0.2em',
+    fontWeight: '600',
+    color: '#F4F7FB',
     textTransform: 'uppercase',
     marginBottom: '8px',
   },
   footerLink: {
     fontSize: '14px',
-    color: 'hsl(var(--text-secondary))',
+    color: '#A9B4C6',
     cursor: 'pointer',
     transition: 'color 0.2s ease',
   },
   footerHref: {
     fontSize: '14px',
-    color: 'hsl(var(--text-secondary))',
+    color: '#A9B4C6',
     textDecoration: 'none',
     transition: 'color 0.2s ease',
     cursor: 'pointer',

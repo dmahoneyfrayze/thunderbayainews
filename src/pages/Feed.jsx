@@ -97,12 +97,12 @@ const styles = {
   page: { position: 'relative', minHeight: '100vh', padding: '160px 0 120px', overflow: 'hidden' },
   glow1: {
     position: 'absolute', top: '-5%', left: '-5%', width: '500px', height: '500px',
-    background: 'radial-gradient(circle, hsla(184,100%,48%,0.10) 0%, transparent 70%)',
+    background: 'radial-gradient(circle, hsla(192, 91%, 32%, 0.10) 0%, transparent 70%)',
     filter: 'blur(80px)', pointerEvents: 'none', zIndex: 1,
   },
   glow2: {
     position: 'absolute', top: '20%', right: '-8%', width: '500px', height: '500px',
-    background: 'radial-gradient(circle, hsla(275,80%,56%,0.10) 0%, transparent 70%)',
+    background: 'radial-gradient(circle, hsla(262, 68%, 48%, 0.10) 0%, transparent 70%)',
     filter: 'blur(90px)', pointerEvents: 'none', zIndex: 1,
   },
   header: { maxWidth: '760px', marginBottom: '56px' },
@@ -116,7 +116,7 @@ const styles = {
   followBtn: {
     display: 'inline-flex', alignItems: 'center', gap: '8px',
     padding: '10px 18px', borderRadius: '999px',
-    border: '1px solid hsla(0,0%,100%,0.14)', background: 'hsla(0,0%,100%,0.04)',
+    border: '1px solid hsla(var(--border-light))', background: 'hsla(222, 15%, 15%, 0.04)',
     color: 'hsl(var(--text-primary))', textDecoration: 'none',
     fontFamily: 'var(--font-label)', fontSize: '13px', letterSpacing: '0.04em',
   },
