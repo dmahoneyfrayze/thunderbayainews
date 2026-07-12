@@ -6,6 +6,45 @@ import { POSTS_BATCH2 } from './posts-batch-2.js';
 
 export const POSTS = [
   {
+    slug: 'which-ai-model-tier-small-business-northwestern-ontario',
+    title: 'Which AI model should your business actually use? A plain guide to picking the right tier',
+    dek: 'The rule that saves the most money: run the cheapest model that clears the bar for the task, and save the flagship for the genuinely hard jobs.',
+    category: 'Tips',
+    date: 'July 11, 2026',
+    iso: '2026-07-11',
+    readMins: 5,
+    accent: ['#10b981', '#06b6d4'],
+    blocks: [
+      { type: 'p', text: 'The single decision that saves a small business the most money on AI is picking the right model tier: run the cheapest model that clears the quality bar for the task in front of you, and reserve the top-end model for genuinely hard, multi-step work. Most everyday business tasks — answering customer questions, drafting emails, summarizing documents, sorting incoming messages — run well on a mid or small model at a fraction of the flagship\'s cost. Providers now sell a family of tiers at very different prices for the same job: when OpenAI released GPT-5.6 in July 2026, the same line ran from Luna at $1 per million input tokens and $6 output, up to the Sol flagship at $5 and $30 — a five-to-six-times spread. Reaching for the most powerful model by default is the most common and most expensive mistake.' },
+      { type: 'h2', text: 'Start with the task, not the model' },
+      { type: 'p', text: 'The right tier is a property of the job, not a badge of quality. A flagship model is built to reason through many steps, plan, use tools, and hold a long context — real capability you pay a premium for. But most business work is not that. Classifying an email, pulling a total off an invoice, or drafting a reply to a common question is straightforward, and a small, cheap model handles it as well as an expensive one. Match the model to the difficulty of the task, and you stop paying flagship prices for work a budget model nails.' },
+      { type: 'h2', text: 'A tier for each common job' },
+      { type: 'p', text: 'Using the current GPT-5.6 family as the example, here is how the tiers map to the work a Northwestern Ontario business actually does. The same shape — a cheap small tier, a balanced middle, and a premium flagship — holds across most providers.' },
+      { type: 'ul', items: [
+        'Cheapest / fastest tier (e.g. Luna, $1 / $6 per million tokens): high-volume, low-judgment work — sorting and tagging incoming messages, routing leads, extracting fields from documents, short canned replies, first-pass summaries. If you are running the task hundreds or thousands of times a month, this is where the savings live.',
+        'Balanced middle tier (e.g. Terra, $2.50 / $15): the everyday default — customer chat, drafting emails, quotes, and product descriptions, summarizing longer documents, answering FAQs. Good enough for almost all customer-facing and back-office writing.',
+        'Flagship tier (e.g. Sol, $5 / $30): complex, multi-step reasoning and agentic tasks — analysis that chains many steps, code, planning across tools. Reach for it only when the cheaper tier visibly falls short on a specific job, not as a starting point.',
+      ]},
+      { type: 'h2', text: 'How to actually decide: a three-step test' },
+      { type: 'p', text: 'You do not need benchmarks to choose. You need a sample of your own work and ten minutes.' },
+      { type: 'ul', items: [
+        'Run the task on the cheapest tier first. Start at the bottom, not the top.',
+        'Check a real sample of the outputs against your own standard — not a demo, your actual emails, invoices, or customer questions.',
+        'Move up a tier only where the cheaper model visibly fails. If you cannot tell the difference between the cheap and the expensive output, use the cheap one. The price gap is real; the quality gap on a simple task usually is not.',
+      ]},
+      { type: 'callout', text: 'Two caveats. First, quality varies by task, not just by tier — a small model can match a flagship on drafting and still fall short on multi-step analysis, so test on your own work rather than trusting a general ranking. Second, prices, tier names, and availability change fast: the figures here are the GPT-5.6 line as of July 2026, and you should confirm current pricing on the provider\'s own site before you budget. The durable point is the method, not the numbers: cheapest tier that clears the bar, and keep your workflow able to switch models so a price change or an outage does not lock you in.' },
+      { type: 'h2', text: 'Why this matters more for a small Northwestern Ontario business' },
+      { type: 'p', text: 'A large company can absorb an oversized AI bill without noticing. A Thunder Bay shop, clinic, or trades business runs on tighter margins, and the cost that matters is not the one-time setup but what a feature costs to run every day. Choosing the right tier is the difference between an automation that quietly pays for itself and one that eats the savings it was supposed to create. It also changes what is worth building at all: at a dollar per million tokens, a process that reads and sorts every inbound email, or extracts details from hundreds of documents a month, moves from too expensive to bother into cheap enough to just turn on. Picking the tier well is what makes the cheap end of that range usable.' },
+      { type: 'h2', text: 'Frequently asked questions' },
+      { type: 'ul', items: [
+        'Isn\'t the newest, biggest model always the best choice? No. Bigger models cost more and often run slower, and for most business tasks a mid or small tier is hard to tell apart from the flagship. The biggest model is the right default only for genuinely hard, multi-step reasoning — not for everyday drafting, chat, or classification.',
+        'How do I know if a cheaper model is good enough? Test it on a real sample of your own work and judge the outputs against your own standard. If you cannot reliably tell the cheap tier\'s output from the expensive one on your actual tasks, the cheap tier is good enough — use it.',
+        'Does this apply to models other than OpenAI\'s? Yes. The tiering pattern — a small, cheap model, a balanced middle, and a premium flagship — is industry-wide across the major providers. The pricing here is one current example, but the decision method is the same regardless of which provider you use, and keeping your setup able to switch providers is part of using it well.',
+      ]},
+      { type: 'source', text: 'Source: model tier and pricing example (GPT-5.6 Luna $1/$6, Terra $2.50/$15, Sol $5/$30 per million tokens) — OpenAI launch coverage, TechCrunch, July 9, 2026 (techcrunch.com/2026/07/09/openai-launches-its-new-family-of-models-with-gpt-5-6/). Model tiers, names, and prices change frequently — confirm current pricing on the provider\'s official site (for OpenAI, openai.com) before budgeting. This is general information, not technical or purchasing advice.' },
+    ],
+  },
+  {
     slug: 'openai-gpt-5-6-sol-terra-luna-northwestern-ontario-business',
     title: 'OpenAI\'s GPT-5.6 is here: what Sol, Terra, and Luna mean for a Northwestern Ontario business',
     dek: 'OpenAI launched a three-model family on July 9 — cheaper tokens are the real local story, and a US government review before release is the part worth watching.',
