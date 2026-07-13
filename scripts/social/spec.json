@@ -1,68 +1,68 @@
 {
-  "iso": "2026-07-06",
-  "issueNo": "03",
-  "dateLabel": "JUL 6",
+  "iso": "2026-07-13",
+  "issueNo": "04",
+  "dateLabel": "JUL 13",
   "handle": "thunderbayai",
   "cover": {
-    "hook": "Fable 5 is back — the 19-day AI model ban on Canadian users is over.",
-    "sub": "Plus $39M for Northern Ontario communities, 74 active wildfires, a July 31 funding deadline, and Canada's biggest privacy law in 25 years."
+    "hook": "Meta's $13B AI data centre chose Alberta. The North has the same advantages.",
+    "sub": "Plus: Gordie Howe Bridge opens July 27, Thunder Bay earns $709K, a sub-$3 frontier model, and a NWO science centre hits a delay."
   },
-  "reelSub": "Fable 5 returns, $39M for Northern Ontario, and 74 fires across the Northwest.",
-  "storySub": "Five moves from this week that affect how you build, fund, and run an NWO business.",
+  "reelSub": "Meta goes to Alberta, bridge opens July 27, and a Thunder Bay project is delayed.",
+  "storySub": "Five moves from this week that affect how you compete, ship, and build in the Northwest.",
   "items": [
     {
-      "tag": "MODEL WATCH",
-      "big": "19 DAYS",
-      "bigSize": "86px",
-      "title": "Fable 5 ban lifted — Canadian users have access again",
-      "body": "US export controls on Fable 5 were lifted June 30; Anthropic restored global access July 1. A new safety classifier blocks the jailbreak that triggered the shutdown. The framework enabling a repeat is now more formalized.",
-      "tease": "Next: $39M flowing into Northern Ontario communities.",
-      "reelLine": "Fable 5 ban lifted July 1 — Canadian AI users are back online."
-    },
-    {
-      "tag": "FUNDING",
-      "big": "$39M",
+      "tag": "INFRASTRUCTURE",
+      "big": "$13B",
       "bigSize": "180px",
-      "title": "FedNor opens $39M for Northern Ontario community infrastructure",
-      "body": "Municipalities and Indigenous organizations across Northern Ontario can now apply to repair and upgrade community facilities through the federal Build Communities Strong Fund. Announced in Thunder Bay June 30.",
-      "tease": "Next: the fire count that jumped from 13 to 74.",
-      "reelLine": "$39M federal stream open now for Northern Ontario communities."
-    },
-    {
-      "tag": "LOCAL",
-      "big": "74",
-      "bigSize": "180px",
-      "title": "74 active wildfires across the Northwest — 17 uncontrolled",
-      "body": "The Northwest Fire Region had 74 active fires as of July 4, up from 13 on June 25. Three large complexes are driving resources. A drying trend is expected to worsen conditions.",
-      "tease": "Next: a funding deadline 25 days away.",
-      "reelLine": "74 wildfires burning in the Northwest — 17 uncontrolled as of July 4."
-    },
-    {
-      "tag": "FUNDING",
-      "big": "JUL 31",
-      "bigSize": "120px",
-      "title": "NORDS Fund closes July 31 — $400K available per Northern Ontario municipality",
-      "body": "All 144 Northern Ontario municipalities can apply for up to $400,000 in infrastructure grants through the provincial NORDS Fund before July 31 at 5 PM EDT. Up to 100% of eligible capital costs covered.",
-      "tease": "Next: Canada's biggest privacy law in 25 years.",
-      "reelLine": "NORDS Fund deadline: July 31. Up to $400K per NWO municipality."
+      "title": "Meta picks Alberta for Canada's first AI data centre",
+      "body": "Meta broke ground July 8 on a 1GW data centre in Sturgeon County — Canada's largest AI infrastructure bet. Alberta won on cheap power and cold air. Northwestern Ontario has both.",
+      "tease": "Next: Canada-US trade gets a second Detroit crossing.",
+      "reelLine": "Meta's $13B AI centre lands in Alberta — the same advantages exist in the North."
     },
     {
       "tag": "GOVERNMENT",
-      "big": "25 YRS",
+      "big": "JUL 27",
       "bigSize": "120px",
-      "title": "Canada tables its first AI-era privacy law — Bill C-36",
-      "body": "Bill C-36 requires businesses to explain automated decision-making, honour data-deletion requests, and disclose AI use affecting individuals. Not yet law; fines up to 5% of global revenue proposed.",
+      "title": "Gordie Howe Bridge finally gets its opening date",
+      "body": "The $4.4B Windsor-Detroit bridge opens July 27, announced July 10 by Canada and Michigan. A second crossing on the busiest Canada-US trade corridor means more capacity for NWO goods moving south.",
+      "tease": "Next: Thunder Bay earns its third housing payout.",
+      "reelLine": "Gordie Howe Bridge opens July 27 — more capacity for Ontario-US trade."
+    },
+    {
+      "tag": "LOCAL",
+      "big": "$709K",
+      "bigSize": "120px",
+      "title": "Thunder Bay hits housing targets for the third year running",
+      "body": "Ontario delivered a final $709,280 Building Faster Fund payment to Thunder Bay on July 10. Three years, three payouts — the program is now being sunsetted. Funds go toward 2,100 new housing units by 2031.",
+      "tease": "Next: a frontier AI model now cheaper than ever.",
+      "reelLine": "$709K to Thunder Bay for hitting housing targets three years straight."
+    },
+    {
+      "tag": "MODEL WATCH",
+      "big": "$2/M",
+      "bigSize": "120px",
+      "title": "Grok 4.5: Opus-class coding model at $2 per million tokens",
+      "body": "SpaceXAI launched Grok 4.5 on July 8 — Elon calls it Opus-class but cheaper and faster. At $2/$6 per million tokens, it joins a wave of capable models making AI workflows dramatically cheaper to run.",
+      "tease": "Next: a Thunder Bay infrastructure project delayed.",
+      "reelLine": "Grok 4.5 out July 8 — Opus-class performance, $2 per million tokens."
+    },
+    {
+      "tag": "LOCAL",
+      "big": "DELAYED",
+      "bigSize": "120px",
+      "title": "Thunder Bay's $80M science centre has no new timeline",
+      "body": "Science North confirmed this week that its planned $80M waterfront science centre in Thunder Bay will take longer than expected, with no revised date set. The project carries $20M in federal funding and was headed for a spring 2027 groundbreaking.",
       "tease": "The throughline ->",
-      "reelLine": "Bill C-36: Canada's first AI-era privacy law is before Parliament."
+      "reelLine": "$80M Thunder Bay science centre delayed — no new start date set."
     }
   ],
   "summary": {
-    "title": "AI access restored, public money flowing north, and new rules on the horizon",
-    "body": "This week the Fable 5 ban lifted and Canadian AI access is restored, $39M in federal community funding opened for Northern Ontario, a key provincial infrastructure deadline arrives July 31, and Canada's first AI-era privacy law started its path through Parliament."
+    "title": "Big infrastructure moves, a trade corridor upgrade, and a local project on hold",
+    "body": "This week Canada's AI infrastructure race sharpened — Meta's $13B Alberta bet signals where the build is happening — while the Gordie Howe Bridge finally got its opening date, Thunder Bay locked in a housing win, and a planned NWO science centre hit a delay with no new timeline."
   },
   "captions": {
-    "carousel": "Fable 5 is back for Canadian users after a 19-day ban. FedNor opened a $39M community infrastructure stream for Northern Ontario municipalities and Indigenous organizations. Wildfire conditions across the Northwest jumped from 13 to 74 active fires. The provincial NORDS Fund deadline is July 31 — up to $400K per municipality. And Canada's biggest privacy reform in 25 years is now before Parliament. Full breakdown in The Signal, link in bio. #ThunderBay #NorthwesternOntario #NorthernOntario #AIbusiness #FedNor #NWOntario",
-    "reel": "Fable 5 back online. $39M for Northern Ontario. 74 wildfires. July 31 funding deadline. Canada's AI-era privacy law. Five moves from this week. thunderbayai.com #NorthernOntario #ThunderBay #AIbusiness #FedNor",
+    "carousel": "Meta broke ground on a $13 billion AI data centre in Alberta on July 8 — Canada's largest AI infrastructure investment and a signal of where the build is happening. The Gordie Howe Bridge has its opening date: July 27, adding a second span to the busiest Canada-US trade corridor. Ontario rewarded Thunder Bay with a final $709,280 housing payment for meeting targets three years straight. SpaceXAI's Grok 4.5 arrived at $2 per million tokens, continuing the trend toward cheaper frontier-class AI. And Science North confirmed Thunder Bay's planned $80M waterfront science centre has no revised timeline. Full breakdown in The Signal — link in bio. #ThunderBay #NorthernOntario #NorthwesternOntario #AIbusiness #NWOntario #FedNor #AIinfrastructure",
+    "reel": "Meta's $13B AI centre chose Alberta. Gordie Howe Bridge opens July 27. Thunder Bay earns $709K. Grok 4.5 at $2 per million tokens. And a NWO science centre is delayed. Five moves from this week. thunderbayai.com #NorthernOntario #ThunderBay #AIbusiness #NWOntario",
     "story": "Story frame — add a poll sticker and a link sticker to thunderbayai.com."
   }
 }
