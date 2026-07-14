@@ -6,6 +6,35 @@ import { POSTS_BATCH2 } from './posts-batch-2.js';
 
 export const POSTS = [
   {
+    slug: 'missed-call-text-back-explained-local-business',
+    title: 'Missed-call text-back, explained: the cheapest AI win for a local business',
+    dek: 'When your phone goes unanswered, an automated SMS can recapture the lead in seconds — no staff, no new equipment, under 15 minutes to turn on.',
+    category: 'Tips',
+    date: 'July 14, 2026',
+    iso: '2026-07-14',
+    readMins: 4,
+    accent: ['#06b6d4', '#8b5cf6'],
+    blocks: [
+      { type: 'p', text: 'Missed-call text-back is a feature that fires an automatic SMS to anyone whose call goes unanswered — within seconds of the call timing out, from the business\'s own number, without any action from staff. For a trades shop, clinic, or service business where the phone rings while hands are busy, it is the fastest automation to switch on: GoHighLevel\'s documentation puts setup under 15 minutes, per-message SMS costs run under one cent, and a caller who would otherwise move on to the next search result instead gets an instant reply that keeps the conversation open.' },
+      { type: 'h2', text: 'How it works' },
+      { type: 'p', text: 'The business\'s phone number is connected to a platform that watches for unanswered inbound calls. When a call passes a configurable ring threshold — GoHighLevel, for example, allows 10 to 20 seconds — the platform sends a short SMS from that number to the caller\'s mobile. The message is typically one segment (160 characters or fewer): something along the lines of "Hi, this is [Business Name] — sorry we missed your call. How can we help?" Replies land in a shared inbox alongside other incoming texts and web chats. Most platforms let you set separate messages for business hours and after-hours calls.' },
+      { type: 'h2', text: 'What it costs' },
+      { type: 'p', text: 'GoHighLevel includes missed-call text-back in all plans, which start at $97 USD per month; SMS usage is billed on top at approximately $0.0079 USD per message segment, per GoHighLevel\'s published LC Phone pricing. Most Thunder Bay businesses access GoHighLevel through a local agency or reseller, so effective pricing varies — confirm with any reseller you work with. Enzak is a standalone tool built specifically for this feature: $99 USD per month for up to 1,000 texts per month, and it works with any existing business phone number through call forwarding, with no CRM or platform migration required. Podium and Birdeye include the feature within broader communication suites but do not publish pricing publicly; confirm current rates directly with each provider.' },
+      { type: 'h2', text: 'The Canadian compliance check' },
+      { type: 'p', text: 'Canada\'s Anti-Spam Legislation (CASL) covers automated commercial text messages. A single SMS sent in direct response to an inbound call is generally read as low-risk under the CASL provision for messages sent in response to customer inquiries, but that does not mean the standard requirements disappear: every commercial text must identify the sender by name and include an unsubscribe mechanism — "Reply STOP" is the standard, with "ARRET" for French — and opt-out requests must be honoured within 10 business days. Enrolling the caller into ongoing marketing sequences is a separate step that requires explicit consent. If you are unsure how CASL applies to your specific setup, confirm with a legal adviser before going live.' },
+      { type: 'callout', text: 'What missed-call text-back does not do: it does not answer the phone, screen callers, or resolve what someone called about. It is a holding action, not a resolution. A caller who dialled the wrong number still gets the text. Keep the message short, specific, and realistic — "a plumber will call you back within the hour" works better than a generic form letter. The automation buys time; following through is still the job.' },
+      { type: 'h2', text: 'Which Northwestern Ontario businesses benefit most' },
+      { type: 'p', text: 'Any service business where calls arrive during busy or unmanned windows sees the clearest return. Trades — plumbers, electricians, HVAC — field calls while technicians are on job sites. Health clinics miss calls when front-desk staff are with patients. Restaurants and lodges receive reservation enquiries during peak service hours. In each case, the text-back does not replace the follow-up call — it tells the caller the business received their call and creates a channel for them to wait rather than immediately trying the next number on their list.' },
+      { type: 'h2', text: 'Frequently asked questions' },
+      { type: 'ul', items: [
+        'Does the caller need to install anything to receive the text? No. The SMS goes to their existing mobile number — no app, no account, nothing required on their end. The only constraint is that they must have called from a mobile number capable of receiving SMS; calls from landlines will not receive the text.',
+        'Can I use my existing business number, or do I need a new one? Most platforms let you send from your existing number. Enzak, for example, works with any landline, VoIP, or mobile number through call forwarding. Some platforms may require you to port your number or use a provisioned one — confirm before signing up.',
+        'What should the automated message actually say? Keep it short and honest: your business name, acknowledgment of the missed call, and a realistic expectation for when someone will follow up. Avoid generic templates. A message that sounds like it came from a person works better than one that reads like a form letter.',
+      ]},
+      { type: 'source', text: 'Sources: GoHighLevel missed-call text-back configuration — help.gohighlevel.com/support/solutions/articles/48001239140-where-and-how-to-configure-the-missed-call-text-back-feature | GoHighLevel pricing — gohighlevel.com/pricing | GoHighLevel LC Phone pricing (SMS per-message rates) — help.gohighlevel.com/support/solutions/articles/48001223556-lc-phone-pricing-billing-guide | GoHighLevel Canadian 10DLC messaging requirements — help.gohighlevel.com/support/solutions/articles/155000004915-updated-messaging-policies-for-canadian-10dlc-numbers-a2p-registration-requirements | Enzak — enzak.com | CASL: CRTC guidance on commercial electronic messages and opt-out requirements — crtc.gc.ca/eng/com500/faq500.htm | Government of Canada CASL texting guidance — ised-isde.canada.ca/site/canada-anti-spam-legislation/en/texting-good-client-relations. Podium pricing not publicly listed; confirm at podium.com. GoHighLevel platform pricing is for direct subscriptions and varies by reseller.' },
+    ],
+  },
+  {
     slug: 'signal-ai-funding-nwo-week-july-13-2026',
     title: 'The Signal: AI & funding in the Northwest, week of July 13',
     dek: "Meta breaks ground on Canada's first $13 billion AI data centre in Alberta, the Gordie Howe Bridge gets its July 27 opening date, Thunder Bay earns its third consecutive housing reward, and a local science centre project hits a delay.",
