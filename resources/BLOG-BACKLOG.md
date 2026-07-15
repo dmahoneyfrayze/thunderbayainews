@@ -29,7 +29,7 @@ content; funding pages are the high-intent layer, not the whole diet. Rules:
 
 ## Queue (publish order — the rotation IS the schedule)
 - [x] missed-call-text-back-explained-local-business Tips — Missed-call text-back, explained: the cheapest AI win for a local business
-- [ ] Playbook — AI for mining and mineral exploration in Northwestern Ontario
+- [x] ai-mining-mineral-exploration-northwestern-ontario Playbook — AI for mining and mineral exploration in Northwestern Ontario
 - [ ] Perspective — Most Northwestern Ontario businesses don't need a chatbot. Here's what to fix first.
 - [ ] Funding — SR&ED tax credit — up to 35% refundable on R&D, incl. custom software (the one most owners miss)
 - [ ] Tips — A one-hour AI audit of your own business: find the task worth automating first
