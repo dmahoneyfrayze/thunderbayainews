@@ -71,9 +71,13 @@ funding facts stay "confirm with the program," sourced):
    residency + the Fable 5 Canada block as the concrete hook).
 5. **Localization + infra posts**: Ring of Fire supply-chain + where AI fits; Ignace DGR tech/trades jobs; a standing
    "Canadian AI access tracker" (Fable/Mythos). Every major national AI story gets a "what it means for NWO" version.
-6. **GEO citability polish**: lead every funding post with a 2-sentence direct answer (pattern shipped on BBAA/RAII —
-   extend to the rest); add HowTo schema to BBAA "how to be ready"; DefinedTerm for MFIPPA/RAII/BBAA; Dataset schema
-   on `/funding`; add **author byline / E-E-A-T** attribution (helps Google News).
+6. **GEO citability polish**: ~~lead every funding post with a 2-sentence direct answer~~ — DONE 2026-07-16
+   (commit `1a7c003`): the last 6 unconverted posts (NOHFC Workforce Development, Invest North Innovation,
+   Invest North Grow, FedNor RTRI, FedNor BSP, NOIC Costarter) now open with a "THE SHORT ANSWER" block,
+   restating facts already sourced later in the post — no new claims. All funding/program posts now have it.
+   Still open: HowTo schema on BBAA "how to be ready"; DefinedTerm for MFIPPA/RAII/BBAA; Dataset schema
+   on `/funding`; **author byline / E-E-A-T** attribution (helps Google News) — `BlogPost.jsx` currently
+   hardcodes `author: {'@type':'Organization', name:'Thunder Bay AI'}` with no named byline anywhere.
 7. **Trust/UX**: surface "nothing publishes unread" near the hero; ~~visible contact email~~ (already live —
    `mailto:denis@frayze.ca` in footer); ~~RSS feed~~ — DONE 2026-07-09 (full-text RSS 2.0 at `/rss.xml`,
    generated in `scripts/prerender.mjs` from all 27 Journal posts, `<link rel="alternate">` discovery tag
