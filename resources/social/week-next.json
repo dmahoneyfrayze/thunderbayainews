@@ -1,71 +1,71 @@
 {
-  "startDate": "2026-07-13",
+  "startDate": "2026-07-20",
   "handle": "thunderbayai",
   "posts": [
     {
       "kind": "signal",
-      "issueNo": "04",
-      "dateLabel": "JUL 13",
+      "issueNo": "05",
+      "dateLabel": "JUL 20",
       "cover": {
-        "hook": "A Canadian government just used AI to review 466 million lines of code in 20 hours - work it says would have taken six years by hand.",
-        "sub": "Alberta published exactly how it did it, for free. Three other stories this week are all about what happens when someone finally looks inside the AI black box."
+        "hook": "New York just became the first U.S. state to ban new hyperscale AI data centers - for a full year.",
+        "sub": "The same week, Anthropic put $10 million into Canadian AI research and OpenAI built an AI whose only job is attacking its own models."
       },
       "items": [
         {
           "tag": "GOVERNMENT",
-          "big": "466M",
+          "big": "1 YEAR",
+          "bigSize": "120px",
+          "title": "New York just became the first U.S. state to ban new hyperscale AI data centers - for a year",
+          "body": "Governor Kathy Hochul signed an executive order barring new permits for data centers using 50 megawatts or more of power, while the state studies AI infrastructure's energy and water impact. It's the first statewide moratorium of its kind in the country, following growing public pushback over electricity prices tied to AI buildouts.",
+          "tease": "Next: the $10 million Anthropic is putting into Canadian AI research instead.",
+          "reelLine": "New York just banned new hyperscale AI data centers for a year - the first state to do it."
+        },
+        {
+          "tag": "CANADA",
+          "big": "$10M",
           "bigSize": "150px",
-          "title": "Alberta says a Claude-powered agent fleet reviewed 466 million lines of government code in 20 hours - then gave away the playbook",
-          "body": "The province's AI agents, built on Anthropic's Claude, scanned aging public-service systems for errors and security flaws, with every fix human-reviewed before it shipped. Alberta estimates the same work done by hand would have taken more than six years and cost upward of $2 billion - and it just published 21 technical white papers, free and open-source, so other governments can repeat the process.",
-          "tease": "Next: what Anthropic found when it looked inside Claude's own reasoning.",
-          "reelLine": "Alberta says AI reviewed 466 million lines of government code in 20 hours - and gave the playbook away for free."
+          "title": "Anthropic is putting $10 million into Canadian AI research - at eight institutions from Toronto to Saskatchewan",
+          "body": "The commitment funds Claude access and research support at Amii, Mila, the Vector Institute, the University of Toronto, the University of Saskatchewan, and more, and extends Anthropic's startup program - with Claude credits - to companies affiliated with those institutes.",
+          "tease": "Next: the feature that lets Claude log into your accounts without ever seeing your passwords.",
+          "reelLine": "Anthropic just put $10 million behind Canadian AI research, at eight institutions from Toronto to Saskatchewan."
         },
         {
-          "tag": "RESEARCH",
-          "big": "J-SPACE",
-          "bigSize": "110px",
-          "title": "Anthropic found a hidden workspace inside Claude where it holds an idea before it writes it down",
-          "body": "Researchers call it 'J-space' - a small set of internal patterns that light up when a concept is on the model's mind but not yet in its answer. Asked to compute (4+7)*2+7, Claude's J-space held the words 'math' and the intermediate results 21 and 42 before the final answer appeared.",
-          "tease": "Next: a bank betting its whole workforce on tools like this one.",
-          "reelLine": "Anthropic found a hidden space where Claude holds an idea before it says it out loud."
-        },
-        {
-          "tag": "ENTERPRISE",
-          "big": "35,000",
-          "bigSize": "130px",
-          "title": "A Japanese banking giant is rolling out ChatGPT to roughly 35,000 employees",
-          "body": "MUFG, parent of Mitsubishi UFJ Bank, is deploying ChatGPT Enterprise bank-wide as it pushes to become what it calls 'AI-native,' with OpenAI supporting training, security review, and governance so the tool clears the bar for a regulated financial institution.",
-          "tease": "Next: the model Microsoft just named its new default - even as breakup talk grows.",
-          "reelLine": "A major bank is handing ChatGPT Enterprise to roughly 35,000 employees, bank-wide."
-        },
-        {
-          "tag": "PARTNERSHIP",
-          "big": "5.6",
+          "tag": "PRODUCT",
+          "big": "ZERO",
           "bigSize": "160px",
-          "title": "OpenAI named GPT-5.6 the 'preferred model' inside Microsoft 365 Copilot - as breakup rumors swirl",
-          "body": "The new model family now powers Copilot across Word, Excel, PowerPoint, Chat, and Cowork. The announcement landed days after reports that Microsoft is shifting some of its own apps toward in-house models, underscoring how much the Microsoft-OpenAI relationship is still in motion.",
-          "tease": "Next: the court fight over what OpenAI did with its own user data.",
-          "reelLine": "OpenAI just named its newest model the default inside Microsoft 365 - as breakup talk swirls."
+          "title": "1Password built a way for Claude to log into your accounts without ever seeing your passwords",
+          "body": "The new integration lets Claude use a stored credential to complete a task - the user approves which one and why - while the password itself never reaches the model or Anthropic's systems. It's live now for 1Password users on Mac running the Claude desktop app.",
+          "tease": "Next: the AI OpenAI built with one job - attacking its own models.",
+          "reelLine": "1Password built a way for Claude to log into your accounts without ever actually seeing your passwords."
         },
         {
-          "tag": "LEGAL",
-          "big": "78M",
+          "tag": "SAFETY",
+          "big": "84%",
+          "bigSize": "150px",
+          "title": "OpenAI built an AI whose only job is attacking its own models - and it's better at it than people",
+          "body": "GPT-Red, an internal red-teaming system trained through self-play, found successful attacks 84% of the time in tests against novel safety scenarios, versus 13% for human red-teamers. OpenAI says folding it into training helped make GPT-5.6 Sol six times more resistant to prompt injection than its predecessor.",
+          "tease": "Next: the author who told 200 OpenAI staffers, inside their own building, that their product is hurting a generation.",
+          "reelLine": "OpenAI's own AI attacks its models better than human testers do - 84% success versus 13%."
+        },
+        {
+          "tag": "CULTURE",
+          "big": "200",
           "bigSize": "140px",
-          "title": "The New York Times is asking a court to sanction OpenAI over deleted ChatGPT logs",
-          "body": "A publisher group led by the Times alleges OpenAI told the court it could not search its own systems for copyrighted news content, while an engineer's deposition said the company had already searched roughly 78 million de-identified ChatGPT conversations internally to gauge its own exposure. OpenAI denies wrongdoing and calls the allegations false.",
+          "title": "Author Dave Eggers stood in front of 200 OpenAI staffers and told them ChatGPT is 'silencing an entire generation'",
+          "body": "Invited to speak at OpenAI's own offices, Eggers said the tool has made it 'catastrophic' for teachers trying to evaluate original student work, and later warned, on NPR, that letting AI 'speak for you' costs young people the struggle of finding their own words.",
           "tease": "The throughline ->",
-          "reelLine": "The New York Times wants a court to sanction OpenAI over what it did - and didn't disclose - with deleted chat logs."
+          "reelLine": "A novelist stood inside OpenAI's offices and told 200 staffers that ChatGPT is silencing a generation."
         }
       ],
       "summary": {
-        "title": "This week, the black box started cracking open",
-        "body": "A government published its AI playbook instead of guarding it, researchers mapped what a model is thinking before it answers, and a newsroom is asking a court to force a company to show what it actually did with user data - all while adoption inside banks and productivity suites keeps accelerating regardless of how much anyone can see inside."
+        "title": "This week, the AI industry ran into its own guardrails",
+        "body": "A state banned new AI data centers before more could be built, OpenAI started policing its own models by building an AI that attacks them, and a longtime critic delivered his warning inside the building where it would sting most - even as Anthropic kept investing in the research meant to make the technology trustworthy in the first place."
       },
-      "reelSub": "5 stories, one throughline: everyone is racing to adopt AI faster than anyone can see inside it.",
-      "storySub": "What it means for a Northwest business: the tools keep getting more capable and more scrutinized at the same time - worth knowing before you build on either.",
+      "reelSub": "5 stories, one throughline: as AI scales, so does the pushback - from state law to the people building it.",
+      "storySub": "What it means for a Northwest business: the tools keep shipping, but so does scrutiny - from state regulators to the people building them. Worth watching before you build on either.",
       "captions": {
-        "carousel": "This week: Alberta says an AI agent fleet built on Anthropic's Claude reviewed 466 million lines of government code in 20 hours - work it estimates would have taken six years by hand - and published the entire playbook for free. Anthropic separately found a hidden internal workspace where Claude holds a concept before it writes it down. MUFG is rolling ChatGPT out to roughly 35,000 bank employees, OpenAI named GPT-5.6 the preferred model inside Microsoft 365 Copilot, and the New York Times is asking a court to sanction OpenAI over deleted chat logs. Full rundown and sources - link in bio.\n#ThunderBayAI #NorthwesternOntario #AINews #ArtificialIntelligence #TechPolicy #SmallBusiness",
-        "reel": "A government that reviewed 466 million lines of code with AI in 20 hours, a hidden workspace inside Claude's reasoning, a bank handing ChatGPT to 35,000 employees, and a newsroom asking a court to sanction OpenAI. This week's AI signal, in five stories.\n#ThunderBayAI #AINews #NorthwesternOntario #TechPolicy #ArtificialIntelligence",
+        "carousel": "This week: New York became the first U.S. state to ban new hyperscale AI data centers, for a year, while it studies the energy and water impact. Anthropic committed $10 million to Canadian AI research at eight institutions from Toronto to Saskatchewan. 1Password built a way for Claude to use your login credentials without ever seeing your passwords. OpenAI built GPT-Red, an internal AI that attacks its own models and found successful attacks 84% of the time versus 13% for human testers. And author Dave Eggers told 200 OpenAI staffers, inside their own offices, that ChatGPT is silencing a generation. Full rundown and sources - link in bio.\n#ThunderBayAI #NorthwesternOntario #AINews #ArtificialIntelligence #TechPolicy #SmallBusiness",
+        "reel": "A state that banned new AI data centers for a year, $10 million headed into Canadian AI research, a way for Claude to log in without seeing your passwords, an AI built to attack its own models, and a novelist telling OpenAI staff their product is silencing a generation. This week's AI signal, in five stories.\n#ThunderBayAI #AINews #NorthwesternOntario #TechPolicy #ArtificialIntelligence",
         "story": "Story frame - add a poll sticker and a link sticker to thunderbayai.com.",
         "followUpComment": "Full sources for this week's Signal: https://thunderbayai.com"
       }
@@ -76,31 +76,27 @@
       "accent": "#22c55e",
       "cover": {
         "chip": "FUNDING",
-        "hook": "There is a $20,000 grant built specifically to help Northwestern Ontario businesses adopt AI",
-        "sub": "It requires a 30/60/90-day AI plan before a dollar moves - confirm eligibility with the program before you apply."
+        "hook": "There's a federal program built specifically to fund AI adoption and commercialization in Northern Ontario",
+        "sub": "FedNor's Regional AI Initiative covers up to 50 percent of capital costs and up to 75 percent of non-capital costs - confirm eligibility with a FedNor officer before applying."
       },
-      "big": "$20,000",
-      "bigLabel": "Maximum, per project",
-      "bigCaption": "NOIC's Building Blueprints for AI Adoption program covers up to 50% of eligible AI software, consulting, and integration costs, to a maximum of $20,000.",
-      "bigSub": "Applicants complete a pre-application consultation and a 30/60/90-day AI Adoption Plan before funding is confirmed - confirm current eligibility and funding availability with NOIC.",
-      "detailChip": "NOIC - Building Blueprints for AI Adoption (BBAA)",
-      "title": "Who it's for and how to start",
-      "body": "Growth-oriented, for-profit Northwestern Ontario SMEs with a valid Canadian business number, working on a genuine AI adoption project. It excludes distributors, resellers, retail-only businesses, and projects already underway. Every application starts with a consultation with NOIC.",
+      "detailChip": "FedNor - Regional Artificial Intelligence Initiative (RAII)",
+      "title": "Who it's for and how it works",
+      "body": "Incorporated SMEs, not-for-profits, Indigenous communities and organizations, and municipalities in Northern Ontario working on AI commercialization or adoption. It excludes retail and service-based businesses, and the application runs in two phases - starting with a call to a FedNor officer to confirm fit before anything else.",
       "why": {
         "title": "Why it matters",
-        "body": "This is one of the few programs written specifically for the step most businesses skip - planning an AI adoption before spending on it. The 30/60/90-day plan is the deliverable, not a formality."
+        "body": "Most federal innovation funding treats AI as one eligible use among many. This one is written for it specifically - worth a call even for a business that isn't sure its project counts as 'AI' yet."
       },
       "cta": {
-        "hook": "Have an AI project in mind?",
-        "commentQ": "What's the first AI tool you'd want help funding?"
+        "hook": "Thinking about an AI project?",
+        "commentQ": "What's holding your business back from starting an AI project - budget, time, or not knowing where to begin?"
       },
-      "storyCta": "Confirm eligibility with NOIC - link in bio",
+      "storyCta": "Confirm eligibility with FedNor - link in bio",
       "captions": {
-        "carousel": "There is a grant built specifically for Northwestern Ontario businesses adopting AI: NOIC's Building Blueprints for AI Adoption covers up to 50 percent of eligible software, consulting, and integration costs, to a maximum of $20,000. It excludes distributors, resellers, and retail-only businesses, and every application starts with a consultation and a 30/60/90-day AI Adoption Plan. Confirm eligibility with NOIC before applying. Details in bio.\n#ThunderBayAI #NorthwesternOntario #NOIC #AIFunding #SmallBusiness #NWOntario",
-        "story": "Story frame - link sticker to thunderbayai.com and a poll: do you have an AI project you'd want funded?",
-        "followUpComment": "Program details: https://www.nwoinnovation.ca/programs/bbaa/"
+        "carousel": "There's a federal program built specifically for AI adoption and commercialization in Northern Ontario: FedNor's Regional AI Initiative covers up to 50 percent of capital costs and up to 75 percent of non-capital costs for eligible SMEs, not-for-profits, and municipalities. It excludes retail and service-based businesses, and every application starts with a call to a FedNor officer. Confirm eligibility before applying. Details in bio.\n#ThunderBayAI #NorthwesternOntario #FedNor #AIFunding #SmallBusiness #NWOntario",
+        "story": "Story frame - link sticker to thunderbayai.com and a poll: what's holding you back from an AI project?",
+        "followUpComment": "Program details: https://fednor.canada.ca/en/our-programs/regional-artificial-intelligence-initiative-raii-northern-ontario"
       },
-      "source": "https://www.nwoinnovation.ca/programs/bbaa/"
+      "source": "https://fednor.canada.ca/en/our-programs/regional-artificial-intelligence-initiative-raii-northern-ontario"
     },
     {
       "kind": "card",
@@ -108,27 +104,27 @@
       "accent": "#3b82f6",
       "cover": {
         "chip": "AI FOR BUSINESS",
-        "hook": "A European telecom giant says its AI tool usage is up 546 percent since the start of the year",
-        "sub": "Deutsche Telekom is building on customer service, employee workflows, and network operations - not one flashy showcase project."
+        "hook": "An online car marketplace says its AI voice agents recovered 12 percent of the sales leads it was losing",
+        "sub": "Cars24 didn't build one flashy showcase - it pointed AI at the unglamorous problem of leads that go cold."
       },
-      "detailChip": "Enterprise AI adoption - Deutsche Telekom x OpenAI",
+      "detailChip": "Enterprise AI adoption - Cars24 x OpenAI",
       "title": "The pattern worth copying",
-      "body": "Deutsche Telekom is rolling out ChatGPT Enterprise company-wide and reports more than 50,000 monthly active users of its AI tools, with usage up 546 percent since the start of 2026. The push covers customer service - live translation, in-call assistants, post-call summaries - alongside employee workflows and network operations.",
+      "body": "Cars24 uses OpenAI-powered voice and chat agents to handle more than 1 million conversation minutes a month. For leads that used to go cold after about 10 days of silence, the agents now re-engage the customer, check whether interest is still there, and route them back into the sales funnel - recovering 12 percent of leads that would otherwise have been lost.",
       "why": {
         "title": "Why it matters for a small operation",
-        "body": "That growth came from steady use of ordinary daily tasks, not one big rollout. A small Northwest business can copy the shape of that: pick one daily task, get people actually using an AI tool on it, and let the usage grow from there."
+        "body": "Most businesses don't need an AI strategy - they need one leak plugged. Cold leads nobody has time to follow up on is a problem almost any Northwest business with a sales funnel already has."
       },
       "cta": {
-        "hook": "Where would daily AI use help most?",
-        "commentQ": "Customer calls, internal workflows, or day-to-day admin - where would steady AI use help your business most right now?"
+        "hook": "Where do your leads go cold?",
+        "commentQ": "Where does your business lose the most leads to silence - after a quote, after a call, after a quiet email?"
       },
-      "storyCta": "How steady AI adoption compounds - link in bio",
+      "storyCta": "How one company automated its cold-lead follow-up - link in bio",
       "captions": {
-        "carousel": "Deutsche Telekom says its AI tool usage is up 546 percent since the start of 2026, with more than 50,000 monthly active users across customer service, employee workflows, and network operations. It didn't come from one flashy project - it came from steady use of ordinary daily tasks. A small Northwest business can copy the shape of that: pick one task, get people using the tool, let it grow from there. Link in bio.\n#ThunderBayAI #AIforBusiness #NorthwesternOntario #SmallBusiness #ArtificialIntelligence",
-        "story": "Story frame - poll sticker: customer service, workflows, or admin - where would AI help most? Plus a link sticker to thunderbayai.com.",
-        "followUpComment": "Source: https://openai.com/index/deutsche-telekom/"
+        "carousel": "Cars24 uses OpenAI-powered voice and chat agents to handle more than 1 million conversation minutes a month - and for leads that used to go cold after about 10 days, the agents now re-engage the customer and route them back into the sales funnel, recovering 12 percent of leads that would otherwise have been lost. Most businesses don't need an AI strategy - they need one leak plugged. Link in bio.\n#ThunderBayAI #AIforBusiness #NorthwesternOntario #SmallBusiness #ArtificialIntelligence",
+        "story": "Story frame - link sticker to thunderbayai.com and a poll: where do your leads go cold most often?",
+        "followUpComment": "Source: https://openai.com/index/cars24"
       },
-      "source": "https://openai.com/index/deutsche-telekom/"
+      "source": "https://openai.com/index/cars24"
     },
     {
       "kind": "card",
@@ -136,27 +132,27 @@
       "accent": "#06b6d4",
       "cover": {
         "chip": "HOW-TO",
-        "hook": "OpenAI just retracted its own recommendation for a popular AI coding benchmark - after finding 30 percent of its tasks were broken",
-        "sub": "A lesson for anyone judging an AI tool by the numbers on its spec sheet."
+        "hook": "OpenAI's own CFO says most companies are measuring AI value the wrong way",
+        "sub": "Her fix is one number: cost per successful task - not cost per token, not adoption rate."
       },
-      "detailChip": "Reading an AI benchmark claim",
-      "title": "Don't take a benchmark score at face value",
-      "body": "OpenAI audited SWE-Bench Pro, one of the most widely used AI coding benchmarks, using an automated review pipeline plus five independent software engineers - and found roughly 30 percent of its tasks were broken, retracting its own earlier recommendation to use it. The lesson scales down: before picking an AI tool on the strength of a benchmark or a vendor claim, ask what was actually tested, who checked it, and whether the result holds up on a task like yours.",
+      "detailChip": "Measuring whether an AI tool is paying off",
+      "title": "The one number that actually tells you if AI is working",
+      "body": "Sarah Friar's framework: track the full cost of getting a task done right - the tool, plus the time spent reviewing, fixing, and redoing the output - and divide by the number of tasks that actually met the bar. A model that costs more per use but nails the task in one pass can beat a cheaper one that needs three rounds of human cleanup.",
       "why": {
         "title": "Why it matters",
-        "body": "A vendor benchmark is marketing, even when it's technically accurate. A number without a description of what was measured and who verified it is not evidence - it's a claim."
+        "body": "'We're using AI now' is not a result. Picking one recurring task and tracking how often the output needs fixing - and pricing that fix time in - is the difference between a tool that's actually saving hours and one that just feels like it is."
       },
       "cta": {
-        "hook": "Ever picked a tool by its benchmark score?",
-        "commentQ": "Have you ever chosen - or regretted choosing - an AI tool based on a headline benchmark number?"
+        "hook": "Ever tracked this for a tool you use?",
+        "commentQ": "Have you ever actually tracked how much rework an AI tool creates - or just assumed it was saving time?"
       },
-      "storyCta": "How to read an AI benchmark claim - link in bio",
+      "storyCta": "How to measure whether an AI tool is paying off - link in bio",
       "captions": {
-        "carousel": "OpenAI audited one of the most widely used AI coding benchmarks, SWE-Bench Pro, and found roughly 30 percent of its tasks were broken - retracting its own earlier recommendation to use it. The lesson scales down to any business picking an AI tool: a benchmark score is not evidence on its own. Ask what was tested, who checked it, and whether it holds up on a task like yours. Link in bio.\n#ThunderBayAI #AIforBusiness #NorthwesternOntario #SmallBusiness #ArtificialIntelligence",
-        "story": "Story frame - link sticker to thunderbayai.com and a question sticker: ever picked a tool by its benchmark score?",
-        "followUpComment": "Source: https://openai.com/index/separating-signal-from-noise-coding-evaluations/"
+        "carousel": "OpenAI's CFO says most companies measure AI value the wrong way. Her fix: track the full cost of getting a task done right - the tool plus the time spent reviewing, fixing, and redoing the output - then divide by the number of tasks that actually met the bar. A pricier model that nails a task in one pass can beat a cheaper one that needs three rounds of cleanup. Link in bio.\n#ThunderBayAI #AIforBusiness #NorthwesternOntario #SmallBusiness #ArtificialIntelligence",
+        "story": "Story frame - link sticker to thunderbayai.com and a question sticker: have you tracked how much rework your AI tool creates?",
+        "followUpComment": "Source: https://openai.com/index/a-scorecard-for-the-ai-age"
       },
-      "source": "https://openai.com/index/separating-signal-from-noise-coding-evaluations/"
+      "source": "https://openai.com/index/a-scorecard-for-the-ai-age"
     },
     {
       "kind": "card",
@@ -164,31 +160,31 @@
       "accent": "#16a34a",
       "cover": {
         "chip": "FUNDING FRIDAY",
-        "hook": "An existing Northern Ontario business can get up to $1 million to expand - as a loan, a grant, or a mix of both",
-        "sub": "NOHFC's Invest North - Grow stream is built for businesses that are already running and ready to scale."
+        "hook": "A Northern Ontario business developing new technology can access up to $2 million to get it to market",
+        "sub": "NOHFC's Invest North - Innovation stream funds R&D, prototyping, and commercialization - confirm eligibility with NOHFC before applying."
       },
-      "big": "$1,000,000",
-      "bigLabel": "Maximum loan (or $400,000 grant)",
-      "bigCaption": "NOHFC's Invest North - Grow program offers a grant up to 20% of eligible costs, a term loan up to 50%, or a hybrid combining both - to a $1 million combined maximum.",
-      "bigSub": "The project must create or retain full-time jobs, and total government funding cannot exceed 50% of eligible capital costs - confirm eligible boundaries and current terms with NOHFC before applying.",
-      "detailChip": "NOHFC - Invest North - Grow",
+      "big": "$2,000,000",
+      "bigLabel": "Maximum, combined R&D and commercialization",
+      "bigCaption": "NOHFC's Invest North - Innovation program covers up to 50% of eligible costs - R&D alone to $500,000, or combined R&D, demonstration, and commercialization costs to $2 million.",
+      "bigSub": "Government funding, combined across all sources, cannot exceed 75% of eligible costs - confirm eligible boundaries and current terms with NOHFC.",
+      "detailChip": "NOHFC - Invest North - Innovation",
       "title": "What it actually funds",
-      "body": "Expansion at existing Northern Ontario businesses - equipment, facility upgrades, and growth capital - structured as contribution-only (to $400K), a contribution-plus-loan hybrid (to $1M combined), or loan-only (to $1M). It excludes retail, accommodation, food service, and beverage-alcohol manufacturing.",
+      "body": "Technical labour, prototyping, testing and certification, IP protection, and commercialization-tied marketing for new technology developed in Northern Ontario. A business can apply alone or partnered with an academic or research institution, but the private-sector partner has to be the lead applicant.",
       "why": {
         "title": "Why it matters",
-        "body": "Not every AI or technology purchase needs its own dedicated program. If a business is already expanding, this is one of the larger pools of growth capital available regionally - as a loan, a grant, or both."
+        "body": "Most funding stops at getting a technology working. This is one of the few regional programs that keeps paying through the harder part - proving it, protecting it, and actually bringing it to market."
       },
       "cta": {
-        "hook": "Already running and ready to grow?",
-        "commentQ": "Would a loan or a grant fit your expansion plans better?"
+        "hook": "Building something new?",
+        "commentQ": "If you had funding to take a new idea to market, what would you tackle first - the prototype, or protecting the IP around it?"
       },
       "storyCta": "Full eligibility details - link in bio",
       "captions": {
-        "carousel": "An existing Northern Ontario business can get up to $1 million to expand: NOHFC's Invest North - Grow program offers a grant up to 20 percent of eligible costs, a term loan up to 50 percent, or a hybrid of both. The project has to create or retain full-time jobs, and total government funding cannot exceed 50 percent of eligible capital costs. Confirm eligibility and current terms with NOHFC. Link in bio.\n#ThunderBayAI #NOHFC #NorthernOntario #SmallBusiness #Funding #NWOntario",
-        "story": "Story frame - link sticker to thunderbayai.com and a poll: would a loan or a grant fit your plans better?",
-        "followUpComment": "Program details: https://nohfc.ca/private-programs/invest-north-grow/"
+        "carousel": "A Northern Ontario business developing new technology can access up to $2 million: NOHFC's Invest North - Innovation program covers up to 50 percent of eligible costs - R&D alone to $500,000, or combined R&D, demonstration, and commercialization costs to $2 million. Government funding can't exceed 75 percent of eligible costs, and a private-sector applicant has to lead. Confirm eligibility with NOHFC. Link in bio.\n#ThunderBayAI #NOHFC #NorthernOntario #SmallBusiness #Funding #NWOntario",
+        "story": "Story frame - link sticker to thunderbayai.com and a poll: prototype first, or IP protection first?",
+        "followUpComment": "Program details: https://nohfc.ca/private-programs/invest-north-innovation/"
       },
-      "source": "https://nohfc.ca/private-programs/invest-north-grow/"
+      "source": "https://nohfc.ca/private-programs/invest-north-innovation/"
     },
     {
       "kind": "card",
@@ -196,26 +192,27 @@
       "accent": "#a855f7",
       "cover": {
         "chip": "LOCAL USE-CASES",
-        "hook": "4 more unglamorous tasks Northwest businesses are handing to AI",
-        "sub": "Still nothing flashy. Still real hours back."
+        "hook": "5 more quiet ways Northwest businesses are putting AI to work",
+        "sub": "No headline features. Just small blocks of time, cleared."
       },
       "list": [
-        { "title": "Turning a meeting or a long email thread into a short list of action items", "body": "Instead of re-reading a thread before a follow-up call, an AI tool pulls out who owes what and by when - useful for anyone running more meetings than they have hours to summarize." },
-        { "title": "Drafting a first response to an online customer review", "body": "A person still reads it and decides whether to post it, but a first draft of a reply saves the time spent finding the right tone under a public comment." },
-        { "title": "Writing a first-draft procedure so a new hire has something to work from", "body": "Turning how a task actually gets done into a written step-by-step, so training doesn't depend entirely on one person's memory." },
-        { "title": "Turning a sales or inventory spreadsheet into a plain-language summary", "body": "For a weekly check-in, a short written summary of what moved and what didn't is often more useful than the spreadsheet itself." }
+        { "title": "Turning a stack of supplier quotes into one side-by-side comparison", "body": "Instead of flipping between PDFs to compare price, delivery, and terms, an AI tool pulls the numbers into one table - so the actual decision takes minutes, not an afternoon." },
+        { "title": "Drafting a first-pass staff schedule from written availability", "body": "Someone still checks it before it goes out, but turning a pile of 'I can work Tuesdays and weekends' texts into a draft schedule saves the worst part of the job." },
+        { "title": "Building one FAQ page out of questions that keep showing up in emails", "body": "If the same three questions keep arriving one at a time, an AI tool can turn six months of email threads into a single page that answers them once." },
+        { "title": "Turning a technical manual into plain-language training notes", "body": "New staff don't need the manufacturer's manual - they need the five steps that matter for this job, written the way someone would actually explain them." },
+        { "title": "Drafting a first response to an RFP or tender before the team writes the real one", "body": "A rough first pass that pulls the requirements into a checklist gives the team something to react to, instead of starting from a blank page under deadline." }
       ],
       "why": {
         "title": "Why it matters",
-        "body": "None of this replaces judgment - it clears small recurring work, which is exactly the kind of cost a modest AI-adoption grant is built to help cover."
+        "body": "None of this is a strategy - it's five blocks of recurring work getting smaller. That's exactly the kind of cost the region's AI-adoption grants are built to help cover."
       },
       "cta": {
-        "hook": "Already doing one of these?",
-        "commentQ": "Which of these four would save your business the most time right now?"
+        "hook": "Doing one of these already?",
+        "commentQ": "Which of these five would save your business the most time this month?"
       },
       "storyCta": "Save this list for later - link in bio",
       "captions": {
-        "carousel": "Four more unglamorous tasks Northwestern Ontario businesses are handing to AI: turning meetings into action items, drafting first responses to online reviews, writing first-draft procedures for new hires, and turning a spreadsheet into a plain-language summary. None of it replaces judgment - all of it clears a recurring block of work. Full list in bio.\n#ThunderBayAI #SmallBusiness #NorthwesternOntario #AIforBusiness #Productivity",
+        "carousel": "Five more quiet ways Northwestern Ontario businesses are putting AI to work: comparing supplier quotes side by side, drafting a first-pass staff schedule, building one FAQ page from repeat email questions, turning a technical manual into plain-language training notes, and drafting a first response to an RFP before the team writes the real one. No headline features - just recurring work getting smaller. Full list in bio.\n#ThunderBayAI #SmallBusiness #NorthwesternOntario #AIforBusiness #Productivity",
         "story": "Story frame - link sticker to thunderbayai.com and a poll: which task would save your business the most time?",
         "followUpComment": "More practical AI use-cases for Northwest businesses: https://thunderbayai.com"
       }
@@ -226,27 +223,27 @@
       "accent": "#6366f1",
       "cover": {
         "chip": "MINDSET",
-        "hook": "Canada added 18,000 jobs last month. Meta is building a $13 billion AI data centre in Alberta.",
-        "sub": "Neither number landed in Northwestern Ontario - and that gap is the part worth reading."
+        "hook": "OpenAI just built parental controls and break reminders into ChatGPT for teens",
+        "sub": "The workforce Northwestern Ontario hires into next is the one that grew up using this - worth thinking about now, not later."
       },
       "detailChip": "The take",
-      "title": "AI capital and job growth are landing in different places - watch where",
-      "body": "Statistics Canada reported a net 18,000 jobs added in June, with gains concentrated in part-time work, accommodation, food service, and retail trade - not the sectors AI investment is chasing. In the same news cycle, Meta confirmed a $13 billion, one-gigawatt AI data centre planned for Sturgeon County, Alberta, its first in Canada and its 33rd globally. Big AI infrastructure money and the month's job gains are both real, and neither is happening here.",
+      "title": "The generation learning to work alongside AI is already using it - the question is how",
+      "body": "OpenAI's latest teen-safety push adds age prediction, expanded parental controls - quiet hours, disabled voice mode, safety notifications without reading a teen's actual conversations - and break reminders for extended use. It's a response to real pressure: author Dave Eggers spent the same week telling 200 OpenAI staffers, inside their own building, that ChatGPT is 'silencing an entire generation' by letting young people skip the struggle of finding their own words.",
       "why": {
         "title": "Why it matters here",
-        "body": "Northwestern Ontario isn't going to land the next hyperscale data centre, and doesn't need to. What the region can actually compete for is the adoption side - the grants and playbooks that help an existing business put AI to work - not the capital that builds the plants behind it. That's where the region's real leverage sits."
+        "body": "Northwestern Ontario's trades, tourism, healthcare, and retail employers are already hiring people who've used AI tools since high school - for homework, for writing, for shortcuts. Whether that shows up as a head start or a skills gap depends on habits formed years before anyone applies for a job. Worth a conversation with the next hire, not just a policy for the next AI tool."
       },
       "cta": {
-        "hook": "Where should the region's AI push focus?",
-        "commentQ": "Should Northwestern Ontario be chasing AI infrastructure investment, or doubling down on helping existing businesses adopt AI tools?"
+        "hook": "Where do you land on this?",
+        "commentQ": "Should local employers be watching for AI-dependent habits in new hires, or is this overblown?"
       },
-      "storyCta": "Why the region's AI opportunity is adoption, not infrastructure - link in bio",
+      "storyCta": "Why this matters for the region's next workforce - link in bio",
       "captions": {
-        "carousel": "Canada added a net 18,000 jobs in June, concentrated in part-time work, accommodation, food service, and retail - and in the same news cycle, Meta confirmed a $13 billion AI data centre for Sturgeon County, Alberta, its first in Canada. Big AI capital and the month's job gains are both real, and neither landed in Northwestern Ontario. The region's real leverage isn't competing for the next data centre - it's the adoption side: helping existing businesses put AI to work. Link in bio.\n#ThunderBayAI #ArtificialIntelligence #NorthwesternOntario #Mindset #SmallBusiness",
-        "story": "Story frame - poll sticker: should NWO chase AI infrastructure, or focus on adoption? Plus a link sticker to thunderbayai.com.",
-        "followUpComment": "Sources: https://www150.statcan.gc.ca/n1/daily-quotidien/260710/dq260710a-eng.htm and https://www.theglobeandmail.com/business/article-meta-ai-data-centre-sturgeon-county-alberta/"
+        "carousel": "OpenAI just added parental controls, age prediction, and break reminders to ChatGPT for teens - the same week author Dave Eggers told 200 OpenAI staffers, inside their own offices, that ChatGPT is silencing a generation by letting people skip the struggle of finding their own words. Northwestern Ontario's trades, tourism, healthcare, and retail employers are already hiring people who grew up on these tools. Whether that's a head start or a skills gap depends on habits formed years before the job application. Link in bio.\n#ThunderBayAI #ArtificialIntelligence #NorthwesternOntario #Mindset #SmallBusiness",
+        "story": "Story frame - poll sticker: should local employers watch for AI-dependent habits in new hires? Plus a link sticker to thunderbayai.com.",
+        "followUpComment": "Sources: https://openai.com/index/why-teens-deserve-access-safe-ai and https://www.theverge.com/ai-artificial-intelligence/967630/dave-eggers-openai-chatgpt-silencing-an-entire-generation"
       },
-      "source": "https://www150.statcan.gc.ca/n1/daily-quotidien/260710/dq260710a-eng.htm"
+      "source": "https://openai.com/index/why-teens-deserve-access-safe-ai"
     }
   ]
 }
