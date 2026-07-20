@@ -1,68 +1,59 @@
 {
-  "iso": "2026-07-13",
-  "issueNo": "04",
-  "dateLabel": "JUL 13",
+  "iso": "2026-07-20",
+  "issueNo": "05",
+  "dateLabel": "JUL 20",
   "handle": "thunderbayai",
   "cover": {
-    "hook": "Meta's $13B AI data centre chose Alberta. The North has the same advantages.",
-    "sub": "Plus: Gordie Howe Bridge opens July 27, Thunder Bay earns $709K, a sub-$3 frontier model, and a NWO science centre hits a delay."
+    "hook": "Military airlifts 600 from Fort Hope. 190 fires burn in the Northwest.",
+    "sub": "Plus: CN Rail cuts the main freight corridor, the Bank of Canada holds rates, and Canada's AI privacy law heads for a fall vote."
   },
-  "reelSub": "Meta goes to Alberta, bridge opens July 27, and a Thunder Bay project is delayed.",
-  "storySub": "Five moves from this week that affect how you compete, ship, and build in the Northwest.",
+  "reelSub": "Wildfires disrupt rail, forestry, and communities across Northwestern Ontario.",
+  "storySub": "Four moves from this week that matter for Northwestern Ontario operators and administrators.",
   "items": [
     {
-      "tag": "INFRASTRUCTURE",
-      "big": "$13B",
+      "tag": "LOCAL",
+      "big": "190",
       "bigSize": "180px",
-      "title": "Meta picks Alberta for Canada's first AI data centre",
-      "body": "Meta broke ground July 8 on a 1GW data centre in Sturgeon County — Canada's largest AI infrastructure bet. Alberta won on cheap power and cold air. Northwestern Ontario has both.",
-      "tease": "Next: Canada-US trade gets a second Detroit crossing.",
-      "reelLine": "Meta's $13B AI centre lands in Alberta — the same advantages exist in the North."
+      "title": "Military airlifts Fort Hope as 190 NWO fires burn",
+      "body": "The Canadian Armed Forces deployed four CC-130 Hercules aircraft July 18 to evacuate Eabametoong First Nation. Over 1,800 residents have been displaced from 14+ communities. Thunder Bay 36 alone has burned 318,812 hectares.",
+      "tease": "Next: how the fires cut NWO's supply chains.",
+      "reelLine": "190 fires, military evacuation, and 1,800 residents displaced across the Northwest."
+    },
+    {
+      "tag": "LOCAL",
+      "big": "SHUT",
+      "bigSize": "120px",
+      "title": "CN Rail closes north of Lake Superior, Domtar halts NWO operations",
+      "body": "The main transcontinental freight corridor through Northwestern Ontario was closed from at least July 14. Domtar suspended all harvesting — 500 direct jobs and 1,625 indirect jobs affected. Via Rail also cancelled the Toronto-Winnipeg run.",
+      "tease": "Next: the Bank of Canada's July rate call.",
+      "reelLine": "CN Rail closed, Domtar halted — wildfires hit NWO's freight and forestry backbone."
     },
     {
       "tag": "GOVERNMENT",
-      "big": "JUL 27",
+      "big": "2.25%",
       "bigSize": "120px",
-      "title": "Gordie Howe Bridge finally gets its opening date",
-      "body": "The $4.4B Windsor-Detroit bridge opens July 27, announced July 10 by Canada and Michigan. A second crossing on the busiest Canada-US trade corridor means more capacity for NWO goods moving south.",
-      "tease": "Next: Thunder Bay earns its third housing payout.",
-      "reelLine": "Gordie Howe Bridge opens July 27 — more capacity for Ontario-US trade."
+      "title": "Bank of Canada holds at 2.25%, credits AI for US growth",
+      "body": "July 15 decision: rate unchanged, Canadian Q2 GDP at 2.5%. The Bank's MPR explicitly named \"booming AI investment\" as the driver of US economic growth. Next decision: September 2.",
+      "tease": "Next: Canada's new AI privacy law.",
+      "reelLine": "Bank of Canada holds at 2.25% — and flags AI investment as driving US growth."
     },
     {
-      "tag": "LOCAL",
-      "big": "$709K",
+      "tag": "GOVERNMENT",
+      "big": "$25M",
       "bigSize": "120px",
-      "title": "Thunder Bay hits housing targets for the third year running",
-      "body": "Ontario delivered a final $709,280 Building Faster Fund payment to Thunder Bay on July 10. Three years, three payouts — the program is now being sunsetted. Funds go toward 2,100 new housing units by 2031.",
-      "tease": "Next: a frontier AI model now cheaper than ever.",
-      "reelLine": "$709K to Thunder Bay for hitting housing targets three years straight."
-    },
-    {
-      "tag": "MODEL WATCH",
-      "big": "$2/M",
-      "bigSize": "120px",
-      "title": "Grok 4.5: Opus-class coding model at $2 per million tokens",
-      "body": "SpaceXAI launched Grok 4.5 on July 8 — Elon calls it Opus-class but cheaper and faster. At $2/$6 per million tokens, it joins a wave of capable models making AI workflows dramatically cheaper to run.",
-      "tease": "Next: a Thunder Bay infrastructure project delayed.",
-      "reelLine": "Grok 4.5 out July 8 — Opus-class performance, $2 per million tokens."
-    },
-    {
-      "tag": "LOCAL",
-      "big": "DELAYED",
-      "bigSize": "120px",
-      "title": "Thunder Bay's $80M science centre has no new timeline",
-      "body": "Science North confirmed this week that its planned $80M waterfront science centre in Thunder Bay will take longer than expected, with no revised date set. The project carries $20M in federal funding and was headed for a spring 2027 groundbreaking.",
+      "title": "Canada's Bill C-36: AI decisions must be explainable — or face $25M fines",
+      "body": "Canada's biggest privacy overhaul in 25 years heads for Second Reading in September. If your business uses AI for credit, hiring, or pricing decisions, you'll need to disclose it and explain it. Fines up to $25M or 5% of global revenue.",
       "tease": "The throughline ->",
-      "reelLine": "$80M Thunder Bay science centre delayed — no new start date set."
+      "reelLine": "Bill C-36 arrives this fall — AI-driven decisions need to be transparent, or face $25M penalties."
     }
   ],
   "summary": {
-    "title": "Big infrastructure moves, a trade corridor upgrade, and a local project on hold",
-    "body": "This week Canada's AI infrastructure race sharpened — Meta's $13B Alberta bet signals where the build is happening — while the Gordie Howe Bridge finally got its opening date, Thunder Bay locked in a housing win, and a planned NWO science centre hit a delay with no new timeline."
+    "title": "Wildfires, supply chains, rates, and regulation — the Northwest's week in four moves",
+    "body": "The region's most disruptive wildfire season in years collided with a stable rate environment and an approaching AI privacy law — a week that tested NWO's supply chains and previewed the compliance landscape waiting on the other side of the fires."
   },
   "captions": {
-    "carousel": "Meta broke ground on a $13 billion AI data centre in Alberta on July 8 — Canada's largest AI infrastructure investment and a signal of where the build is happening. The Gordie Howe Bridge has its opening date: July 27, adding a second span to the busiest Canada-US trade corridor. Ontario rewarded Thunder Bay with a final $709,280 housing payment for meeting targets three years straight. SpaceXAI's Grok 4.5 arrived at $2 per million tokens, continuing the trend toward cheaper frontier-class AI. And Science North confirmed Thunder Bay's planned $80M waterfront science centre has no revised timeline. Full breakdown in The Signal — link in bio. #ThunderBay #NorthernOntario #NorthwesternOntario #AIbusiness #NWOntario #FedNor #AIinfrastructure",
-    "reel": "Meta's $13B AI centre chose Alberta. Gordie Howe Bridge opens July 27. Thunder Bay earns $709K. Grok 4.5 at $2 per million tokens. And a NWO science centre is delayed. Five moves from this week. thunderbayai.com #NorthernOntario #ThunderBay #AIbusiness #NWOntario",
+    "carousel": "Military CC-130s airlifted 600 Eabametoong First Nation members July 18 as nearly 190 wildfires burned across Northern Ontario, displacing more than 1,800 people from over a dozen communities. On the ground, CN Rail's main corridor north of Lake Superior was shut, Domtar suspended all NWO harvesting operations, and Via Rail cancelled the Toronto-Winnipeg run. The Bank of Canada held at 2.25% on July 15, noting that AI investment is driving US economic growth. And Canada's Bill C-36 — the biggest privacy overhaul in 25 years, requiring explainability for AI-assisted decisions — moves to Second Reading in September. Full breakdown in The Signal — link in bio. #ThunderBay #NorthernOntario #NorthwesternOntario #AIbusiness #NWOntario #FedNor #Wildfires",
+    "reel": "190 fires, military evacuation, CN Rail closed, Bank of Canada holds at 2.25%, and Canada's AI privacy law heads for a fall vote. Five moves from the Northwest this week. thunderbayai.com #NorthernOntario #ThunderBay #AIbusiness #NWOntario #Wildfires",
     "story": "Story frame — add a poll sticker and a link sticker to thunderbayai.com."
   }
 }
