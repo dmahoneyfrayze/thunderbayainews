@@ -32,7 +32,7 @@ content; funding pages are the high-intent layer, not the whole diet. Rules:
 - [x] ai-mining-mineral-exploration-northwestern-ontario Playbook — AI for mining and mineral exploration in Northwestern Ontario
 - [x] most-nwo-businesses-dont-need-a-chatbot Perspective — Most Northwestern Ontario businesses don't need a chatbot. Here's what to fix first.
 - [x] sred-tax-credit-rd-northern-ontario Funding — SR&ED tax credit — up to 35% refundable on R&D, incl. custom software (the one most owners miss)
-- [ ] Tips — A one-hour AI audit of your own business: find the task worth automating first
+- [x] ai-audit-one-hour-find-task-worth-automating Tips — A one-hour AI audit of your own business: find the task worth automating first
 - [ ] Playbook — AI for tourism, lodges and hospitality in NWO
 - [ ] Trends — AI search is replacing Google clicks: how a Northwestern Ontario business stays visible when answers come from chatbots
 - [ ] Funding — NRC IRAP — R&D funding + advisory, typical $75K–$200K for first-timers
