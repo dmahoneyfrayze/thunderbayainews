@@ -34,7 +34,7 @@ content; funding pages are the high-intent layer, not the whole diet. Rules:
 - [x] sred-tax-credit-rd-northern-ontario Funding — SR&ED tax credit — up to 35% refundable on R&D, incl. custom software (the one most owners miss)
 - [x] ai-audit-one-hour-find-task-worth-automating Tips — A one-hour AI audit of your own business: find the task worth automating first
 - [x] ai-tourism-lodges-hospitality-northwestern-ontario Playbook — AI for tourism, lodges and hospitality in NWO
-- [ ] Trends — AI search is replacing Google clicks: how a Northwestern Ontario business stays visible when answers come from chatbots
+- [x] ai-search-replacing-google-clicks-northwestern-ontario-visibility Trends — AI search is replacing Google clicks: how a Northwestern Ontario business stays visible when answers come from chatbots
 - [ ] Funding — NRC IRAP — R&D funding + advisory, typical $75K–$200K for first-timers
 - [ ] Tips — Five business tasks you can hand to AI this week (and the free tools that do them)
 - [ ] Playbook — AI for the trades and construction in Thunder Bay
