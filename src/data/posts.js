@@ -1131,6 +1131,15 @@ export const POSTS = [
       { label: 'Fund a custom AI build with a grant', to: '/blog/fund-a-custom-ai-build-with-a-grant' },
       { label: 'All 17 NWO funding programs', to: '/funding' },
     ],
+    howTo: {
+      name: 'How to be ready for the BBAA grant',
+      steps: [
+        { name: 'Define a concrete project', text: 'Name the specific workflow AI would change and the outcome you expect — not a vague "we want to use AI."' },
+        { name: 'Estimate the cost', text: 'Put together a rough cost estimate, since the funding covers a share of eligible costs.' },
+        { name: 'Frame the impact', text: 'State the productivity or competitiveness gain the project drives — the lens NOIC evaluates against.' },
+        { name: 'Book the pre-application consultation', text: 'Contact NOIC to book the pre-application consultation and build the 30/60/90-day AI Adoption Plan required before the funding application.' },
+      ],
+    },
     blocks: [
       { type: 'answer', text: 'The BBAA grant (Building Blueprints for AI Adoption), run by the Northwestern Ontario Innovation Centre, provides up to $20,000 — covering up to 50% of eligible project costs — to help growth-oriented, for-profit SMEs in Northwestern Ontario adopt AI. You complete a 30/60/90-day AI Adoption Plan first. Retail-only businesses, distributors, resellers, and projects already underway are not eligible. Confirm current eligibility, amounts, and intake timing with NOIC.' },
       { type: 'p', text: 'If you run a Northwestern Ontario business and you actually want to adopt AI — not research it, not start a tech company, just put it to work — the Building Blueprints for AI Adoption (BBAA) program from the Northwestern Ontario Innovation Centre is the most directly relevant funding on the table. Most programs fund startups or R&D; this one funds adoption.' },

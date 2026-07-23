@@ -109,6 +109,18 @@ export default function BlogPost() {
       })),
     });
   }
+  if (post && post.howTo && post.howTo.steps && post.howTo.steps.length) {
+    jsonGraph.push({
+      '@type': 'HowTo',
+      name: post.howTo.name,
+      step: post.howTo.steps.map((s, i) => ({
+        '@type': 'HowToStep',
+        position: i + 1,
+        name: s.name,
+        text: s.text,
+      })),
+    });
+  }
   useJsonLd(post ? { '@context': 'https://schema.org', '@graph': jsonGraph } : null);
 
   if (!post) {
