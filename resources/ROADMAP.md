@@ -75,9 +75,12 @@ funding facts stay "confirm with the program," sourced):
    (commit `1a7c003`): the last 6 unconverted posts (NOHFC Workforce Development, Invest North Innovation,
    Invest North Grow, FedNor RTRI, FedNor BSP, NOIC Costarter) now open with a "THE SHORT ANSWER" block,
    restating facts already sourced later in the post — no new claims. All funding/program posts now have it.
-   Still open: HowTo schema on BBAA "how to be ready"; DefinedTerm for MFIPPA/RAII/BBAA; Dataset schema
-   on `/funding`; **author byline / E-E-A-T** attribution (helps Google News) — `BlogPost.jsx` currently
-   hardcodes `author: {'@type':'Organization', name:'Thunder Bay AI'}` with no named byline anywhere.
+   ~~HowTo schema on BBAA "how to be ready"~~ — DONE 2026-07-23 (commit `d1c399d`): the post's existing
+   4-item "how to be ready" list is now also emitted as `HowTo`/`HowToStep` JSON-LD (added to `BlogPost.jsx`'s
+   graph builder, same pattern as `FAQPage`), verified in the prerendered output. Still open: DefinedTerm
+   for MFIPPA/RAII/BBAA; Dataset schema on `/funding`; **author byline / E-E-A-T** attribution (helps
+   Google News) — `BlogPost.jsx` currently hardcodes `author: {'@type':'Organization', name:'Thunder Bay AI'}`
+   with no named byline anywhere.
 7. **Trust/UX**: surface "nothing publishes unread" near the hero; ~~visible contact email~~ (already live —
    `mailto:denis@frayze.ca` in footer); ~~RSS feed~~ — DONE 2026-07-09 (full-text RSS 2.0 at `/rss.xml`,
    generated in `scripts/prerender.mjs` from all 27 Journal posts, `<link rel="alternate">` discovery tag
