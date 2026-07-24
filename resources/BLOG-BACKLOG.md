@@ -35,7 +35,7 @@ content; funding pages are the high-intent layer, not the whole diet. Rules:
 - [x] ai-audit-one-hour-find-task-worth-automating Tips — A one-hour AI audit of your own business: find the task worth automating first
 - [x] ai-tourism-lodges-hospitality-northwestern-ontario Playbook — AI for tourism, lodges and hospitality in NWO
 - [x] ai-search-replacing-google-clicks-northwestern-ontario-visibility Trends — AI search is replacing Google clicks: how a Northwestern Ontario business stays visible when answers come from chatbots
-- [ ] Funding — NRC IRAP — R&D funding + advisory, typical $75K–$200K for first-timers
+- [x] nrc-irap-rd-funding-advisory-northern-ontario Funding — NRC IRAP — R&D funding + advisory, typical $75K–$200K for first-timers
 - [ ] Tips — Five business tasks you can hand to AI this week (and the free tools that do them)
 - [ ] Playbook — AI for the trades and construction in Thunder Bay
 - [ ] Perspective — "We'll look at AI next year" is the most expensive sentence in local business

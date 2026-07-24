@@ -6,6 +6,52 @@ import { POSTS_BATCH2 } from './posts-batch-2.js';
 
 export const POSTS = [
   {
+    slug: 'nrc-irap-rd-funding-advisory-northern-ontario',
+    title: 'NRC IRAP: how Canada\'s main R&D funding program works for a Northwestern Ontario business',
+    dek: 'IRAP provides non-repayable contributions for technology development plus a dedicated advisor. The amount is scoped to your project, not a fixed grant, and the process starts with a phone call rather than an online form.',
+    category: 'Funding',
+    date: 'July 24, 2026',
+    iso: '2026-07-24',
+    readMins: 5,
+    accent: ['#0891b2', '#7c3aed'],
+    blocks: [
+      { type: 'p', text: 'NRC IRAP — the National Research Council\'s Industrial Research Assistance Program — is Canada\'s primary federal program for funding R&D in small and medium-sized businesses. It provides non-repayable contributions toward the cost of developing and commercializing technology-driven products and services, combined with advisory support from an Industrial Technology Advisor assigned to your company. The funding amount is not a published figure: it is scoped to your specific project through that advisory relationship. For an NWO business, the first step is not a form — it is a phone call to 1-877-994-4727.' },
+      { type: 'h2', text: 'What IRAP funds — and what it does not' },
+      { type: 'p', text: 'IRAP supports the direct costs of R&D work: employee time on the project, technical subcontractor costs for work performed in Canada, and other expenses tied directly to the research and development activity. It does not fund day-to-day operations, marketing, commercial activities with no R&D component, or work with no credible path to commercialization. The key requirement is genuine technological uncertainty — a business building or substantially adapting something that has not been proven, not one deploying an off-the-shelf system unchanged. For Northwestern Ontario businesses, qualifying projects could include a forestry operation developing proprietary machine-vision monitoring software, a healthcare clinic building a custom AI-assisted intake or triage tool, or a mining services company developing detection or analysis technology that does not yet exist in the market.' },
+      { type: 'h2', text: 'Who can apply' },
+      { type: 'ul', items: [
+        'Incorporated, for-profit company operating in Canada',
+        'Up to 500 full-time equivalent employees',
+        'Technology-driven product or service with a clear commercialization plan',
+        'Work must be performed in Canada',
+        'Not eligible: sole proprietorships, partnerships, limited liability companies, cooperatives, and not-for-profit organizations',
+      ]},
+      { type: 'h2', text: 'The AI Assist stream' },
+      { type: 'p', text: 'NRC IRAP operates a dedicated AI Assist stream for SMEs developing or substantially adapting generative AI and deep learning solutions — helping companies build the knowledge, computing resources, and tooling needed to carry out genuine AI research. This stream is for businesses doing real AI development: training models, building custom AI-powered products, or adapting large language or deep learning systems for a specific commercial application. It is not intended for businesses that want to subscribe to an existing AI platform or add a pre-built chatbot to their website. If your project involves genuine AI R&D, ask your ITA whether the AI Assist stream applies to your proposal.' },
+      { type: 'h2', text: 'How the process works' },
+      { type: 'ul', items: [
+        'Call 1-877-994-4727. A Client Engagement Advisor at NRC IRAP reviews your situation and assesses whether your business and project are a fit.',
+        'If the fit looks right, you are matched with an Industrial Technology Advisor — a technical professional with engineering or science experience and management background, drawn from NRC\'s network of more than 250 field staff across Canada.',
+        'Your ITA works with you to define the project scope. The funding amount is determined through this scoping process, not by a standard published tier.',
+        'You propose the project. NRC reviews and issues a contribution agreement if approved.',
+        'Funding is paid against project milestones — this is a reimbursement-based contribution, not an upfront deposit. Plan your cash flow to cover costs as work proceeds.',
+      ]},
+      { type: 'callout', text: 'NRC IRAP does not publish a standard contribution range. The amount your company could receive depends on the scope, nature, and cost structure of your specific project, and is determined in collaboration with your Industrial Technology Advisor. Confirm your eligibility and project fit by contacting NRC IRAP directly at 1-877-994-4727 before building any project plan or budget around expected funding.' },
+      { type: 'h2', text: 'Frequently asked questions' },
+      { type: 'ul', items: [
+        'Does IRAP fund AI adoption, or only AI development? The IRAP core program and AI Assist stream target genuine R&D — building or substantially adapting technology, not purchasing and implementing an existing tool. If your goal is to adopt an existing AI platform for your operations rather than build something new, NOIC\'s BBAA or FedNor\'s RAII programs may be a better fit. Confirm which program matches your project by speaking with a program officer at each.',
+        'Is IRAP available to businesses in Thunder Bay and Northwestern Ontario? Yes. IRAP is a national program available to eligible SMEs across Canada, including Northwestern Ontario. Contact the national intake line to be connected with an advisor serving your region.',
+        'Is this a loan or a grant? IRAP contributions are non-repayable — not a loan, not equity. If you meet the conditions of your contribution agreement and deliver the approved project, you do not repay the funding. The contribution is tied to a formal agreement with defined milestones, not an unconditional deposit.',
+      ]},
+      { type: 'source', text: 'Sources: National Research Council Canada — "About the NRC Industrial Research Assistance Program": nrc.canada.ca/en/support-technology-innovation/about-nrc-industrial-research-assistance-program | NRC IRAP — "Financial support for technology innovation" (eligibility criteria, ineligible organizations, application steps): nrc.canada.ca/en/support-technology-innovation/financial-support-technology-innovation | NRC IRAP — "NRC IRAP support for SMEs innovating with artificial intelligence" (AI Assist stream): nrc.canada.ca/en/support-technology-innovation/nrc-irap-support-smes-innovating-artificial-intelligence | NRC IRAP — "NRC IRAP advisory services" (ITA network, 250+ field staff): nrc.canada.ca/en/support-technology-innovation/nrc-irap-advisory-services. Program status (Active, continuous intake) confirmed against thunderbayai.com/grants data (GRANTS_DATA, last verified 2026-07-10). Funding amounts vary by project — NRC does not publish a standard contribution figure; confirm eligibility and scope directly with NRC IRAP. This post does not constitute advice specific to any business or project.' },
+    ],
+    faq: [
+      { q: 'Does IRAP fund AI adoption, or only AI development?', a: 'The IRAP core program and AI Assist stream target genuine R&D — building or substantially adapting technology, not purchasing and implementing an existing tool. If your goal is to adopt an existing AI platform for your operations rather than build something new, NOIC\'s BBAA or FedNor\'s RAII programs may be a better fit. Confirm which program matches your project by speaking with a program officer at each.' },
+      { q: 'Is IRAP available to businesses in Thunder Bay and Northwestern Ontario?', a: 'Yes. IRAP is a national program available to eligible SMEs across Canada, including Northwestern Ontario. Contact the national intake line at 1-877-994-4727 to be connected with an advisor serving your region.' },
+      { q: 'Is this a loan or a grant?', a: 'IRAP contributions are non-repayable — not a loan, not equity. If you meet the conditions of your contribution agreement and deliver the approved project, you do not repay the funding. The contribution is tied to a formal agreement with defined milestones, not an unconditional deposit.' },
+    ],
+  },
+  {
     slug: 'ai-search-replacing-google-clicks-northwestern-ontario-visibility',
     title: 'AI search is replacing Google clicks: how a Northwestern Ontario business stays visible when answers come from chatbots',
     dek: 'Google AI Overviews now appear on a growing share of searches and most users do not click through to any website. The businesses that stay visible are the ones AI systems can read, understand, and cite.',
