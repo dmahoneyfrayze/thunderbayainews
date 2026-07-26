@@ -95,12 +95,50 @@ export const GRANTS_DATA = [
     badgeType: "active",
     description: "Helps Northwestern Ontario SMEs explore and implement AI to improve productivity, efficiency, and competitiveness. Applicants complete a 30/60/90-day AI adoption plan; funding reimburses eligible AI software, consulting, and integration costs.",
     eligibility: {
-      location: "Northwestern Ontario",
+      location: "Northwestern Ontario (Kenora, Rainy River and Thunder Bay districts). Businesses in Algoma-Manitoulin apply to the same program through SSMIC instead.",
       businessType: "Growth-oriented for-profit SMEs with a valid Canadian business number",
       excludes: "Distributors, resellers, retail-only businesses, and projects already underway",
       requirements: "Complete a pre-application consultation and a 30/60/90-day AI Adoption Plan; contact NOIC (hussain@nwoinnovation.ca · 807-768-6682)."
     },
     sourceUrl: "https://www.nwoinnovation.ca/programs/bbaa/"
+  },
+  {
+    id: "ssmic-bbaa",
+    lastVerified: "2026-07-26",
+    name: "Building Blueprints for AI Adoption (BBAA) — Algoma-Manitoulin",
+    source: "Sault Ste. Marie Innovation Centre (SSMIC)",
+    maxAmount: "$20,000",
+    coverage: "50% of approved Total Eligible Project Costs, up to $20,000 per SME",
+    deadline: "Application open — waitlist for upcoming cohorts; spots are limited",
+    status: "Active",
+    badgeType: "active",
+    description: "The same BBAA program NOIC runs in the Northwest, delivered by SSMIC for the Algoma-Manitoulin region. Helps SMEs build a structured AI adoption roadmap and offsets the cost of putting it in place. Businesses in Northwestern Ontario apply through NOIC; the rest of the region applies here.",
+    eligibility: {
+      location: "Algoma-Manitoulin (Sault Ste. Marie, Elliot Lake, Manitoulin Island). If you sit outside both BBAA regions, ask SSMIC where your business falls before assuming you are ineligible.",
+      businessType: "For-profit SMEs already operating in the region",
+      excludes: "Confirm current exclusions with SSMIC; the NOIC-run stream excludes distributors, resellers, retail-only businesses and projects already underway",
+      requirements: "Accepted businesses have four months to complete the project. Contact the program coordinator (ssarroza@ssmic.com)."
+    },
+    sourceUrl: "https://www.ssmic.com/funding"
+  },
+  {
+    id: "norcat-raii-micro-grant",
+    lastVerified: "2026-07-26",
+    name: "RAII AI Adoption Micro-Grant",
+    source: "NORCAT Innovation",
+    maxAmount: "$20,000",
+    coverage: "50% of approved Total Eligible Project Costs, up to $20,000 per SME",
+    deadline: "Rolling intake until funding is exhausted; no applications accepted after February 1, 2027",
+    status: "Active",
+    badgeType: "active",
+    description: "The Greater Sudbury route to AI adoption money, delivered by NORCAT under the federal Regional Artificial Intelligence Initiative. Funds AI integration alongside mentorship and training. Costs are reimbursed after you have paid the provider.",
+    eligibility: {
+      location: "For-profit companies based in the Greater Sudbury Region",
+      businessType: "Growth-oriented and for-profit (registered sole proprietor, partnership or corporation); must be a NORCAT Innovation client",
+      excludes: "Retail and service-based businesses will not be considered",
+      requirements: "Become a NORCAT Innovation client first (Discovery Document Form), then submit the application; initial review within 2 business days and an outcome within about a month."
+    },
+    sourceUrl: "https://www.norcat.org/innovation/raii.html"
   },
   {
     id: "noic-costarter",
