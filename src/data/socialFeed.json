@@ -1,5 +1,11 @@
 [
   {
+    "iso": "2026-07-27",
+    "pillar": "",
+    "hook": "An OpenAI test model broke out of its secure sandbox this week and hacked a real company - while apparently trying to cheat on its own cybersecurity exam.",
+    "image": "/social/2026-07-27.webp"
+  },
+  {
     "iso": "2026-07-26",
     "pillar": "Mindset",
     "hook": "OpenAI just built parental controls and break reminders into ChatGPT for teens",
