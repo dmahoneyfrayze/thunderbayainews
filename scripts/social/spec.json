@@ -1,59 +1,59 @@
 {
-  "iso": "2026-07-20",
-  "issueNo": "05",
-  "dateLabel": "JUL 20",
+  "iso": "2026-07-27",
+  "issueNo": "06",
+  "dateLabel": "JUL 27",
   "handle": "thunderbayai",
   "cover": {
-    "hook": "Military airlifts 600 from Fort Hope. 190 fires burn in the Northwest.",
-    "sub": "Plus: CN Rail cuts the main freight corridor, the Bank of Canada holds rates, and Canada's AI privacy law heads for a fall vote."
+    "hook": "Canada is writing its AI disclosure rules. Businesses have until Sept 23 to shape them.",
+    "sub": "Plus: Anthropic's Opus 5 at half the flagship's price, $500K for a Kenora food hub, and NWO wildfire recovery heads into multi-year territory."
   },
-  "reelSub": "Wildfires disrupt rail, forestry, and communities across Northwestern Ontario.",
+  "reelSub": "Ottawa's AI transparency rules are being written now — and the window to weigh in is open.",
   "storySub": "Four moves from this week that matter for Northwestern Ontario operators and administrators.",
   "items": [
     {
-      "tag": "LOCAL",
-      "big": "190",
+      "tag": "GOVERNMENT",
+      "big": "SEPT 23",
+      "bigSize": "86px",
+      "title": "Canada opens AI transparency consultation — closes Sept 23",
+      "body": "Minister Evan Solomon launched a 60-day public consultation July 23 on AI disclosure: when must businesses tell users they're talking to AI, how AI-generated content must be labeled, and how AI agents are monitored. Input from any Canadian business counts.",
+      "tease": "Next: the Anthropic model any NWO business can afford.",
+      "reelLine": "Canada's AI disclosure consultation is open until Sept 23 — businesses can submit input now."
+    },
+    {
+      "tag": "MODEL WATCH",
+      "big": "$5",
       "bigSize": "180px",
-      "title": "Military airlifts Fort Hope as 190 NWO fires burn",
-      "body": "The Canadian Armed Forces deployed four CC-130 Hercules aircraft July 18 to evacuate Eabametoong First Nation. Over 1,800 residents have been displaced from 14+ communities. Thunder Bay 36 alone has burned 318,812 hectares.",
-      "tease": "Next: how the fires cut NWO's supply chains.",
-      "reelLine": "190 fires, military evacuation, and 1,800 residents displaced across the Northwest."
+      "title": "Anthropic Opus 5: near-flagship AI at $5 per million tokens",
+      "body": "Claude Opus 5 launched July 24 — near Fable 5 performance at $5/M input tokens. Zero data retention, 1M-token context, an effort-toggle to dial cost vs. capability. No Canadian access restrictions.",
+      "tease": "Next: $500K for Northwestern Ontario food producers.",
+      "reelLine": "Opus 5 delivers near-top-tier AI at $5 per million tokens — available to Canadian businesses now."
+    },
+    {
+      "tag": "FUNDING",
+      "big": "$500K",
+      "bigSize": "120px",
+      "title": "FedNor puts $500K into a Kenora agri-food hub for NWO producers",
+      "body": "Seven Generations Education Institute gets $499,780 from FedNor to run the FEAST program in Kenora: commercial kitchen, equipment, advisory, and financial support for about 20 SMEs across Northwestern Ontario. First cohort starts fall 2026.",
+      "tease": "Next: NWO fires ease — but the recovery is just starting.",
+      "reelLine": "$500K in FedNor funding puts a food production hub in Kenora for NWO agri-food entrepreneurs."
     },
     {
       "tag": "LOCAL",
-      "big": "SHUT",
+      "big": "2,800+",
       "bigSize": "120px",
-      "title": "CN Rail closes north of Lake Superior, Domtar halts NWO operations",
-      "body": "The main transcontinental freight corridor through Northwestern Ontario was closed from at least July 14. Domtar suspended all harvesting — 500 direct jobs and 1,625 indirect jobs affected. Via Rail also cancelled the Toronto-Winnipeg run.",
-      "tease": "Next: the Bank of Canada's July rate call.",
-      "reelLine": "CN Rail closed, Domtar halted — wildfires hit NWO's freight and forestry backbone."
-    },
-    {
-      "tag": "GOVERNMENT",
-      "big": "2.25%",
-      "bigSize": "120px",
-      "title": "Bank of Canada holds at 2.25%, credits AI for US growth",
-      "body": "July 15 decision: rate unchanged, Canadian Q2 GDP at 2.5%. The Bank's MPR explicitly named \"booming AI investment\" as the driver of US economic growth. Next decision: September 2.",
-      "tease": "Next: Canada's new AI privacy law.",
-      "reelLine": "Bank of Canada holds at 2.25% — and flags AI investment as driving US growth."
-    },
-    {
-      "tag": "GOVERNMENT",
-      "big": "$25M",
-      "bigSize": "120px",
-      "title": "Canada's Bill C-36: AI decisions must be explainable — or face $25M fines",
-      "body": "Canada's biggest privacy overhaul in 25 years heads for Second Reading in September. If your business uses AI for credit, hiring, or pricing decisions, you'll need to disclose it and explain it. Fines up to $25M or 5% of global revenue.",
+      "title": "Fire counts down; First Nations challenge Ontario's wildfire response",
+      "body": "Active fires fell from roughly 190 to 130 by July 26 and Thunder Bay services resumed, but over 2,800 evacuees remain displaced. First Nations leaders formally challenged Ontario's response July 21 — and rebuilding remote communities could take years.",
       "tease": "The throughline ->",
-      "reelLine": "Bill C-36 arrives this fall — AI-driven decisions need to be transparent, or face $25M penalties."
+      "reelLine": "NWO fires ease to 130 active — but over 2,800 evacuees remain and First Nations challenge Ontario's response."
     }
   ],
   "summary": {
-    "title": "Wildfires, supply chains, rates, and regulation — the Northwest's week in four moves",
-    "body": "The region's most disruptive wildfire season in years collided with a stable rate environment and an approaching AI privacy law — a week that tested NWO's supply chains and previewed the compliance landscape waiting on the other side of the fires."
+    "title": "AI rules, affordable models, a food hub, and a wildfire reckoning — four signals from the Northwest",
+    "body": "Ottawa opened a window to shape Canada's AI disclosure rules, Anthropic made near-flagship AI practical for small businesses, FedNor invested in NWO food-sector infrastructure, and the region's wildfire season shifted from acute crisis to a long-tail recovery."
   },
   "captions": {
-    "carousel": "Military CC-130s airlifted 600 Eabametoong First Nation members July 18 as nearly 190 wildfires burned across Northern Ontario, displacing more than 1,800 people from over a dozen communities. On the ground, CN Rail's main corridor north of Lake Superior was shut, Domtar suspended all NWO harvesting operations, and Via Rail cancelled the Toronto-Winnipeg run. The Bank of Canada held at 2.25% on July 15, noting that AI investment is driving US economic growth. And Canada's Bill C-36 — the biggest privacy overhaul in 25 years, requiring explainability for AI-assisted decisions — moves to Second Reading in September. Full breakdown in The Signal — link in bio. #ThunderBay #NorthernOntario #NorthwesternOntario #AIbusiness #NWOntario #FedNor #Wildfires",
-    "reel": "190 fires, military evacuation, CN Rail closed, Bank of Canada holds at 2.25%, and Canada's AI privacy law heads for a fall vote. Five moves from the Northwest this week. thunderbayai.com #NorthernOntario #ThunderBay #AIbusiness #NWOntario #Wildfires",
+    "carousel": "Canada launched a formal public consultation on AI transparency July 23 — asking businesses, citizens, and organizations to weigh in before the next round of federal AI rules are drafted. Deadline is September 23. The same week, Anthropic released Claude Opus 5: near-flagship performance at $5 per million input tokens, zero data retention, and an effort-toggle to dial cost vs. capability per task — no Canada-specific access restrictions. FedNor put $499,780 into the FEAST agri-food hub in Kenora, operated by Seven Generations Education Institute, to support about 20 NWO food producers with equipment, kitchen access, advisory, and financial assistance starting fall 2026. And as wildfire counts dropped from 190 to 130 across Northwestern Ontario, over 2,800 evacuees remained displaced and First Nations leaders formally challenged Ontario's account of its wildfire response. Full Signal — link in bio. #ThunderBay #NorthernOntario #NorthwesternOntario #AIbusiness #NWOntario #FedNor #AIregulation",
+    "reel": "Canada's AI disclosure consultation is open until Sept 23. Anthropic Opus 5 is out at $5 per million tokens. FedNor put $500K into a Kenora food hub. And NWO wildfire recovery heads into multi-year territory. Full Signal at thunderbayai.com. #NorthernOntario #ThunderBay #AIbusiness #NWOntario #FedNor",
     "story": "Story frame — add a poll sticker and a link sticker to thunderbayai.com."
   }
 }
