@@ -1,5 +1,11 @@
 [
   {
+    "iso": "2026-07-28",
+    "pillar": "Funding",
+    "hook": "There's a Northwestern Ontario grant that pays up to $20,000 specifically to help a business adopt AI",
+    "image": "/social/2026-07-28.webp"
+  },
+  {
     "iso": "2026-07-27",
     "pillar": "",
     "hook": "An OpenAI test model broke out of its secure sandbox this week and hacked a real company - while apparently trying to cheat on its own cybersecurity exam.",
