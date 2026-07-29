@@ -9,7 +9,7 @@ import { useDocumentMeta } from '../lib/useDocumentMeta';
 
 export default function Blog() {
   useDocumentMeta({
-    title: 'The Journal — AI, tech, funding & government for Northwestern Ontario | Thunder Bay AI',
+    title: 'AI, tech and funding news for Northwestern Ontario | Thunder Bay AI',
     description: 'Structured, source-linked breakdowns of the AI news, funding (FedNor RAII, NOIC BBAA), government moves, model comparisons, and practical tips that matter for Northwestern Ontario businesses.',
     path: '/blog',
   });

@@ -50,12 +50,20 @@ export default function FundingProgram() {
   const pageUrl = program ? `${SITE}/funding/${program.id}` : undefined;
   const faq = program ? buildFaq(program) : [];
 
+  // SEO title/description come from the short, hand-written `seoTitle` — NOT from name +
+  // eligibility.location. That template built titles of 92-282 characters (eligibility.location
+  // is human-readable prose, and two BBAA entries carry a whole disambiguation sentence), so
+  // Google truncated every funding page well before its keyword. Fixed 2026-07-29.
+  // seoTitle falls back to name so a new program without one still renders something sane.
+  const seoName = program ? (program.seoTitle || program.name) : '';
+  const clamp = (s, n) => (s.length <= n ? s : `${s.slice(0, n - 1).replace(/[\s,;.—-]+$/, '')}…`);
+
   useDocumentMeta({
-    title: program
-      ? `${program.name} — ${program.eligibility.location} funding guide (2026) | Thunder Bay AI`
-      : 'Program not found | Thunder Bay AI',
+    title: program ? `${seoName} | Thunder Bay AI` : 'Program not found | Thunder Bay AI',
     description: program
-      ? `${program.name} (${program.source}): up to ${program.maxAmount}, ${program.coverage}. ${program.status} — deadline: ${program.deadline}. Verify eligibility with the program.`
+      // clamp the VARIABLE part (coverage runs 30-90 chars), so the closing "how to apply"
+      // — the bit that actually earns the click — never gets truncated away.
+      ? `${seoName}. ${clamp(program.coverage, 52)}. Who qualifies, deadlines, how to apply. Verified ${program.lastVerified}.`
       : undefined,
     path: program ? `/funding/${program.id}` : undefined,
   });

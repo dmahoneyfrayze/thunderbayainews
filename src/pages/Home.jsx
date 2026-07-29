@@ -13,7 +13,7 @@ import WeeklyBrief from '../components/WeeklyBrief';
 export default function Home() {
   const location = useLocation();
   useDocumentMeta({
-    title: 'Thunder Bay AI — Autonomous AI Intelligence Hub for Northwestern Ontario',
+    title: 'Thunder Bay AI — AI news and business grants for Northwestern Ontario',
     description: 'An autonomous agent tracks the AI news, local tech, government and municipal projects, funding, and tools that matter for Northwestern Ontario — then surfaces the signal. Reviewed by humans.',
     path: '/',
     image: getOgImageUrl('/') || undefined,

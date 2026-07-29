@@ -14,7 +14,7 @@ const count = GRANTS_DATA.length;
 // home Funding Radar (/#radar); this page is the rankable, AI-citable list (ItemList schema).
 export default function Funding() {
   useDocumentMeta({
-    title: `AI & business grants in Northwestern Ontario — ${count} programs (2026) | Thunder Bay AI`,
+    title: `AI & business grants, Northwestern Ontario | Thunder Bay AI`,
     description: `A verified, source-linked list of ${count} AI, technology, and business funding programs open to Northwestern Ontario — FedNor RAII, NOIC BBAA, NOHFC Invest North, NRC IRAP, SR&ED and more. Confirm eligibility with each program.`,
     path: '/funding',
   });

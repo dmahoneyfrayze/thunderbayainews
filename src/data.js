@@ -8,6 +8,7 @@
 export const GRANTS_DATA = [
   {
     id: "fednor-raii",
+    seoTitle: "FedNor RAII: AI funding for Northern Ontario",
     lastVerified: "2026-07-10",
     name: "Regional Artificial Intelligence Initiative (RAII)",
     source: "FedNor",
@@ -27,6 +28,7 @@ export const GRANTS_DATA = [
   },
   {
     id: "fednor-bsp",
+    seoTitle: "FedNor BSP: up to $500K scale-up funding",
     lastVerified: "2026-07-10",
     name: "Business Scale-up and Productivity (BSP)",
     source: "FedNor (REGI)",
@@ -46,6 +48,7 @@ export const GRANTS_DATA = [
   },
   {
     id: "fednor-rtri",
+    seoTitle: "FedNor RTRI: tariff response funding",
     lastVerified: "2026-07-10",
     name: "Regional Tariff Response Initiative (RTRI)",
     source: "FedNor",
@@ -65,6 +68,7 @@ export const GRANTS_DATA = [
   },
   {
     id: "fednor-nodp-ced",
+    seoTitle: "FedNor NODP: community economic development",
     lastVerified: "2026-07-10",
     name: "Northern Ontario Development Program — Community Economic Development",
     source: "FedNor",
@@ -84,6 +88,7 @@ export const GRANTS_DATA = [
   },
   {
     id: "noic-bbaa",
+    seoTitle: "NOIC BBAA: $20,000 AI adoption grant (NWO)",
     lastVerified: "2026-07-10",
     name: "Building Blueprints for AI Adoption (BBAA)",
     source: "Northwestern Ontario Innovation Centre (NOIC)",
@@ -104,6 +109,7 @@ export const GRANTS_DATA = [
   },
   {
     id: "ssmic-bbaa",
+    seoTitle: "SSMIC BBAA: $20,000 AI grant, Algoma-Manitoulin",
     lastVerified: "2026-07-26",
     name: "Building Blueprints for AI Adoption (BBAA) — Algoma-Manitoulin",
     source: "Sault Ste. Marie Innovation Centre (SSMIC)",
@@ -123,6 +129,7 @@ export const GRANTS_DATA = [
   },
   {
     id: "norcat-raii-micro-grant",
+    seoTitle: "NORCAT RAII micro-grant: $20,000, Sudbury",
     lastVerified: "2026-07-26",
     name: "RAII AI Adoption Micro-Grant",
     source: "NORCAT Innovation",
@@ -142,6 +149,7 @@ export const GRANTS_DATA = [
   },
   {
     id: "noic-costarter",
+    seoTitle: "NOIC Costarter: Thunder Bay & Kenora startups",
     lastVerified: "2026-07-10",
     name: "Costarter Accelerator",
     source: "Northwestern Ontario Innovation Centre (NOIC)",
@@ -161,6 +169,7 @@ export const GRANTS_DATA = [
   },
   {
     id: "nohfc-invest-north-launch",
+    seoTitle: "NOHFC Invest North Launch: up to $200,000",
     lastVerified: "2026-07-10",
     name: "NOHFC Invest North — Launch",
     source: "Northern Ontario Heritage Fund Corporation (NOHFC)",
@@ -180,6 +189,7 @@ export const GRANTS_DATA = [
   },
   {
     id: "nohfc-invest-north-grow",
+    seoTitle: "NOHFC Invest North Grow: expansion funding",
     lastVerified: "2026-07-10",
     name: "NOHFC Invest North — Grow",
     source: "Northern Ontario Heritage Fund Corporation (NOHFC)",
@@ -199,6 +209,7 @@ export const GRANTS_DATA = [
   },
   {
     id: "nohfc-invest-north-innovation",
+    seoTitle: "NOHFC Invest North Innovation: up to $2M",
     lastVerified: "2026-07-10",
     name: "NOHFC Invest North — Innovation",
     source: "Northern Ontario Heritage Fund Corporation (NOHFC)",
@@ -218,6 +229,7 @@ export const GRANTS_DATA = [
   },
   {
     id: "nohfc-workforce-development",
+    seoTitle: "NOHFC Workforce Development: internship funding",
     lastVerified: "2026-07-10",
     name: "NOHFC Workforce Development Program",
     source: "Northern Ontario Heritage Fund Corporation (NOHFC)",
@@ -237,6 +249,7 @@ export const GRANTS_DATA = [
   },
   {
     id: "nrc-irap",
+    seoTitle: "NRC IRAP: R&D funding for Canadian SMEs",
     lastVerified: "2026-07-10",
     name: "NRC Industrial Research Assistance Program (IRAP)",
     source: "National Research Council Canada (NRC)",
@@ -256,6 +269,7 @@ export const GRANTS_DATA = [
   },
   {
     id: "sred-tax-credit",
+    seoTitle: "SR&ED tax credit: R&D refunds for Canadian SMEs",
     lastVerified: "2026-07-10",
     name: "Scientific Research & Experimental Development (SR&ED) Tax Incentive",
     source: "Canada Revenue Agency (CRA)",
@@ -275,6 +289,7 @@ export const GRANTS_DATA = [
   },
   {
     id: "futurpreneur-core-startup",
+    seoTitle: "Futurpreneur: up to $75,000 startup financing",
     lastVerified: "2026-07-10",
     name: "Futurpreneur Canada — Core Startup",
     source: "Futurpreneur Canada",
@@ -294,6 +309,7 @@ export const GRANTS_DATA = [
   },
   {
     id: "ontario-starter-company-plus",
+    seoTitle: "Starter Company Plus: $5,000 Ontario grant",
     lastVerified: "2026-07-10",
     name: "Starter Company Plus",
     source: "Ontario · Thunder Bay & District Entrepreneur Centre",
@@ -313,6 +329,7 @@ export const GRANTS_DATA = [
   },
   {
     id: "ontario-summer-company",
+    seoTitle: "Summer Company: $3,000 student business grant",
     lastVerified: "2026-07-10",
     name: "Summer Company",
     source: "Ontario · Thunder Bay & District Entrepreneur Centre",
@@ -332,6 +349,7 @@ export const GRANTS_DATA = [
   },
   {
     id: "nadf-business-loans",
+    seoTitle: "NADF business loans for Indigenous entrepreneurs",
     lastVerified: "2026-07-10",
     name: "NADF Business Loans (incl. Microloans & Indigenous Women in Business)",
     source: "Nishnawbe Aski Development Fund (NADF), Thunder Bay",
@@ -351,6 +369,7 @@ export const GRANTS_DATA = [
   },
   {
     id: "thunder-bay-ventures-cfdc",
+    seoTitle: "Thunder Bay Ventures: Community Futures loans",
     lastVerified: "2026-07-10",
     name: "Thunder Bay Ventures — Community Futures Loans",
     source: "Thunder Bay Ventures (CFDC, FedNor-funded)",
