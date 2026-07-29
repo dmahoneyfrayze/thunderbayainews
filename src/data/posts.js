@@ -66,6 +66,7 @@ export const POSTS = [
   },
   {
     slug: 'nrc-irap-rd-funding-advisory-northern-ontario',
+    seoTitle: "How NRC IRAP funding works for a Canadian SME",
     title: 'NRC IRAP: how Canada\'s main R&D funding program works for a Northwestern Ontario business',
     dek: 'IRAP provides non-repayable contributions for technology development plus a dedicated advisor. The amount is scoped to your project, not a fixed grant, and the process starts with a phone call rather than an online form.',
     category: 'Funding',
@@ -292,6 +293,7 @@ export const POSTS = [
   },
   {
     slug: 'sred-tax-credit-rd-northern-ontario',
+    seoTitle: "SR&ED: the 35% R&D tax credit SMEs miss",
     title: 'SR&ED: the 35% refundable R&D tax credit most Northwestern Ontario businesses miss',
     dek: 'Canada\'s federal R&D tax incentive gives Canadian-controlled private corporations up to 35% back on qualifying work — including custom software. Budget 2025 doubled the eligible expenditure limit to $6 million and restored capital costs.',
     category: 'Funding',
@@ -665,6 +667,7 @@ export const POSTS = [
   },
   {
     slug: 'nohfc-workforce-development-internship-northern-ontario',
+    seoTitle: "How to fund a tech internship with NOHFC",
     title: 'NOHFC Workforce Development: up to $35,000 to fund an AI or tech internship in Northern Ontario',
     dek: 'The program subsidizes up to 50% of an intern\'s salary for businesses — and up to 90% for municipalities, Indigenous communities, and non-profits — for skilled roles in technology, trades, and professional fields across Northern Ontario.',
     category: 'Funding',
@@ -714,6 +717,7 @@ export const POSTS = [
   },
   {
     slug: 'nohfc-invest-north-innovation-rd-commercialization-northern-ontario',
+    seoTitle: "Who qualifies for NOHFC Invest North Innovation",
     title: 'NOHFC Invest North — Innovation: up to $2 million for R&D and commercialization in Northern Ontario',
     dek: 'A conditional contribution covering up to 50% of eligible costs — technical labour, prototyping, IP protection, and commercialization — for private-sector businesses developing and bringing new technology to market in Northern Ontario.',
     category: 'Funding',
@@ -781,6 +785,7 @@ export const POSTS = [
   },
   {
     slug: 'nohfc-invest-north-grow-expansion-northern-ontario',
+    seoTitle: "Who qualifies for NOHFC Invest North Grow",
     title: 'NOHFC Invest North — Grow: grant funding and loans to expand an existing Northern Ontario business',
     dek: 'Three funding structures — grant-only to $400,000, hybrid grant plus loan, or loan-only to $1 million — for established Northern Ontario businesses with an expansion project that creates or retains full-time jobs.',
     category: 'Funding',
@@ -865,6 +870,7 @@ export const POSTS = [
   },
   {
     slug: 'nohfc-invest-north-launch-new-business-northern-ontario',
+    seoTitle: "Who qualifies for NOHFC Invest North Launch",
     title: 'NOHFC Invest North — Launch: up to $200,000 to start a new business in Northern Ontario',
     dek: 'A conditional contribution covering up to 50% of eligible startup costs — equipment, IT, leasehold improvements, limited marketing — for new Northern Ontario businesses in their first six months.',
     category: 'Funding',
@@ -948,6 +954,7 @@ export const POSTS = [
   },
   {
     slug: 'fednor-rtri-tariff-response-northern-ontario',
+    seoTitle: "Who qualifies for FedNor RTRI tariff funding",
     title: "FedNor's Regional Tariff Response Initiative (RTRI): who qualifies and what it covers",
     dek: 'A Northern Ontario program providing up to $1M non-repayable to SMEs hurt by trade tariffs — for technology, automation, supply-chain, and market-development projects, open through March 2028.',
     category: 'Funding',
@@ -978,6 +985,7 @@ export const POSTS = [
   },
   {
     slug: 'fednor-bsp-scale-up-productivity-northern-ontario',
+    seoTitle: "Who qualifies for FedNor BSP funding",
     title: "FedNor's Business Scale-up and Productivity (BSP): who qualifies and what it funds",
     dek: 'A Northern Ontario program that can contribute up to $500,000 toward growth, technology adoption, and productivity projects — how it works and how to apply.',
     category: 'Funding',
@@ -1097,6 +1105,7 @@ export const POSTS = [
   },
   {
     slug: 'raii-vs-bbaa-which-grant-northwestern-ontario',
+    seoTitle: "RAII vs BBAA: which AI grant should you apply for?",
     title: 'RAII vs BBAA: which AI grant is right for your Northwestern Ontario business',
     dek: 'Two programs keep coming up for AI funding in the Northwest — FedNor RAII and NOIC BBAA. They are not interchangeable. Here is which one fits which business, side by side.',
     category: 'Funding',
@@ -1218,6 +1227,7 @@ export const POSTS = [
   ...POSTS_BATCH2,
   {
     slug: 'bbaa-ai-adoption-grant-northwestern-ontario',
+    seoTitle: "How to apply for the $20K BBAA AI grant",
     title: 'The BBAA grant: up to $20K to adopt AI in your Northwestern Ontario business',
     dek: 'NOIC’s Building Blueprints for AI Adoption covers up to 50% of an AI project for local SMEs — but it starts with a plan, not an application. Here is how it works and how to be ready.',
     category: 'Funding',
@@ -1350,6 +1360,7 @@ export const POSTS = [
   },
   {
     slug: 'fednor-raii-who-qualifies-thunder-bay',
+    seoTitle: "Who qualifies for FedNor RAII AI funding",
     title: 'FedNor RAII in Thunder Bay: who actually qualifies for the AI-adoption wave',
     dek: 'A federal program is pushing a $200M wave of AI-adoption funding across Northern Ontario. Here is who it is for, who it excludes, and what to have ready before you apply.',
     category: 'Funding',
@@ -1393,6 +1404,7 @@ export const POSTS = [
   },
   {
     slug: 'noic-costarter-accelerator-readiness',
+    seoTitle: "How to get ready for NOIC Costarter",
     title: 'NOIC Costarter: the Northwest’s startup accelerator, and how to be ready',
     dek: 'The Northwestern Ontario Innovation Centre runs an intensive accelerator with non-dilutive seed funding and mentorship. Here is who it is for and how to be ready for the next intake.',
     category: 'Programs',
@@ -1425,6 +1437,7 @@ export const POSTS = [
   },
   {
     slug: 'fund-a-custom-ai-build-with-a-grant',
+    seoTitle: "How to fund a custom AI build with a grant",
     title: 'How to fund a custom AI build with a grant instead of paying cash',
     dek: 'Most owners assume a custom website, CRM, or AI system is a cash expense. For the right business in Northern Ontario right now, it can be a grant-funded one. Here is the four-step play.',
     category: 'Playbook',

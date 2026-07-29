@@ -67,7 +67,10 @@ export default function BlogPost() {
   useEffect(() => { window.scrollTo(0, 0); }, [slug]);
 
   useDocumentMeta({
-    title: post ? `${post.title} | Thunder Bay AI` : 'Not found | Thunder Bay AI',
+    // post.seoTitle (optional, <=52 chars, keyword-led) is what Google shows; post.title stays
+    // the editorial H1. Our headlines run 90-145 characters, so using them verbatim as the title
+    // tag meant the search keyword was routinely cut off. Falls back to title when absent.
+    title: post ? `${post.seoTitle || post.title} | Thunder Bay AI` : 'Not found | Thunder Bay AI',
     description: post ? post.dek : undefined,
     path: post ? `/blog/${post.slug}` : undefined,
     image: post ? (getOgImageUrl(`/blog/${post.slug}`) || undefined) : undefined,

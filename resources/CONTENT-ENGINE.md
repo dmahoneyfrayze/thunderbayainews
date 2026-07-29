@@ -162,6 +162,7 @@ hard rules (no dark backgrounds or neon values on light surfaces, readability fi
 {
   slug: 'kebab-case-unique-slug',
   title: 'Sharp, specific title',
+  seoTitle: 'Keyword-led, <=52 chars',   // REQUIRED — see below
   dek: 'One-sentence summary of the value.',
   category: 'News' | 'Tips' | 'Models' | 'Government' | 'Funding' | 'Programs' | 'Local Tech',
   date: 'Month DD, YYYY',   iso: 'YYYY-MM-DD',   readMins: <int>,
@@ -170,6 +171,24 @@ hard rules (no dark backgrounds or neon values on light surfaces, readability fi
 }
 ```
 The prerender + sitemap pick it up automatically on the next build.
+
+### `seoTitle` is required (added 2026-07-29)
+`title` is the editorial H1 and should stay sharp and human. `seoTitle` is what Google shows,
+and it is a different job. Our headlines run 90-145 characters; used verbatim as the title tag
+they were truncated well before the keyword, which is what every post did until this change.
+
+Rules for `seoTitle`:
+- **52 characters or fewer** (the site appends " | Thunder Bay AI").
+- **Lead with the term someone would type** — the program acronym, the model name, the task.
+  "NOHFC Invest North Grow: expansion funding", not "What the new NOHFC stream means for us".
+- **No numbers you have not verified.** Same bar as the body ([[proof-integrity]]).
+- Omit it and the page silently falls back to `title` — which is the bug this field exists to fix.
+
+**Do not write a post that duplicates a `/funding/<id>` page's target term.** Eight programs
+currently have both a funding page and a blog post competing for the same name (NOHFC Invest
+North x3, NRC IRAP, FedNor RAII, NOIC Costarter, NOHFC Workforce Development). The funding page
+is canonical for "<program name>"; a post about that program must target a *different* intent
+(who qualifies, how to apply, what changed) and link to the funding page as the reference.
 
 ## Also: keep the funding radar honest
 Sanity-check `src/data.js` (GRANTS_DATA) deadlines/status against official sources. If a deadline
