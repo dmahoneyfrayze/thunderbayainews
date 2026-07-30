@@ -38,7 +38,7 @@ content; funding pages are the high-intent layer, not the whole diet. Rules:
 - [x] nrc-irap-rd-funding-advisory-northern-ontario Funding — NRC IRAP — R&D funding + advisory, typical $75K–$200K for first-timers
 - [x] five-business-tasks-ai-free-tools-this-week Tips — Five business tasks you can hand to AI this week (and the free tools that do them)
 - [x] ai-trades-construction-thunder-bay Playbook — AI for the trades and construction in Thunder Bay
-- [ ] Perspective — "We'll look at AI next year" is the most expensive sentence in local business
+- [x] ai-next-year-most-expensive-delay-local-business Perspective — "We'll look at AI next year" is the most expensive sentence in local business
 - [ ] Funding — Futurpreneur Core Startup — up to $75K + mentorship for young founders
 - [ ] Tips — How to write instructions an AI can actually follow: prompting for business owners, minus the mysticism
 - [ ] Playbook — AI for healthcare clinics and practices in Northwestern Ontario
