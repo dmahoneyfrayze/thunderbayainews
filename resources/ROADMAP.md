@@ -78,7 +78,7 @@ funding facts stay "confirm with the program," sourced):
    ~~HowTo schema on BBAA "how to be ready"~~ — DONE 2026-07-23 (commit `d1c399d`): the post's existing
    4-item "how to be ready" list is now also emitted as `HowTo`/`HowToStep` JSON-LD (added to `BlogPost.jsx`'s
    graph builder, same pattern as `FAQPage`), verified in the prerendered output. ~~DefinedTerm for
-   MFIPPA/RAII/BBAA~~ — DONE 2026-07-30: `DefinedTerm` JSON-LD added to `BlogPost.jsx`'s graph builder
+   MFIPPA/RAII/BBAA~~ — DONE 2026-07-30 (commit `4e9f87e`): `DefinedTerm` JSON-LD added to `BlogPost.jsx`'s graph builder
    (new `post.definedTerms` field, same `@graph` pattern as `FAQPage`/`HowTo`), wired to the three
    canonical posts (`ai-in-nwo-public-sector-where-it-fits` → MFIPPA, `bbaa-ai-adoption-grant-northwestern-ontario`
    → BBAA, `fednor-raii-who-qualifies-thunder-bay` → RAII) using definitions already verified in each
