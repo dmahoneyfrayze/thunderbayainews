@@ -77,10 +77,20 @@ funding facts stay "confirm with the program," sourced):
    restating facts already sourced later in the post — no new claims. All funding/program posts now have it.
    ~~HowTo schema on BBAA "how to be ready"~~ — DONE 2026-07-23 (commit `d1c399d`): the post's existing
    4-item "how to be ready" list is now also emitted as `HowTo`/`HowToStep` JSON-LD (added to `BlogPost.jsx`'s
-   graph builder, same pattern as `FAQPage`), verified in the prerendered output. Still open: DefinedTerm
-   for MFIPPA/RAII/BBAA; Dataset schema on `/funding`; **author byline / E-E-A-T** attribution (helps
+   graph builder, same pattern as `FAQPage`), verified in the prerendered output. ~~DefinedTerm for
+   MFIPPA/RAII/BBAA~~ — DONE 2026-07-30: `DefinedTerm` JSON-LD added to `BlogPost.jsx`'s graph builder
+   (new `post.definedTerms` field, same `@graph` pattern as `FAQPage`/`HowTo`), wired to the three
+   canonical posts (`ai-in-nwo-public-sector-where-it-fits` → MFIPPA, `bbaa-ai-adoption-grant-northwestern-ontario`
+   → BBAA, `fednor-raii-who-qualifies-thunder-bay` → RAII) using definitions already verified in each
+   post's own copy (no new claims), linked from `Article` via `mentions`, verified in the prerendered
+   output. Still open: Dataset schema on `/funding`; **author byline / E-E-A-T** attribution (helps
    Google News) — `BlogPost.jsx` currently hardcodes `author: {'@type':'Organization', name:'Thunder Bay AI'}`
-   with no named byline anywhere.
+   with no named byline anywhere. NOTE on byline: the site's whole credibility model is "autonomous agent,
+   reviewed by humans, operated by Frayze" (see About) — minting a fake named-person byline on every
+   AI-authored post would misrepresent authorship and cut against the site's own transparency principle.
+   If this ships, it should be the honest version (e.g. a named human editor who actually reviews, or an
+   Organization-level attribution with a link to the About page's disclosure) — worth an explicit Denis
+   call, not an autonomous pick.
 7. **Trust/UX**: surface "nothing publishes unread" near the hero; ~~visible contact email~~ (already live —
    `mailto:denis@frayze.ca` in footer); ~~RSS feed~~ — DONE 2026-07-09 (full-text RSS 2.0 at `/rss.xml`,
    generated in `scripts/prerender.mjs` from all 27 Journal posts, `<link rel="alternate">` discovery tag

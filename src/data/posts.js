@@ -1363,6 +1363,9 @@ export const POSTS = [
       { label: 'Fund a custom AI build with a grant', to: '/blog/fund-a-custom-ai-build-with-a-grant' },
       { label: 'All 17 NWO funding programs', to: '/funding' },
     ],
+    definedTerms: [
+      { term: 'BBAA', definition: 'Building Blueprints for AI Adoption — a Northwestern Ontario Innovation Centre (NOIC) grant of up to $20,000, covering up to 50% of eligible project costs, for growth-oriented for-profit SMEs in Northwestern Ontario adopting AI.' },
+    ],
     howTo: {
       name: 'How to be ready for the BBAA grant',
       steps: [
@@ -1457,6 +1460,9 @@ export const POSTS = [
     iso: '2026-06-22',
     readMins: 6,
     accent: ['#7b61ff', '#b800ff'],
+    definedTerms: [
+      { term: 'MFIPPA', definition: 'Ontario’s Municipal Freedom of Information and Protection of Privacy Act — governs how municipal bodies handle records and personal information, and gives the public access rights to those records.' },
+    ],
     blocks: [
       { type: 'answer', text: 'MFIPPA — Ontario’s Municipal Freedom of Information and Protection of Privacy Act — governs how municipal bodies handle records and personal information, and gives the public access rights to those records. For a Northwestern Ontario municipality, library board, or public agency, it is the primary privacy law that shapes what can be put into a third-party AI tool, and how.' },
       { type: 'p', text: 'Public-sector AI gets discussed at two unhelpful extremes: it will transform government, or it is too risky to touch. The realistic middle is more useful for a Northwestern Ontario municipality, library board, or public agency deciding where to start.' },
@@ -1495,6 +1501,9 @@ export const POSTS = [
       { label: 'The BBAA grant: up to $20K to adopt AI', to: '/blog/bbaa-ai-adoption-grant-northwestern-ontario' },
       { label: 'Fund a custom AI build with a grant', to: '/blog/fund-a-custom-ai-build-with-a-grant' },
       { label: 'All 17 NWO funding programs', to: '/funding' },
+    ],
+    definedTerms: [
+      { term: 'RAII', definition: 'Regional Artificial Intelligence Initiative — FedNor’s program deploying Budget 2024’s regional AI-adoption funding across Northern Ontario, covering up to 50% of eligible costs for incorporated SMEs improving productivity, scale, or skilled jobs. Retail and service-based businesses will not be considered.' },
     ],
     blocks: [
       { type: 'answer', text: 'FedNor’s Regional Artificial Intelligence Initiative (RAII) covers up to 50% of capital costs and up to 75% of non-capital costs for incorporated SMEs (not-for-profits up to 75% overall) in Northern Ontario adopting AI to improve productivity, scale, or create skilled jobs. Intake is continuous — there is no annual deadline. Retail and service-based businesses will not be considered; broader NOIC programs may fit better. Confirm your eligibility and the project maximum directly with FedNor.' },

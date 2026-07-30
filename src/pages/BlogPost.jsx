@@ -78,6 +78,13 @@ export default function BlogPost() {
   });
 
   const url = post ? `https://thunderbayai.com/blog/${post.slug}` : undefined;
+  const definedTermNodes = post && post.definedTerms ? post.definedTerms.map((dt) => ({
+    '@type': 'DefinedTerm',
+    '@id': `${url}#term-${dt.term.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`,
+    name: dt.term,
+    description: dt.definition,
+    inDefinedTermSet: `${url}#glossary`,
+  })) : [];
   const jsonGraph = post ? [
     {
       '@type': 'Article',
@@ -91,6 +98,7 @@ export default function BlogPost() {
       publisher: { '@type': 'Organization', name: 'Frayze', url: 'https://frayze.ca' },
       isPartOf: { '@id': 'https://thunderbayai.com/#website' },
       mainEntityOfPage: { '@type': 'WebPage', '@id': url },
+      ...(definedTermNodes.length ? { mentions: definedTermNodes.map((d) => ({ '@id': d['@id'] })) } : {}),
       url,
     },
     {
@@ -123,6 +131,9 @@ export default function BlogPost() {
         text: s.text,
       })),
     });
+  }
+  if (definedTermNodes.length) {
+    jsonGraph.push(...definedTermNodes);
   }
   useJsonLd(post ? { '@context': 'https://schema.org', '@graph': jsonGraph } : null);
 
