@@ -1,59 +1,68 @@
 {
-  "iso": "2026-07-27",
-  "issueNo": "06",
-  "dateLabel": "JUL 27",
+  "iso": "2026-08-03",
+  "issueNo": "07",
+  "dateLabel": "AUG 3",
   "handle": "thunderbayai",
   "cover": {
-    "hook": "Canada is writing its AI disclosure rules. Businesses have until Sept 23 to shape them.",
-    "sub": "Plus: Anthropic's Opus 5 at half the flagship's price, $500K for a Kenora food hub, and NWO wildfire recovery heads into multi-year territory."
+    "hook": "Canada just approved a $70B nickel mine in Northern Ontario — and AI costs hit a new floor.",
+    "sub": "Plus: EU AI fines go live, US 50% tariffs on Canadian plywood land August 19, and NWO fires: 1,876 evacuees remain."
   },
-  "reelSub": "Ottawa's AI transparency rules are being written now — and the window to weigh in is open.",
-  "storySub": "Four moves from this week that matter for Northwestern Ontario operators and administrators.",
+  "reelSub": "A $70B mine, EU AI enforcement, and frontier AI at $0.20 per million tokens — this week in the Northwest.",
+  "storySub": "Five moves this week that matter for Northern Ontario businesses and operators.",
   "items": [
     {
+      "tag": "INFRASTRUCTURE",
+      "big": "$70B",
+      "bigSize": "120px",
+      "title": "Canada approves a $70B nickel mine in Northern Ontario",
+      "body": "Canada Nickel's Crawford Project — world's second-largest nickel reserves — got federal approval July 31. $5B investment, 5,000 construction jobs, 41-year mine life. First major Northern Ontario mine through the amended Impact Assessment Act.",
+      "tease": "Next: the US tariff hitting Canadian plywood on August 19.",
+      "reelLine": "Crawford Nickel gets federal approval: $5B investment, 5,000 jobs, $70B projected GDP impact for Northern Ontario."
+    },
+    {
       "tag": "GOVERNMENT",
-      "big": "SEPT 23",
+      "big": "AUG 19",
       "bigSize": "86px",
-      "title": "Canada opens AI transparency consultation — closes Sept 23",
-      "body": "Minister Evan Solomon launched a 60-day public consultation July 23 on AI disclosure: when must businesses tell users they're talking to AI, how AI-generated content must be labeled, and how AI agents are monitored. Input from any Canadian business counts.",
-      "tease": "Next: the Anthropic model any NWO business can afford.",
-      "reelLine": "Canada's AI disclosure consultation is open until Sept 23 — businesses can submit input now."
+      "title": "US 50% tariffs on Canadian plywood and paper: two weeks out",
+      "body": "New 50% US tariffs cover MDF, plywood, veneer panels, paper, and furniture components — effective August 19. Lumber under existing Section 232 duties is exempt. NWO wood composite and paper facilities are directly in scope.",
+      "tease": "Next: the EU just activated its AI penalty machine.",
+      "reelLine": "US 50% tariffs on Canadian plywood, MDF, and paper products land August 19 — NWO mills are in scope."
+    },
+    {
+      "tag": "GOVERNMENT",
+      "big": "FINES",
+      "bigSize": "120px",
+      "title": "EU AI Act enforcement is live — reaches Canadian companies",
+      "body": "As of August 2, the EU can fine AI providers up to 3% of global revenue or 35M euros for prohibited practices. The Act covers any company serving EU customers, regardless of where it is headquartered.",
+      "tease": "Next: frontier AI just dropped to $0.20 per million tokens.",
+      "reelLine": "EU AI Act enforcement activated August 2 — fines up to 3% of global revenue now apply to companies worldwide."
     },
     {
       "tag": "MODEL WATCH",
-      "big": "$5",
+      "big": "$0.20",
       "bigSize": "180px",
-      "title": "Anthropic Opus 5: near-flagship AI at $5 per million tokens",
-      "body": "Claude Opus 5 launched July 24 — near Fable 5 performance at $5/M input tokens. Zero data retention, 1M-token context, an effort-toggle to dial cost vs. capability. No Canadian access restrictions.",
-      "tease": "Next: $500K for Northwestern Ontario food producers.",
-      "reelLine": "Opus 5 delivers near-top-tier AI at $5 per million tokens — available to Canadian businesses now."
-    },
-    {
-      "tag": "FUNDING",
-      "big": "$500K",
-      "bigSize": "120px",
-      "title": "FedNor puts $500K into a Kenora agri-food hub for NWO producers",
-      "body": "Seven Generations Education Institute gets $499,780 from FedNor to run the FEAST program in Kenora: commercial kitchen, equipment, advisory, and financial support for about 20 SMEs across Northwestern Ontario. First cohort starts fall 2026.",
-      "tease": "Next: NWO fires ease — but the recovery is just starting.",
-      "reelLine": "$500K in FedNor funding puts a food production hub in Kenora for NWO agri-food entrepreneurs."
+      "title": "OpenAI cuts GPT-5.6 Luna to $0.20 per million tokens",
+      "body": "An 80% price drop on July 30 brings frontier-generation AI to small-business price levels. At typical usage volumes, that is low single-digit monthly costs. Competition from Anthropic and others is driving AI costs down fast.",
+      "tease": "Next: NWO wildfire evacuees and what it means for communities.",
+      "reelLine": "OpenAI cut GPT-5.6 Luna 80% to $0.20 per million tokens — frontier AI now at small-business prices."
     },
     {
       "tag": "LOCAL",
-      "big": "2,800+",
+      "big": "1,876",
       "bigSize": "120px",
-      "title": "Fire counts down; First Nations challenge Ontario's wildfire response",
-      "body": "Active fires fell from roughly 190 to 130 by July 26 and Thunder Bay services resumed, but over 2,800 evacuees remain displaced. First Nations leaders formally challenged Ontario's response July 21 — and rebuilding remote communities could take years.",
+      "title": "NWO wildfire evacuees fall to 1,876; 8 new fires on August 1",
+      "body": "Evacuee count dropped from 2,800+ to 1,876 — real progress, but 130 fires remained active August 2 and 8 new fires started on August 1. Road closures on Highways 811 and 527 remain in effect.",
       "tease": "The throughline ->",
-      "reelLine": "NWO fires ease to 130 active — but over 2,800 evacuees remain and First Nations challenge Ontario's response."
+      "reelLine": "NWO wildfire evacuees fall to 1,876 — but 130 fires remain active and 8 new ones started August 1."
     }
   ],
   "summary": {
-    "title": "AI rules, affordable models, a food hub, and a wildfire reckoning — four signals from the Northwest",
-    "body": "Ottawa opened a window to shape Canada's AI disclosure rules, Anthropic made near-flagship AI practical for small businesses, FedNor invested in NWO food-sector infrastructure, and the region's wildfire season shifted from acute crisis to a long-tail recovery."
+    "title": "Critical minerals unlocked, AI costs at record lows, new penalties live, and trade tariffs two weeks out",
+    "body": "A $70B mine cleared the regulatory gate, frontier AI costs hit record lows, EU enforcement penalties went live, US tariffs on Canadian plywood and paper land in two weeks, and Northern Ontario's wildfire season continues its long-tail recovery."
   },
   "captions": {
-    "carousel": "Canada launched a formal public consultation on AI transparency July 23 — asking businesses, citizens, and organizations to weigh in before the next round of federal AI rules are drafted. Deadline is September 23. The same week, Anthropic released Claude Opus 5: near-flagship performance at $5 per million input tokens, zero data retention, and an effort-toggle to dial cost vs. capability per task — no Canada-specific access restrictions. FedNor put $499,780 into the FEAST agri-food hub in Kenora, operated by Seven Generations Education Institute, to support about 20 NWO food producers with equipment, kitchen access, advisory, and financial assistance starting fall 2026. And as wildfire counts dropped from 190 to 130 across Northwestern Ontario, over 2,800 evacuees remained displaced and First Nations leaders formally challenged Ontario's account of its wildfire response. Full Signal — link in bio. #ThunderBay #NorthernOntario #NorthwesternOntario #AIbusiness #NWOntario #FedNor #AIregulation",
-    "reel": "Canada's AI disclosure consultation is open until Sept 23. Anthropic Opus 5 is out at $5 per million tokens. FedNor put $500K into a Kenora food hub. And NWO wildfire recovery heads into multi-year territory. Full Signal at thunderbayai.com. #NorthernOntario #ThunderBay #AIbusiness #NWOntario #FedNor",
+    "carousel": "Canada Nickel's Crawford mine near Timmins received federal approval July 31 — the world's second-largest nickel reserves, $5 billion in investment, 5,000 construction jobs, and the first major mining project through Canada's amended Impact Assessment Act. US 50% tariffs on Canadian plywood, MDF, and paper products were confirmed effective August 19, putting NWO wood composite and paper facilities directly in scope. As of August 2, the EU AI Act's enforcement powers are active — the EU can now fine AI providers up to 3% of global revenue, and the Act reaches any company serving EU customers. On July 30, OpenAI cut GPT-5.6 Luna by 80% to $0.20 per million tokens, making frontier-generation AI practical at small-business cost levels. And NWO wildfire evacuee counts fell from 2,800+ to 1,876, though 130 fires remained active and 8 new ones started August 1. Full Signal at thunderbayai.com. #ThunderBay #NorthernOntario #NorthwesternOntario #AIbusiness #CriticalMinerals #NWOntario #EUAIAct",
+    "reel": "Crawford Nickel approved — $70B for Northern Ontario. US 50% tariffs on Canadian plywood land August 19. EU AI Act fines go live. OpenAI cuts frontier AI to $0.20 per million tokens. And NWO fires: 1,876 evacuees, 130 active. Full Signal at thunderbayai.com. #NorthernOntario #ThunderBay #AIbusiness #CriticalMinerals #NWOntario",
     "story": "Story frame — add a poll sticker and a link sticker to thunderbayai.com."
   }
 }
