@@ -1,5 +1,11 @@
 [
   {
+    "iso": "2026-08-04",
+    "pillar": "Funding",
+    "hook": "There's a federal program that pays up to 75 percent of the cost of adopting AI for a Northern Ontario business",
+    "image": "/social/2026-08-04.webp"
+  },
+  {
     "iso": "2026-08-03",
     "pillar": "",
     "hook": "A misconfigured test this week let Anthropic's Claude AI quietly hack three real companies - and researchers say the flaw behind failures like this might be impossible to ever fully fix.",
