@@ -41,7 +41,7 @@ content; funding pages are the high-intent layer, not the whole diet. Rules:
 - [x] ai-next-year-most-expensive-delay-local-business Perspective — "We'll look at AI next year" is the most expensive sentence in local business
 - [x] futurpreneur-core-startup-young-founders-northwestern-ontario Funding — Futurpreneur Core Startup — up to $75K + mentorship for young founders
 - [x] how-to-write-ai-instructions-prompting-business-owners Tips — How to write instructions an AI can actually follow: prompting for business owners, minus the mysticism
-- [ ] Playbook — AI for healthcare clinics and practices in Northwestern Ontario
+- [x] ai-healthcare-clinics-practices-northwestern-ontario Playbook — AI for healthcare clinics and practices in Northwestern Ontario
 - [ ] Trends — Voice AI is coming for the business phone line: what NWO service businesses should know before it answers for them
 - [ ] Funding — Starter Company Plus (TBay & District Entrepreneur Centre) — up to $5K grant + coaching
 - [ ] Tips — Using AI to answer Google reviews without sounding like a robot
