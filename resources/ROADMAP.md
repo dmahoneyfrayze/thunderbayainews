@@ -90,7 +90,13 @@ funding facts stay "confirm with the program," sourced):
    AI-authored post would misrepresent authorship and cut against the site's own transparency principle.
    If this ships, it should be the honest version (e.g. a named human editor who actually reviews, or an
    Organization-level attribution with a link to the About page's disclosure) — worth an explicit Denis
-   call, not an autonomous pick.
+   call, not an autonomous pick. ~~Dataset schema on `/funding`~~ — DONE 2026-08-06: `Dataset`/`DataDownload`
+   JSON-LD added to `Funding.jsx`'s graph builder (same `@graph` pattern as `CollectionPage`/`ItemList`),
+   backed by a real machine-readable distribution — `scripts/prerender.mjs` now writes
+   `dist/funding-programs.json` (all 19 verified programs: name, funder, amount, coverage, deadline,
+   status, sourceUrl, lastVerified) on every build, regenerated from `GRANTS_DATA` so it never drifts.
+   A visible "Download the full dataset (JSON)" link was added to the page. Verified in the prerendered
+   output.
 7. **Trust/UX**: surface "nothing publishes unread" near the hero; ~~visible contact email~~ (already live —
    `mailto:denis@frayze.ca` in footer); ~~RSS feed~~ — DONE 2026-07-09 (full-text RSS 2.0 at `/rss.xml`,
    generated in `scripts/prerender.mjs` from all 27 Journal posts, `<link rel="alternate">` discovery tag

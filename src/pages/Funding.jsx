@@ -51,6 +51,22 @@ export default function Funding() {
           { '@type': 'ListItem', position: 2, name: 'Funding', item: `${SITE}/funding` },
         ],
       },
+      {
+        '@type': 'Dataset',
+        '@id': `${SITE}/funding#dataset`,
+        name: `Northwestern Ontario AI & business funding programs — verified dataset`,
+        description: `A verified, source-linked dataset of ${count} AI, technology, and business funding programs open to Northwestern Ontario. Each record carries the program name, funder, maximum amount, coverage, deadline, status, and the date it was last checked against its official source.`,
+        url: `${SITE}/funding`,
+        inLanguage: 'en-CA',
+        creator: { '@id': `${SITE}/#org` },
+        isPartOf: { '@id': `${SITE}/#website` },
+        variableMeasured: ['Program name', 'Funder', 'Maximum funding amount', 'Coverage', 'Deadline', 'Status', 'Last verified date'],
+        distribution: {
+          '@type': 'DataDownload',
+          encodingFormat: 'application/json',
+          contentUrl: `${SITE}/funding-programs.json`,
+        },
+      },
     ],
   });
 
@@ -138,6 +154,9 @@ export default function Funding() {
             <Link to="/blog/fednor-raii-who-qualifies-thunder-bay" style={styles.readLink}><span>FedNor RAII: who actually qualifies</span> <ArrowUpRight size={15} /></Link>
             <Link to="/blog/noic-costarter-accelerator-readiness" style={styles.readLink}><span>NOIC Costarter: the Northwest's accelerator</span> <ArrowUpRight size={15} /></Link>
           </div>
+          <a href="/funding-programs.json" style={styles.dataLink}>
+            Download the full dataset (JSON, {count} programs) <ArrowUpRight size={14} />
+          </a>
         </div>
 
         <div style={{ marginTop: '48px' }}>
@@ -176,4 +195,5 @@ const styles = {
   readsWrap: { marginTop: '64px' },
   readsList: { display: 'flex', flexDirection: 'column', gap: '10px', marginTop: '16px', maxWidth: '620px' },
   readLink: { display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '12px', padding: '14px 18px', borderRadius: '12px', textDecoration: 'none', color: 'hsl(var(--text-primary))', fontSize: '15px', fontWeight: 600, background: 'hsla(222, 15%, 15%, 0.04)', border: '1px solid hsla(var(--border-light))' },
+  dataLink: { display: 'inline-flex', alignItems: 'center', gap: '7px', marginTop: '18px', fontSize: '13px', fontWeight: 600, color: 'hsl(var(--primary-cyan))', textDecoration: 'none' },
 };

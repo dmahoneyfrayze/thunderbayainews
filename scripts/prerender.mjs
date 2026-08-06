@@ -140,6 +140,35 @@ const run = async () => {
       `<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">\n<channel>\n  <title>Thunder Bay AI — Journal</title>\n  <link>${SITE}/blog/</link>\n  <atom:link href="${SITE}/rss.xml" rel="self" type="application/rss+xml" />\n  <description>AI, funding, and tech intelligence for Northwestern Ontario — the full Journal, newest first.</description>\n  <language>en-ca</language>\n  <lastBuildDate>${new Date(`${rssPosts[0].iso}T12:00:00Z`).toUTCString()}</lastBuildDate>\n${rssItems}\n</channel>\n</rss>\n`
     );
     console.log('  saved rss.xml');
+
+    // funding-programs.json — the real, downloadable distribution behind the /funding page's
+    // Dataset schema. Machine-readable so AI engines and researchers can pull the verified
+    // program list directly rather than only parsing HTML. Mirrors GRANTS_DATA; regenerated
+    // every build so it never drifts from the live page.
+    const fundingDataset = {
+      name: 'Northwestern Ontario AI & business funding programs',
+      description: `A verified, source-linked dataset of ${GRANTS_DATA.length} AI, technology, and business funding programs open to Northwestern Ontario. Eligibility, amounts, and deadlines are set by each program — confirm directly before relying on a figure here.`,
+      generatedAt: today,
+      source: `${SITE}/funding`,
+      programs: GRANTS_DATA.map((g) => ({
+        id: g.id,
+        name: g.name,
+        source: g.source,
+        url: `${SITE}/funding/${g.id}`,
+        maxAmount: g.maxAmount,
+        coverage: g.coverage,
+        deadline: g.deadline,
+        status: g.status,
+        description: g.description,
+        lastVerified: g.lastVerified || null,
+        sourceUrl: g.sourceUrl,
+      })),
+    };
+    fs.writeFileSync(
+      path.join(distPath, 'funding-programs.json'),
+      JSON.stringify(fundingDataset, null, 2)
+    );
+    console.log('  saved funding-programs.json');
     console.log('Prerendering complete.');
   } finally {
     await browser.close();
