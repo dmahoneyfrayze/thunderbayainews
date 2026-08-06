@@ -42,7 +42,7 @@ content; funding pages are the high-intent layer, not the whole diet. Rules:
 - [x] futurpreneur-core-startup-young-founders-northwestern-ontario Funding — Futurpreneur Core Startup — up to $75K + mentorship for young founders
 - [x] how-to-write-ai-instructions-prompting-business-owners Tips — How to write instructions an AI can actually follow: prompting for business owners, minus the mysticism
 - [x] ai-healthcare-clinics-practices-northwestern-ontario Playbook — AI for healthcare clinics and practices in Northwestern Ontario
-- [ ] Trends — Voice AI is coming for the business phone line: what NWO service businesses should know before it answers for them
+- [x] voice-ai-business-phone-line-nwo-service-business Trends — Voice AI is coming for the business phone line: what NWO service businesses should know before it answers for them
 - [ ] Funding — Starter Company Plus (TBay & District Entrepreneur Centre) — up to $5K grant + coaching
 - [ ] Tips — Using AI to answer Google reviews without sounding like a robot
 - [ ] Playbook — AI for main-street retail and local shops in Thunder Bay
