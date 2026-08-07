@@ -6,6 +6,53 @@ import { POSTS_BATCH2 } from './posts-batch-2.js';
 
 export const POSTS = [
   {
+    slug: 'starter-company-plus-thunder-bay-how-it-works',
+    title: 'Starter Company Plus in Thunder Bay: what the $5,000 grant actually requires',
+    seoTitle: 'Starter Company Plus Thunder Bay: how to apply',
+    dek: 'A provincial grant of up to $5,000 for entrepreneurs starting, buying, or expanding a small business — delivered locally through the Thunder Bay & District Entrepreneur Centre, with a business plan requirement, training, and a mandatory 25% matching investment.',
+    category: 'Funding',
+    date: 'August 7, 2026',
+    iso: '2026-08-07',
+    readMins: 5,
+    accent: ['#0369a1', '#7c3aed'],
+    blocks: [
+      { type: 'p', text: 'Starter Company Plus is a Province of Ontario grant program that offers up to $5,000 to entrepreneurs starting, buying, or expanding a small business, along with business training, advisor guidance, and a three-month mentorship. In Thunder Bay, it is delivered through the Thunder Bay & District Entrepreneur Centre — a branch of the City\'s Community Economic Development Commission (CEDC). The 2026 intake is closed; the program runs annually and the Entrepreneur Centre is the point of contact for next-intake dates (807-625-3960 or gotothunderbay.ca). To receive the grant, applicants must complete a business plan, participate in up to 15 hours of training workshops, and contribute a minimum of 25 per cent of the grant amount in cash or eligible in-kind support — at least $1,250 if seeking the full $5,000. Confirm current eligibility and intake timing directly with the Entrepreneur Centre before planning around the program.' },
+      { type: 'h2', text: 'What the program covers — and what it asks of you' },
+      { type: 'p', text: 'The structure is training first, grant second. Accepted applicants work through up to 15 hours of business workshops covering topics such as business planning, marketing, and financial projections, alongside one-on-one guidance from a program coordinator. At the end of the training, participants who complete a business plan and meet program criteria can apply for the grant — up to $5,000 — and if successful, enter a three-month mentorship with experienced business people to help execute the plan. The 25% contribution requirement means you must demonstrate — in cash or in eligible in-kind contributions such as equipment or committed startup expenses — at least $1,250 at the time you apply for the grant. The program is designed for people already moving on a business idea, not testing whether an idea is viable before committing anything. If you are at the earlier concept phase, the training component can still be useful, but the grant threshold requires some commitment already made.' },
+      { type: 'h2', text: 'Who qualifies' },
+      { type: 'ul', items: [
+        '18 years of age or older',
+        'Ontario resident and Canadian citizen or permanent resident',
+        'Not enrolled full-time in school and not planning to return to full-time studies',
+        'Starting a new business, buying an existing one, or expanding a current operation',
+        'For-profit businesses only — charities and non-profits are excluded; certain regulated industries may also be excluded',
+        'Able to contribute at least 25% of the grant amount in cash or eligible in-kind support',
+      ]},
+      { type: 'h2', text: 'How it is delivered locally in Thunder Bay' },
+      { type: 'p', text: 'The Province of Ontario funds and sets the eligibility rules; local Small Business Enterprise Centres manage intake, training delivery, and the local application process. In Thunder Bay, that means the Entrepreneur Centre at the CEDC, 130 Donald Street East. Applications open through the Entrepreneur Centre — there is no direct provincial application form for the local intake. The program connects participants with local business advisors and mentors who know the northwestern Ontario market. Trades, professional services, retail, and hospitality make up the bulk of the Thunder Bay business community the program serves, and the training content and mentorship pairings are oriented around that operating context.' },
+      { type: 'h2', text: 'The Indigenous stream: Miinikaanan Badakidoon' },
+      { type: 'p', text: 'The CEDC separately operates Miinikaanan Badakidoon — which means "to plant the seeds" in Anishnaawbe from the Lake Nipigon dialect — an Indigenous entrepreneur program that began as a dedicated stream within Starter Company Plus and has since become a permanent, independent program. It is designed for Indigenous entrepreneurs in Thunder Bay and Northwestern Ontario looking to start, buy, or expand a business. If you are an Indigenous entrepreneur exploring this path, contact the CEDC directly to ask about Miinikaanan Badakidoon as a separate intake and program, rather than treating it as identical to Starter Company Plus. Confirm current intake dates, eligibility, and grant amounts directly with the CEDC.' },
+      { type: 'callout', text: 'The 2026 intake for Starter Company Plus is closed as of this writing. The program runs in annual intakes through the Entrepreneur Centre. To be notified when the next intake opens, contact the Thunder Bay & District Entrepreneur Centre directly at 807-625-3960 or visit gotothunderbay.ca. Intake timing, grant amounts, and eligibility criteria can change between program years — confirm all details with the program coordinator before planning around them.' },
+      { type: 'h2', text: 'Frequently asked questions' },
+      { type: 'ul', items: [
+        'What do I need to have ready before applying? A business concept with some early investment already made — cash spent on startup costs, equipment, or committed lease expenses totalling at least 25% of the grant you plan to apply for (at least $1,250 if applying for the $5,000 maximum). You will develop your business plan during the training program itself, but arriving with a clear concept and some documented startup spending puts you in the best position to meet the grant threshold.',
+        'Can Starter Company Plus be combined with other programs? Potentially. For a new Northern Ontario business, NOHFC Invest North Launch provides up to $200,000 for eligible capital costs. Futurpreneur\'s Core Startup program offers up to $75,000 in combined financing for founders aged 18 to 39. Before combining funding, confirm with each program whether their rules restrict overlapping government grants and how the 25% investment requirement interacts with contributions counted under another program.',
+        'I am outside Thunder Bay — can I still apply through the local Entrepreneur Centre? Starter Company Plus is delivered through Small Business Enterprise Centres across Ontario, each covering a geographic catchment. The Thunder Bay & District Entrepreneur Centre serves Thunder Bay and the surrounding district. If you are in a more remote NWO community, confirm with the Centre whether you fall within their service area or whether another SBEC has coverage in your location.',
+      ]},
+      { type: 'source', text: 'Sources: Province of Ontario — Starter Company Plus program page (grant up to $5,000; eligibility including 18+, Ontario resident, citizen/PR, not full-time student; 25% contribution requirement in cash or in-kind; application through Small Business Enterprise Centre; training and mentorship structure; page last updated December 2, 2025): ontario.ca/page/starter-company-plus | Thunder Bay & District Entrepreneur Centre / CEDC — Starter Company Plus local delivery (local intake, 807-625-3960): gotothunderbay.ca/supportprograms/starter-company-program/ | CEDC — Miinikaanan Badakidoon program page (independent Indigenous entrepreneur program, "to plant the seeds" in Anishnaawbe, Lake Nipigon dialect): gotothunderbay.ca/how-we-help/entrepreneur-centre/miinikaanan-badakidoon/ | Northern Ontario Business — "Thunder Bay CEDC relaunches funding program for Indigenous entrepreneurs" (Miinikaanan Badakidoon origin and scope): northernontariobusiness.com/press-release/thunder-bay-cedc-relaunches-funding-program-for-indigenous-entrepreneurs-5593215 | Program amounts and status verified against this site\'s GRANTS_DATA (src/data.js, entry ontario-starter-company-plus, last verified 2026-07-10).' },
+    ],
+    faq: [
+      { q: 'What do I need to have ready before applying?', a: 'A business concept with some early investment already made — cash spent on startup costs, equipment, or committed lease expenses totalling at least 25% of the grant you plan to apply for (at least $1,250 if applying for the $5,000 maximum). You will develop your business plan during the training program itself, but arriving with a clear concept and some documented startup spending puts you in the best position to meet the grant threshold.' },
+      { q: 'Can Starter Company Plus be combined with other programs?', a: "Potentially. For a new Northern Ontario business, NOHFC Invest North Launch provides up to $200,000 for eligible capital costs. Futurpreneur's Core Startup program offers up to $75,000 in combined financing for founders aged 18 to 39. Before combining funding, confirm with each program whether their rules restrict overlapping government grants and how the 25% investment requirement interacts with contributions counted under another program." },
+      { q: 'I am outside Thunder Bay — can I still apply through the local Entrepreneur Centre?', a: 'Starter Company Plus is delivered through Small Business Enterprise Centres across Ontario, each covering a geographic catchment. The Thunder Bay & District Entrepreneur Centre serves Thunder Bay and the surrounding district. If you are in a more remote NWO community, confirm with the Centre whether you fall within their service area or whether another SBEC has coverage in your location.' },
+    ],
+    related: [
+      { label: 'All NWO funding programs', to: '/funding' },
+      { label: 'Starter Company Plus — program summary', to: '/funding/ontario-starter-company-plus' },
+      { label: 'Futurpreneur Core Startup: up to $75K for founders 18-39', to: '/blog/futurpreneur-core-startup-young-founders-northwestern-ontario' },
+    ],
+  },
+  {
     slug: 'voice-ai-business-phone-line-nwo-service-business',
     title: 'Voice AI is coming for the business phone line: what NWO service businesses should know before it answers for them',
     seoTitle: 'Voice AI for business phone lines: NWO guide',
