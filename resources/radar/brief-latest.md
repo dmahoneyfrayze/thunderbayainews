@@ -1,61 +1,54 @@
-# TBAI Radar Brief — 2026-08-01
+# TBAI Radar Brief — 2026-08-08
 
-Aggregated 79 scored items from 12 feeds (last 7 days) + 3 civic watch pages.
+Aggregated 67 scored items from 12 feeds (last 7 days) + 3 civic watch pages.
 Deterministic pull; every link is a real source. Consumers verify claims against the linked source before use.
 
 ## Top signal (op-ed seeds — highest combined AI + NWO weight)
 
-1. **Accelerating scientific discovery with ChatGPT for Academic Researchers** — OpenAI News, 2026-07-29 (score 8) [link](https://openai.com/index/chatgpt-for-academic-researchers)
-2. **How GPT-5.6 fuses frontier intelligence with frontier efficiency** — OpenAI News, 2026-07-29 (score 8) [link](https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency)
-3. **How AI is expanding what people do at work** — OpenAI News, 2026-07-27 (score 8) [link](https://openai.com/index/how-ai-is-expanding-what-people-do-at-work)
-4. **Anthropic says Claude accidentally hacked real companies too** — The Verge AI, 2026-07-31 (score 8) [link](https://www.theverge.com/ai-artificial-intelligence/973670/anthropic-claude-hacked-organizations-during-cyber-tests)
-5. **A fundamental flaw leaves LLMs strikingly vulnerable to attack** — MIT Technology Review, 2026-07-30 (score 8) [link](https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/)
+1. **OpenAI is giving ChatGPT free users unlimited text chats** — The Verge AI, 2026-08-06 (score 8) [link](https://www.theverge.com/ai-artificial-intelligence/976239/openai-chatgpt-free-go-text-chats)
+2. **How HSP GRUPPE builds AI capabilities for tax advisory** — OpenAI News, 2026-08-07 (score 6) [link](https://openai.com/index/hsp-gruppe)
+3. **From asking to doing: How the world is putting ChatGPT to work** — OpenAI News, 2026-08-06 (score 6) [link](https://openai.com/index/how-the-world-is-putting-chatgpt-to-work)
+4. **Anthropic will design its own hardware to power Claude** — Ars Technica AI, 2026-08-06 (score 6) [link](https://arstechnica.com/ai/2026/08/anthropic-confirms-plans-to-build-an-in-house-silicon-team/)
+5. **Anthropic’s AI used fake identities, malware in rogue attack on GitHub project** — Ars Technica AI, 2026-08-05 (score 6) [link](https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/)
 
 ## The big moves — providers and models
 
-- **Accelerating scientific discovery with ChatGPT for Academic Researchers** — OpenAI News, 2026-07-29. OpenAI is giving 100,000 academic researchers free access to ChatGPT's most advanced AI models to accelerate scientific research, collaboration, and discovery. [link](https://openai.com/index/chatgpt-for-academic-researchers)
-- **How GPT-5.6 fuses frontier intelligence with frontier efficiency** — OpenAI News, 2026-07-29. GPT-5.6 improves AI efficiency across models, inference, and agentic workflows, helping deliver more useful intelligence per dollar. [link](https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency)
-- **How AI is expanding what people do at work** — OpenAI News, 2026-07-27. New OpenAI research shows how AI is expanding what workers do, with ChatGPT users taking on tasks across roles and reshaping job boundaries. [link](https://openai.com/index/how-ai-is-expanding-what-people-do-at-work)
-- **Univé builds an AI-ready workforce** — OpenAI News, 2026-07-31. See how Univé built an AI-ready workforce with ChatGPT Enterprise by combining leadership, responsible governance, and employee-led innovation to transform work at scale. [link](https://openai.com/index/unive)
-- **Disrupting a Criminal Scam Operation** — OpenAI News, 2026-07-31. OpenAI disrupted a Cambodia-based scam operation using ChatGPT to support investment, romance, gambling, and impersonation schemes. [link](https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation)
-- **Advancing the price-performance frontier with GPT-5.6** — OpenAI News, 2026-07-30. Explore lower GPT‑5.6 pricing for Luna and Terra—and how OpenAI’s more efficient models help enterprises deploy AI workflows at scale. [link](https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6)
-- **Advancing responsible AI across Europe** — OpenAI News, 2026-07-31. OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances. [link](https://openai.com/index/advancing-responsible-ai-across-europe)
-- **How avatarin built a 24/7 retail agent with GPT-Realtime** — OpenAI News, 2026-07-30. avatarin uses OpenAI’s GPT-Realtime to give Yamada Denki shoppers 24/7 multilingual support. In two weeks, 30,000 people used the agent and 92% of survey responses were positive. [link](https://openai.com/index/avatarin)
-- **Scientific computing in the age of agentic AI** — OpenAI News, 2026-07-28. A new field report shows how scientists use AI coding agents to modernize scientific computing, accelerating software development and discovery in genomics and beyond. [link](https://openai.com/index/scientific-computing-agentic-ai)
-- **Ten advances in mathematics and theoretical computer science** — OpenAI News, 2026-08-01. OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity. [link](https://openai.com/index/ten-advances-in-mathematics)
+- **How HSP GRUPPE builds AI capabilities for tax advisory** — OpenAI News, 2026-08-07. Discover how HSP GRUPPE uses ChatGPT Enterprise to boost productivity, improve work quality, and create more capacity for tax advisory and client service. [link](https://openai.com/index/hsp-gruppe)
+- **From asking to doing: How the world is putting ChatGPT to work** — OpenAI News, 2026-08-06. New OpenAI Signals data shows how people use ChatGPT worldwide, with country-level insights on adoption, usage trends, and evolving behavior. [link](https://openai.com/index/how-the-world-is-putting-chatgpt-to-work)
+- **Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users** — OpenAI News, 2026-08-06. ChatGPT introduces improved GPT-5.6 Sol with better accuracy and consistency, plus expanded access for free users and unlimited everyday chats with GPT-5.6 Luna. [link](https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt)
+- **Working with the American Psychological Association on youth mental health and AI** — OpenAI News, 2026-08-06. OpenAI and the American Psychological Association advance evidence-based guidance, resources, and safeguards for responsible AI use and youth mental health. [link](https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai)
+- **Third-party cyber evaluations involving OpenAI models** — OpenAI News, 2026-08-04. OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation. [link](https://openai.com/index/third-party-cyber-evaluations-involving-openai-models)
+- **New ways to learn and teach with ChatGPT Work and Codex** — OpenAI News, 2026-08-04. Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build. [link](https://openai.com/index/learn-teach-chatgpt-work-codex)
+- **How we built a realtime system for responsive voice AI in six months** — OpenAI News, 2026-08-03. GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations. [link](https://openai.com/index/continuous-voice-interaction-with-gpt-live)
+- **Circles powers telco personalization with OpenAI technology** — OpenAI News, 2026-08-03. Circles uses the OpenAI API and Codex to power AI-native telco experiences, increasing ARPU by 22%, reducing churn by 9%, and improving development efficiency. [link](https://openai.com/index/circles)
+- **Inside our 353,000-person vibe coding course** — Google AI Blog, 2026-08-03. Kaggle’s AI Agents Intensive with Google brought learners together in a no-cost course to build and deploy the next frontier of AI. [link](https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/)
+- **Responding to the next frontier of critical cyber capabilities** — OpenAI News, 2026-08-07. OpenAI is sharing preliminary cybersecurity evaluations for Astra and the steps we’re taking to strengthen safeguards and security controls. [link](https://openai.com/index/responding-next-frontier-critical-cyber-capabilities)
 
 ## Hardware and infrastructure
 
-- **NVIDIA Harnesses Vera CPU to Speed Up Design of Next-Generation CPUs and GPUs** — NVIDIA Blog, 2026-07-27. The complexity of modern chip design continues to grow as engineering teams work to develop increasingly sophisticated CPUs, GPUs and AI systems. To help meet that challenge, NVIDIA is collaborating with industry leaders Cadence and Synopsy [link](https://blogs.nvidia.com/blog/vera-cpu-eda/)
-- **Powerful Compute So Compact, It’s Clutch — Build AI Anywhere With NVIDIA Jetson** — NVIDIA Blog, 2026-07-28. As a discerning AI investor who values style and substance, Sarah Guo knows this season’s standout accessory isn’t the latest designer purse — but what’s inside it. In a recent video, Guo, founder of AI-native venture capital firm Convictio [link](https://blogs.nvidia.com/blog/build-ai-with-nvidia-jetson/)
-- **Industry Leaders Unite in Open Secure AI Alliance for AI Safety and Security** — NVIDIA Blog, 2026-07-27. Open source software is a critical pillar of the global economy. It underpins cloud computing, financial services, manufacturing, telecommunications, government and internet services by making technology accessible and observable to communi [link](https://blogs.nvidia.com/blog/open-secure-ai-alliance/)
+- **Into the Omniverse: How Open World Models Push the Frontier of Physical AI** — NVIDIA Blog, 2026-08-06. In July, NVIDIA joined more than 200 companies and organizations in signing “Open Weights and American AI Leadership,” an open letter arguing that AI leadership will be measured not by any single frontier model but by whether an open ecosys [link](https://blogs.nvidia.com/blog/open-world-models-physical-ai/)
+- **NVIDIA Joins NSF State and Regional AI Hubs Program to Expand AI Research and Education Across the US** — NVIDIA Blog, 2026-08-04. NVIDIA is participating in the U.S. National Science Foundation’s (NSF) State and Regional Artificial Intelligence Infrastructure Hubs program, an effort launching today to expand access to the advanced computing, data, software and experti [link](https://blogs.nvidia.com/blog/nsf-state-regional-ai-hub-program/)
+- **AI Leaders Propose SAFE Guidelines for Cybersecurity Transparency** — NVIDIA Blog, 2026-08-04. Members of the Open Secure AI Alliance — now more than 120 organizations strong — are developing new guidelines to strengthen agentic AI cybersecurity as the annual Black Hat conference begins in Las Vegas today. The Linux Foundation today  [link](https://blogs.nvidia.com/blog/open-secure-ai-alliance-contributions/)
+- **Firebird Launches CIS Region’s Largest AI Factory in Armenia** — NVIDIA Blog, 2026-08-08. The global buildout of AI infrastructure reached a new milestone today — Firebird, an emerging AI cloud, launched the CIS region’s largest AI factory in Armenia, establishing a new AI computing hub powered by NVIDIA accelerated computing an [link](https://blogs.nvidia.com/blog/firebird-ai-factory-armenia-blackwell-rubin-dsx/)
+- **As AI Increases Demands on Memory, Storage Steps Up** — NVIDIA Blog, 2026-08-04. Surging AI demands are driving the need for massive datasets and context windows that burst past the confines of system memory. But rising needs aren’t met by simply adding more storage capacity. What’s needed is useful, grounded insights f [link](https://blogs.nvidia.com/blog/ai-storage-fms/)
 
 ## Tech press
 
-- **Anthropic says Claude accidentally hacked real companies too** — The Verge AI, 2026-07-31. Anthropic just realized several of its Claude AI models hacked into the systems of three different organizations during testing, acting on their own and without the company noticing. The revelation comes days after rival OpenAI said one of  [link](https://www.theverge.com/ai-artificial-intelligence/973670/anthropic-claude-hacked-organizations-during-cyber-tests)
-- **A fundamental flaw leaves LLMs strikingly vulnerable to attack** — MIT Technology Review, 2026-07-30. It is impossible to make large language models fully secure against hacks because of a fundamental flaw in how they work, a team of researchers argue in a paper presented at the International Conference on Machine Learning, a top AI confere [link](https://www.technologyreview.com/2026/07/30/1140927/a-fundamental-flaw-leaves-llms-vulnerable-to-attack/)
-- **Sam Altman is still making the case for parenting via ChatGPT** — TechCrunch AI, 2026-08-01. OpenAI's CEO seemed excited to share a "cool use case" for parents. [link](https://techcrunch.com/2026/08/01/sam-altman-is-still-making-the-case-for-parenting-via-chatgpt/)
-- **Anthropic says its own AI models breached three companies during security tests** — TechCrunch AI, 2026-07-31. After OpenAI's models broke into Hugging Face, Anthropic checked its own history and found three similar incidents. [link](https://techcrunch.com/2026/07/30/anthropic-says-its-own-ai-models-breached-three-companies-during-security-tests/)
-- **AI hedge fund Situational Awareness may have sold its public portfolio, but it still has its Anthropic shares** — TechCrunch AI, 2026-07-30. The former OpenAI researcher’s fund was forced to unwind public equities after leveraged public bets plummeted. But he still has cards to play. [link](https://techcrunch.com/2026/07/30/ai-hedge-fund-situational-awareness-may-have-sold-its-public-portfolio-but-it-still-has-its-anthropic-shares/)
-- **Judge says Trump admin still lacks evidence for Anthropic ‘supply-chain risk’ label** — TechCrunch AI, 2026-07-30. A federal judge said the Trump administration has not presented enough evidence to justify labeling Anthropic a supply-chain risk, casting doubt on the government's ban on its AI technology. [link](https://techcrunch.com/2026/07/30/judge-says-trump-admin-still-lacks-evidence-for-anthropic-supply-chain-risk-label/)
-- **AI scammers outperform humans when it comes to building trust** — Ars Technica AI, 2026-07-31. The AI chatbot was more effective at creating “exploitable trust” than the humans. [link](https://arstechnica.com/security/2026/07/ai-scammers-outperform-humans-when-it-comes-to-building-trust/)
-- **It’s time to panic about AI safety** — The Verge AI, 2026-07-31. When the phrase "OpenAI hacked Hugging Face" has more or less entered mainstream culture, you know we have an AI problem. This week, we learned more about exactly how OpenAI's agent broke out of a sandbox and autonomously traversed the web, [link](https://www.theverge.com/podcast/973668/ai-safety-openai-hugging-face-vergecast)
-- **Google DeepMind’s new AI model can control a robot’s entire body** — The Verge AI, 2026-07-30. Apptronik’s Apollo 2 robot takes a baseball glove off of a shelf. | Image: Google Google DeepMind says the latest version of its Gemini Robotics AI model can "control entire humanoid robots." While the previous model focused on controlling  [link](https://www.theverge.com/tech/973276/google-deepmind-gemini-robotics-2-whole-body)
-- **YouTuber Hank Green says his AI usage is ‘not healthy’** — TechCrunch AI, 2026-08-01. Green offered a remarkable apology, saying that "the level of dopamine that I've been getting from interacting with LLMs ... is not healthy for me or good for the world." [link](https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy/)
+- **OpenAI is giving ChatGPT free users unlimited text chats** — The Verge AI, 2026-08-06. OpenAI is making a big change for ChatGPT users on its free and Go tiers: Starting next week, users on those tiers will be able to have unlimited text chats with the chatbot, according to OpenAI. Right now, you may run into rate limits if y [link](https://www.theverge.com/ai-artificial-intelligence/976239/openai-chatgpt-free-go-text-chats)
+- **Anthropic will design its own hardware to power Claude** — Ars Technica AI, 2026-08-06. Anthropic and OpenAI are racing to scale up while reducing dependence on Nvidia. [link](https://arstechnica.com/ai/2026/08/anthropic-confirms-plans-to-build-an-in-house-silicon-team/)
+- **Anthropic’s AI used fake identities, malware in rogue attack on GitHub project** — Ars Technica AI, 2026-08-05. Anthropic and OpenAI models’ unprompted actions forced halt to UK cyber tests. [link](https://arstechnica.com/security/2026/08/anthropics-ai-used-fake-identities-malware-in-rogue-attack-on-github-project/)
+- **OpenAI acquires presentation startup NextSlide** — TechCrunch AI, 2026-08-08. NextSlide says its team members are now working on ChatGPT. [link](https://techcrunch.com/2026/08/08/openai-acquires-presentation-startup-nextslide/)
+- **Cloudflare launches Kitesurf, a browser built for AI agents** — TechCrunch AI, 2026-08-07. Kitesurf is a cloud-hosted browser designed for AI agents instead of people. It uses less computing power than Chromium for common automation tasks, helping developers build browser-based AI agents more efficiently. [link](https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/)
+- **ChatGPT brings unlimited text chats to free users** — TechCrunch AI, 2026-08-06. OpenAI said that ChatGPT free and Go users are also getting a new think button for complex queries. [link](https://techcrunch.com/2026/08/06/openai-brings-unlimited-chatgpt-text-chats-to-free-users/)
+- **The Download: reward hacking explained and suspected Iranian cyberattacks** — MIT Technology Review, 2026-08-03. This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. Here’s why AI agents lie and cheat to reach their goals When two OpenAI models hacked into Hugging Fac [link](https://www.technologyreview.com/2026/08/03/1141039/the-download-reward-hacking-water-cyberattacks/)
+- **Here’s why AI agents lie and cheat to reach their goals** — MIT Technology Review, 2026-08-03. MIT Technology Review Explains: Let our writers untangle the complex, messy world of technology to help you understand what’s coming next. You can read more from the series here. When two OpenAI models hacked into the website Hugging Face i [link](https://www.technologyreview.com/2026/08/03/1141009/heres-why-ai-agents-lie-and-cheat-to-reach-their-goals/)
+- **AI chatbots have failed people in crisis. Can that be fixed?** — Ars Technica AI, 2026-08-07. Clinicians and researchers say AI companies need to open up their safety data. [link](https://arstechnica.com/ai/2026/08/ai-chatbots-have-failed-people-in-crisis-can-that-be-fixed/)
+- **ByteDance trains massive AI model in bid to rival Anthropic** — Ars Technica AI, 2026-08-07. TikTok owner training a model with 10 trillion parameters. [link](https://arstechnica.com/ai/2026/08/bytedance-trains-massive-ai-model-in-bid-to-rival-anthropic/)
 
 ## Canada
 
-- **Semiconductor industry says Canada needs a better plan for sovereign silicon** — BetaKit, 2026-07-27. Canada’s Semiconductor Council wants federal AI strategy to include dedicated semiconductor plan. The post Semiconductor industry says Canada needs a better plan for sovereign silicon first appeared on BetaKit. [link](https://betakit.com/semiconductor-industry-says-canada-needs-a-better-plan-for-sovereign-silicon/)
-- **No product could have stopped OpenAI hack, Canadian cybersecurity firms say** — BetaKit, 2026-07-31. Agentic threats are prompting innovation at companies like 1Password and Lastwall. The post No product could have stopped OpenAI hack, Canadian cybersecurity firms say first appeared on BetaKit. [link](https://betakit.com/no-product-could-have-stopped-openai-hack-canadian-cybersecurity-firms-say/)
-- **U of T professor Jacob Tsimerman, who won math’s highest prize, to join OpenAI** — BetaKit, 2026-07-31. Fields Medal winner says AI safety is the most important issue of our time. The post U of T professor Jacob Tsimerman, who won math’s highest prize, to join OpenAI first appeared on BetaKit. [link](https://betakit.com/u-of-t-professor-jacob-tsimerman-who-won-maths-highest-prize-to-join-openai/)
-- **Questrade is remaking its platform for an AI-driven investing market** — BetaKit, 2026-07-30. Digital brokerage showcased chatbot-driven investing, research, and trading options at summer product showcase. The post Questrade is remaking its platform for an AI-driven investing market first appeared on BetaKit. [link](https://betakit.com/questrade-is-remaking-its-platform-for-an-ai-driven-investing-market/)
-- **Vena Solutions set to acquire Morpheo AI in agentic capability push** — BetaKit, 2026-07-28. Toronto startups combine to deepen the role of AI in financial planning and analysis. The post Vena Solutions set to acquire Morpheo AI in agentic capability push first appeared on BetaKit. [link](https://betakit.com/vena-solutions-set-to-acquire-morpheo-ai-in-agentic-capability-push/)
-- **Former Amii founder launches privacy-first AI that keeps user data local** — BetaKit, 2026-07-28. Synsira Software's Kind Local Pro is designed to keep data on-device and out of data centres. The post Former Amii founder launches privacy-first AI that keeps user data local first appeared on BetaKit. [link](https://betakit.com/former-amii-founder-launches-privacy-first-ai-that-keeps-user-data-local/)
-- **Cohere joins Silicon Valley heavyweights in call for open-source AI** — BetaKit, 2026-07-27. AI’s biggest players sign on to Jensen Huang letter supporting open-weight AI models—except for Anthropic. The post Cohere joins Silicon Valley heavyweights in call for open-source AI first appeared on BetaKit. [link](https://betakit.com/cohere-joins-silicon-valley-heavyweights-in-call-for-open-source-ai/)
+- **Shopify stock surges on revenue beat in big quarter for merchants** — BetaKit, 2026-08-05. Gross profit grew by 30 percent as company shipped agentic AI tools for e-commerce. The post Shopify stock surges on revenue beat in big quarter for merchants first appeared on BetaKit. [link](https://betakit.com/shopify-tops-revenue-estimates-in-big-quarter-for-merchants/)
 
-## Northwestern Ontario signal
-
-- **Best AI Ad Generator for Shopify Skincare Sellers Testing TikTok UGC Variations** — NetNewsLedger, 2026-07-31. If you run a skincare store on Shopify, you know where TikTok ad testing usually gets stuck. The product might be solid. The product page might convert. But the creative queue still slows everything down. You need new hooks every week, some [link](https://www.netnewsledger.com/2026/07/31/best-ai-ad-generator-for-shopify-skincare-sellers-testing-tiktok-ugc-variations/?utm_source=rss&utm_medium=rss&utm_campaign=best-ai-ad-generator-for-shopify-skincare-sellers-testing-tiktok-ugc-variations)
 
 ## Civic watch — NEW AI-adjacent mentions
 
@@ -63,23 +56,23 @@ No new mentions this run.
 
 ---
 Source status:
-- ok    OpenAI News (12 kept)
-- ok    Google AI Blog (3 kept)
-- ok    NVIDIA Blog (3 kept)
-- ok    Ars Technica AI (20 kept)
+- ok    OpenAI News (10 kept)
+- ok    Google AI Blog (2 kept)
+- ok    NVIDIA Blog (5 kept)
+- ok    Ars Technica AI (17 kept)
 - ok    The Verge AI (10 kept)
 - ok    TechCrunch AI (20 kept)
-- ok    MIT Technology Review (3 kept)
-- ok    BetaKit (7 kept)
+- ok    MIT Technology Review (2 kept)
+- ok    BetaKit (1 kept)
 - ok    Hacker News 150+ (0 kept)
-- ok    NetNewsLedger (1 kept)
+- ok    NetNewsLedger (0 kept)
 - ok    TBNewswatch (0 kept)
 - ok    NW Ontario Innovation Centre (0 kept)
 - ok    watch: Thunder Bay council agendas (eSCRIBE) (4 agendas, 0 mentions, 0 new)
 - ok    watch: Lakehead Public Schools news (0 mentions, 0 new)
 - ok    watch: Lakehead University news (0 mentions, 0 new)
 
-## Site analytics — thunderbayai.com (auto-pulled 2026-08-01)
+## Site analytics — thunderbayai.com (auto-pulled 2026-08-08)
 
 Real GSC/GA4 numbers for the consumers of this brief (refill, op-ed, site-improvement).
 Use these to pick data-driven work: striking-distance queries to strengthen, high-impression
@@ -91,37 +84,39 @@ beyond what is printed here.
      0cl       2im  0.0% p  6.0  "lakeheadu" -site:reddit.com -site:twitter.com -site:x.
      0cl       1im  0.0% p 50.0  ai model tiers
      0cl       1im  0.0% p  1.0  anthropic mila
-     0cl       3im  0.0% p 78.3  claude cowork for ontario municipalities
+     0cl       2im  0.0% p 75.5  claude cowork for ontario municipalities
+     0cl       1im  0.0% p 61.0  cpso ai scribe
+     0cl       1im  0.0% p 34.0  futurpreneur loan
      0cl       1im  0.0% p 58.0  innovation centre thunder bay
      0cl       1im  0.0% p 55.0  is openclaw open source
      0cl       1im  0.0% p  3.0  m365 copilot model selection
-     0cl       2im  0.0% p 45.0  northwestern ontario innovation centre
-     0cl       2im  0.0% p 78.0  ontario research and development tax credit
-     0cl       1im  0.0% p  3.0  software for estimation
-     0cl       1im  0.0% p 80.0  sr&ed refundable tax credits
-     0cl       1im  0.0% p 15.0  terra 5.6
+     0cl       2im  0.0% p 61.0  medical scribe ai phipa
+     0cl       1im  0.0% p  1.0  mila anthropic
+     0cl       3im  0.0% p 45.0  northwestern ontario innovation centre
 ```
 ### GSC top pages (28d)
 ```
-     5cl      63im  7.9% p  5.4  https://thunderbayai.com/blog/signal-ai-funding-nwo-wee
-     3cl      35im  8.6% p  6.8  https://thunderbayai.com/
-     2cl      40im  5.0% p  5.6  https://thunderbayai.com/about/
-     1cl       3im 33.3% p 12.3  https://thunderbayai.com/blog/anthropic-10-million-cana
+     6cl      76im  7.9% p  5.7  https://thunderbayai.com/blog/signal-ai-funding-nwo-wee
+     4cl      37im 10.8% p  7.1  https://thunderbayai.com/
+     2cl      47im  4.3% p  5.5  https://thunderbayai.com/about/
+     1cl       8im 12.5% p  5.6  https://thunderbayai.com/blog/ai-wildfire-detection-nor
+     1cl       7im 14.3% p  9.1  https://thunderbayai.com/blog/anthropic-10-million-cana
      1cl      25im  4.0% p  6.0  https://thunderbayai.com/blog/signal-ai-funding-nwo-wee
      1cl       4im 25.0% p  5.2  https://thunderbayai.com/blog/thunder-bay-local-tech-20
-     1cl       6im 16.7% p  6.0  https://thunderbayai.com/funding/thunder-bay-ventures-c
-     0cl       4im  0.0% p  6.2  https://thunderbayai.com/blog/
+     1cl       7im 14.3% p  6.7  https://thunderbayai.com/funding/thunder-bay-ventures-c
+     0cl       5im  0.0% p  6.0  https://thunderbayai.com/blog/
      0cl       1im  0.0% p  2.0  https://thunderbayai.com/blog/ai-and-robotics-northern-
      0cl       2im  0.0% p  5.5  https://thunderbayai.com/blog/ai-becoming-governed-fabl
      0cl       1im  0.0% p  2.0  https://thunderbayai.com/blog/ai-becoming-governed-fabl
-     0cl       1im  0.0% p 10.0  https://thunderbayai.com/blog/ai-for-thunder-bay-busine
 ```
 ### GSC striking distance (positions 8-20 — one push from page 1)
 ```
 ```
 ### GA4 channels (7d: sessions, engagement, conversions)
 ```
-  Direct                 sess=    18 eng=  22% conv=0
-  Organic Social         sess=     7 eng=  43% conv=0
-  Organic Search         sess=     2 eng= 100% conv=0
+  Direct                 sess=     9 eng=  22% conv=0
+  Organic Search         sess=     3 eng=   0% conv=0
+  AI Assistant           sess=     1 eng=   0% conv=0
+  Organic Social         sess=     1 eng=   0% conv=0
+  Referral               sess=     1 eng=   0% conv=0
 ```
