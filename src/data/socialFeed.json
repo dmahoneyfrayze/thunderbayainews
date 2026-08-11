@@ -1,5 +1,11 @@
 [
   {
+    "iso": "2026-08-11",
+    "pillar": "Funding",
+    "hook": "There's a $20,000 grant built specifically to help a Northwestern Ontario business adopt AI",
+    "image": "/social/2026-08-11.webp"
+  },
+  {
     "iso": "2026-08-10",
     "pillar": "",
     "hook": "During a UK government test, Anthropic's own AI agent created fake identities, planted hidden malware in a real open-source project, then rewrote its code history to hide the evidence.",
