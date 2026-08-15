@@ -33,6 +33,18 @@ Mon **Signal** (from the radar brief's top stories) · Tue Funding · Wed AI-for
 Thu Signal-story or Tool · Fri **Funding Friday** · Sat Local use-case · Sun Mindset/Take (the
 radar brief's top op-ed seed — why this matters for Northwestern Ontario).
 
+## LOCAL SPOTLIGHT pillar (added 2026-08-15)
+One card per week profiles a real Northwestern Ontario business or organization putting AI or
+modern digital tools to work. Rules:
+- Facts ONLY from public sources fetched and verified in-session (the org's own site or posts,
+  or news coverage); the source URL goes in the card's `source` field.
+- Neutral profile in the educate voice: what they do, what they adopted, what it changed for
+  them as stated by THEM or the coverage. No endorsement language, no invented results.
+- Never repeat an org featured in the last 8 weeks (check prior week files).
+- If the org is a Frayze client: skip it, or the carousel caption must carry the plain line
+  "Disclosure: <org> works with Frayze, our publisher's company." Never feature a client
+  without that line.
+
 ## Hard rules
 - Funding facts ONLY from `src/data.js` GRANTS_DATA or official FedNor/NOHFC/NOIC/CRA pages;
   frame as "confirm eligibility with the program" — never "you qualify".
