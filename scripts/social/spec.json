@@ -1,68 +1,68 @@
 {
-  "iso": "2026-08-03",
-  "issueNo": "07",
-  "dateLabel": "AUG 3",
+  "iso": "2026-08-17",
+  "issueNo": "08",
+  "dateLabel": "AUG 17",
   "handle": "thunderbayai",
   "cover": {
-    "hook": "Canada just approved a $70B nickel mine in Northern Ontario — and AI costs hit a new floor.",
-    "sub": "Plus: EU AI fines go live, US 50% tariffs on Canadian plywood land August 19, and NWO fires: 1,876 evacuees remain."
+    "hook": "Anthropic hit $11.5 billion in one quarter — and locked in AI pricing through the fall.",
+    "sub": "Plus: Ontario sets data centre ground rules, FedNor backs NWO clean energy and Northern Ontario AI security, and wildfire evacuees fall below 900."
   },
-  "reelSub": "A $70B mine, EU AI enforcement, and frontier AI at $0.20 per million tokens — this week in the Northwest.",
+  "reelSub": "Anthropic's first profit, Ontario's data centre rules, NWO clean energy, and wildfire recovery — this week in the Northwest.",
   "storySub": "Five moves this week that matter for Northern Ontario businesses and operators.",
   "items": [
     {
-      "tag": "INFRASTRUCTURE",
-      "big": "$70B",
-      "bigSize": "120px",
-      "title": "Canada approves a $70B nickel mine in Northern Ontario",
-      "body": "Canada Nickel's Crawford Project — world's second-largest nickel reserves — got federal approval July 31. $5B investment, 5,000 construction jobs, 41-year mine life. First major Northern Ontario mine through the amended Impact Assessment Act.",
-      "tease": "Next: the US tariff hitting Canadian plywood on August 19.",
-      "reelLine": "Crawford Nickel gets federal approval: $5B investment, 5,000 jobs, $70B projected GDP impact for Northern Ontario."
-    },
-    {
-      "tag": "GOVERNMENT",
-      "big": "AUG 19",
-      "bigSize": "86px",
-      "title": "US 50% tariffs on Canadian plywood and paper: two weeks out",
-      "body": "New 50% US tariffs cover MDF, plywood, veneer panels, paper, and furniture components — effective August 19. Lumber under existing Section 232 duties is exempt. NWO wood composite and paper facilities are directly in scope.",
-      "tease": "Next: the EU just activated its AI penalty machine.",
-      "reelLine": "US 50% tariffs on Canadian plywood, MDF, and paper products land August 19 — NWO mills are in scope."
-    },
-    {
-      "tag": "GOVERNMENT",
-      "big": "FINES",
-      "bigSize": "120px",
-      "title": "EU AI Act enforcement is live — reaches Canadian companies",
-      "body": "As of August 2, the EU can fine AI providers up to 3% of global revenue or 35M euros for prohibited practices. The Act covers any company serving EU customers, regardless of where it is headquartered.",
-      "tease": "Next: frontier AI just dropped to $0.20 per million tokens.",
-      "reelLine": "EU AI Act enforcement activated August 2 — fines up to 3% of global revenue now apply to companies worldwide."
-    },
-    {
       "tag": "MODEL WATCH",
-      "big": "$0.20",
-      "bigSize": "180px",
-      "title": "OpenAI cuts GPT-5.6 Luna to $0.20 per million tokens",
-      "body": "An 80% price drop on July 30 brings frontier-generation AI to small-business price levels. At typical usage volumes, that is low single-digit monthly costs. Competition from Anthropic and others is driving AI costs down fast.",
-      "tease": "Next: NWO wildfire evacuees and what it means for communities.",
-      "reelLine": "OpenAI cut GPT-5.6 Luna 80% to $0.20 per million tokens — frontier AI now at small-business prices."
+      "big": "$11.5B",
+      "bigSize": "120px",
+      "title": "Anthropic's first profit — and Sonnet 5 pricing locked in",
+      "body": "Anthropic reported preliminary Q2 revenue exceeding $11.5B USD and a first quarterly operating profit of $559M. Separately, Sonnet 5 pricing ($2/$10 per MTok) is now permanent — the September 1 price hike was cancelled.",
+      "tease": "Next: Ontario just set the rules for AI data centres.",
+      "reelLine": "Anthropic hit $11.5B in Q2 revenue and its first profit — and locked Sonnet 5 pricing at $2 per million tokens permanently."
+    },
+    {
+      "tag": "GOVERNMENT",
+      "big": "$122B",
+      "bigSize": "120px",
+      "title": "Ontario launches Data Centre Playbook for AI infrastructure",
+      "body": "On August 13, Ontario released a framework screening data centres on economic, security, and community grounds. Projects over 1MW pay higher power rates. The province says its broader AI strategy could add $122B by 2035.",
+      "tease": "Next: FedNor invests in clean energy on Lake Nipigon.",
+      "reelLine": "Ontario's Data Centre Playbook sets ground rules for AI infrastructure investment — 30-day comment period now open."
+    },
+    {
+      "tag": "FUNDING",
+      "big": "$1.1M",
+      "bigSize": "120px",
+      "title": "FedNor backs Indigenous biomass heating on Lake Nipigon",
+      "body": "Bingwi Neyaashi Anishinaabek on Lake Nipigon gets $1.1M total through FedNor to build a district biomass heating system using local sawmill wood residue, replacing diesel heat in community buildings.",
+      "tease": "Next: NWO's wildfire recovery in numbers.",
+      "reelLine": "FedNor invests $1.1M in clean energy for a Lake Nipigon First Nation — sawmill waste replaces diesel heat."
     },
     {
       "tag": "LOCAL",
-      "big": "1,876",
+      "big": "829",
       "bigSize": "120px",
-      "title": "NWO wildfire evacuees fall to 1,876; 8 new fires on August 1",
-      "body": "Evacuee count dropped from 2,800+ to 1,876 — real progress, but 130 fires remained active August 2 and 8 new fires started on August 1. Road closures on Highways 811 and 527 remain in effect.",
+      "title": "NWO wildfire evacuees down to 829; fire hazard mostly lower",
+      "body": "From 2,800+ at peak to 829 as of August 15 — and active fires in NWO fell from 130 to 87. Fire hazard is mostly low to moderate in the Northwest, with some high hazard in the southwest.",
+      "tease": "Next: FedNor funds AI cybersecurity in Northern Ontario.",
+      "reelLine": "NWO wildfire evacuees fall to 829 — from a peak of 2,800+. 87 active fires remain, mostly low to moderate hazard."
+    },
+    {
+      "tag": "FUNDING",
+      "big": "$1.2M",
+      "bigSize": "120px",
+      "title": "FedNor funds Northern Ontario AI cybersecurity platform",
+      "body": "SKADI Cyber Defense Corp in North Bay gets $1.2M from FedNor's Regional Defence Investment Initiative to commercialize Frostbow — a cognitive AI platform that detects and responds to cyber threats with minimal human oversight.",
       "tease": "The throughline ->",
-      "reelLine": "NWO wildfire evacuees fall to 1,876 — but 130 fires remain active and 8 new ones started August 1."
+      "reelLine": "FedNor backs an AI cybersecurity platform in Northern Ontario — $1.2M for SKADI's Frostbow system under the RDII program."
     }
   ],
   "summary": {
-    "title": "Critical minerals unlocked, AI costs at record lows, new penalties live, and trade tariffs two weeks out",
-    "body": "A $70B mine cleared the regulatory gate, frontier AI costs hit record lows, EU enforcement penalties went live, US tariffs on Canadian plywood and paper land in two weeks, and Northern Ontario's wildfire season continues its long-tail recovery."
+    "title": "AI becomes sustainable, Ontario sets infrastructure rules, and NWO investments continue",
+    "body": "Anthropic's first quarterly profit and Sonnet 5 pricing permanence reduce uncertainty for businesses building on Claude. Ontario's data centre framework shapes where AI infrastructure lands next. Two FedNor investments — clean energy on Lake Nipigon and AI cybersecurity in North Bay — show the federal agency deploying capital across Northern Ontario's sectors while wildfire recovery continues."
   },
   "captions": {
-    "carousel": "Canada Nickel's Crawford mine near Timmins received federal approval July 31 — the world's second-largest nickel reserves, $5 billion in investment, 5,000 construction jobs, and the first major mining project through Canada's amended Impact Assessment Act. US 50% tariffs on Canadian plywood, MDF, and paper products were confirmed effective August 19, putting NWO wood composite and paper facilities directly in scope. As of August 2, the EU AI Act's enforcement powers are active — the EU can now fine AI providers up to 3% of global revenue, and the Act reaches any company serving EU customers. On July 30, OpenAI cut GPT-5.6 Luna by 80% to $0.20 per million tokens, making frontier-generation AI practical at small-business cost levels. And NWO wildfire evacuee counts fell from 2,800+ to 1,876, though 130 fires remained active and 8 new ones started August 1. Full Signal at thunderbayai.com. #ThunderBay #NorthernOntario #NorthwesternOntario #AIbusiness #CriticalMinerals #NWOntario #EUAIAct",
-    "reel": "Crawford Nickel approved — $70B for Northern Ontario. US 50% tariffs on Canadian plywood land August 19. EU AI Act fines go live. OpenAI cuts frontier AI to $0.20 per million tokens. And NWO fires: 1,876 evacuees, 130 active. Full Signal at thunderbayai.com. #NorthernOntario #ThunderBay #AIbusiness #CriticalMinerals #NWOntario",
+    "carousel": "Anthropic's preliminary Q2 2026 revenue exceeded US$11.5 billion — a roughly 15x year-over-year jump — with its first quarterly operating profit of $559M reported. The same week, Anthropic confirmed Claude Sonnet 5 pricing of $2 per million input tokens and $10 per million output is now permanent; a September 1 increase will not happen. Ontario released its Data Centre Playbook August 13, opening a 30-day comment period on how the province will screen large AI infrastructure projects — three tests, higher power rates for facilities over 1MW, and closed-loop water system requirements. FedNor invested $1.1M in a biomass clean energy system for Bingwi Neyaashi Anishinaabek on Lake Nipigon, replacing diesel heat with local sawmill wood residue. NWO wildfire evacuees fell from 2,800+ to 829 as of August 15, with active fires down to 87. And FedNor backed SKADI Cyber Defense Corp in North Bay with $1.2M for its Frostbow AI cybersecurity platform. Full Signal at thunderbayai.com. #ThunderBay #NorthernOntario #NorthwesternOntario #AIbusiness #FedNor #NWOntario #Anthropic",
+    "reel": "Anthropic's first profit: $11.5B in Q2. Ontario sets data centre rules. FedNor backs Lake Nipigon clean energy. NWO wildfire evacuees: 829 and falling. And $1.2M for AI cybersecurity in Northern Ontario. Full Signal at thunderbayai.com. #NorthernOntario #ThunderBay #AIbusiness #FedNor #NWOntario",
     "story": "Story frame — add a poll sticker and a link sticker to thunderbayai.com."
   }
 }
