@@ -45,7 +45,7 @@ content; funding pages are the high-intent layer, not the whole diet. Rules:
 - [x] voice-ai-business-phone-line-nwo-service-business Trends — Voice AI is coming for the business phone line: what NWO service businesses should know before it answers for them
 - [x] starter-company-plus-thunder-bay-how-it-works Funding — Starter Company Plus (TBay & District Entrepreneur Centre) — up to $5K grant + coaching
 - [x] using-ai-to-answer-google-reviews-without-sounding-like-a-robot Tips — Using AI to answer Google reviews without sounding like a robot
-- [ ] Playbook — AI for main-street retail and local shops in Thunder Bay
+- [x] ai-retail-local-shops-thunder-bay Playbook — AI for main-street retail and local shops in Thunder Bay
 - [ ] Perspective — A grant won't fix a broken process: fund the fix, not the tool
 - [ ] Funding — The full NWO funding stack: how to combine programs to fund a systems build (pillar/hub page)
 - [ ] Tips — What is an AI agent, and what could one do for a Northwest business
