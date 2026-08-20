@@ -152,7 +152,17 @@ stay scheduled (review buffer). Backlog (work a couple per cycle; let engagement
     NOT turn the hub into a Frayze sales site — one quiet bridge, not banners. Wire the lead capture to a
     real list/CRM (pairs with item 8). This is the monetization layer; keep it subordinate to the content.
 10. **Analytics + Search Console loop** — once data exists, prune/improve low-performers, double down on
-    what ranks; surface striking-distance queries.
+    what ranks; surface striking-distance queries. ~~First data-driven pass~~ — DONE 2026-08-20
+    (commit `ddc060e`): GSC (28d, from `resources/radar/brief-latest.md` 2026-08-15) showed `/about`
+    at 40 impressions / position 5.7 / **0% CTR** — the best-positioned page on the site besides the
+    homepage, getting zero clicks. Rewrote the title from "Why Thunder Bay AI exists | Thunder Bay AI"
+    to "About Thunder Bay AI | NWO AI & Funding Intelligence Hub" and tightened the meta description
+    to front-load what the page is, matching the `AboutPage` JSON-LD `name`/`description` for
+    consistency. No content or claims changed. FOLLOW-UP for next run: `/blog/signal-ai-funding-nwo-week...`
+    (the Signal roundup post) had the second-highest impression volume (31im) but only 3.2% CTR at
+    position 6.5 — same pattern, worth a title/meta pass once a fresh brief confirms it's still true.
+    GSC striking-distance (positions 8-20) was empty this cycle; re-check next brief before falling
+    back to backlog item 4 (situational adoption posts).
 
 ## Autonomous improvement protocol (the monthly agent MUST follow)
 1. Read this ROADMAP, the STRATEGY thesis, and the current site. Pick the **single highest-value
