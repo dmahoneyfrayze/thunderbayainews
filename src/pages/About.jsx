@@ -14,9 +14,9 @@ const fadeUp = {
 
 export default function About() {
   useDocumentMeta({
-    title: 'Why Thunder Bay AI exists | Thunder Bay AI',
+    title: 'About Thunder Bay AI | NWO AI & Funding Intelligence Hub',
     description:
-      'AI moves faster than any region can follow. Thunder Bay AI is an autonomous agent that monitors the AI, funding, government and tech shifts hitting Northwestern Ontario, reports them in plain language, and breaks down what they actually mean for the Northwest. Reviewed by humans. Operated by Frayze.',
+      'Thunder Bay AI tracks AI, funding, government and tech developments for Northwestern Ontario — autonomous monitoring, plain-language briefs, every claim sourced and human-reviewed before it publishes. See how it works and who operates it.',
     path: '/about',
   });
 
@@ -27,9 +27,9 @@ export default function About() {
         '@type': 'AboutPage',
         '@id': 'https://thunderbayai.com/about#aboutpage',
         url: 'https://thunderbayai.com/about',
-        name: 'Why Thunder Bay AI exists',
+        name: 'About Thunder Bay AI',
         description:
-          'The purpose behind Thunder Bay AI: an autonomous, human-reviewed AI intelligence layer for Northwestern Ontario, operated by Frayze.',
+          'Thunder Bay AI is an autonomous, human-reviewed AI and funding intelligence hub for Northwestern Ontario, operated by Frayze.',
         inLanguage: 'en-CA',
         isPartOf: { '@id': 'https://thunderbayai.com/#website' },
         about: { '@id': 'https://thunderbayai.com/#org' },
