@@ -1,68 +1,68 @@
 {
-  "iso": "2026-08-17",
-  "issueNo": "08",
-  "dateLabel": "AUG 17",
+  "iso": "2026-08-24",
+  "issueNo": "09",
+  "dateLabel": "AUG 24",
   "handle": "thunderbayai",
   "cover": {
-    "hook": "Anthropic hit $11.5 billion in one quarter — and locked in AI pricing through the fall.",
-    "sub": "Plus: Ontario sets data centre ground rules, FedNor backs NWO clean energy and Northern Ontario AI security, and wildfire evacuees fall below 900."
+    "hook": "US 50% tariffs hit Canadian wood products August 22 — talks collapsed. Canada fires back September 8.",
+    "sub": "Plus: Ottawa opens an AI transparency consultation NWO businesses can shape before September 23, and a Northern Ontario defence fund opens for AI and digital companies."
   },
-  "reelSub": "Anthropic's first profit, Ontario's data centre rules, NWO clean energy, and wildfire recovery — this week in the Northwest.",
-  "storySub": "Five moves this week that matter for Northern Ontario businesses and operators.",
+  "reelSub": "US tariff escalation, Canada's counter-punch, AI consultation deadline, and a Northern Ontario defence fund for tech companies — this week in the Northwest.",
+  "storySub": "Four moves this week that matter for Northern Ontario businesses and operators.",
   "items": [
     {
-      "tag": "MODEL WATCH",
-      "big": "$11.5B",
-      "bigSize": "120px",
-      "title": "Anthropic's first profit — and Sonnet 5 pricing locked in",
-      "body": "Anthropic reported preliminary Q2 revenue exceeding $11.5B USD and a first quarterly operating profit of $559M. Separately, Sonnet 5 pricing ($2/$10 per MTok) is now permanent — the September 1 price hike was cancelled.",
-      "tease": "Next: Ontario just set the rules for AI data centres.",
-      "reelLine": "Anthropic hit $11.5B in Q2 revenue and its first profit — and locked Sonnet 5 pricing at $2 per million tokens permanently."
+      "tag": "NATIONAL",
+      "big": "50%",
+      "bigSize": "180px",
+      "title": "US tariffs on Canadian goods took effect August 22",
+      "body": "Plywood, MDF, veneer panels, and paper now face a 50% US duty after Canada-US talks collapsed during a three-day pause. Softwood lumber, under its own tariff regime, is exempt. Economists project 90,000 Canadian jobs at risk.",
+      "tease": "Next: Canada's counter-punch.",
+      "reelLine": "US 50% tariffs on Canadian goods went into effect August 22 after negotiations collapsed — plywood, MDF, and paper are in the affected categories."
     },
     {
       "tag": "GOVERNMENT",
-      "big": "$122B",
+      "big": "Sep 8",
       "bigSize": "120px",
-      "title": "Ontario launches Data Centre Playbook for AI infrastructure",
-      "body": "On August 13, Ontario released a framework screening data centres on economic, security, and community grounds. Projects over 1MW pay higher power rates. The province says its broader AI strategy could add $122B by 2035.",
-      "tease": "Next: FedNor invests in clean energy on Lake Nipigon.",
-      "reelLine": "Ontario's Data Centre Playbook sets ground rules for AI infrastructure investment — 30-day comment period now open."
+      "title": "Canada retaliates — dollar for dollar — on September 8",
+      "body": "PM Carney called US terms 'unfair, uneconomic.' Canada is matching the tariffs on US goods effective September 8. Both sides of the cross-border cost structure are shifting simultaneously for NWO exporters and importers.",
+      "tease": "Next: Ottawa wants your input on AI rules.",
+      "reelLine": "Canada fires back with dollar-for-dollar counter-tariffs on US goods, effective September 8 — PM Carney says US terms were unfair and uneconomic."
+    },
+    {
+      "tag": "GOVERNMENT",
+      "big": "Sep 23",
+      "bigSize": "120px",
+      "title": "Canada's AI transparency consultation: submissions open now",
+      "body": "Ottawa is shaping the AI disclosure rules that will govern every Canadian business. Minister Evan Solomon is taking written input until September 23 on detecting AI content, chatbot disclosure, and AI incident tracking. NWO businesses can submit now.",
+      "tease": "Next: defence money for NWO's AI sector.",
+      "reelLine": "Canada's AI transparency consultation closes September 23 — Ottawa is actively writing the rules that will govern how businesses disclose AI use to customers."
     },
     {
       "tag": "FUNDING",
-      "big": "$1.1M",
+      "big": "$50K",
       "bigSize": "120px",
-      "title": "FedNor backs Indigenous biomass heating on Lake Nipigon",
-      "body": "Bingwi Neyaashi Anishinaabek on Lake Nipigon gets $1.1M total through FedNor to build a district biomass heating system using local sawmill wood residue, replacing diesel heat in community buildings.",
-      "tease": "Next: NWO's wildfire recovery in numbers.",
-      "reelLine": "FedNor invests $1.1M in clean energy for a Lake Nipigon First Nation — sawmill waste replaces diesel heat."
+      "title": "NODO defence fund open for NWO AI and digital businesses",
+      "body": "FedNor-backed, up to $50K at 75% of costs — non-repayable — for NWO businesses entering the defence sector. AI, digital systems, and cybersecurity are explicitly eligible. Apply through tbcnps.ca.",
+      "tease": "Next: the AI compliance rules that apply to your business today.",
+      "reelLine": "Northern Ontario's NODO defence fund is accepting applications — up to $50K for NWO businesses in AI, digital systems, and cybersecurity."
     },
     {
-      "tag": "LOCAL",
-      "big": "829",
-      "bigSize": "120px",
-      "title": "NWO wildfire evacuees down to 829; fire hazard mostly lower",
-      "body": "From 2,800+ at peak to 829 as of August 15 — and active fires in NWO fell from 130 to 87. Fire hazard is mostly low to moderate in the Northwest, with some high hazard in the southwest.",
-      "tease": "Next: FedNor funds AI cybersecurity in Northern Ontario.",
-      "reelLine": "NWO wildfire evacuees fall to 829 — from a peak of 2,800+. 87 active fires remain, mostly low to moderate hazard."
-    },
-    {
-      "tag": "FUNDING",
-      "big": "$1.2M",
-      "bigSize": "120px",
-      "title": "FedNor funds Northern Ontario AI cybersecurity platform",
-      "body": "SKADI Cyber Defense Corp in North Bay gets $1.2M from FedNor's Regional Defence Investment Initiative to commercialize Frostbow — a cognitive AI platform that detects and responds to cyber threats with minimal human oversight.",
+      "tag": "GOVERNMENT",
+      "big": "LAYERED",
+      "bigSize": "86px",
+      "title": "Three AI compliance rules are active for NWO businesses right now",
+      "body": "Ontario's AI hiring disclosure (since Jan 1), EU AI Act enforcement (since Aug 2), and Canada's AI transparency consultation (until Sep 23). No comprehensive federal AI law exists, but the net is tightening from three directions at once.",
       "tease": "The throughline ->",
-      "reelLine": "FedNor backs an AI cybersecurity platform in Northern Ontario — $1.2M for SKADI's Frostbow system under the RDII program."
+      "reelLine": "Three AI rules are active for NWO businesses now: Ontario hiring disclosure, EU Act enforcement, and Canada's open consultation. No federal AI law, but the net is tightening."
     }
   ],
   "summary": {
-    "title": "AI becomes sustainable, Ontario sets infrastructure rules, and NWO investments continue",
-    "body": "Anthropic's first quarterly profit and Sonnet 5 pricing permanence reduce uncertainty for businesses building on Claude. Ontario's data centre framework shapes where AI infrastructure lands next. Two FedNor investments — clean energy on Lake Nipigon and AI cybersecurity in North Bay — show the federal agency deploying capital across Northern Ontario's sectors while wildfire recovery continues."
+    "title": "Trade escalation, AI rule-making, and NWO defence funding — all converging this week",
+    "body": "The US-Canada trade war escalated with 50% tariffs on Canadian goods taking effect August 22 and a Canadian counter-punch landing September 8 — NWO wood-products operators are directly exposed. Meanwhile, businesses using AI face a layered compliance picture from three directions simultaneously, with Ottawa's own transparency consultation closing September 23. And a Northern Ontario defence fund for AI and digital companies is now open."
   },
   "captions": {
-    "carousel": "Anthropic's preliminary Q2 2026 revenue exceeded US$11.5 billion — a roughly 15x year-over-year jump — with its first quarterly operating profit of $559M reported. The same week, Anthropic confirmed Claude Sonnet 5 pricing of $2 per million input tokens and $10 per million output is now permanent; a September 1 increase will not happen. Ontario released its Data Centre Playbook August 13, opening a 30-day comment period on how the province will screen large AI infrastructure projects — three tests, higher power rates for facilities over 1MW, and closed-loop water system requirements. FedNor invested $1.1M in a biomass clean energy system for Bingwi Neyaashi Anishinaabek on Lake Nipigon, replacing diesel heat with local sawmill wood residue. NWO wildfire evacuees fell from 2,800+ to 829 as of August 15, with active fires down to 87. And FedNor backed SKADI Cyber Defense Corp in North Bay with $1.2M for its Frostbow AI cybersecurity platform. Full Signal at thunderbayai.com. #ThunderBay #NorthernOntario #NorthwesternOntario #AIbusiness #FedNor #NWOntario #Anthropic",
-    "reel": "Anthropic's first profit: $11.5B in Q2. Ontario sets data centre rules. FedNor backs Lake Nipigon clean energy. NWO wildfire evacuees: 829 and falling. And $1.2M for AI cybersecurity in Northern Ontario. Full Signal at thunderbayai.com. #NorthernOntario #ThunderBay #AIbusiness #FedNor #NWOntario",
+    "carousel": "US 50 per cent tariffs on Canadian plywood, MDF, panel products, and paper went into effect Saturday, August 22, after Canada-US negotiations collapsed during a three-day pause. Prime Minister Carney declared the US terms unfair and announced Canada will match the tariffs dollar-for-dollar on US goods effective September 8. For NWO wood-products and paper operators, the 50% duty is active now — verify your Harmonized Tariff Schedule codes before adjusting pricing. Separately, Ottawa is taking written submissions on Canada's AI transparency rules until September 23 — NWO businesses can participate now at canada.ca. The Northern Ontario Defence Opportunities fund is open to NWO businesses in AI, digital, and cybersecurity, offering up to $50,000 at 75% of costs through tbcnps.ca. And three AI compliance signals are active simultaneously: Ontario's hiring disclosure rule, EU Act enforcement, and Canada's open consultation. Full Signal at thunderbayai.com. #ThunderBay #NorthernOntario #NorthwesternOntario #AIbusiness #FedNor #NWOntario #CanadaTariffs",
+    "reel": "US 50% tariffs hit Canadian goods August 22. Canada fires back September 8. Ottawa's AI transparency rules are being written now — submit by September 23. And Northern Ontario's defence fund is open for AI and digital companies. Full Signal at thunderbayai.com. #NorthernOntario #ThunderBay #AIbusiness #FedNor #NWOntario",
     "story": "Story frame — add a poll sticker and a link sticker to thunderbayai.com."
   }
 }
