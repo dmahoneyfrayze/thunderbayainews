@@ -1,5 +1,11 @@
 [
   {
+    "iso": "2026-08-24",
+    "pillar": "",
+    "hook": "A 27-billion-parameter AI agent just outperformed Anthropic's and OpenAI's flagship models at a real research task - the same week OpenAI promised zero data retention on those flagship models and a new study found a third of the web has been written by AI since ChatGPT launched.",
+    "image": "/social/2026-08-24.webp"
+  },
+  {
     "iso": "2026-08-23",
     "pillar": "Mindset",
     "hook": "OpenAI's own data shows people mostly stopped asking ChatGPT questions at work - they're using it to just do the task now",
