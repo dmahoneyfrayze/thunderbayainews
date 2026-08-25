@@ -1,5 +1,11 @@
 [
   {
+    "iso": "2026-08-25",
+    "pillar": "Funding",
+    "hook": "Canada's flagship R&D funding program has a stream built specifically for AI adoption and development",
+    "image": "/social/2026-08-25.webp"
+  },
+  {
     "iso": "2026-08-24",
     "pillar": "",
     "hook": "A 27-billion-parameter AI agent just outperformed Anthropic's and OpenAI's flagship models at a real research task - the same week OpenAI promised zero data retention on those flagship models and a new study found a third of the web has been written by AI since ChatGPT launched.",
