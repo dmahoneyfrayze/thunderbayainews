@@ -49,7 +49,7 @@ content; funding pages are the high-intent layer, not the whole diet. Rules:
 - [x] grant-wont-fix-broken-process-fund-fix-not-tool Perspective — A grant won't fix a broken process: fund the fix, not the tool
 - [x] nwo-funding-stack-combine-programs-systems-build Funding — The full NWO funding stack: how to combine programs to fund a systems build (pillar/hub page)
 - [x] what-is-ai-agent-northwest-ontario-business Tips — What is an AI agent, and what could one do for a Northwest business
-- [ ] Playbook — AI for the forestry and wood-products industry in NWO
+- [x] ai-forestry-wood-products-northwestern-ontario Playbook — AI for the forestry and wood-products industry in NWO
 - [ ] Trends — AI prices keep falling: what that means for a small-business budget (and when to wait)
 - [ ] Funding — NADF business loans (Indigenous businesses, Thunder Bay) — up to $500K, microloans + women-in-business stream
 - [ ] Tips — AI meeting notes and call summaries: the tools, the cost, and the privacy check to run first
