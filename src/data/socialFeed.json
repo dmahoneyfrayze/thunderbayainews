@@ -1,5 +1,11 @@
 [
   {
+    "iso": "2026-08-26",
+    "pillar": "AI for Business",
+    "hook": "One NVIDIA engineer went from idea to working prototype in 3 to 5 days instead of the 2 to 3 weeks it would have taken building it by hand",
+    "image": "/social/2026-08-26.webp"
+  },
+  {
     "iso": "2026-08-25",
     "pillar": "Funding",
     "hook": "Canada's flagship R&D funding program has a stream built specifically for AI adoption and development",
