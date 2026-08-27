@@ -163,6 +163,7 @@ hard rules (no dark backgrounds or neon values on light surfaces, readability fi
   slug: 'kebab-case-unique-slug',
   title: 'Sharp, specific title',
   seoTitle: 'Keyword-led, <=52 chars',   // REQUIRED — see below
+  metaDescription: '<=155 chars, strongest hook',   // optional — see below, use when dek is long
   dek: 'One-sentence summary of the value.',
   category: 'News' | 'Tips' | 'Models' | 'Government' | 'Funding' | 'Programs' | 'Local Tech',
   date: 'Month DD, YYYY',   iso: 'YYYY-MM-DD',   readMins: <int>,
@@ -183,6 +184,22 @@ Rules for `seoTitle`:
   "NOHFC Invest North Grow: expansion funding", not "What the new NOHFC stream means for us".
 - **No numbers you have not verified.** Same bar as the body ([[proof-integrity]]).
 - Omit it and the page silently falls back to `title` — which is the bug this field exists to fix.
+
+### `metaDescription` is recommended for multi-item roundups (added 2026-08-27)
+`dek` is the on-page summary paragraph and stays as-is — full, informative, all the week's
+items. But it is also used verbatim as the `<meta name="description">` / OG / Twitter description
+unless `metaDescription` is set, and Google truncates search snippets at roughly 155-160
+characters. The weekly Signal dek (a run-on of 4-5 items) routinely runs 220-300+ characters, so
+it gets cut off mid-clause in search results — a broken-looking snippet that measurably hurts
+CTR even at a decent ranking position (confirmed via GSC: `signal-ai-funding-nwo-week-*` pages
+were landing ~pos 6-7 but only 3-4% CTR, well under what that position should draw).
+
+For any post whose `dek` exceeds ~155 characters, add a separate `metaDescription`:
+- **155 characters or fewer.**
+- **Pick the single strongest 1-2 hooks**, not a compressed version of every item — a snippet
+  that reads as one complete, enticing sentence beats a shorter run-on.
+- **No new claims** — reuse language already verified in the `dek`/body, just recomposed and cut.
+- Omit it and the page falls back to `dek` (fine for posts whose dek is already short).
 
 **Do not write a post that duplicates a `/funding/<id>` page's target term.** Eight programs
 currently have both a funding page and a blog post competing for the same name (NOHFC Invest

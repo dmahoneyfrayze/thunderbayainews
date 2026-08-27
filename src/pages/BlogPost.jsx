@@ -71,7 +71,11 @@ export default function BlogPost() {
     // the editorial H1. Our headlines run 90-145 characters, so using them verbatim as the title
     // tag meant the search keyword was routinely cut off. Falls back to title when absent.
     title: post ? `${post.seoTitle || post.title} | Thunder Bay AI` : 'Not found | Thunder Bay AI',
-    description: post ? post.dek : undefined,
+    // post.metaDescription (optional, <=155 chars) is what Google shows in the snippet; post.dek
+    // stays the fuller on-page summary. Long multi-clause deks (Signal roundups especially) get
+    // cut off mid-sentence in search results, which reads as broken and kills CTR. Falls back to
+    // dek when absent.
+    description: post ? (post.metaDescription || post.dek) : undefined,
     path: post ? `/blog/${post.slug}` : undefined,
     image: post ? (getOgImageUrl(`/blog/${post.slug}`) || undefined) : undefined,
     type: 'article',
