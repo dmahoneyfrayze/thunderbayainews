@@ -1,5 +1,11 @@
 [
   {
+    "iso": "2026-08-27",
+    "pillar": "How-To",
+    "hook": "OpenAI just promised it won't keep your prompts or your data on its most powerful models - here's how to actually check whether any AI vendor is telling you the truth",
+    "image": "/social/2026-08-27.webp"
+  },
+  {
     "iso": "2026-08-26",
     "pillar": "AI for Business",
     "hook": "One NVIDIA engineer went from idea to working prototype in 3 to 5 days instead of the 2 to 3 weeks it would have taken building it by hand",
