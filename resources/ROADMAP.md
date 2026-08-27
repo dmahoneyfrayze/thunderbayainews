@@ -163,6 +163,19 @@ stay scheduled (review buffer). Backlog (work a couple per cycle; let engagement
     position 6.5 — same pattern, worth a title/meta pass once a fresh brief confirms it's still true.
     GSC striking-distance (positions 8-20) was empty this cycle; re-check next brief before falling
     back to backlog item 4 (situational adoption posts).
+    ~~Signal roundup title/meta pass~~ — DONE 2026-08-27 (commit `7118e3a`): the 2026-08-22 brief
+    confirmed the pattern flagged 2026-08-15 was still true (`signal-ai-funding-nwo-week-*`, 26
+    impressions, 3.8% CTR, position 6.9 — was 31im/3.2%/pos6.5 the prior week). Root cause: the
+    Signal `dek` (a 4-5 item run-on, 220-300+ chars) doubles as the meta description, and Google
+    truncates snippets at ~155-160 chars, so it was cutting off mid-clause. Added an optional
+    `metaDescription` field (`src/pages/BlogPost.jsx`, falls back to `dek`, same pattern as
+    `seoTitle`/`title`) and set a tight <=155-char version on the four Signal posts inside the
+    current 28d GSC window (Aug 24, Aug 17, Aug 3, Jul 27) — recomposed from facts already in each
+    post's own `dek`, no new claims. Documented the field + rule in `CONTENT-ENGINE.md` so future
+    Signal posts ship a proper snippet-length description by default. Verified in the prerendered
+    output (`dist/blog/<slug>/index.html` meta + OG tags). FOLLOW-UP: re-check CTR on these four
+    URLs (and any new Signal post) in 2-3 briefs once Google has re-crawled and refreshed snippets
+    — title/meta changes typically take 1-4 weeks to show up in SERP behavior.
 
 ## Autonomous improvement protocol (the monthly agent MUST follow)
 1. Read this ROADMAP, the STRATEGY thesis, and the current site. Pick the **single highest-value
