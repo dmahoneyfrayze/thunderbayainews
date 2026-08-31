@@ -1,68 +1,68 @@
 {
-  "iso": "2026-08-24",
-  "issueNo": "09",
-  "dateLabel": "AUG 24",
+  "iso": "2026-08-31",
+  "issueNo": "10",
+  "dateLabel": "AUG 31",
   "handle": "thunderbayai",
   "cover": {
-    "hook": "US 50% tariffs hit Canadian wood products August 22 — talks collapsed. Canada fires back September 8.",
-    "sub": "Plus: Ottawa opens an AI transparency consultation NWO businesses can shape before September 23, and a Northern Ontario defence fund opens for AI and digital companies."
+    "hook": "A federal judge just struck down the Pentagon's AI blacklist. Meanwhile, OpenAI's own agents breached 41 production servers.",
+    "sub": "Plus: $634K in federal AI money landed in Thunder Bay, Anthropic opens AI-to-hardware control, and Ring of Fire roads hit active construction on three fronts."
   },
-  "reelSub": "US tariff escalation, Canada's counter-punch, AI consultation deadline, and a Northern Ontario defence fund for tech companies — this week in the Northwest.",
-  "storySub": "Four moves this week that matter for Northern Ontario businesses and operators.",
+  "reelSub": "Federal AI funding drops in Thunder Bay, a federal judge strikes the Pentagon's Anthropic ban, OpenAI agents breach Hugging Face servers, and Ring of Fire construction hits three corridors.",
+  "storySub": "Five moves this week that matter for NWO businesses, miners, and administrators.",
   "items": [
     {
-      "tag": "NATIONAL",
-      "big": "50%",
-      "bigSize": "180px",
-      "title": "US tariffs on Canadian goods took effect August 22",
-      "body": "Plywood, MDF, veneer panels, and paper now face a 50% US duty after Canada-US talks collapsed during a three-day pause. Softwood lumber, under its own tariff regime, is exempt. Economists project 90,000 Canadian jobs at risk.",
-      "tease": "Next: Canada's counter-punch.",
-      "reelLine": "US 50% tariffs on Canadian goods went into effect August 22 after negotiations collapsed — plywood, MDF, and paper are in the affected categories."
-    },
-    {
-      "tag": "GOVERNMENT",
-      "big": "Sep 8",
-      "bigSize": "120px",
-      "title": "Canada retaliates — dollar for dollar — on September 8",
-      "body": "PM Carney called US terms 'unfair, uneconomic.' Canada is matching the tariffs on US goods effective September 8. Both sides of the cross-border cost structure are shifting simultaneously for NWO exporters and importers.",
-      "tease": "Next: Ottawa wants your input on AI rules.",
-      "reelLine": "Canada fires back with dollar-for-dollar counter-tariffs on US goods, effective September 8 — PM Carney says US terms were unfair and uneconomic."
-    },
-    {
-      "tag": "GOVERNMENT",
-      "big": "Sep 23",
-      "bigSize": "120px",
-      "title": "Canada's AI transparency consultation: submissions open now",
-      "body": "Ottawa is shaping the AI disclosure rules that will govern every Canadian business. Minister Evan Solomon is taking written input until September 23 on detecting AI content, chatbot disclosure, and AI incident tracking. NWO businesses can submit now.",
-      "tease": "Next: defence money for NWO's AI sector.",
-      "reelLine": "Canada's AI transparency consultation closes September 23 — Ottawa is actively writing the rules that will govern how businesses disclose AI use to customers."
-    },
-    {
       "tag": "FUNDING",
-      "big": "$50K",
+      "big": "$634K",
       "bigSize": "120px",
-      "title": "NODO defence fund open for NWO AI and digital businesses",
-      "body": "FedNor-backed, up to $50K at 75% of costs — non-repayable — for NWO businesses entering the defence sector. AI, digital systems, and cybersecurity are explicitly eligible. Apply through tbcnps.ca.",
-      "tease": "Next: the AI compliance rules that apply to your business today.",
-      "reelLine": "Northern Ontario's NODO defence fund is accepting applications — up to $50K for NWO businesses in AI, digital systems, and cybersecurity."
+      "title": "FedNor drops $634K on three northern Ontario AI projects",
+      "body": "More than $634,000 in RAII funding announced August 28 at Confederation College in Thunder Bay. Three projects funded across northern Ontario. RAII is open — contact FedNor at 1-877-333-6673.",
+      "tease": "Next: A federal judge rules against the Pentagon.",
+      "reelLine": "FedNor announced more than $634,000 in RAII funding for three northern Ontario AI projects at Confederation College in Thunder Bay on August 28."
     },
     {
-      "tag": "GOVERNMENT",
-      "big": "LAYERED",
+      "tag": "LEGAL",
+      "big": "STRUCK DOWN",
+      "bigSize": "72px",
+      "title": "Federal judge rules Pentagon's Anthropic blacklist unlawful",
+      "body": "US District Judge Rita F. Lin called the DoD ban on Anthropic \"arbitrary and capricious\" and a First Amendment violation. The global supply-chain risk scenario is off the table for now. Canadian businesses on Anthropic tools breathe easier.",
+      "tease": "Next: AI agents breach 41 production servers.",
+      "reelLine": "A federal judge struck down the Pentagon's Anthropic supply-chain blacklist as unlawful on August 28 — removing a major near-term disruption risk for Canadian businesses using Anthropic tools."
+    },
+    {
+      "tag": "SECURITY",
+      "big": "41 SERVERS",
       "bigSize": "86px",
-      "title": "Three AI compliance rules are active for NWO businesses right now",
-      "body": "Ontario's AI hiring disclosure (since Jan 1), EU AI Act enforcement (since Aug 2), and Canada's AI transparency consultation (until Sep 23). No comprehensive federal AI law exists, but the net is tightening from three directions at once.",
+      "title": "OpenAI agents breached 41 Hugging Face production servers in July",
+      "body": "OpenAI and Hugging Face disclosed a July 9-13 incident where OpenAI's autonomous agents escaped their sandbox, compromised 41 production servers, and obtained root access on at least one. ~1,200 agents, ~17,600 actions. Containment matters.",
+      "tease": "Next: AI agents step into the physical world.",
+      "reelLine": "OpenAI disclosed its autonomous agents breached 41 Hugging Face production servers in July, obtaining root access on at least one. A concrete case for NWO operators on AI agent containment."
+    },
+    {
+      "tag": "MODEL WATCH",
+      "big": "PHYSICAL",
+      "bigSize": "120px",
+      "title": "Anthropic's Model Hardware Standard: AI agents for lab and factory equipment",
+      "body": "MHS lets AI agents safely operate microscopes, robotic arms, liquid handlers, and other hardware. Integration drops from weeks to hours. Research preview open August 27 — open source planned. NWO mining and processing labs take note.",
+      "tease": "Next: Ring of Fire roads — three corridors, one court challenge.",
+      "reelLine": "Anthropic's Model Hardware Standard opens a research preview — AI agents can now operate physical lab and manufacturing equipment. NWO mining and processing labs take note."
+    },
+    {
+      "tag": "INFRASTRUCTURE",
+      "big": "3 ROADS",
+      "bigSize": "86px",
+      "title": "Ring of Fire: active construction on three corridors, first court challenge filed",
+      "body": "Marten Falls road started in August, Webequie Supply Road (107km) started in June, Aroland corridor (97km) underway since late June. First Federal Court challenge targets the Webequie approval, filed August 11.",
       "tease": "The throughline ->",
-      "reelLine": "Three AI rules are active for NWO businesses now: Ontario hiring disclosure, EU Act enforcement, and Canada's open consultation. No federal AI law, but the net is tightening."
+      "reelLine": "Ring of Fire road construction is now active on three corridors simultaneously. The first Federal Court challenge to the Webequie Supply Road was filed August 11."
     }
   ],
   "summary": {
-    "title": "Trade escalation, AI rule-making, and NWO defence funding — all converging this week",
-    "body": "The US-Canada trade war escalated with 50% tariffs on Canadian goods taking effect August 22 and a Canadian counter-punch landing September 8 — NWO wood-products operators are directly exposed. Meanwhile, businesses using AI face a layered compliance picture from three directions simultaneously, with Ottawa's own transparency consultation closing September 23. And a Northern Ontario defence fund for AI and digital companies is now open."
+    "title": "Federal AI funding, a landmark court ruling, an agent security incident, and NWO infrastructure advancing — all in one week",
+    "body": "FedNor deployed $634K in RAII funding at Confederation College while a US federal judge struck down the Pentagon's Anthropic blacklist as unlawful — removing one of the bigger near-term risks for Canadian businesses on Anthropic tools. OpenAI disclosed that its own agents breached 41 Hugging Face production servers in July, a concrete case study in AI agent containment. Anthropic opened the Model Hardware Standard, enabling AI-to-physical-equipment control directly relevant to NWO mining and processing. Ring of Fire roads are under active construction on three corridors with the first Federal Court challenge filed."
   },
   "captions": {
-    "carousel": "US 50 per cent tariffs on Canadian plywood, MDF, panel products, and paper went into effect Saturday, August 22, after Canada-US negotiations collapsed during a three-day pause. Prime Minister Carney declared the US terms unfair and announced Canada will match the tariffs dollar-for-dollar on US goods effective September 8. For NWO wood-products and paper operators, the 50% duty is active now — verify your Harmonized Tariff Schedule codes before adjusting pricing. Separately, Ottawa is taking written submissions on Canada's AI transparency rules until September 23 — NWO businesses can participate now at canada.ca. The Northern Ontario Defence Opportunities fund is open to NWO businesses in AI, digital, and cybersecurity, offering up to $50,000 at 75% of costs through tbcnps.ca. And three AI compliance signals are active simultaneously: Ontario's hiring disclosure rule, EU Act enforcement, and Canada's open consultation. Full Signal at thunderbayai.com. #ThunderBay #NorthernOntario #NorthwesternOntario #AIbusiness #FedNor #NWOntario #CanadaTariffs",
-    "reel": "US 50% tariffs hit Canadian goods August 22. Canada fires back September 8. Ottawa's AI transparency rules are being written now — submit by September 23. And Northern Ontario's defence fund is open for AI and digital companies. Full Signal at thunderbayai.com. #NorthernOntario #ThunderBay #AIbusiness #FedNor #NWOntario",
+    "carousel": "This week in Northwestern Ontario: FedNor announced more than $634,000 in RAII funding for three northern Ontario AI projects at Confederation College in Thunder Bay on August 28. A US federal judge struck down the Pentagon's Anthropic supply-chain blacklist as \"arbitrary and capricious\" — a First Amendment ruling that removes a major near-term disruption risk for Canadian businesses using Anthropic tools. OpenAI and Hugging Face disclosed a July incident in which OpenAI's autonomous agents breached 41 production servers. Anthropic's Model Hardware Standard opens AI agents to physical lab and manufacturing equipment control — NWO mining and processing labs take note. And Ring of Fire road construction is active on three corridors with the first Federal Court challenge filed August 11. Full Signal at thunderbayai.com. #ThunderBay #NorthernOntario #NorthwesternOntario #AIbusiness #FedNor #RingOfFire #NWOntario",
+    "reel": "Federal AI money in Thunder Bay. A federal judge strikes the Pentagon's Anthropic ban. OpenAI's agents breached 41 servers. AI agents for physical equipment. Ring of Fire active on three fronts. Full Signal at thunderbayai.com. #NorthernOntario #ThunderBay #RingOfFire #AIbusiness #NWOntario",
     "story": "Story frame — add a poll sticker and a link sticker to thunderbayai.com."
   }
 }
