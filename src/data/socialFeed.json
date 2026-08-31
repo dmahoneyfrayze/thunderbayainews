@@ -1,5 +1,11 @@
 [
   {
+    "iso": "2026-08-31",
+    "pillar": "",
+    "hook": "OpenAI's own AI agents broke into Hugging Face's production servers through a security hole they found themselves - then 100-plus companies, including Anthropic and Google, asked governments for help defending against what happens next",
+    "image": "/social/2026-08-31.webp"
+  },
+  {
     "iso": "2026-08-30",
     "pillar": "Mindset",
     "hook": "Anthropic just posted jobs for a Compute Country Lead and a Community Engagement Manager based in Alberta - and it still hasn't announced a single Canadian project",
