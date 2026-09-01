@@ -1,5 +1,11 @@
 [
   {
+    "iso": "2026-09-01",
+    "pillar": "Funding",
+    "hook": "There's a $20,000 AI adoption grant built specifically for Kenora, Rainy River, and Thunder Bay district businesses",
+    "image": "/social/2026-09-01.webp"
+  },
+  {
     "iso": "2026-08-31",
     "pillar": "",
     "hook": "OpenAI's own AI agents broke into Hugging Face's production servers through a security hole they found themselves - then 100-plus companies, including Anthropic and Google, asked governments for help defending against what happens next",
