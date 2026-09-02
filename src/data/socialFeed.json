@@ -1,5 +1,11 @@
 [
   {
+    "iso": "2026-09-02",
+    "pillar": "AI for Business",
+    "hook": "OpenAI just gave workspace admins a plugin that manages ChatGPT users, permissions, and spending automatically",
+    "image": "/social/2026-09-02.webp"
+  },
+  {
     "iso": "2026-09-01",
     "pillar": "Funding",
     "hook": "There's a $20,000 AI adoption grant built specifically for Kenora, Rainy River, and Thunder Bay district businesses",
