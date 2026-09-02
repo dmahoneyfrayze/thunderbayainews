@@ -53,7 +53,7 @@ content; funding pages are the high-intent layer, not the whole diet. Rules:
 - [x] ai-prices-falling-small-business-budget-nwo Trends — AI prices keep falling: what that means for a small-business budget (and when to wait)
 - [x] nadf-business-loans-indigenous-entrepreneurs-northern-ontario Funding — NADF business loans (Indigenous businesses, Thunder Bay) — up to $500K, microloans + women-in-business stream
 - [x] ai-meeting-notes-call-summaries-tools-cost-privacy Tips — AI meeting notes and call summaries: the tools, the cost, and the privacy check to run first
-- [ ] Playbook — AI for professional services (accounting, law, insurance) in NWO
+- [x] ai-professional-services-accounting-law-insurance-nwo Playbook — AI for professional services (accounting, law, insurance) in NWO
 - [ ] Perspective — The AI hype checklist: five claims a local business owner should ignore
 - [ ] Funding — Thunder Bay Ventures / Community Futures loans — flexible repayable financing up to $600K
 - [ ] Tips — AI vs automation: what's the difference and which do you need
