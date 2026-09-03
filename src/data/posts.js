@@ -442,6 +442,7 @@ export const POSTS = [
     slug: 'ai-adoption-gap-tripled-nwo-business',
     title: 'Frontier firms aren\'t pulling ahead on AI budget. They\'re pulling ahead on what they let it finish.',
     seoTitle: 'AI adoption gap tripled: what changes for NWO',
+    metaDescription: 'OpenAI data shows the AI usage gap between top firms and everyone else tripled in six months. For a NWO business, the lesson is task design, not budget.',
     dek: 'OpenAI\'s own usage data shows the gap between top AI-adopting firms and everyone else roughly tripled in six months. The practical lesson for a Northwestern Ontario business is about task design, not budget.',
     category: 'Perspective',
     date: 'August 19, 2026',
@@ -2277,6 +2278,8 @@ export const POSTS = [
   {
     slug: 'ai-for-thunder-bay-businesses-2026',
     title: 'AI for Thunder Bay businesses: what is actually worth doing in 2026',
+    seoTitle: 'AI for Thunder Bay businesses: what to do in 2026',
+    metaDescription: 'Skip the hype: the AI moves that pay off for a Thunder Bay business in 2026, and where the funding to do them comes from.',
     dek: 'Skip the hype. For a business in Thunder Bay or anywhere in the Northwest, here are the AI moves that pay off in 2026 — and where the funding to do them comes from.',
     category: 'Tips',
     date: 'June 28, 2026',
