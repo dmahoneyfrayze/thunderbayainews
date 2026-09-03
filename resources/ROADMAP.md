@@ -176,6 +176,19 @@ stay scheduled (review buffer). Backlog (work a couple per cycle; let engagement
     output (`dist/blog/<slug>/index.html` meta + OG tags). FOLLOW-UP: re-check CTR on these four
     URLs (and any new Signal post) in 2-3 briefs once Google has re-crawled and refreshed snippets
     — title/meta changes typically take 1-4 weeks to show up in SERP behavior.
+    ~~Second title/meta pass (two more zero-CTR posts)~~ — DONE 2026-09-03 (commit `9a02781`): the
+    2026-08-29 brief's GSC striking-distance (positions 8-20) was empty again, so per the protocol
+    this fell back to the next-best data-driven signal — zero-CTR pages at a good position. Two
+    posts matched: `ai-adoption-gap-tripled-nwo-business` (6im, 0% CTR, position 6.8, 207-char dek
+    used as the meta description) and `ai-for-thunder-bay-businesses-2026` (6im, 0% CTR, position
+    7.7, 164-char dek as meta description AND no `seoTitle` override, so the raw title + suffix ran
+    84 chars). Added a <=155-char `metaDescription` to both (recomposed from each post's own `dek`,
+    no new claims) and a 49-char `seoTitle` to the second. Verified in the prerendered output.
+    FOLLOW-UP: re-check CTR on these two URLs in 2-3 briefs once Google re-crawls. Also worth a scan
+    for any other post whose `dek` alone (no `metaDescription`) exceeds ~155 chars — this is now the
+    third time the same root cause has surfaced (Signal posts, /about, these two); a batch audit
+    across all posts for over-length deks used as meta descriptions could be the next site-wide pass
+    if GSC striking-distance stays empty again next cycle.
 
 ## Autonomous improvement protocol (the monthly agent MUST follow)
 1. Read this ROADMAP, the STRATEGY thesis, and the current site. Pick the **single highest-value
