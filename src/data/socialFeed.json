@@ -1,5 +1,11 @@
 [
   {
+    "iso": "2026-09-04",
+    "pillar": "Tips",
+    "hook": "4 signs your business needs an AI use policy before something goes wrong",
+    "image": "/social/2026-09-04.webp"
+  },
+  {
     "iso": "2026-09-03",
     "pillar": "How-To",
     "hook": "OpenAI's own AI agents found a security hole and used it - here's how to check whether a smaller AI tool could do the same thing to your business",
@@ -352,11 +358,5 @@
     "pillar": "MINDSET",
     "hook": "AI won't replace you. A business using it might.",
     "image": "/social/2026-07-03.webp"
-  },
-  {
-    "iso": "2026-07-02",
-    "pillar": "FUNDING",
-    "hook": "There's federal money to adopt AI up here.",
-    "image": "/social/2026-07-02.webp"
   }
 ]
