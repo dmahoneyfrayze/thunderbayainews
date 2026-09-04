@@ -55,7 +55,7 @@ content; funding pages are the high-intent layer, not the whole diet. Rules:
 - [x] ai-meeting-notes-call-summaries-tools-cost-privacy Tips — AI meeting notes and call summaries: the tools, the cost, and the privacy check to run first
 - [x] ai-professional-services-accounting-law-insurance-nwo Playbook — AI for professional services (accounting, law, insurance) in NWO
 - [x] ai-hype-checklist-five-claims-local-business-owner-ignore Perspective — The AI hype checklist: five claims a local business owner should ignore
-- [ ] Funding — Thunder Bay Ventures / Community Futures loans — flexible repayable financing up to $600K
+- [x] thunder-bay-ventures-community-futures-loans-nwo Funding — Thunder Bay Ventures / Community Futures loans — flexible repayable financing up to $600K
 - [ ] Tips — AI vs automation: what's the difference and which do you need
 - [ ] Playbook — AI for restaurants and food service in Thunder Bay
 - [ ] Trends — On-device and local AI: why "runs on your own computer" is about to matter for small business
