@@ -1,5 +1,11 @@
 [
   {
+    "iso": "2026-09-05",
+    "pillar": "Local Spotlight",
+    "hook": "The Thunder Bay sawmill that used to belong to Resolute is now using AI to catch defects a person would miss",
+    "image": "/social/2026-09-05.webp"
+  },
+  {
     "iso": "2026-09-04",
     "pillar": "Tips",
     "hook": "4 signs your business needs an AI use policy before something goes wrong",
@@ -352,11 +358,5 @@
     "pillar": "FUNDING FRIDAY",
     "hook": "Your custom software might be a 35% tax refund.",
     "image": "/social/2026-07-04.webp"
-  },
-  {
-    "iso": "2026-07-03",
-    "pillar": "MINDSET",
-    "hook": "AI won't replace you. A business using it might.",
-    "image": "/social/2026-07-03.webp"
   }
 ]
