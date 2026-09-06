@@ -1,5 +1,11 @@
 [
   {
+    "iso": "2026-09-06",
+    "pillar": "Mindset",
+    "hook": "OpenAI says people now have up to 70 million ChatGPT conversations a week just testing what they know - most of it happening outside school hours",
+    "image": "/social/2026-09-06.webp"
+  },
+  {
     "iso": "2026-09-05",
     "pillar": "Local Spotlight",
     "hook": "The Thunder Bay sawmill that used to belong to Resolute is now using AI to catch defects a person would miss",
@@ -352,11 +358,5 @@
     "pillar": "HOW-TO",
     "hook": "The #1 AI mistake small businesses make.",
     "image": "/social/2026-07-05.webp"
-  },
-  {
-    "iso": "2026-07-04",
-    "pillar": "FUNDING FRIDAY",
-    "hook": "Your custom software might be a 35% tax refund.",
-    "image": "/social/2026-07-04.webp"
   }
 ]
