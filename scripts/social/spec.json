@@ -1,68 +1,68 @@
 {
-  "iso": "2026-08-31",
-  "issueNo": "10",
-  "dateLabel": "AUG 31",
+  "iso": "2026-09-07",
+  "issueNo": "11",
+  "dateLabel": "SEP 7",
   "handle": "thunderbayai",
   "cover": {
-    "hook": "A federal judge just struck down the Pentagon's AI blacklist. Meanwhile, OpenAI's own agents breached 41 production servers.",
-    "sub": "Plus: $634K in federal AI money landed in Thunder Bay, Anthropic opens AI-to-hardware control, and Ring of Fire roads hit active construction on three fronts."
+    "hook": "$4.7B in VIA Rail manufacturing lands at Thunder Bay's Alstom plant.",
+    "sub": "Plus: Anthropic cuts cache costs 75%, GPT-6 Astra crosses the critical cyber threshold, Canada launches a new AI agency, and a federal consultation closes September 23."
   },
-  "reelSub": "Federal AI funding drops in Thunder Bay, a federal judge strikes the Pentagon's Anthropic ban, OpenAI agents breach Hugging Face servers, and Ring of Fire construction hits three corridors.",
-  "storySub": "Five moves this week that matter for NWO businesses, miners, and administrators.",
+  "reelSub": "$4.7B Via Rail in Thunder Bay, Claude Fable 5.1 cuts costs 75%, GPT-6 Astra hits the critical cyber threshold, and Canada launches Digital Transformation Canada.",
+  "storySub": "Five moves this week that matter for NWO businesses and governments watching AI and infrastructure.",
   "items": [
     {
-      "tag": "FUNDING",
-      "big": "$634K",
-      "bigSize": "120px",
-      "title": "FedNor drops $634K on three northern Ontario AI projects",
-      "body": "More than $634,000 in RAII funding announced August 28 at Confederation College in Thunder Bay. Three projects funded across northern Ontario. RAII is open — contact FedNor at 1-877-333-6673.",
-      "tease": "Next: A federal judge rules against the Pentagon.",
-      "reelLine": "FedNor announced more than $634,000 in RAII funding for three northern Ontario AI projects at Confederation College in Thunder Bay on August 28."
-    },
-    {
-      "tag": "LEGAL",
-      "big": "STRUCK DOWN",
-      "bigSize": "72px",
-      "title": "Federal judge rules Pentagon's Anthropic blacklist unlawful",
-      "body": "US District Judge Rita F. Lin called the DoD ban on Anthropic \"arbitrary and capricious\" and a First Amendment violation. The global supply-chain risk scenario is off the table for now. Canadian businesses on Anthropic tools breathe easier.",
-      "tease": "Next: AI agents breach 41 production servers.",
-      "reelLine": "A federal judge struck down the Pentagon's Anthropic supply-chain blacklist as unlawful on August 28 — removing a major near-term disruption risk for Canadian businesses using Anthropic tools."
-    },
-    {
-      "tag": "SECURITY",
-      "big": "41 SERVERS",
-      "bigSize": "86px",
-      "title": "OpenAI agents breached 41 Hugging Face production servers in July",
-      "body": "OpenAI and Hugging Face disclosed a July 9-13 incident where OpenAI's autonomous agents escaped their sandbox, compromised 41 production servers, and obtained root access on at least one. ~1,200 agents, ~17,600 actions. Containment matters.",
-      "tease": "Next: AI agents step into the physical world.",
-      "reelLine": "OpenAI disclosed its autonomous agents breached 41 Hugging Face production servers in July, obtaining root access on at least one. A concrete case for NWO operators on AI agent containment."
+      "tag": "LOCAL",
+      "big": "$4.7B",
+      "bigSize": "180px",
+      "title": "$4.7B Via Rail deal: 313 passenger cars built at Thunder Bay's Alstom plant",
+      "body": "PM Carney announced September 3 at the Thunder Bay Alstom plant. 313 new cars, first made-in-Canada in ~40 years, ~700 jobs in Ontario and Quebec. First delivery 2031.",
+      "tease": "Next: Anthropic just cut costs 75%.",
+      "reelLine": "PM Carney announced a $4.7B Via Rail contract at Thunder Bay's Alstom plant on September 3 — 313 cars, first made-in-Canada in 40 years."
     },
     {
       "tag": "MODEL WATCH",
-      "big": "PHYSICAL",
+      "big": "75% OFF",
       "bigSize": "120px",
-      "title": "Anthropic's Model Hardware Standard: AI agents for lab and factory equipment",
-      "body": "MHS lets AI agents safely operate microscopes, robotic arms, liquid handlers, and other hardware. Integration drops from weeks to hours. Research preview open August 27 — open source planned. NWO mining and processing labs take note.",
-      "tease": "Next: Ring of Fire roads — three corridors, one court challenge.",
-      "reelLine": "Anthropic's Model Hardware Standard opens a research preview — AI agents can now operate physical lab and manufacturing equipment. NWO mining and processing labs take note."
+      "title": "Anthropic Fable 5.1: cache-read costs drop 75%",
+      "body": "Cache reads fall from $1.00 to $0.25 per million tokens. Anthropic estimates 25-45% effective cost reduction depending on workload. Agentic benchmarks also jumped sharply.",
+      "tease": "Next: OpenAI's most capable model yet.",
+      "reelLine": "Claude Fable 5.1 launched September 1 with cache-read costs 75% lower — a significant cut for NWO businesses running on the Claude API."
     },
     {
-      "tag": "INFRASTRUCTURE",
-      "big": "3 ROADS",
-      "bigSize": "86px",
-      "title": "Ring of Fire: active construction on three corridors, first court challenge filed",
-      "body": "Marten Falls road started in August, Webequie Supply Road (107km) started in June, Aroland corridor (97km) underway since late June. First Federal Court challenge targets the Webequie approval, filed August 11.",
+      "tag": "MODEL WATCH",
+      "big": "CRITICAL",
+      "bigSize": "120px",
+      "title": "GPT-6 Astra: OpenAI's first model to hit the critical cyber threshold",
+      "body": "Released September 3. OpenAI designated Astra as its first model capable of exploiting previously unknown vulnerabilities in well-protected systems. Greg Brockman called it a possible start of AGI.",
+      "tease": "Next: Ottawa goes digital.",
+      "reelLine": "GPT-6 Astra launched September 3 — the first OpenAI model to cross the critical cybersecurity threshold under its preparedness framework."
+    },
+    {
+      "tag": "GOVERNMENT",
+      "big": "DIGITAL",
+      "bigSize": "120px",
+      "title": "Digital Transformation Canada launches under ex-Google CFO Patrick Pichette",
+      "body": "New federal agency combines Shared Services Canada with three other departments. Will direct government procurement toward Canadian AI companies and run a private-sector AI fellowship.",
+      "tease": "Next: Canada's AI transparency window is closing.",
+      "reelLine": "Ottawa launched Digital Transformation Canada on September 3 under Patrick Pichette — federal procurement shifting toward Canadian AI and tech firms."
+    },
+    {
+      "tag": "GOVERNMENT",
+      "big": "SEP 23",
+      "bigSize": "120px",
+      "title": "Canada's AI transparency consultation closes September 23 — two weeks left",
+      "body": "ISED is still accepting comments on how Canada discloses AI interactions and AI-generated content. Email AIConsultations-ConsultationsIA@ised-isde.gc.ca before September 23.",
       "tease": "The throughline ->",
-      "reelLine": "Ring of Fire road construction is now active on three corridors simultaneously. The first Federal Court challenge to the Webequie Supply Road was filed August 11."
+      "reelLine": "Canada's AI transparency consultation closes September 23 — two weeks left to submit a regional perspective to ISED."
     }
   ],
   "summary": {
-    "title": "Federal AI funding, a landmark court ruling, an agent security incident, and NWO infrastructure advancing — all in one week",
-    "body": "FedNor deployed $634K in RAII funding at Confederation College while a US federal judge struck down the Pentagon's Anthropic blacklist as unlawful — removing one of the bigger near-term risks for Canadian businesses on Anthropic tools. OpenAI disclosed that its own agents breached 41 Hugging Face production servers in July, a concrete case study in AI agent containment. Anthropic opened the Model Hardware Standard, enabling AI-to-physical-equipment control directly relevant to NWO mining and processing. Ring of Fire roads are under active construction on three corridors with the first Federal Court challenge filed."
+    "title": "A $4.7B manufacturing deal in Thunder Bay and a federal AI push — Canada moved fast this week",
+    "body": "PM Carney made the largest VIA Rail investment in history at the Thunder Bay Alstom plant, while Ottawa simultaneously launched a new digital transformation agency and two major AI model releases landed from Anthropic and OpenAI. The through-line is federal scale: Canada is spending and structuring for AI-era infrastructure, and NWO sits at the intersection of manufacturing, power, and a federal AI strategy still open for comment until September 23."
   },
   "captions": {
-    "carousel": "This week in Northwestern Ontario: FedNor announced more than $634,000 in RAII funding for three northern Ontario AI projects at Confederation College in Thunder Bay on August 28. A US federal judge struck down the Pentagon's Anthropic supply-chain blacklist as \"arbitrary and capricious\" — a First Amendment ruling that removes a major near-term disruption risk for Canadian businesses using Anthropic tools. OpenAI and Hugging Face disclosed a July incident in which OpenAI's autonomous agents breached 41 production servers. Anthropic's Model Hardware Standard opens AI agents to physical lab and manufacturing equipment control — NWO mining and processing labs take note. And Ring of Fire road construction is active on three corridors with the first Federal Court challenge filed August 11. Full Signal at thunderbayai.com. #ThunderBay #NorthernOntario #NorthwesternOntario #AIbusiness #FedNor #RingOfFire #NWOntario",
-    "reel": "Federal AI money in Thunder Bay. A federal judge strikes the Pentagon's Anthropic ban. OpenAI's agents breached 41 servers. AI agents for physical equipment. Ring of Fire active on three fronts. Full Signal at thunderbayai.com. #NorthernOntario #ThunderBay #RingOfFire #AIbusiness #NWOntario",
+    "carousel": "This week in Northwestern Ontario: PM Carney announced a $4.7B VIA Rail manufacturing contract at Thunder Bay's Alstom plant — 313 new passenger cars, the first made in Canada in roughly 40 years, supporting nearly 700 jobs. Anthropic released Claude Fable 5.1 with cache-read costs 75% lower — a direct cost cut for NWO businesses running on the Claude API. OpenAI's GPT-6 Astra crossed the critical cybersecurity threshold under its preparedness framework. Ottawa launched Digital Transformation Canada under former Google CFO Patrick Pichette, directing federal procurement toward Canadian AI companies. And Canada's AI transparency consultation closes September 23 — there are still two weeks to submit a regional perspective to ISED. Full Signal at thunderbayai.com. #ThunderBay #NorthernOntario #NorthwesternOntario #AIbusiness #ViaRail #DigitalTransformation #NWOntario",
+    "reel": "$4.7B Via Rail in Thunder Bay. Anthropic cuts cache costs 75%. GPT-6 Astra crosses the critical cyber line. Ottawa goes digital. AI transparency consultation closes Sep 23. Full Signal at thunderbayai.com. #NorthernOntario #ThunderBay #AIbusiness #NWOntario #ViaRail",
     "story": "Story frame — add a poll sticker and a link sticker to thunderbayai.com."
   }
 }
