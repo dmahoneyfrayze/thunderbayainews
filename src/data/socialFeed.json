@@ -1,5 +1,11 @@
 [
   {
+    "iso": "2026-09-07",
+    "pillar": "",
+    "hook": "OpenAI admitted it sat on a real AI agent incident for months without telling anyone - the same week Nvidia agreed to pay $12.9 billion for Hugging Face, the company whose servers OpenAI's own agents breached just last month",
+    "image": "/social/2026-09-07.webp"
+  },
+  {
     "iso": "2026-09-06",
     "pillar": "Mindset",
     "hook": "OpenAI says people now have up to 70 million ChatGPT conversations a week just testing what they know - most of it happening outside school hours",
@@ -352,11 +358,5 @@
     "pillar": "",
     "hook": "Anthropic just said it wants to develop its own drugs. That is not the strangest AI story this week.",
     "image": "/social/2026-07-06.webp"
-  },
-  {
-    "iso": "2026-07-05",
-    "pillar": "HOW-TO",
-    "hook": "The #1 AI mistake small businesses make.",
-    "image": "/social/2026-07-05.webp"
   }
 ]
