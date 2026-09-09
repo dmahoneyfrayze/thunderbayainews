@@ -1,5 +1,11 @@
 [
   {
+    "iso": "2026-09-09",
+    "pillar": "AI for Business",
+    "hook": "A touring ATV stunt show cut its merchandise inventory process from 3 days down to 3 hours using ChatGPT",
+    "image": "/social/2026-09-09.webp"
+  },
+  {
     "iso": "2026-09-08",
     "pillar": "Funding",
     "hook": "There's a Northern Ontario grant that covers up to 75% of the cost of building an AI product, not just adopting one",
@@ -352,11 +358,5 @@
     "pillar": "AI for Business",
     "hook": "HP just expanded its AI partnership across three parts of the business: customer service, software development, and operations",
     "image": "/social/2026-07-08.webp"
-  },
-  {
-    "iso": "2026-07-07",
-    "pillar": "Funding",
-    "hook": "There is a FedNor program built specifically to fund AI adoption and scale-up in Northern Ontario",
-    "image": "/social/2026-07-07.webp"
   }
 ]
