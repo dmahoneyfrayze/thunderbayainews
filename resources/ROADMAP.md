@@ -189,6 +189,19 @@ stay scheduled (review buffer). Backlog (work a couple per cycle; let engagement
     third time the same root cause has surfaced (Signal posts, /about, these two); a batch audit
     across all posts for over-length deks used as meta descriptions could be the next site-wide pass
     if GSC striking-distance stays empty again next cycle.
+    ~~Site-wide metaDescription batch audit~~ — DONE 2026-09-10 (commit `8094e34`): the 2026-09-05
+    brief's GSC striking-distance was empty for the third cycle in a row, so per the FOLLOW-UP above
+    this ran the flagged site-wide pass. A script audit of `src/data/posts.js` found 56 of 80 posts
+    (70%) had a `dek` over ~155 chars and no `metaDescription` override — meaning most of the site's
+    search snippets were getting truncated mid-clause, not just the handful already fixed in prior
+    passes. Added a dedicated `metaDescription` (<=155 chars) to all 56, each recomposed from language
+    already in that post's own `dek` — no new claims, same discipline as the /about and Signal-post
+    fixes. Verified: all 56 render correctly in the prerendered `<meta name="description">` tags
+    (spot-checked `dist/blog/<slug>/index.html`), `npm run lint` clean (pre-existing warnings only,
+    unrelated to this change), `npm run build` succeeded. FOLLOW-UP: re-check GSC CTR across the site
+    in 3-4 briefs once Google re-crawls these pages; if striking-distance queries are still empty next
+    cycle, the next data-driven lever is likely internal linking depth or a content-gap scan rather
+    than another meta-description pass (this should have closed that root cause site-wide).
 
 ## Autonomous improvement protocol (the monthly agent MUST follow)
 1. Read this ROADMAP, the STRATEGY thesis, and the current site. Pick the **single highest-value
