@@ -58,7 +58,7 @@ content; funding pages are the high-intent layer, not the whole diet. Rules:
 - [x] thunder-bay-ventures-community-futures-loans-nwo Funding — Thunder Bay Ventures / Community Futures loans — flexible repayable financing up to $600K
 - [x] ai-vs-automation-difference-which-do-you-need Tips — AI vs automation: what's the difference and which do you need
 - [x] ai-restaurants-food-service-thunder-bay Playbook — AI for restaurants and food service in Thunder Bay
-- [ ] Trends — On-device and local AI: why "runs on your own computer" is about to matter for small business
+- [x] on-device-local-ai-small-business-northwestern-ontario Trends — On-device and local AI: why "runs on your own computer" is about to matter for small business
 - [ ] Funding — Summer Company (Entrepreneur Centre) — up to $3K seasonal seed for students
 - [ ] Tips — AI and privacy for Canadian business — a plain-language PIPEDA primer
 - [ ] Playbook — AI for transportation and logistics in Northwestern Ontario
