@@ -1,5 +1,11 @@
 [
   {
+    "iso": "2026-09-10",
+    "pillar": "How-To",
+    "hook": "ChatGPT, Claude, Grok, and Gemini all had problems within the same 90 minutes this week - here's how to build a backup plan before that happens to your business",
+    "image": "/social/2026-09-10.webp"
+  },
+  {
     "iso": "2026-09-09",
     "pillar": "AI for Business",
     "hook": "A touring ATV stunt show cut its merchandise inventory process from 3 days down to 3 hours using ChatGPT",
@@ -352,11 +358,5 @@
     "pillar": "How-To",
     "hook": "A global energy company just proved the AI lesson every local operation should copy",
     "image": "/social/2026-07-09.webp"
-  },
-  {
-    "iso": "2026-07-08",
-    "pillar": "AI for Business",
-    "hook": "HP just expanded its AI partnership across three parts of the business: customer service, software development, and operations",
-    "image": "/social/2026-07-08.webp"
   }
 ]
