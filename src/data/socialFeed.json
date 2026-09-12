@@ -1,5 +1,11 @@
 [
   {
+    "iso": "2026-09-11",
+    "pillar": "Tips",
+    "hook": "4 things to check before you switch your business to a brand-new AI model on launch day",
+    "image": "/social/2026-09-11.webp"
+  },
+  {
     "iso": "2026-09-10",
     "pillar": "How-To",
     "hook": "ChatGPT, Claude, Grok, and Gemini all had problems within the same 90 minutes this week - here's how to build a backup plan before that happens to your business",
@@ -352,11 +358,5 @@
     "pillar": "",
     "hook": "A Canadian government just used AI to review 466 million lines of code in 20 hours - work it says would have taken six years by hand.",
     "image": "/social/2026-07-13.webp"
-  },
-  {
-    "iso": "2026-07-09",
-    "pillar": "How-To",
-    "hook": "A global energy company just proved the AI lesson every local operation should copy",
-    "image": "/social/2026-07-09.webp"
   }
 ]
