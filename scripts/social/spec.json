@@ -1,68 +1,68 @@
 {
-  "iso": "2026-09-07",
-  "issueNo": "11",
-  "dateLabel": "SEP 7",
+  "iso": "2026-09-14",
+  "issueNo": "12",
+  "dateLabel": "SEP 14",
   "handle": "thunderbayai",
   "cover": {
-    "hook": "$4.7B in VIA Rail manufacturing lands at Thunder Bay's Alstom plant.",
-    "sub": "Plus: Anthropic cuts cache costs 75%, GPT-6 Astra crosses the critical cyber threshold, Canada launches a new AI agency, and a federal consultation closes September 23."
+    "hook": "Ontario breaks ground on the Ring of Fire road — 5 years ahead of schedule.",
+    "sub": "Plus: $634K in federal AI funding lands at NOIC in Thunder Bay, Canada launches a national AI literacy program, and the biggest AI labs are drafting their own rulebook."
   },
-  "reelSub": "$4.7B Via Rail in Thunder Bay, Claude Fable 5.1 cuts costs 75%, GPT-6 Astra hits the critical cyber threshold, and Canada launches Digital Transformation Canada.",
-  "storySub": "Five moves this week that matter for NWO businesses and governments watching AI and infrastructure.",
+  "reelSub": "Ring of Fire road breaks ground. FedNor puts $634K into NWO AI projects. Canada launches AI literacy courses. Big tech proposes a self-regulatory AI standards body.",
+  "storySub": "Five developments this week that shape what AI and investment look like in Northwestern Ontario.",
   "items": [
     {
       "tag": "LOCAL",
-      "big": "$4.7B",
+      "big": "$634K",
       "bigSize": "180px",
-      "title": "$4.7B Via Rail deal: 313 passenger cars built at Thunder Bay's Alstom plant",
-      "body": "PM Carney announced September 3 at the Thunder Bay Alstom plant. 313 new cars, first made-in-Canada in ~40 years, ~700 jobs in Ontario and Quebec. First delivery 2031.",
-      "tease": "Next: Anthropic just cut costs 75%.",
-      "reelLine": "PM Carney announced a $4.7B Via Rail contract at Thunder Bay's Alstom plant on September 3 — 313 cars, first made-in-Canada in 40 years."
-    },
-    {
-      "tag": "MODEL WATCH",
-      "big": "75% OFF",
-      "bigSize": "120px",
-      "title": "Anthropic Fable 5.1: cache-read costs drop 75%",
-      "body": "Cache reads fall from $1.00 to $0.25 per million tokens. Anthropic estimates 25-45% effective cost reduction depending on workload. Agentic benchmarks also jumped sharply.",
-      "tease": "Next: OpenAI's most capable model yet.",
-      "reelLine": "Claude Fable 5.1 launched September 1 with cache-read costs 75% lower — a significant cut for NWO businesses running on the Claude API."
-    },
-    {
-      "tag": "MODEL WATCH",
-      "big": "CRITICAL",
-      "bigSize": "120px",
-      "title": "GPT-6 Astra: OpenAI's first model to hit the critical cyber threshold",
-      "body": "Released September 3. OpenAI designated Astra as its first model capable of exploiting previously unknown vulnerabilities in well-protected systems. Greg Brockman called it a possible start of AGI.",
-      "tease": "Next: Ottawa goes digital.",
-      "reelLine": "GPT-6 Astra launched September 3 — the first OpenAI model to cross the critical cybersecurity threshold under its preparedness framework."
+      "title": "FedNor puts $634K into northern Ontario AI projects — $456K landing at NOIC",
+      "body": "Three projects funded through FedNor's Regional AI Initiative. NOIC's Youth Tech Impact Program gets $456,000 to place young professionals at NWO businesses for AI implementation work.",
+      "tease": "Next: Canada launches a national AI literacy program.",
+      "reelLine": "FedNor announced $634,110 for three northern Ontario AI projects — $456,000 goes directly to NOIC's youth tech placement program in Thunder Bay."
     },
     {
       "tag": "GOVERNMENT",
-      "big": "DIGITAL",
+      "big": "SEP 21",
       "bigSize": "120px",
-      "title": "Digital Transformation Canada launches under ex-Google CFO Patrick Pichette",
-      "body": "New federal agency combines Shared Services Canada with three other departments. Will direct government procurement toward Canadian AI companies and run a private-sector AI fellowship.",
-      "tease": "Next: Canada's AI transparency window is closing.",
-      "reelLine": "Ottawa launched Digital Transformation Canada on September 3 under Patrick Pichette — federal procurement shifting toward Canadian AI and tech firms."
+      "title": "Canada's National AI Literacy Initiative: free post-secondary courses start September 21",
+      "body": "Post-secondary institutions can join the consortium starting September 21. Free 3-hour AI course for students, separate streams for K-12 educators and community workers. $13M funded through Amii.",
+      "tease": "Next: the road to the Ring of Fire is under construction.",
+      "reelLine": "Canada launched its National AI Literacy Initiative on September 9 — post-secondary institutions can offer a free AI course starting September 21."
     },
     {
-      "tag": "GOVERNMENT",
-      "big": "SEP 23",
+      "tag": "INFRASTRUCTURE",
+      "big": "184 KM",
       "bigSize": "120px",
-      "title": "Canada's AI transparency consultation closes September 23 — two weeks left",
-      "body": "ISED is still accepting comments on how Canada discloses AI interactions and AI-generated content. Email AIConsultations-ConsultationsIA@ised-isde.gc.ca before September 23.",
+      "title": "Ontario breaks ground on the Marten Falls road — Ring of Fire access, 5 years early",
+      "body": "The 184-km Marten Falls Community Access Road broke ground September 3 with Premier Ford and Chief Achneepineskum. Completion 2031. Unlocks nickel, copper, cobalt, and platinum deposits critical for EV and AI hardware.",
+      "tease": "Next: Thunder Bay's largest industry expo.",
+      "reelLine": "Ontario broke ground on the 184-km Marten Falls Community Access Road on September 3 — five years ahead of the original schedule."
+    },
+    {
+      "tag": "LOCAL",
+      "big": "300+",
+      "bigSize": "180px",
+      "title": "Cen-Can 2026: 300+ exhibitors, 80+ hiring companies at Thunder Bay's largest resource expo",
+      "body": "September 9-10 at Fort William Gardens. Mining, forestry, and energy sectors. Job fair with 80+ companies actively recruiting. Projects in the Pipeline Conference on September 10.",
+      "tease": "Next: the AI labs are drafting their own rulebook.",
+      "reelLine": "Cen-Can 2026 ran September 9-10 at Fort William Gardens — 300+ exhibitors and 80+ companies hiring across NWO's resource sectors."
+    },
+    {
+      "tag": "NATIONAL",
+      "big": "STANDARDS",
+      "bigSize": "120px",
+      "title": "Anthropic, OpenAI, Google propose a shared AI standards body — self-regulation before government acts",
+      "body": "Working-group meetings since July, went public September 13. FINRA-style body for AI testing and auditing. Amodei, Altman, and Hassabis all in support. Ottawa's AI transparency consultation closes September 23.",
       "tease": "The throughline ->",
-      "reelLine": "Canada's AI transparency consultation closes September 23 — two weeks left to submit a regional perspective to ISED."
+      "reelLine": "Anthropic, OpenAI, and Google are building a shared AI self-regulatory body — in public since September 13, as Ottawa's own consultation closes September 23."
     }
   ],
   "summary": {
-    "title": "A $4.7B manufacturing deal in Thunder Bay and a federal AI push — Canada moved fast this week",
-    "body": "PM Carney made the largest VIA Rail investment in history at the Thunder Bay Alstom plant, while Ottawa simultaneously launched a new digital transformation agency and two major AI model releases landed from Anthropic and OpenAI. The through-line is federal scale: Canada is spending and structuring for AI-era infrastructure, and NWO sits at the intersection of manufacturing, power, and a federal AI strategy still open for comment until September 23."
+    "title": "Ottawa and industry are both setting AI rules — the window to shape them is closing",
+    "body": "This week federal money flowed directly into NWO AI capacity through FedNor and a new literacy initiative, the Ring of Fire moved from plan to pavement, and the largest AI companies began drafting their own governance framework. Canada's AI transparency consultation closes September 23 — the last near-term channel for regional voices to reach Ottawa before both tracks move forward."
   },
   "captions": {
-    "carousel": "This week in Northwestern Ontario: PM Carney announced a $4.7B VIA Rail manufacturing contract at Thunder Bay's Alstom plant — 313 new passenger cars, the first made in Canada in roughly 40 years, supporting nearly 700 jobs. Anthropic released Claude Fable 5.1 with cache-read costs 75% lower — a direct cost cut for NWO businesses running on the Claude API. OpenAI's GPT-6 Astra crossed the critical cybersecurity threshold under its preparedness framework. Ottawa launched Digital Transformation Canada under former Google CFO Patrick Pichette, directing federal procurement toward Canadian AI companies. And Canada's AI transparency consultation closes September 23 — there are still two weeks to submit a regional perspective to ISED. Full Signal at thunderbayai.com. #ThunderBay #NorthernOntario #NorthwesternOntario #AIbusiness #ViaRail #DigitalTransformation #NWOntario",
-    "reel": "$4.7B Via Rail in Thunder Bay. Anthropic cuts cache costs 75%. GPT-6 Astra crosses the critical cyber line. Ottawa goes digital. AI transparency consultation closes Sep 23. Full Signal at thunderbayai.com. #NorthernOntario #ThunderBay #AIbusiness #NWOntario #ViaRail",
+    "carousel": "This week in Northwestern Ontario: FedNor announced $634,110 for three AI projects through its Regional AI Initiative, with $456,000 going to NOIC's youth tech placement program at NWO businesses. Canada launched its National AI Literacy Initiative on September 9 — post-secondary institutions can offer a free AI course starting September 21. Ontario broke ground on the Marten Falls Community Access Road on September 3 — 184 km to the Ring of Fire, five years ahead of schedule. Cen-Can 2026 drew 300+ exhibitors and 80+ hiring companies to Thunder Bay. And Anthropic, OpenAI, and Google went public with talks on a shared AI self-regulatory standards body, even as Ottawa's AI transparency consultation closes September 23. Full Signal at thunderbayai.com. #ThunderBay #NorthernOntario #NorthwesternOntario #AIbusiness #RingOfFire #FedNor #NWOntario",
+    "reel": "Ring of Fire road breaks ground. FedNor $634K for NWO AI. Canada AI literacy courses Sept 21. Cen-Can 2026. Big tech proposes its own AI rulebook. Full Signal at thunderbayai.com. #NorthernOntario #ThunderBay #RingOfFire #AIbusiness #NWOntario",
     "story": "Story frame — add a poll sticker and a link sticker to thunderbayai.com."
   }
 }
