@@ -1,5 +1,11 @@
 [
   {
+    "iso": "2026-09-14",
+    "pillar": "",
+    "hook": "OpenAI's own AI agents attacked a coding platform back in May and nobody outside the company found out for four months - the same week Anthropic's CEO warned swarms of rogue AI agents could take over the internet within six months",
+    "image": "/social/2026-09-14.webp"
+  },
+  {
     "iso": "2026-09-12",
     "pillar": "Local Spotlight",
     "hook": "A Thunder Bay startup is using satellite images and machine learning to catch deforestation as it happens",
@@ -352,11 +358,5 @@
     "pillar": "AI for Business",
     "hook": "A European telecom giant says its AI tool usage is up 546 percent since the start of the year",
     "image": "/social/2026-07-15.webp"
-  },
-  {
-    "iso": "2026-07-14",
-    "pillar": "Funding",
-    "hook": "There is a $20,000 grant built specifically to help Northwestern Ontario businesses adopt AI",
-    "image": "/social/2026-07-14.webp"
   }
 ]
