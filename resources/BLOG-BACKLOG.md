@@ -60,7 +60,7 @@ content; funding pages are the high-intent layer, not the whole diet. Rules:
 - [x] ai-restaurants-food-service-thunder-bay Playbook — AI for restaurants and food service in Thunder Bay
 - [x] on-device-local-ai-small-business-northwestern-ontario Trends — On-device and local AI: why "runs on your own computer" is about to matter for small business
 - [x] summer-company-thunder-bay-student-grant-how-it-works Funding — Summer Company (Entrepreneur Centre) — up to $3K seasonal seed for students
-- [ ] Tips — AI and privacy for Canadian business — a plain-language PIPEDA primer
+- [x] ai-privacy-pipeda-canadian-business Tips — AI and privacy for Canadian business — a plain-language PIPEDA primer
 - [ ] Playbook — AI for transportation and logistics in Northwestern Ontario
 - [ ] Perspective — Why Thunder Bay is better positioned for AI than it thinks
 - [ ] Funding — FedNor Northern Ontario Development Program — Community Economic Development stream
