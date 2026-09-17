@@ -1204,6 +1204,7 @@ export const POSTS = [
       { label: 'All NWO funding programs', to: '/funding' },
       { label: 'Starter Company Plus — program summary', to: '/funding/ontario-starter-company-plus' },
       { label: 'Futurpreneur Core Startup: up to $75K for founders 18-39', to: '/blog/futurpreneur-core-startup-young-founders-northwestern-ontario' },
+      { label: 'Summer Company: the $3,000 student grant, explained', to: '/blog/summer-company-thunder-bay-student-grant-how-it-works' },
     ],
   },
   {
@@ -1500,6 +1501,7 @@ export const POSTS = [
       { label: 'All NWO funding programs', to: '/funding' },
       { label: 'NOHFC Invest North Launch: new business funding in Northern Ontario', to: '/blog/nohfc-invest-north-launch-new-business-northern-ontario' },
       { label: 'NOIC Costarter Accelerator', to: '/funding/noic-costarter' },
+      { label: 'Starter Company Plus: the $5,000 grant for non-students', to: '/blog/starter-company-plus-thunder-bay-how-it-works' },
     ],
   },
   {
