@@ -202,6 +202,28 @@ stay scheduled (review buffer). Backlog (work a couple per cycle; let engagement
     in 3-4 briefs once Google re-crawls these pages; if striking-distance queries are still empty next
     cycle, the next data-driven lever is likely internal linking depth or a content-gap scan rather
     than another meta-description pass (this should have closed that root cause site-wide).
+    ~~Internal-linking depth pass~~ — DONE 2026-09-17 (commit `f30ef8b`): the 2026-09-12 brief's GSC
+    striking-distance was empty for the fourth cycle running, so per the FOLLOW-UP above this pivoted
+    off meta-description work onto internal-linking depth. An audit of `src/data/posts.js` +
+    `posts-batch-2.js` (87 posts total) found `/blog/starter-company-plus-thunder-bay-how-it-works`
+    — real page-2 volume (22 impressions, position 11.6, 4.5% CTR, 28d) — had exactly **one** inbound
+    link sitewide (from the Summer Company post's `related` array), despite sitting in a 17-post
+    Funding category built for cross-linking. Verified two genuinely on-topic reciprocal links were
+    missing (checked each candidate's actual body content before adding — rejected a couple of
+    superficially-plausible matches, e.g. the NWO-funding-stack and NADF posts, because their scope
+    is larger loans/systems-build funding, not this $5K general starter grant) and added them: the
+    Summer Company post already linked out to Starter Company Plus but wasn't linked back, and the
+    Futurpreneur Core Startup post (same startup-stage-founder niche) was missing the link in both
+    directions on its side. Net: inbound links to the target page went from 1 to 3, all topically
+    genuine. No content or claims changed, purely additive links. Verified in the prerendered output
+    (`dist/blog/<slug>/index.html` for all three posts), `npm run lint` clean (pre-existing warnings
+    only), `npm run build` succeeded. FOLLOW-UP: re-check this page's GSC position/CTR in 3-4 briefs;
+    if striking-distance stays empty again next cycle, extend this same audit to the other
+    under-linked pages the same investigation surfaced but did not yet fix —
+    `ai-adoption-gap-tripled-nwo-business` (0 inbound links sitewide, already has a metaDescription
+    fix from 2026-09-03 that hasn't moved its 0% CTR at position 6.6 two briefs later) and `/about`
+    (0 contextual inbound links, only the global nav). A content-gap scan (beat coverage vs. the six
+    pillars) is the next lever after that if internal linking alone doesn't move these.
 
 ## Autonomous improvement protocol (the monthly agent MUST follow)
 1. Read this ROADMAP, the STRATEGY thesis, and the current site. Pick the **single highest-value
