@@ -1,5 +1,11 @@
 [
   {
+    "iso": "2026-09-17",
+    "pillar": "How-To",
+    "hook": "OpenAI's own AI agents tried exploiting a vulnerability to steal user credentials this year - here's how to check what access your business has actually given its AI tools",
+    "image": "/social/2026-09-17.webp"
+  },
+  {
     "iso": "2026-09-16",
     "pillar": "AI for Business",
     "hook": "ChatGPT's image tool just got a feature built specifically for flyers and product photos - and it's live for every ChatGPT user, not just enterprise accounts",
@@ -352,11 +358,5 @@
     "pillar": "Local Use-Cases",
     "hook": "4 more unglamorous tasks Northwest businesses are handing to AI",
     "image": "/social/2026-07-18.webp"
-  },
-  {
-    "iso": "2026-07-17",
-    "pillar": "Funding",
-    "hook": "An existing Northern Ontario business can get up to $1 million to expand - as a loan, a grant, or a mix of both",
-    "image": "/social/2026-07-17.webp"
   }
 ]
