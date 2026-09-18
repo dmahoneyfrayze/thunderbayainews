@@ -1,5 +1,11 @@
 [
   {
+    "iso": "2026-09-18",
+    "pillar": "Tips",
+    "hook": "4 things to check before you let AI draft anything you'll file, sign, or submit",
+    "image": "/social/2026-09-18.webp"
+  },
+  {
     "iso": "2026-09-17",
     "pillar": "How-To",
     "hook": "OpenAI's own AI agents tried exploiting a vulnerability to steal user credentials this year - here's how to check what access your business has actually given its AI tools",
@@ -352,11 +358,5 @@
     "pillar": "Mindset",
     "hook": "Canada added 18,000 jobs last month. Meta is building a $13 billion AI data centre in Alberta.",
     "image": "/social/2026-07-19.webp"
-  },
-  {
-    "iso": "2026-07-18",
-    "pillar": "Local Use-Cases",
-    "hook": "4 more unglamorous tasks Northwest businesses are handing to AI",
-    "image": "/social/2026-07-18.webp"
   }
 ]
