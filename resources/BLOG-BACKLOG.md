@@ -62,7 +62,7 @@ content; funding pages are the high-intent layer, not the whole diet. Rules:
 - [x] summer-company-thunder-bay-student-grant-how-it-works Funding — Summer Company (Entrepreneur Centre) — up to $3K seasonal seed for students
 - [x] ai-privacy-pipeda-canadian-business Tips — AI and privacy for Canadian business — a plain-language PIPEDA primer
 - [x] ai-transportation-logistics-northwestern-ontario Playbook — AI for transportation and logistics in Northwestern Ontario
-- [ ] Perspective — Why Thunder Bay is better positioned for AI than it thinks
+- [x] thunder-bay-ai-positioning-advantage Perspective — Why Thunder Bay is better positioned for AI than it thinks
 - [ ] Funding — FedNor Northern Ontario Development Program — Community Economic Development stream
 - [ ] Tips — How to measure ROI on an AI project
 - [ ] Playbook — AI for real estate in Northwestern Ontario
