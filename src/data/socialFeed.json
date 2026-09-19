@@ -1,5 +1,11 @@
 [
   {
+    "iso": "2026-09-19",
+    "pillar": "Local Spotlight",
+    "hook": "Thunder Bay's regional hospital rolled out a digital care platform across 14 clinical areas in 16 months - and reports it's cut hospital stays and ER visits since",
+    "image": "/social/2026-09-19.webp"
+  },
+  {
     "iso": "2026-09-18",
     "pillar": "Tips",
     "hook": "4 things to check before you let AI draft anything you'll file, sign, or submit",
@@ -352,11 +358,5 @@
     "pillar": "",
     "hook": "New York just became the first U.S. state to ban new hyperscale AI data centers - for a full year.",
     "image": "/social/2026-07-20.webp"
-  },
-  {
-    "iso": "2026-07-19",
-    "pillar": "Mindset",
-    "hook": "Canada added 18,000 jobs last month. Meta is building a $13 billion AI data centre in Alberta.",
-    "image": "/social/2026-07-19.webp"
   }
 ]
