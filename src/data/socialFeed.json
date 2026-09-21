@@ -1,5 +1,11 @@
 [
   {
+    "iso": "2026-09-21",
+    "pillar": "",
+    "hook": "An OpenAI executive told a Montreal conference this week that Canada is an 'obvious place' to build the company's next data centre - the same week Virginia's governor moved to slow its own data centre boom down",
+    "image": "/social/2026-09-21.webp"
+  },
+  {
     "iso": "2026-09-20",
     "pillar": "Mindset",
     "hook": "The two companies building the most powerful AI agents just told everyone, in public, that those agents might be getting dangerous - that's worth treating as useful information, not just a headline",
@@ -352,11 +358,5 @@
     "pillar": "AI for Business",
     "hook": "An online car marketplace says its AI voice agents recovered 12 percent of the sales leads it was losing",
     "image": "/social/2026-07-22.webp"
-  },
-  {
-    "iso": "2026-07-21",
-    "pillar": "Funding",
-    "hook": "There's a federal program built specifically to fund AI adoption and commercialization in Northern Ontario",
-    "image": "/social/2026-07-21.webp"
   }
 ]
