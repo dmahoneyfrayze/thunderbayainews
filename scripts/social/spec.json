@@ -1,68 +1,68 @@
 {
-  "iso": "2026-09-14",
-  "issueNo": "12",
-  "dateLabel": "SEP 14",
+  "iso": "2026-09-21",
+  "issueNo": "13",
+  "dateLabel": "SEP 21",
   "handle": "thunderbayai",
   "cover": {
-    "hook": "Ontario breaks ground on the Ring of Fire road — 5 years ahead of schedule.",
-    "sub": "Plus: $634K in federal AI funding lands at NOIC in Thunder Bay, Canada launches a national AI literacy program, and the biggest AI labs are drafting their own rulebook."
+    "hook": "$1.3B — NWO's Marathon mine is fully financed. Construction starts this quarter.",
+    "sub": "Plus: Canada launches an open-source AI consortium for SMEs, FedNor puts $835K into Northern Ontario, and a new Thunder Bay Indigenous firm targets AI infrastructure equity."
   },
-  "reelSub": "Ring of Fire road breaks ground. FedNor puts $634K into NWO AI projects. Canada launches AI literacy courses. Big tech proposes a self-regulatory AI standards body.",
-  "storySub": "Five developments this week that shape what AI and investment look like in Northwestern Ontario.",
+  "reelSub": "$1.3B Marathon mine. Open-source AI for SMEs. FedNor $835K. New Indigenous capital firm in Thunder Bay. Ring of Fire reality check.",
+  "storySub": "Five developments this week that shape investment, AI access, and the resource economy in Northwestern Ontario.",
   "items": [
     {
-      "tag": "LOCAL",
-      "big": "$634K",
-      "bigSize": "180px",
-      "title": "FedNor puts $634K into northern Ontario AI projects — $456K landing at NOIC",
-      "body": "Three projects funded through FedNor's Regional AI Initiative. NOIC's Youth Tech Impact Program gets $456,000 to place young professionals at NWO businesses for AI implementation work.",
-      "tease": "Next: Canada launches a national AI literacy program.",
-      "reelLine": "FedNor announced $634,110 for three northern Ontario AI projects — $456,000 goes directly to NOIC's youth tech placement program in Thunder Bay."
-    },
-    {
-      "tag": "GOVERNMENT",
-      "big": "SEP 21",
-      "bigSize": "120px",
-      "title": "Canada's National AI Literacy Initiative: free post-secondary courses start September 21",
-      "body": "Post-secondary institutions can join the consortium starting September 21. Free 3-hour AI course for students, separate streams for K-12 educators and community workers. $13M funded through Amii.",
-      "tease": "Next: the road to the Ring of Fire is under construction.",
-      "reelLine": "Canada launched its National AI Literacy Initiative on September 9 — post-secondary institutions can offer a free AI course starting September 21."
-    },
-    {
       "tag": "INFRASTRUCTURE",
-      "big": "184 KM",
-      "bigSize": "120px",
-      "title": "Ontario breaks ground on the Marten Falls road — Ring of Fire access, 5 years early",
-      "body": "The 184-km Marten Falls Community Access Road broke ground September 3 with Premier Ford and Chief Achneepineskum. Completion 2031. Unlocks nickel, copper, cobalt, and platinum deposits critical for EV and AI hardware.",
-      "tease": "Next: Thunder Bay's largest industry expo.",
-      "reelLine": "Ontario broke ground on the 184-km Marten Falls Community Access Road on September 3 — five years ahead of the original schedule."
-    },
-    {
-      "tag": "LOCAL",
-      "big": "300+",
+      "big": "$1.3B",
       "bigSize": "180px",
-      "title": "Cen-Can 2026: 300+ exhibitors, 80+ hiring companies at Thunder Bay's largest resource expo",
-      "body": "September 9-10 at Fort William Gardens. Mining, forestry, and energy sectors. Job fair with 80+ companies actively recruiting. Projects in the Pipeline Conference on September 10.",
-      "tease": "Next: the AI labs are drafting their own rulebook.",
-      "reelLine": "Cen-Can 2026 ran September 9-10 at Fort William Gardens — 300+ exhibitors and 80+ companies hiring across NWO's resource sectors."
+      "title": "Marathon mine fully financed — construction starts in NWO this quarter",
+      "body": "Generation Mining secured $1.3B including $140M from the Canada Growth Fund for the Marathon copper-palladium mine in Northwestern Ontario. 800+ construction jobs. Early works Q4 2026.",
+      "tease": "Next: Canada cuts the cost of AI for small business.",
+      "reelLine": "Generation Mining secured $1.3 billion in full financing for the Marathon mine in Northwestern Ontario — construction begins Q4 2026."
     },
     {
       "tag": "NATIONAL",
-      "big": "STANDARDS",
+      "big": "OPEN AI",
       "bigSize": "120px",
-      "title": "Anthropic, OpenAI, Google propose a shared AI standards body — self-regulation before government acts",
-      "body": "Working-group meetings since July, went public September 13. FINRA-style body for AI testing and auditing. Amodei, Altman, and Hassabis all in support. Ottawa's AI transparency consultation closes September 23.",
+      "title": "Canada launches a national open-source AI consortium to cut SME adoption costs",
+      "body": "At ALL IN 2026, Minister Solomon joined Mila, Mozilla, and Hypertec to announce a Canadian-led open-source AI consortium. Goal: lower the price and complexity of AI adoption for small businesses.",
+      "tease": "Next: FedNor directs $835K to Northern Ontario communities.",
+      "reelLine": "Canada's ALL IN 2026 conference launched a national open-source AI consortium to make advanced AI tools cheaper and easier for small businesses."
+    },
+    {
+      "tag": "FUNDING",
+      "big": "$835K",
+      "bigSize": "180px",
+      "title": "FedNor puts $835,777 into 15 Northern Ontario projects — announced in Thunder Bay",
+      "body": "15 youth employment and Indigenous development projects across Northern Ontario. NWO projects include $100K for Wake the Giant in Thunder Bay, $57.5K each in Lake of the Woods and Sioux Narrows.",
+      "tease": "Next: a new Thunder Bay firm targets First Nations AI equity.",
+      "reelLine": "FedNor announced $835,777 for 15 Northern Ontario projects on September 17 in Thunder Bay, including $100K for Wake the Giant Festival."
+    },
+    {
+      "tag": "LOCAL",
+      "big": "EQUITY",
+      "bigSize": "120px",
+      "title": "Making Ground River Capital: Thunder Bay Indigenous firm targets AI infrastructure ownership in NWO",
+      "body": "Jason Rasevych (Ginoogaming First Nation) launched Making Ground River Capital at PM Carney's Canada Investment Summit. The Thunder Bay firm focuses on First Nations equity in AI data centres, clean energy, and NWO supply chains.",
+      "tease": "Next: Ring of Fire — real progress, real limits.",
+      "reelLine": "Making Ground River Capital launched in Toronto — a new Thunder Bay-based Indigenous firm pursuing equity ownership in AI infrastructure and NWO supply chains."
+    },
+    {
+      "tag": "INFRASTRUCTURE",
+      "big": "NOT YET",
+      "bigSize": "120px",
+      "title": "Ring of Fire: two roads approved, the mine is still years away",
+      "body": "Both Marten Falls and Webequie roads cleared assessment in 2026. But the Northern Road Link is still in review, no mine has a final investment decision, and nine First Nations filed a constitutional challenge in 2025.",
       "tease": "The throughline ->",
-      "reelLine": "Anthropic, OpenAI, and Google are building a shared AI self-regulatory body — in public since September 13, as Ottawa's own consultation closes September 23."
+      "reelLine": "Two Ring of Fire access roads have cleared assessment — but no mine has a committed investment decision, and the middle connector road is still awaiting approval."
     }
   ],
   "summary": {
-    "title": "Ottawa and industry are both setting AI rules — the window to shape them is closing",
-    "body": "This week federal money flowed directly into NWO AI capacity through FedNor and a new literacy initiative, the Ring of Fire moved from plan to pavement, and the largest AI companies began drafting their own governance framework. Canada's AI transparency consultation closes September 23 — the last near-term channel for regional voices to reach Ottawa before both tracks move forward."
+    "title": "Specific projects are moving; speculative ones are not — and the capital to tell the difference is getting clearer",
+    "body": "This week Marathon mine went from financed to building; the Ring of Fire remained a long-horizon project with unresolved conditions. Meanwhile, Canada made a structural bet on open-source AI for SMEs, and a Thunder Bay firm moved to put First Nations in the equity seat of the next infrastructure build-out."
   },
   "captions": {
-    "carousel": "This week in Northwestern Ontario: FedNor announced $634,110 for three AI projects through its Regional AI Initiative, with $456,000 going to NOIC's youth tech placement program at NWO businesses. Canada launched its National AI Literacy Initiative on September 9 — post-secondary institutions can offer a free AI course starting September 21. Ontario broke ground on the Marten Falls Community Access Road on September 3 — 184 km to the Ring of Fire, five years ahead of schedule. Cen-Can 2026 drew 300+ exhibitors and 80+ hiring companies to Thunder Bay. And Anthropic, OpenAI, and Google went public with talks on a shared AI self-regulatory standards body, even as Ottawa's AI transparency consultation closes September 23. Full Signal at thunderbayai.com. #ThunderBay #NorthernOntario #NorthwesternOntario #AIbusiness #RingOfFire #FedNor #NWOntario",
-    "reel": "Ring of Fire road breaks ground. FedNor $634K for NWO AI. Canada AI literacy courses Sept 21. Cen-Can 2026. Big tech proposes its own AI rulebook. Full Signal at thunderbayai.com. #NorthernOntario #ThunderBay #RingOfFire #AIbusiness #NWOntario",
+    "carousel": "This week in Northwestern Ontario: Generation Mining secured $1.3B for the Marathon copper-palladium mine and starts construction Q4 2026. Canada launched a national open-source AI consortium at ALL IN 2026 to cut SME adoption costs. FedNor announced $835,777 for 15 Northern Ontario projects in Thunder Bay. Making Ground River Capital launched at the Canada Investment Summit — a new Thunder Bay-based Indigenous firm targeting AI infrastructure equity. And NetNewsLedger ran a reality check on the Ring of Fire: two roads cleared assessment, but no mine is near a final investment decision. Full Signal at thunderbayai.com. #ThunderBay #NorthernOntario #NorthwesternOntario #AIbusiness #RingOfFire #FedNor #NWOntario",
+    "reel": "$1.3B Marathon mine starts construction. Canada open-source AI consortium. FedNor $835K in NWO. New Indigenous capital firm in Thunder Bay. Ring of Fire reality check. Full Signal at thunderbayai.com. #NorthernOntario #ThunderBay #AIbusiness #RingOfFire #NWOntario",
     "story": "Story frame — add a poll sticker and a link sticker to thunderbayai.com."
   }
 }
