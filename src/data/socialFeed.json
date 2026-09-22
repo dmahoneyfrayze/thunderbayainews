@@ -1,5 +1,11 @@
 [
   {
+    "iso": "2026-09-22",
+    "pillar": "Funding",
+    "hook": "There's a Northern Ontario program that will put up to $1,000,000 toward growing an existing business - as a loan, a grant, or both",
+    "image": "/social/2026-09-22.webp"
+  },
+  {
     "iso": "2026-09-21",
     "pillar": "",
     "hook": "An OpenAI executive told a Montreal conference this week that Canada is an 'obvious place' to build the company's next data centre - the same week Virginia's governor moved to slow its own data centre boom down",
@@ -352,11 +358,5 @@
     "pillar": "How-To",
     "hook": "OpenAI's own CFO says most companies are measuring AI value the wrong way",
     "image": "/social/2026-07-23.webp"
-  },
-  {
-    "iso": "2026-07-22",
-    "pillar": "AI for Business",
-    "hook": "An online car marketplace says its AI voice agents recovered 12 percent of the sales leads it was losing",
-    "image": "/social/2026-07-22.webp"
   }
 ]
