@@ -64,7 +64,7 @@ content; funding pages are the high-intent layer, not the whole diet. Rules:
 - [x] ai-transportation-logistics-northwestern-ontario Playbook — AI for transportation and logistics in Northwestern Ontario
 - [x] thunder-bay-ai-positioning-advantage Perspective — Why Thunder Bay is better positioned for AI than it thinks
 - [x] fednor-nodp-ced-community-economic-development-northern-ontario Funding — FedNor Northern Ontario Development Program — Community Economic Development stream
-- [ ] Tips — How to measure ROI on an AI project
+- [x] how-to-measure-roi-ai-project Tips — How to measure ROI on an AI project
 - [ ] Playbook — AI for real estate in Northwestern Ontario
 - [ ] Trends — AI rules are coming to Canada: what a small business should actually watch (and what to ignore)
 - [ ] Tips — How to pick an AI vendor without getting burned
