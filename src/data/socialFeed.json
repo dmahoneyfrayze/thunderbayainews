@@ -1,5 +1,11 @@
 [
   {
+    "iso": "2026-09-23",
+    "pillar": "AI for Business",
+    "hook": "OpenAI just plugged its ad platform directly into Shopify - and it's free to install for any merchant on the platform",
+    "image": "/social/2026-09-23.webp"
+  },
+  {
     "iso": "2026-09-22",
     "pillar": "Funding",
     "hook": "There's a Northern Ontario program that will put up to $1,000,000 toward growing an existing business - as a loan, a grant, or both",
@@ -352,11 +358,5 @@
     "pillar": "Funding",
     "hook": "A Northern Ontario business developing new technology can access up to $2 million to get it to market",
     "image": "/social/2026-07-24.webp"
-  },
-  {
-    "iso": "2026-07-23",
-    "pillar": "How-To",
-    "hook": "OpenAI's own CFO says most companies are measuring AI value the wrong way",
-    "image": "/social/2026-07-23.webp"
   }
 ]
