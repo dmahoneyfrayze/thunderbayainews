@@ -224,6 +224,24 @@ stay scheduled (review buffer). Backlog (work a couple per cycle; let engagement
     fix from 2026-09-03 that hasn't moved its 0% CTR at position 6.6 two briefs later) and `/about`
     (0 contextual inbound links, only the global nav). A content-gap scan (beat coverage vs. the six
     pillars) is the next lever after that if internal linking alone doesn't move these.
+    ~~Internal-linking pass on `ai-adoption-gap-tripled-nwo-business`~~ — DONE 2026-09-24
+    (commit `ec9a632`): the 2026-09-19 brief's GSC striking-distance was empty for the fifth cycle
+    running, so per the FOLLOW-UP above this closed the first of the two under-linked pages flagged
+    2026-09-17. `/blog/ai-adoption-gap-tripled-nwo-business` (13 impressions this brief, 0% CTR,
+    position 6.8) had zero inbound links sitewide despite two existing posts sharing its exact core
+    argument (define the task completely before buying a tool): `ai-audit-one-hour-find-task-worth-automating`
+    (had no `related` block at all) and `most-nwo-businesses-dont-need-a-chatbot` (already linked to
+    it in `ai-adoption-gap-tripled-nwo-business`'s own `related` list but wasn't linked back). Added
+    both reciprocal links — checked each candidate's actual body content first, same discipline as
+    the prior pass. Net: inbound links to the target page went from 0 to 2, both topically genuine.
+    No content or claims changed. Verified in the prerendered output (`dist/blog/ai-audit-one-hour-*`
+    and `dist/blog/most-nwo-businesses-*` contain the new `href`), `npm run lint` clean (pre-existing
+    `no-useless-escape` warnings only, confirmed present before this change too), `npm run build`
+    succeeded. FOLLOW-UP: re-check this page's GSC CTR in 3-4 briefs. `/about` (0 contextual inbound
+    links, only the global nav) is still open from the 2026-09-17 flag — next candidate if striking-
+    distance is still empty next cycle. If both under-linked pages have now been addressed and
+    striking-distance is STILL empty, move to the content-gap scan (beat coverage vs. the six
+    pillars) per the prior FOLLOW-UP.
 
 ## Autonomous improvement protocol (the monthly agent MUST follow)
 1. Read this ROADMAP, the STRATEGY thesis, and the current site. Pick the **single highest-value
