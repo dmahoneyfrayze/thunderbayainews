@@ -2121,6 +2121,10 @@ export const POSTS = [
       ]},
       { type: 'source', text: 'Sources: ISED Canada — The SME AI Adoption Blueprint, including guidance that successful AI projects begin with tightly defined problems aligned with business priorities: ised-isde.canada.ca/site/ised/en/sme-ai-adoption-blueprint | BDC LIFT program (announced April 24, 2026; $500 million allocated; loans from $25,000 to $5 million; principal deferral up to two years; priority to Canadian-developed AI solutions; advisory support available): bdc.ca/en/about/mediaroom/news-releases/bdc-launches-lift-getting-canadian-smes-off-the-ai-sidelines | G7 SME AI Adoption Blueprint — Ministerial Statement: g7.utoronto.ca/ict/2025-sme-ai-adoption-blueprint.html. This is general information and does not constitute advice specific to any business or project. Confirm program eligibility and current terms with BDC directly before applying.' },
     ],
+    related: [
+      { label: 'Most Northwestern Ontario businesses don\'t need a chatbot. Here\'s what to fix first.', to: '/blog/most-nwo-businesses-dont-need-a-chatbot' },
+      { label: 'Frontier firms aren\'t pulling ahead on AI budget. They\'re pulling ahead on what they let it finish.', to: '/blog/ai-adoption-gap-tripled-nwo-business' },
+    ],
   },
   {
     slug: 'signal-ai-funding-nwo-week-july-20-2026',
@@ -2238,6 +2242,7 @@ export const POSTS = [
     related: [
       { label: 'Missed-call text-back, explained: the cheapest AI win for a local business', to: '/blog/missed-call-text-back-explained-local-business' },
       { label: 'A one-hour AI audit of your own business: find the task worth automating first', to: '/blog/ai-audit-one-hour-find-task-worth-automating' },
+      { label: 'Frontier firms aren\'t pulling ahead on AI budget. They\'re pulling ahead on what they let it finish.', to: '/blog/ai-adoption-gap-tripled-nwo-business' },
     ],
   },
   {
