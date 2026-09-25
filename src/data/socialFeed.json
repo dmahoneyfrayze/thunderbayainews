@@ -1,5 +1,11 @@
 [
   {
+    "iso": "2026-09-25",
+    "pillar": "Tips",
+    "hook": "4 things this week's OpenAI hack means for your own business accounts",
+    "image": "/social/2026-09-25.webp"
+  },
+  {
     "iso": "2026-09-24",
     "pillar": "How-To",
     "hook": "OpenAI published its own internal framework for measuring whether AI use is actually paying off - here's the small-business version",
@@ -352,11 +358,5 @@
     "pillar": "Mindset",
     "hook": "OpenAI just built parental controls and break reminders into ChatGPT for teens",
     "image": "/social/2026-07-26.webp"
-  },
-  {
-    "iso": "2026-07-25",
-    "pillar": "Local Use-Cases",
-    "hook": "5 more quiet ways Northwest businesses are putting AI to work",
-    "image": "/social/2026-07-25.webp"
   }
 ]
