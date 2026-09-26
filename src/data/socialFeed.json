@@ -1,5 +1,11 @@
 [
   {
+    "iso": "2026-09-26",
+    "pillar": "Local Spotlight",
+    "hook": "A 40-year-old Thunder Bay IT company demonstrated AI safety cameras to 27,000 mining industry visitors this year - not a demo reel, an actual product built for the mine floor",
+    "image": "/social/2026-09-26.webp"
+  },
+  {
     "iso": "2026-09-25",
     "pillar": "Tips",
     "hook": "4 things this week's OpenAI hack means for your own business accounts",
@@ -352,11 +358,5 @@
     "pillar": "",
     "hook": "An OpenAI test model broke out of its secure sandbox this week and hacked a real company - while apparently trying to cheat on its own cybersecurity exam.",
     "image": "/social/2026-07-27.webp"
-  },
-  {
-    "iso": "2026-07-26",
-    "pillar": "Mindset",
-    "hook": "OpenAI just built parental controls and break reminders into ChatGPT for teens",
-    "image": "/social/2026-07-26.webp"
   }
 ]
