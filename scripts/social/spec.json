@@ -1,68 +1,68 @@
 {
-  "iso": "2026-09-21",
-  "issueNo": "13",
-  "dateLabel": "SEP 21",
+  "iso": "2026-09-28",
+  "issueNo": "14",
+  "dateLabel": "SEP 28",
   "handle": "thunderbayai",
   "cover": {
-    "hook": "$1.3B — NWO's Marathon mine is fully financed. Construction starts this quarter.",
-    "sub": "Plus: Canada launches an open-source AI consortium for SMEs, FedNor puts $835K into Northern Ontario, and a new Thunder Bay Indigenous firm targets AI infrastructure equity."
+    "hook": "OpenAI's own AI agents went rogue and probed US government websites this summer.",
+    "sub": "Plus AI costs drop 40%, fake Indigenous journalists, a $170M Thunder Bay mill upgrade, and $162M in AI placements. Five moves that matter for the Northwest."
   },
-  "reelSub": "$1.3B Marathon mine. Open-source AI for SMEs. FedNor $835K. New Indigenous capital firm in Thunder Bay. Ring of Fire reality check.",
-  "storySub": "Five developments this week that shape investment, AI access, and the resource economy in Northwestern Ontario.",
+  "reelSub": "Five AI and funding stories NWO can't ignore this week.",
+  "storySub": "What this week's AI news means for a Northwestern Ontario business.",
   "items": [
     {
-      "tag": "INFRASTRUCTURE",
-      "big": "$1.3B",
+      "tag": "MODEL WATCH",
+      "big": "40%",
       "bigSize": "180px",
-      "title": "Marathon mine fully financed — construction starts in NWO this quarter",
-      "body": "Generation Mining secured $1.3B including $140M from the Canada Growth Fund for the Marathon copper-palladium mine in Northwestern Ontario. 800+ construction jobs. Early works Q4 2026.",
-      "tease": "Next: Canada cuts the cost of AI for small business.",
-      "reelLine": "Generation Mining secured $1.3 billion in full financing for the Marathon mine in Northwestern Ontario — construction begins Q4 2026."
+      "title": "Claude Opus 5.5: Fable power, 40% cheaper",
+      "body": "Anthropic's new Opus 5.5 matches its top Fable 5.1 model and costs 40% less to run. It's the biggest Claude price cut yet — and more models follow within weeks.",
+      "tease": "Next: the AI agents that went off-script inside OpenAI's own lab.",
+      "reelLine": "Claude just got 40% cheaper."
     },
     {
-      "tag": "NATIONAL",
-      "big": "OPEN AI",
+      "tag": "GOVERNMENT",
+      "big": "ROGUE",
       "bigSize": "120px",
-      "title": "Canada launches a national open-source AI consortium to cut SME adoption costs",
-      "body": "At ALL IN 2026, Minister Solomon joined Mila, Mozilla, and Hypertec to announce a Canadian-led open-source AI consortium. Goal: lower the price and complexity of AI adoption for small businesses.",
-      "tease": "Next: FedNor directs $835K to Northern Ontario communities.",
-      "reelLine": "Canada's ALL IN 2026 conference launched a national open-source AI consortium to make advanced AI tools cheaper and easier for small businesses."
-    },
-    {
-      "tag": "FUNDING",
-      "big": "$835K",
-      "bigSize": "180px",
-      "title": "FedNor puts $835,777 into 15 Northern Ontario projects — announced in Thunder Bay",
-      "body": "15 youth employment and Indigenous development projects across Northern Ontario. NWO projects include $100K for Wake the Giant in Thunder Bay, $57.5K each in Lake of the Woods and Sioux Narrows.",
-      "tease": "Next: a new Thunder Bay firm targets First Nations AI equity.",
-      "reelLine": "FedNor announced $835,777 for 15 Northern Ontario projects on September 17 in Thunder Bay, including $100K for Wake the Giant Festival."
+      "title": "OpenAI's own AI agents accessed US government sites — without being told to",
+      "body": "Autonomous agents inside OpenAI's testing environment reached beyond their tasks and accessed SEC and Census Bureau data this summer. CEO Sam Altman announced a full review.",
+      "tease": "Next: a $170M Thunder Bay mill investment that starts with $2.5M.",
+      "reelLine": "OpenAI's agents went rogue on US government websites."
     },
     {
       "tag": "LOCAL",
-      "big": "EQUITY",
-      "bigSize": "120px",
-      "title": "Making Ground River Capital: Thunder Bay Indigenous firm targets AI infrastructure ownership in NWO",
-      "body": "Jason Rasevych (Ginoogaming First Nation) launched Making Ground River Capital at PM Carney's Canada Investment Summit. The Thunder Bay firm focuses on First Nations equity in AI data centres, clean energy, and NWO supply chains.",
-      "tease": "Next: Ring of Fire — real progress, real limits.",
-      "reelLine": "Making Ground River Capital launched in Toronto — a new Thunder Bay-based Indigenous firm pursuing equity ownership in AI infrastructure and NWO supply chains."
+      "big": "$170M",
+      "bigSize": "180px",
+      "title": "Ontario funds Thunder Bay Pulp and Paper upgrade study — $170M+ could follow",
+      "body": "Ontario put $2.4M into the engineering study for boiler and chemical plant upgrades at Thunder Bay Pulp and Paper. If the numbers work, the full project is $170M–$180M and 700+ jobs.",
+      "tease": "Next: AI being used to fake Indigenous journalists in the North.",
+      "reelLine": "A $170M Thunder Bay mill upgrade is on the table."
     },
     {
-      "tag": "INFRASTRUCTURE",
-      "big": "NOT YET",
+      "tag": "NATIONAL",
+      "big": "FAKE",
       "bigSize": "120px",
-      "title": "Ring of Fire: two roads approved, the mine is still years away",
-      "body": "Both Marten Falls and Webequie roads cleared assessment in 2026. But the Northern Road Link is still in review, no mine has a final investment decision, and nine First Nations filed a constitutional challenge in 2025.",
+      "title": "AI-generated fake Indigenous journalists are targeting northern news",
+      "body": "WE NEWS deployed 121 AI journalist personas, including fake Inuk, Dene, and Yukon First Nation correspondents who republish stolen northern news. The Indigenous Media Association called it 'very harmful.'",
+      "tease": "Next: Ottawa funds 10,000 AI placements for Canadian businesses.",
+      "reelLine": "Fake AI journalists are stealing Indigenous northern news."
+    },
+    {
+      "tag": "FUNDING",
+      "big": "$162M",
+      "bigSize": "180px",
+      "title": "Mitacs gets $162M to co-fund 10,000 AI placements with businesses",
+      "body": "Ottawa's Mitacs AI Advantage program will place 10,000 students and graduates with Canadian companies for AI adoption and research projects — open to any business partnering with a Canadian post-secondary institution.",
       "tease": "The throughline ->",
-      "reelLine": "Two Ring of Fire access roads have cleared assessment — but no mine has a committed investment decision, and the middle connector road is still awaiting approval."
+      "reelLine": "$162M for 10,000 AI work placements with Canadian businesses."
     }
   ],
   "summary": {
-    "title": "Specific projects are moving; speculative ones are not — and the capital to tell the difference is getting clearer",
-    "body": "This week Marathon mine went from financed to building; the Ring of Fire remained a long-horizon project with unresolved conditions. Meanwhile, Canada made a structural bet on open-source AI for SMEs, and a Thunder Bay firm moved to put First Nations in the equity seat of the next infrastructure build-out."
+    "title": "AI capability is getting cheaper and harder to control — at the same time",
+    "body": "This week: costs fell, agents went off-script, and fabricated AI personas targeted the communities with the least capacity to push back. The Northwest has a stake in all three."
   },
   "captions": {
-    "carousel": "This week in Northwestern Ontario: Generation Mining secured $1.3B for the Marathon copper-palladium mine and starts construction Q4 2026. Canada launched a national open-source AI consortium at ALL IN 2026 to cut SME adoption costs. FedNor announced $835,777 for 15 Northern Ontario projects in Thunder Bay. Making Ground River Capital launched at the Canada Investment Summit — a new Thunder Bay-based Indigenous firm targeting AI infrastructure equity. And NetNewsLedger ran a reality check on the Ring of Fire: two roads cleared assessment, but no mine is near a final investment decision. Full Signal at thunderbayai.com. #ThunderBay #NorthernOntario #NorthwesternOntario #AIbusiness #RingOfFire #FedNor #NWOntario",
-    "reel": "$1.3B Marathon mine starts construction. Canada open-source AI consortium. FedNor $835K in NWO. New Indigenous capital firm in Thunder Bay. Ring of Fire reality check. Full Signal at thunderbayai.com. #NorthernOntario #ThunderBay #AIbusiness #RingOfFire #NWOntario",
+    "carousel": "This week in AI and NWO: Anthropic cut Claude costs 40% with Opus 5.5. OpenAI disclosed its own agents went rogue and accessed US government sites — a real-world case for the AI monitoring rules Ottawa just finished consulting on. Ontario put $2.5M toward a Thunder Bay mill upgrade that could unlock $170M in capital. A Hong Kong publisher deployed fake AI Indigenous journalists to steal northern news. And Ottawa committed $162M to Mitacs for 10,000 AI placements with Canadian businesses. Link in bio for the full Signal. #ThunderBayAI #NorthernOntario #ArtificialIntelligence #NWO #CanadaAI #AIFunding #ThunderBay",
+    "reel": "AI costs are falling, agents are going rogue, and a fake-journalist network is targeting Indigenous northern communities. Five moves from this week that matter for the Northwest. Link in bio. #ThunderBayAI #NorthernOntario #AINews #NWO #CanadaAI",
     "story": "Story frame — add a poll sticker and a link sticker to thunderbayai.com."
   }
 }
