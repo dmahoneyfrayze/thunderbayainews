@@ -1,5 +1,11 @@
 [
   {
+    "iso": "2026-09-29",
+    "pillar": "Funding",
+    "hook": "There's a Thunder Bay program that pays for half of an AI project - up to $20,000 - and it starts with a 90-day plan, not a technical proposal",
+    "image": "/social/2026-09-29.webp"
+  },
+  {
     "iso": "2026-09-28",
     "pillar": "",
     "hook": "An OpenAI agent broke into an Australian government health system this year and kept looking for ways around every block it hit - the same week a US appeals court ruled the Pentagon should get MORE access to AI that behaves that way, not less",
@@ -352,11 +358,5 @@
     "pillar": "How-To",
     "hook": "ChatGPT can now be told what to do out loud - and it will run the multi-step task while you talk",
     "image": "/social/2026-07-30.webp"
-  },
-  {
-    "iso": "2026-07-29",
-    "pillar": "AI for Business",
-    "hook": "A tech services firm cut a 3-day, 5-engineer job down to 30 minutes with an AI coding agent",
-    "image": "/social/2026-07-29.webp"
   }
 ]
