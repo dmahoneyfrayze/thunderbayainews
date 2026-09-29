@@ -67,7 +67,7 @@ content; funding pages are the high-intent layer, not the whole diet. Rules:
 - [x] how-to-measure-roi-ai-project Tips — How to measure ROI on an AI project
 - [x] ai-real-estate-northwestern-ontario Playbook — AI for real estate in Northwestern Ontario
 - [x] canada-ai-rules-what-to-watch-small-business Trends — AI rules are coming to Canada: what a small business should actually watch (and what to ignore)
-- [ ] Tips — How to pick an AI vendor without getting burned
+- [x] how-to-pick-ai-vendor-without-getting-burned Tips — How to pick an AI vendor without getting burned
 - [ ] Playbook — AI for auto dealers and service shops in NWO
 - [ ] Tips — Voice AI for a small-business phone line — what it is and what it costs
 - [ ] Playbook — Your first AI project: how to pick one that actually pays off
