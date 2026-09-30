@@ -8,8 +8,10 @@ Denisbot session log of the same date.
 
 - Last 7 days (to 2026-09-29): 14 posts reached 126 people (Instagram 7, Facebook 119), 194
   impressions, 1 like, 0 shares. Facebook +1 follower, Instagram +0.
-- One Local Spotlight post (2026-09-26, a Thunder Bay company's AI safety cameras) drew 119 of
-  Facebook's 178 impressions. Generic AI news drew almost nothing.
+- One post drew 119 of Facebook's 178 impressions: the Fri 2026-09-25 TIPS listicle "4 things this
+  week's OpenAI hack means for your own business accounts", timely and practical. The Local Spotlight
+  the next day drew 8. (A first draft of this doc credited the spike to the spotlight; the scorecard's
+  date join caught the weekday error the same day.)
 - Since June: 205 posts, 21 likes, 0 shares.
 - Every Instagram Story failed from 2026-08-18 to 2026-09-30 (the API rejects captions on stories).
   Fixed 2026-09-30.

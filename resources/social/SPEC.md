@@ -54,13 +54,16 @@ modern digital tools to work. Rules:
 
 ## Growth rules (added 2026-09-30; where older guidance conflicts, these win)
 
-Why: in the 7 days to 2026-09-29, 14 posts reached 126 people (Instagram 7, Facebook 119), and 119 of
-Facebook's 178 impressions came from ONE Local Spotlight post. The 205 posts since June earned 21
-likes and 0 shares. Generic AI news does not travel here; local stories do. Platforms now rank on
-shares, saves and watch time, and they demote posts that only relay someone else's headline.
+Why: in the 7 days to 2026-09-29, 14 posts reached 126 people (Instagram 7, Facebook 119). One post
+drew 119 of Facebook's 178 impressions: the Fri 2026-09-25 TIPS listicle "4 things this week's OpenAI
+hack means for your own business accounts", timely and practical. The rest drew almost nothing, and
+the 205 posts since June earned 21 likes and 0 shares. One spike proves little; the rules below come
+from what grows local and faceless pages (GROWTH-MODEL.md), and SCORECARD.md will test them weekly.
+Platforms now rank on shares, saves and watch time, and demote posts that only relay a headline.
 
-1. **Local first.** Every post names something in Northwestern Ontario in `cover.hook` or the first
-   caption line: a place, organization, sector, program or event. Global AI news appears only
+1. **Local first, practical always.** Every post names something in Northwestern Ontario in
+   `cover.hook` or the first caption line: a place, organization, sector, program or event. And every
+   post tells the reader what it means for them or what to do about it. Global AI news appears only
    translated into one concrete local consequence. No post may be generic global AI news.
 2. **Our own framing, never a relayed headline.** Every post carries at least one sentence of Thunder
    Bay AI's own analysis of why it matters here (the `why` block, or the caption's second paragraph).
