@@ -1,5 +1,11 @@
 [
   {
+    "iso": "2026-10-01",
+    "pillar": "How-To",
+    "hook": "Two of the biggest AI companies just cut their prices in the same week - here's how to tell if switching actually saves your business money",
+    "image": "/social/2026-10-01.webp"
+  },
+  {
     "iso": "2026-09-30",
     "pillar": "AI for Business",
     "hook": "An AI video tool can now take one ad that's already working and spit out 100 new versions of it, including versions built for other countries",
@@ -352,11 +358,5 @@
     "pillar": "Local Use-Cases",
     "hook": "5 more quiet ways Northwest businesses are putting AI to work",
     "image": "/social/2026-08-01.webp"
-  },
-  {
-    "iso": "2026-07-31",
-    "pillar": "Funding",
-    "hook": "An established Northern Ontario business can access up to $500,000 to adopt new technology and grow",
-    "image": "/social/2026-07-31.webp"
   }
 ]
