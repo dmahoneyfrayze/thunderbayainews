@@ -242,6 +242,22 @@ stay scheduled (review buffer). Backlog (work a couple per cycle; let engagement
     distance is still empty next cycle. If both under-linked pages have now been addressed and
     striking-distance is STILL empty, move to the content-gap scan (beat coverage vs. the six
     pillars) per the prior FOLLOW-UP.
+    ~~Internal-linking pass on `/about`~~ — DONE 2026-10-01 (commit `adedf7d`): the 2026-09-26 brief's
+    GSC striking-distance was empty for the sixth cycle running, and both under-linked pages flagged
+    2026-09-17 had now been through a pass except `/about`, which still had zero contextual inbound
+    links sitewide (only the global nav pointed to it). Added a `related` entry linking to `/about`
+    on the two most recent Signal roundup posts inside the current GSC window (`signal-ai-funding-nwo-week-september-28-2026`
+    and `signal-ai-funding-nwo-week-september-21-2026`) — the most topically honest fit on the site,
+    since `/about` explains exactly the monitor/report/verify process the Signal is a product of.
+    Net: inbound links to `/about` went from 0 to 2, both genuine. No content or claims changed.
+    Verified in the prerendered output (both `dist/blog/signal-ai-funding-nwo-week-september-2*`
+    pages contain the new `href="/about"` in the Related block), `npm run lint` clean (pre-existing
+    `no-useless-escape` warnings only), `npm run build` succeeded. FOLLOW-UP: re-check `/about`'s
+    GSC position/CTR in 3-4 briefs. Both pages flagged in the 2026-09-17 under-linked audit
+    (`ai-adoption-gap-tripled-nwo-business` and `/about`) have now had a pass — if striking-distance
+    is STILL empty next cycle, move to the content-gap scan (beat coverage vs. the six pillars) per
+    the prior FOLLOW-UP, since the internal-linking lever for the known under-linked pages is now
+    exhausted.
 
 ## Autonomous improvement protocol (the monthly agent MUST follow)
 1. Read this ROADMAP, the STRATEGY thesis, and the current site. Pick the **single highest-value
