@@ -1,5 +1,11 @@
 [
   {
+    "iso": "2026-10-02",
+    "pillar": "Tips",
+    "hook": "4 things this week's AI agent security incidents mean for your own business",
+    "image": "/social/2026-10-02.webp"
+  },
+  {
     "iso": "2026-10-01",
     "pillar": "How-To",
     "hook": "Two of the biggest AI companies just cut their prices in the same week - here's how to tell if switching actually saves your business money",
@@ -352,11 +358,5 @@
     "pillar": "Mindset",
     "hook": "Meta just broke its own promise and turned its AI chatbot into a productivity assistant",
     "image": "/social/2026-08-02.webp"
-  },
-  {
-    "iso": "2026-08-01",
-    "pillar": "Local Use-Cases",
-    "hook": "5 more quiet ways Northwest businesses are putting AI to work",
-    "image": "/social/2026-08-01.webp"
   }
 ]
