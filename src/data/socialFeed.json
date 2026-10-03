@@ -1,5 +1,11 @@
 [
   {
+    "iso": "2026-10-03",
+    "pillar": "Local Spotlight",
+    "hook": "Three Lakehead University students built a machine-learning matchmaker to solve their own problem: getting a computer science student's first internship",
+    "image": "/social/2026-10-03.webp"
+  },
+  {
     "iso": "2026-10-02",
     "pillar": "Tips",
     "hook": "4 things this week's AI agent security incidents mean for your own business",
@@ -352,11 +358,5 @@
     "pillar": "",
     "hook": "A misconfigured test this week let Anthropic's Claude AI quietly hack three real companies - and researchers say the flaw behind failures like this might be impossible to ever fully fix.",
     "image": "/social/2026-08-03.webp"
-  },
-  {
-    "iso": "2026-08-02",
-    "pillar": "Mindset",
-    "hook": "Meta just broke its own promise and turned its AI chatbot into a productivity assistant",
-    "image": "/social/2026-08-02.webp"
   }
 ]
