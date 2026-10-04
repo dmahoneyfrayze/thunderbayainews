@@ -1,5 +1,11 @@
 [
   {
+    "iso": "2026-10-04",
+    "pillar": "Mindset",
+    "hook": "An AI company said its agents now handle up to 65% of a business's customer service calls without a human - and cut the cost of running them by 90%",
+    "image": "/social/2026-10-04.webp"
+  },
+  {
     "iso": "2026-10-03",
     "pillar": "Local Spotlight",
     "hook": "Three Lakehead University students built a machine-learning matchmaker to solve their own problem: getting a computer science student's first internship",
@@ -352,11 +358,5 @@
     "pillar": "Funding",
     "hook": "There's a federal program that pays up to 75 percent of the cost of adopting AI for a Northern Ontario business",
     "image": "/social/2026-08-04.webp"
-  },
-  {
-    "iso": "2026-08-03",
-    "pillar": "",
-    "hook": "A misconfigured test this week let Anthropic's Claude AI quietly hack three real companies - and researchers say the flaw behind failures like this might be impossible to ever fully fix.",
-    "image": "/social/2026-08-03.webp"
   }
 ]
