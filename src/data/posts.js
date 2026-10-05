@@ -6,6 +6,36 @@ import { POSTS_BATCH2 } from './posts-batch-2.js';
 
 export const POSTS = [
   {
+    slug: 'signal-ai-funding-nwo-week-october-5-2026',
+    title: 'The Signal: AI & funding in the Northwest, week of October 5',
+    seoTitle: 'NWO Signal: AI Council, FedNor $20M, Sonnet 5.5',
+    metaDescription: "Canada's National AI Council launched. FedNor puts $20.5M into NWO communities. Anthropic and OpenAI each released faster mid-tier models this week.",
+    dek: "Canada's new National Council on AI launched October 2, part of a $2.3B federal strategy that includes $500M through regional agencies like FedNor. Speaking of FedNor: $20.5M for 22 CFDC projects across Northern Ontario was announced October 1. Anthropic released Sonnet 5.5 (30%-plus faster, same price) on September 28, and OpenAI followed at DevDay with GPT-6.1 Sol. Plus a new $87.9M contract for the next section of Highway 11/17 twinning between Thunder Bay and Nipigon.",
+    category: 'News',
+    date: 'October 5, 2026',
+    iso: '2026-10-05',
+    readMins: 5,
+    accent: ['#0891b2', '#7c3aed'],
+    blocks: [
+      { type: 'p', text: 'Five developments from the past week that matter for Northwestern Ontario businesses, governments, and anyone tracking AI, funding, and regional industry.' },
+      { type: 'h2', text: "Canada's National Council on AI is now active: a 13-member advisory body shaping the $2.3B federal AI strategy" },
+      { type: 'p', text: "Prime Minister Mark Carney launched the National Council on Artificial Intelligence on October 2. The 13-member body — which includes AI researcher Yoshua Bengio — will provide independent advice on AI safety, adoption, and sovereign AI infrastructure. It is the governance layer for the 'AI for All' strategy announced in June 2026, which commits $2.3B in spending through 2031, including a $500M Regional Artificial Intelligence Initiative intended to flow through regional development agencies. For Northern Ontario, bodies like FedNor fall within that regional agency structure. The council's mandate and recommendations will shape how those programs are designed and who can access them." },
+      { type: 'h2', text: 'FedNor puts $20.5 million into 22 Community Futures projects across Northern Ontario' },
+      { type: 'p', text: "On October 1, Minister Patty Hajdu — Member of Parliament for Thunder Bay-Superior North and Minister responsible for FedNor — announced $20,533,121 in FedNor funding for 22 projects led by Community Futures Development Corporations (CFDCs) across Northern Ontario. The investment is projected to create or maintain over 1,200 jobs. CFDCs provide business loans, advisory services, and startup capital to local entrepreneurs. For NWO businesses: freshly funded CFDCs are actively deploying capital — if you are working on a startup or expansion and have not spoken to your local CFDC yet, this is a good time." },
+      { type: 'h2', text: 'Anthropic releases Claude Sonnet 5.5: more than 30% faster than Sonnet 5, same API price' },
+      { type: 'p', text: "Anthropic released Claude Sonnet 5.5 on September 28 across the Claude API, Amazon Bedrock, Google Cloud, and Azure. The model generates output more than 30% faster than Sonnet 5 at unchanged pricing: $2 per million input tokens and $10 per million output tokens. On several benchmarks it approaches Claude Opus 5.5 performance at substantially lower cost. Sonnet 5.5 is also the first Sonnet model to include flagship-level cybersecurity safeguards previously reserved for the Opus class. Note for developers: Sonnet 5.5 introduces five breaking changes relative to Sonnet 5 — including how extended thinking is configured and how forced tool use works. Review Anthropic's September 28 release notes on platform.claude.com before migrating production code." },
+      { type: 'h2', text: 'OpenAI releases GPT-6.1 Sol at DevDay: near-flagship performance at a mid-tier price' },
+      { type: 'p', text: "OpenAI unveiled GPT-6.1 Sol at its DevDay 2026 event on September 29. According to OpenAI, the model performs close to the flagship GPT-6 Astra at substantially lower cost, and is available to ChatGPT Plus, Pro, Business, and Enterprise users via ChatGPT Work and Codex, and to developers via the API as gpt-6.1-sol. The model launched the same week as Anthropic's Sonnet 5.5. For NWO operators: the capable mid-tier of commercial AI is meaningfully stronger this week than it was a month ago. If you evaluated a Claude or OpenAI tool earlier in 2026 and set it aside for performance or cost reasons, these releases are a reasonable trigger to re-test." },
+      { type: 'h2', text: 'Highway 11/17 twinning: Teranorth wins $87.9M contract for the next five kilometres between Thunder Bay and Nipigon' },
+      { type: 'p', text: "Ontario awarded Teranorth Construction and Engineering an $87.9M contract on October 1 for a five-kilometre section of Highway 11/17 between McGuire Road and Coughlin Road on the Thunder Bay to Nipigon corridor. The project widens the road to four lanes with a divided grass median and includes two new bridges over the Black Sturgeon River. The federal government is contributing $26.05M through the New Building Canada Fund. This is the latest phase of the long-running program to twin more than 107 kilometres of Highway 11/17. Each contracted section moves completion of the four-lane corridor forward — improving safety and capacity on one of the region's primary commercial freight routes." },
+      { type: 'source', text: 'Sources: Prime Minister of Canada, National Council on Artificial Intelligence (Oct 2, 2026): pm.gc.ca/en/news/news-releases/2026/10/02/prime-minister-carney-launches-new-national-council-artificial | Betakit, Canada AI for All strategy (June 4, 2026): betakit.com/canadas-ai-strategy-contains-2-3-billion-in-spending-few-details-on-new-privacy-regulations/ | Mirage News, FedNor $20.5M Northern Ontario (Oct 1, 2026): miragenews.com/canada-invests-20m-to-boost-northern-ontario-1753900/ | Anthropic platform release notes, Claude Sonnet 5.5 (Sept 28, 2026): platform.claude.com/docs/en/release-notes/overview | VentureBeat, Claude Sonnet 5.5: venturebeat.com/technology/anthropic-launches-claude-sonnet-5-5-with-30-cost-reduction-per-task-due-to-faster-speeds-and-fewer-tool-calls | TechCrunch, OpenAI GPT-6.1 Sol (Sept 29, 2026): techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less/ | Ontario Construction News, Teranorth Highway 11/17 contract (Oct 1, 2026): ontarioconstructionnews.com/teranorth-awarded-88-million-contract-for-highway-11-17-widening' },
+    ],
+    related: [
+      { label: 'The Signal: AI & funding in the Northwest, week of September 28', to: '/blog/signal-ai-funding-nwo-week-september-28-2026' },
+      { label: 'How this brief gets made: the monitoring, review, and verification behind Thunder Bay AI', to: '/about' },
+    ],
+  },
+  {
     slug: 'ai-auto-dealers-service-shops-northwestern-ontario',
     title: 'AI for auto dealers and service shops in Northwestern Ontario: what to automate and what the rules still require of you',
     seoTitle: 'AI for auto dealers and service shops in NWO',
