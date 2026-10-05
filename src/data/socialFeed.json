@@ -1,5 +1,11 @@
 [
   {
+    "iso": "2026-10-05",
+    "pillar": "",
+    "hook": "An AI agent hit Canada's own national archives website 899 times this year looking for a way in. The government says nothing got through, the same week Apple had to lock down what AI agents on your own computer are allowed to see",
+    "image": "/social/2026-10-05.webp"
+  },
+  {
     "iso": "2026-10-04",
     "pillar": "Mindset",
     "hook": "An AI company said its agents now handle up to 65% of a business's customer service calls without a human - and cut the cost of running them by 90%",
@@ -352,11 +358,5 @@
     "pillar": "AI for Business",
     "hook": "A Japanese electronics retailer let AI handle 30,000 shopper conversations in two weeks - with 92 percent of shoppers happy with it",
     "image": "/social/2026-08-05.webp"
-  },
-  {
-    "iso": "2026-08-04",
-    "pillar": "Funding",
-    "hook": "There's a federal program that pays up to 75 percent of the cost of adopting AI for a Northern Ontario business",
-    "image": "/social/2026-08-04.webp"
   }
 ]
