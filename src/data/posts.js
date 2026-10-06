@@ -6,6 +6,58 @@ import { POSTS_BATCH2 } from './posts-batch-2.js';
 
 export const POSTS = [
   {
+    slug: 'voice-ai-small-business-phone-line-what-it-costs',
+    title: 'Voice AI for a small-business phone line: what it is and what it costs',
+    seoTitle: 'Voice AI phone line cost for small business',
+    metaDescription: 'What an AI phone answering service costs a small business: published plan prices, the carrier line underneath, and what to ask before you sign.',
+    dek: 'Voice AI answers your business phone with software instead of a person. Published plans for small businesses start around US$49 to US$79 a month, and the real cost depends on how the vendor counts usage.',
+    category: 'Tips',
+    date: 'October 6, 2026',
+    iso: '2026-10-06',
+    readMins: 6,
+    accent: ['#0891b2', '#2563eb'],
+    blocks: [
+      { type: 'p', text: 'Voice AI is software that answers your business phone, talks to the caller in natural speech, and can take a message, answer common questions or book an appointment, then hand the details to you. For a small business the published entry-level plans from vendors such as Rosie and Goodcall start at US$49 to US$79 a month, billed in US dollars. The number on the plan matters less than how the vendor counts usage: some bill by minutes of talk time, some by unique callers, and the overage rules decide whether the monthly bill stays predictable. A Northwestern Ontario business should treat any list price as a starting point and price it against its own call volume.' },
+      { type: 'h2', text: 'What it is, in one paragraph' },
+      { type: 'p', text: 'The caller dials your existing number, which is forwarded to the service. The AI greets them, works from a script and knowledge base you supply, and either resolves the call or passes it on. This is different from missed-call text-back, which only replies by text after a call goes unanswered. If you have not tried that cheaper step first, start there. For the deeper question of whether voice AI suits your kind of business, and what a deployment needs before it goes live, see the related Trends post below.' },
+      { type: 'h2', text: 'Three ways vendors charge' },
+      { type: 'ul', items: [
+        'By minutes of talk time. Rosie lists three plans on its pricing page: US$49 a month for 250 minutes, US$149 for 1,000 minutes and US$299 for 2,000 minutes. Dividing plan price by minutes gives roughly 15 to 20 US cents a minute. The page does not state what an overage minute costs, so ask before you sign.',
+        'By unique callers. Goodcall lists US$79 a month for 100 unique callers, US$129 for 250 and US$249 for 500, with additional callers at US$0.50 each and no charge for call minutes. It defines a unique customer as any caller with a unique phone number who calls and interacts with the agent in a given month. A long call from one person costs the same as a short one; a busy month with many different callers costs more.',
+        'Build it yourself on a carrier platform. Twilio, a phone-infrastructure provider, lists inbound calls to a Canadian local number at US$0.0085 a minute plus US$1.15 a month for the number. That is only the phone line. The speech recognition, the AI model and the synthetic voice that make it a receptionist are separate costs and the setup is real development work, so this route suits a business with a technical partner, not a typical owner-operator.',
+      ] },
+      { type: 'h2', text: 'Work out your own number before you compare plans' },
+      { type: 'ul', items: [
+        'Count the calls you actually miss in a typical week, and note when they come in. After-hours and during-the-job calls are the ones voice AI is for.',
+        'Estimate average call length. This matters on minute-based plans.',
+        'Estimate how many different people call in a month. This matters on per-caller plans, and a seasonal lodge or contractor can swing widely between quiet and peak months.',
+        'Put a rough dollar value on one captured job. If a single booked job is worth more than a month of the subscription, the maths is simple. If you cannot say what a missed call costs you, you are not ready to buy.',
+      ] },
+      { type: 'h2', text: 'Costs that are not on the pricing page' },
+      { type: 'p', text: 'The subscription is not the whole bill. Plan time for writing the script and knowledge base, testing the call flow with staff playing difficult callers, and reviewing transcripts after launch. Check whether the plan includes calendar integration, call recording and transcripts, or charges for them separately. Prices are listed in US dollars, so the Canadian-dollar cost moves with the exchange rate. Also confirm where recordings and transcripts are stored and how the vendor handles personal information: callers should be told they are speaking with an automated system, and Canadian privacy law (PIPEDA) applies to what you collect.' },
+      { type: 'callout', text: 'Plan prices change often and vary by billing term. The figures above were read from each vendor\'s own pricing page in October 2026 and are examples, not recommendations or quotes. Confirm current pricing, overage rules and data handling directly with any vendor before you sign.' },
+      { type: 'h2', text: 'Funding that may help' },
+      { type: 'p', text: 'The Northwestern Ontario Innovation Centre\'s Building Blueprints for AI Adoption program reimburses up to 50% of eligible project costs, to a maximum of $20,000, for AI adoption projects by growth-oriented for-profit SMEs in the Kenora, Rainy River and Thunder Bay districts. Whether a voice AI project is eligible depends on its scope and the program\'s current criteria, so confirm eligibility with the program before you commit spend. Because it reimburses costs, do not assume it covers money already spent.' },
+      { type: 'h2', text: 'Frequently asked questions' },
+      { type: 'ul', items: [
+        'How much does a voice AI phone line cost a small business? Published entry-level plans from Rosie and Goodcall start at US$49 and US$79 a month respectively, as listed on their pricing pages in October 2026. Your actual cost depends on call volume and whether the vendor bills by minutes or by unique callers.',
+        'Is voice AI cheaper than hiring a receptionist or an answering service? It can be for after-hours and overflow coverage, but it does not replace a person for calls that need judgment. Price it against your own missed-call volume rather than a staff wage.',
+        'Do I need to change my phone number? Typically not, since these services generally work by forwarding your existing number, but confirm this and any forwarding fees with your phone provider and the vendor.',
+      ] },
+      { type: 'source', text: 'Sources: Rosie pricing: heyrosie.com/pricing | Goodcall pricing: goodcall.com/pricing | Twilio, Programmable Voice pricing in Canada: twilio.com/en-us/voice/pricing/ca | Northwestern Ontario Innovation Centre, Building Blueprints for AI Adoption (BBAA): nwoinnovation.ca/programs/bbaa/ | Office of the Privacy Commissioner of Canada, PIPEDA: priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/' },
+    ],
+    faq: [
+      { q: 'How much does a voice AI phone line cost a small business?', a: 'Published entry-level plans from Rosie and Goodcall start at US$49 and US$79 a month respectively, as listed on their pricing pages in October 2026. Your actual cost depends on call volume and whether the vendor bills by minutes or by unique callers.' },
+      { q: 'Is voice AI cheaper than hiring a receptionist or an answering service?', a: 'It can be for after-hours and overflow coverage, but it does not replace a person for calls that need judgment. Price it against your own missed-call volume rather than a staff wage.' },
+      { q: 'Do I need to change my phone number?', a: 'Typically not, since these services generally work by forwarding your existing number, but confirm this and any forwarding fees with your phone provider and the vendor.' },
+    ],
+    related: [
+      { label: 'Voice AI is coming for the business phone line: what NWO service businesses should know', to: '/blog/voice-ai-business-phone-line-nwo-service-business' },
+      { label: 'Missed-call text-back, explained: the cheapest AI win for a local business', to: '/blog/missed-call-text-back-explained-local-business' },
+      { label: 'NOIC Building Blueprints for AI Adoption — up to $20K', to: '/funding/noic-bbaa' },
+    ],
+  },
+  {
     slug: 'signal-ai-funding-nwo-week-october-5-2026',
     title: 'The Signal: AI & funding in the Northwest, week of October 5',
     seoTitle: 'NWO Signal: AI Council, FedNor $20M, Sonnet 5.5',
