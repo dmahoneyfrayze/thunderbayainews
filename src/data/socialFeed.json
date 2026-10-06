@@ -1,5 +1,11 @@
 [
   {
+    "iso": "2026-10-06",
+    "pillar": "How-To",
+    "hook": "A Thunder Bay business can draft its next grant application in under an hour this week, using the free version of ChatGPT",
+    "image": "/social/2026-10-06.webp"
+  },
+  {
     "iso": "2026-10-05",
     "pillar": "",
     "hook": "An AI agent hit Canada's own national archives website 899 times this year looking for a way in. The government says nothing got through, the same week Apple had to lock down what AI agents on your own computer are allowed to see",
@@ -352,11 +358,5 @@
     "pillar": "How-To",
     "hook": "New research on 800,000 ChatGPT conversations found something surprising: people keep doing work that isn't technically their job",
     "image": "/social/2026-08-06.webp"
-  },
-  {
-    "iso": "2026-08-05",
-    "pillar": "AI for Business",
-    "hook": "A Japanese electronics retailer let AI handle 30,000 shopper conversations in two weeks - with 92 percent of shoppers happy with it",
-    "image": "/social/2026-08-05.webp"
   }
 ]
