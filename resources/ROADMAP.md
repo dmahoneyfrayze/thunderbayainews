@@ -258,6 +258,30 @@ stay scheduled (review buffer). Backlog (work a couple per cycle; let engagement
     is STILL empty next cycle, move to the content-gap scan (beat coverage vs. the six pillars) per
     the prior FOLLOW-UP, since the internal-linking lever for the known under-linked pages is now
     exhausted.
+    ~~Sitewide canonical/OG/JSON-LD URL trailing-slash fix~~ — DONE 2026-10-08 (commit `45d5bc1`):
+    the 2026-10-03 brief's GSC striking-distance was empty for the seventh cycle running, and
+    `/about` — already through a title/meta pass (2026-08-20) and an internal-linking pass
+    (2026-10-01) — was STILL at 0% CTR, now showing as two separate GSC rows (`/about` 1im,
+    `/about/` 24im, position 8.0), worse than before either fix. Root cause found, not in content:
+    Netlify's static asset server 301s every non-slash pretty-URL to its trailing-slash form (an
+    `/about/index.html` file on disk means `/about` redirects to `/about/`) — `scripts/prerender.mjs`'s
+    sitemap.xml already accounts for this (its `canon()` helper lists the trailing-slash form), but
+    every page's own `<link rel="canonical">`, `og:url`, and JSON-LD `url`/`@id` were built from the
+    raw route path with NO trailing slash, via `lib/useDocumentMeta.js` and hand-built JSON-LD graphs
+    in `About.jsx`/`BlogPost.jsx`/`Funding.jsx`/`FundingProgram.jsx`/`LegalPage.jsx`. So every single
+    page on the site was self-referentially canonical to a URL that immediately redirects away from
+    itself — a duplicate-URL signal exactly matching the `/about` vs `/about/` split, and plausibly
+    affecting every page's snippet/CTR behavior, not just `/about`. Added `canonicalUrl(path)` to
+    `useDocumentMeta.js` (mirrors the sitemap's `canon()` exactly) and used it for every canonical/
+    OG/JSON-LD URL site-wide, including all `BreadcrumbList` items. No content or claims changed —
+    pure URL-consistency fix. Verified in the prerendered output: every `dist/**/index.html` now has
+    canonical === og:url === JSON-LD url, matching its `sitemap.xml` entry (spot-checked `/about`,
+    `/funding`, `/funding/fednor-raii`, a blog post, `/privacy`, `/`). `npm run lint` clean
+    (pre-existing `no-useless-escape` warnings only), `npm run build` succeeded. FOLLOW-UP: re-check
+    whether `/about` and other pages consolidate to a single GSC row (vs. the split `/about`+`/about/`
+    rows) and whether CTR moves, in 3-4 briefs once Google re-crawls and re-indexes under the
+    corrected canonical. If striking-distance is still empty AND this doesn't move the stuck
+    zero-CTR pages, move to the content-gap scan (beat coverage vs. the six pillars) next.
 
 ## Autonomous improvement protocol (the monthly agent MUST follow)
 1. Read this ROADMAP, the STRATEGY thesis, and the current site. Pick the **single highest-value
