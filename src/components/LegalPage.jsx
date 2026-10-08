@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { useDocumentMeta } from '../lib/useDocumentMeta';
+import { useDocumentMeta, canonicalUrl } from '../lib/useDocumentMeta';
 import { useJsonLd } from '../lib/useJsonLd';
 
 // Shared layout for the Privacy and Terms pages. Sections are data-driven: each body
@@ -10,8 +10,8 @@ export default function LegalPage({ metaTitle, metaDesc, path, title, updated, l
   useJsonLd({
     '@context': 'https://schema.org',
     '@type': 'WebPage',
-    '@id': `https://thunderbayai.com${path}`,
-    url: `https://thunderbayai.com${path}`,
+    '@id': canonicalUrl(path),
+    url: canonicalUrl(path),
     name: title,
     description: metaDesc,
     inLanguage: 'en-CA',

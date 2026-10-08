@@ -3,7 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Clock, Info, Copy, Check, ArrowUpRight } from 'lucide-react';
 import { getPost, POSTS } from '../data/posts';
-import { useDocumentMeta } from '../lib/useDocumentMeta';
+import { useDocumentMeta, canonicalUrl } from '../lib/useDocumentMeta';
 import { getOgImageUrl } from '../lib/og-images';
 import { useJsonLd } from '../lib/useJsonLd';
 import BriefSignup from '../components/BriefSignup';
@@ -81,7 +81,7 @@ export default function BlogPost() {
     type: 'article',
   });
 
-  const url = post ? `https://thunderbayai.com/blog/${post.slug}` : undefined;
+  const url = post ? canonicalUrl(`/blog/${post.slug}`) : undefined;
   const definedTermNodes = post && post.definedTerms ? post.definedTerms.map((dt) => ({
     '@type': 'DefinedTerm',
     '@id': `${url}#term-${dt.term.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`,
@@ -108,8 +108,8 @@ export default function BlogPost() {
     {
       '@type': 'BreadcrumbList',
       itemListElement: [
-        { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://thunderbayai.com' },
-        { '@type': 'ListItem', position: 2, name: 'Journal', item: 'https://thunderbayai.com/blog' },
+        { '@type': 'ListItem', position: 1, name: 'Home', item: canonicalUrl('/') },
+        { '@type': 'ListItem', position: 2, name: 'Journal', item: canonicalUrl('/blog') },
         { '@type': 'ListItem', position: 3, name: post.title, item: url },
       ],
     },

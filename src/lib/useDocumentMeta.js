@@ -19,12 +19,25 @@ function setLink(rel, href) {
   el.setAttribute('href', href);
 }
 
+// Netlify's static asset server 301s every non-slash pretty-URL to its trailing-slash
+// form (an `/about/index.html` file on disk means `/about` redirects to `/about/`), and
+// scripts/prerender.mjs's sitemap.xml already lists the trailing-slash form for exactly
+// that reason. Every canonical/OG/JSON-LD URL must match it — a self-referencing
+// canonical that 301s away is a duplicate-URL signal, which is how /about and /about/
+// ended up indexed as two separate pages in Search Console with the content's clicks
+// split between them. Mirrors the sitemap's own `canon()` helper.
+export function canonicalUrl(path) {
+  if (!path) return undefined;
+  const clean = path === '/' ? '/' : path.endsWith('/') ? path : `${path}/`;
+  return `${SITE}${clean}`;
+}
+
 // Per-route <title>, description, canonical, and the full Open Graph + Twitter card.
 // The prerender captures the DOM after these run, so each static page ships its own
 // social/SEO head — what crawlers, social scrapers, and AI engines read.
 export function useDocumentMeta({ title, description, path, image, type = 'website' }) {
   useEffect(() => {
-    const url = path ? `${SITE}${path}` : undefined;
+    const url = canonicalUrl(path);
     const img = image || DEFAULT_IMAGE;
 
     if (title) document.title = title;

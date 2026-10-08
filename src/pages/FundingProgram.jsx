@@ -3,7 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowLeft, ExternalLink, ArrowUpRight } from 'lucide-react';
 import { GRANTS_DATA, formatVerified } from '../data';
-import { useDocumentMeta } from '../lib/useDocumentMeta';
+import { useDocumentMeta, canonicalUrl } from '../lib/useDocumentMeta';
 import { useJsonLd } from '../lib/useJsonLd';
 import BriefSignup from '../components/BriefSignup';
 
@@ -47,7 +47,7 @@ export default function FundingProgram() {
       ].slice(0, 3)
     : [];
 
-  const pageUrl = program ? `${SITE}/funding/${program.id}` : undefined;
+  const pageUrl = program ? canonicalUrl(`/funding/${program.id}`) : undefined;
   const faq = program ? buildFaq(program) : [];
 
   // SEO title/description come from the short, hand-written `seoTitle` — NOT from name +
@@ -98,8 +98,8 @@ export default function FundingProgram() {
             {
               '@type': 'BreadcrumbList',
               itemListElement: [
-                { '@type': 'ListItem', position: 1, name: 'Home', item: SITE },
-                { '@type': 'ListItem', position: 2, name: 'Funding', item: `${SITE}/funding` },
+                { '@type': 'ListItem', position: 1, name: 'Home', item: canonicalUrl('/') },
+                { '@type': 'ListItem', position: 2, name: 'Funding', item: canonicalUrl('/funding') },
                 { '@type': 'ListItem', position: 3, name: program.name, item: pageUrl },
               ],
             },

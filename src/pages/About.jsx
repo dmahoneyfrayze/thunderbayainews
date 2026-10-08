@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { Radar, FileText, Compass, ShieldCheck } from 'lucide-react';
-import { useDocumentMeta } from '../lib/useDocumentMeta';
+import { useDocumentMeta, canonicalUrl } from '../lib/useDocumentMeta';
 import { useJsonLd } from '../lib/useJsonLd';
 
 const fadeUp = {
@@ -25,8 +25,8 @@ export default function About() {
     '@graph': [
       {
         '@type': 'AboutPage',
-        '@id': 'https://thunderbayai.com/about#aboutpage',
-        url: 'https://thunderbayai.com/about',
+        '@id': `${canonicalUrl('/about')}#aboutpage`,
+        url: canonicalUrl('/about'),
         name: 'About Thunder Bay AI',
         description:
           'Thunder Bay AI is an autonomous, human-reviewed AI and funding intelligence hub for Northwestern Ontario, operated by Frayze.',
@@ -37,8 +37,8 @@ export default function About() {
       {
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://thunderbayai.com' },
-          { '@type': 'ListItem', position: 2, name: 'About', item: 'https://thunderbayai.com/about' },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: canonicalUrl('/') },
+          { '@type': 'ListItem', position: 2, name: 'About', item: canonicalUrl('/about') },
         ],
       },
     ],

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowUpRight, ExternalLink } from 'lucide-react';
 import { GRANTS_DATA, formatVerified } from '../data';
-import { useDocumentMeta } from '../lib/useDocumentMeta';
+import { useDocumentMeta, canonicalUrl } from '../lib/useDocumentMeta';
 import { useJsonLd } from '../lib/useJsonLd';
 import BriefSignup from '../components/BriefSignup';
 
@@ -24,8 +24,8 @@ export default function Funding() {
     '@graph': [
       {
         '@type': 'CollectionPage',
-        '@id': `${SITE}/funding`,
-        url: `${SITE}/funding`,
+        '@id': canonicalUrl('/funding'),
+        url: canonicalUrl('/funding'),
         name: `AI and business grants in Northwestern Ontario — ${count} verified programs (2026)`,
         description: `A verified, source-linked directory of ${count} AI, technology, and business funding programs available to Northwestern Ontario businesses and organizations.`,
         inLanguage: 'en-CA',
@@ -41,22 +41,22 @@ export default function Funding() {
           '@type': 'ListItem',
           position: i + 1,
           name: g.name,
-          url: `${SITE}/funding/${g.id}`,
+          url: canonicalUrl(`/funding/${g.id}`),
         })),
       },
       {
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: SITE },
-          { '@type': 'ListItem', position: 2, name: 'Funding', item: `${SITE}/funding` },
+          { '@type': 'ListItem', position: 1, name: 'Home', item: canonicalUrl('/') },
+          { '@type': 'ListItem', position: 2, name: 'Funding', item: canonicalUrl('/funding') },
         ],
       },
       {
         '@type': 'Dataset',
-        '@id': `${SITE}/funding#dataset`,
+        '@id': `${canonicalUrl('/funding')}#dataset`,
         name: `Northwestern Ontario AI & business funding programs — verified dataset`,
         description: `A verified, source-linked dataset of ${count} AI, technology, and business funding programs open to Northwestern Ontario. Each record carries the program name, funder, maximum amount, coverage, deadline, status, and the date it was last checked against its official source.`,
-        url: `${SITE}/funding`,
+        url: canonicalUrl('/funding'),
         inLanguage: 'en-CA',
         creator: { '@id': `${SITE}/#org` },
         isPartOf: { '@id': `${SITE}/#website` },
