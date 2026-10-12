@@ -1,68 +1,68 @@
 {
-  "iso": "2026-10-05",
-  "issueNo": "15",
-  "dateLabel": "OCT 5",
+  "iso": "2026-10-12",
+  "issueNo": "16",
+  "dateLabel": "OCT 12",
   "handle": "thunderbayai",
   "cover": {
-    "hook": "FedNor drops $20.5M into Northern Ontario communities — and Canada just got its National AI Council.",
-    "sub": "Plus Anthropic and OpenAI both release faster mid-tier models, and another $88M lands on the Thunder Bay–Nipigon highway. Five moves that matter for the Northwest."
+    "hook": "Anthropic is going public at a $2 trillion target — and it plans to build in Canada.",
+    "sub": "Plus $1.5M into NWO's forestry accelerator, Scandinavian investors in Thunder Bay, and two major AI model price drops this week."
   },
   "reelSub": "Five AI and funding stories NWO can't ignore this week.",
   "storySub": "What this week's AI and funding news means for a Northwestern Ontario business.",
   "items": [
     {
       "tag": "FUNDING",
-      "big": "$20M",
+      "big": "$1.5M",
       "bigSize": "180px",
-      "title": "FedNor puts $20.5M into 22 Northern Ontario CFDC projects",
-      "body": "Minister Hajdu announced funding for 22 Community Futures projects across Northern Ontario on October 1. Over 1,200 jobs expected. Freshly funded CFDCs are actively deploying capital.",
-      "tease": "Next: Canada's new national AI oversight council.",
-      "reelLine": "$20.5M into Northern Ontario community futures this week."
-    },
-    {
-      "tag": "GOVERNMENT",
-      "big": "AI COUNCIL",
-      "bigSize": "86px",
-      "title": "PM Carney launches Canada's National Council on AI",
-      "body": "13 members including Yoshua Bengio will advise on AI adoption, sovereign infrastructure, and safety. It shapes how $2.3B in federal AI spending — including $500M through regional agencies — gets deployed.",
-      "tease": "Next: Anthropic's fastest Sonnet yet.",
-      "reelLine": "Canada's National AI Council is now active."
-    },
-    {
-      "tag": "MODEL WATCH",
-      "big": "30%",
-      "bigSize": "180px",
-      "title": "Claude Sonnet 5.5: 30%-plus faster, same price",
-      "body": "Anthropic's Sonnet 5.5 generates output more than 30% faster than Sonnet 5 at $2/$10 per million tokens. Approaches Opus 5.5 performance. Includes flagship cybersecurity safeguards.",
-      "tease": "Next: OpenAI's DevDay model drop.",
-      "reelLine": "Claude just got 30% faster at no extra cost."
-    },
-    {
-      "tag": "MODEL WATCH",
-      "big": "GPT-6.1",
-      "bigSize": "120px",
-      "title": "OpenAI releases GPT-6.1 Sol at DevDay",
-      "body": "Near-flagship GPT-6 Astra performance at mid-tier cost, released September 29. Available to Plus, Pro, Business, and Enterprise users via ChatGPT Work, Codex, and the API.",
-      "tease": "Next: another $88M hits the Thunder Bay–Nipigon corridor.",
-      "reelLine": "OpenAI's GPT-6.1 Sol: near-flagship AI at mid-tier cost."
+      "title": "Ontario puts $1.5M into NWO's forestry accelerator",
+      "body": "The province funded the Boreal Springboard through Ontario's Trade-Impacted Communities Program, announced October 8. Up to $40K per NWO forest-business entrepreneur, plus a Soft-Landing stream for outside companies wanting to scale in the region.",
+      "tease": "Next: who came all the way from Scandinavia to look at it.",
+      "reelLine": "$1.5M into NWO's forestry-business accelerator this week."
     },
     {
       "tag": "LOCAL",
-      "big": "$88M",
+      "big": "NWO HARDWOOD",
+      "bigSize": "86px",
+      "title": "Scandinavian investors arrived to scout NWO poplar and white birch",
+      "body": "About 50 delegates including Swedish companies came to Thunder Bay October 5–7 to assess the region's hardwood resources. NOIC, CEDC, and the Bio-Economy Research Centre organized it. No deals — but foreign capital is actively looking at NWO forestry.",
+      "tease": "Next: AI just got dramatically cheaper.",
+      "reelLine": "Sweden came to Thunder Bay to look at our hardwood this week."
+    },
+    {
+      "tag": "MODEL WATCH",
+      "big": "90%",
       "bigSize": "180px",
-      "title": "Highway 11/17: Teranorth wins $87.9M contract for the next 5 km",
-      "body": "Ontario awarded the contract October 1 for the McGuire–Coughlin section between Thunder Bay and Nipigon, with $26M in federal contribution. Two new bridges over Black Sturgeon River included.",
+      "title": "Anthropic cuts API pricing 90% for small-model tasks",
+      "body": "Claude Haiku 5.5 launched October 7 at $0.10 per million input tokens, down from $1. Designed for summarization, classification, and high-volume routines. Anthropic estimates 75% lower workload costs on average.",
+      "tease": "Next: OpenAI's GPT-6 reaches free users.",
+      "reelLine": "Anthropic cut AI API prices up to 90% this week."
+    },
+    {
+      "tag": "MODEL WATCH",
+      "big": "GPT-6",
+      "bigSize": "120px",
+      "title": "OpenAI's GPT-6 is now in free ChatGPT accounts",
+      "body": "GPT-6 rolled out to all ChatGPT tiers by October 8. Free accounts get GPT-6 Luna; paid tiers get GPT-6 Sol. The gap between free and paid AI tools keeps narrowing.",
+      "tease": "Next: Anthropic's $2 trillion IPO move.",
+      "reelLine": "GPT-6 landed in free ChatGPT accounts this week."
+    },
+    {
+      "tag": "NATIONAL",
+      "big": "$2T",
+      "bigSize": "180px",
+      "title": "Anthropic targets November IPO; Canadian data centres in motion",
+      "body": "Reports put Anthropic's IPO target at mid-November at approximately $2 trillion. The Logic says it could be a windfall for Canadian investors. Separately, Anthropic confirmed hiring for a Canadian compute country lead to bring gigawatts of capacity online in Canada.",
       "tease": "The throughline ->",
-      "reelLine": "$88M more into the Thunder Bay–Nipigon highway corridor."
+      "reelLine": "Anthropic is going public in November at a $2 trillion target."
     }
   ],
   "summary": {
-    "title": "AI governance landed, regional capital flowed, and the middle of the model market got stronger",
-    "body": "This week: a federal AI council took shape, $20.5M went directly into Northern Ontario communities, and both Anthropic and OpenAI released capable new mid-tier models. The region has a stake in all three moves."
+    "title": "Foreign capital is looking at NWO forestry and the cost of AI just dropped",
+    "body": "This week: the province backed NWO's forestry accelerator, Scandinavian investors showed up to look at the same resources, and two major AI providers cut their tool costs significantly. The region has a stake in all of it."
   },
   "captions": {
-    "carousel": "This week in AI and NWO: FedNor put $20.5M into 22 Community Futures projects across Northern Ontario, projecting 1,200-plus jobs. PM Carney launched the National Council on AI — 13 advisors including Yoshua Bengio to shape a $2.3B federal strategy that routes $500M through regional agencies. Anthropic released Sonnet 5.5 at more than 30% faster than Sonnet 5 at the same price. OpenAI followed at DevDay with GPT-6.1 Sol, near-flagship performance at a mid-tier cost. And Ontario awarded Teranorth an $87.9M contract for the next stretch of four-lane highway between Thunder Bay and Nipigon. Link in bio for the full Signal. #ThunderBayAI #NorthernOntario #ArtificialIntelligence #NWO #CanadaAI #AIFunding #FedNor",
-    "reel": "FedNor drops $20M into Northern Ontario. Canada's National AI Council is live. Anthropic and OpenAI both released faster mid-tier models this week. Five moves that matter for the Northwest. Link in bio. #ThunderBayAI #NorthernOntario #AINews #NWO #CanadaAI",
+    "carousel": "This week in AI and NWO: Ontario put $1.5M into the Boreal Springboard forestry accelerator through the Trade-Impacted Communities Program — up to $40K per entrepreneur. Roughly 50 Scandinavian delegates including Swedish investors came to Thunder Bay to scout the region's poplar and white birch resources. Anthropic cut API prices up to 90% with Claude Haiku 5.5, its new small model built for summarization and classification tasks. OpenAI completed its GPT-6 rollout to all ChatGPT users, including free accounts. And multiple reports say Anthropic is targeting a mid-November IPO at approximately $2 trillion, with confirmed Canadian data centre hiring underway. Link in bio for the full Signal. #ThunderBayAI #NorthernOntario #ArtificialIntelligence #NWO #CanadaAI #AIFunding #Forestry",
+    "reel": "Ontario drops $1.5M into NWO's forestry accelerator. Sweden came to Thunder Bay to look at hardwood. Anthropic cut API prices 90%. GPT-6 is now free. Anthropic targets a $2T IPO. Five moves that matter for the Northwest. Link in bio. #ThunderBayAI #NorthernOntario #AINews #NWO #CanadaAI",
     "story": "Story frame — add a poll sticker and a link sticker to thunderbayai.com."
   }
 }
