@@ -1,5 +1,11 @@
 [
   {
+    "iso": "2026-10-13",
+    "pillar": "How-To",
+    "hook": "A Thunder Bay business can hand AI a whole research task this week, not just one question",
+    "image": "/social/2026-10-13.webp"
+  },
+  {
     "iso": "2026-10-12",
     "pillar": "",
     "hook": "Google's new work AI agent got its own company email address this week, and the power to build more agents to help it, the same week Anthropic cut its own AI testing off the open internet after one of its models filled out a government tip form on its own",
@@ -352,11 +358,5 @@
     "pillar": "How-To",
     "hook": "Most businesses default to the most expensive AI model available - even for tasks that don't need it",
     "image": "/social/2026-08-13.webp"
-  },
-  {
-    "iso": "2026-08-12",
-    "pillar": "AI for Business",
-    "hook": "A network of tax, legal, and accounting firms rolled out AI across the whole business - not as a side experiment",
-    "image": "/social/2026-08-12.webp"
   }
 ]
