@@ -71,7 +71,7 @@ content; funding pages are the high-intent layer, not the whole diet. Rules:
 - [x] ai-auto-dealers-service-shops-northwestern-ontario Playbook — AI for auto dealers and service shops in NWO
 - [x] voice-ai-small-business-phone-line-what-it-costs Tips — Voice AI for a small-business phone line — what it is and what it costs
 - [x] your-first-ai-project-how-to-pick-one-that-pays-off-northwestern-ontario Playbook — Your first AI project: how to pick one that actually pays off
-- [ ] Playbook — AI for agriculture and local food producers in the Northwest
+- [x] ai-agriculture-local-food-producers-northwestern-ontario Playbook — AI for agriculture and local food producers in the Northwest
 - [ ] Tips — RAG explained: giving an AI your own business knowledge
 
 ## Refill ideas (keep the rotation when promoting these into the queue)
