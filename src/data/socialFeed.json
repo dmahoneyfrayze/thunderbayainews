@@ -1,5 +1,11 @@
 [
   {
+    "iso": "2026-10-14",
+    "pillar": "Local Spotlight",
+    "hook": "A Northwestern Ontario health network is rotating four AI-assisted eye screening cameras across 27 First Nations communities",
+    "image": "/social/2026-10-14.webp"
+  },
+  {
     "iso": "2026-10-13",
     "pillar": "How-To",
     "hook": "A Thunder Bay business can hand AI a whole research task this week, not just one question",
@@ -352,11 +358,5 @@
     "pillar": "Funding",
     "hook": "A brand-new Northern Ontario business can get up to $200,000 to cover its launch costs",
     "image": "/social/2026-08-14.webp"
-  },
-  {
-    "iso": "2026-08-13",
-    "pillar": "How-To",
-    "hook": "Most businesses default to the most expensive AI model available - even for tasks that don't need it",
-    "image": "/social/2026-08-13.webp"
   }
 ]
