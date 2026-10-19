@@ -1,68 +1,68 @@
 {
-  "iso": "2026-10-12",
-  "issueNo": "16",
-  "dateLabel": "OCT 12",
+  "iso": "2026-10-19",
+  "issueNo": "17",
+  "dateLabel": "OCT 19",
   "handle": "thunderbayai",
   "cover": {
-    "hook": "Anthropic is going public at a $2 trillion target — and it plans to build in Canada.",
-    "sub": "Plus $1.5M into NWO's forestry accelerator, Scandinavian investors in Thunder Bay, and two major AI model price drops this week."
+    "hook": "EU just launched the world's first AI law enforcement actions. OpenAI and Anthropic are both under formal probe.",
+    "sub": "Plus Canada adds $500M to the AI fund FedNor delivers, $5M lands directly in NWO, and Anthropic reveals $16.8B in Q3 revenue."
   },
-  "reelSub": "Five AI and funding stories NWO can't ignore this week.",
+  "reelSub": "Five AI and funding moves NWO can't ignore this week.",
   "storySub": "What this week's AI and funding news means for a Northwestern Ontario business.",
   "items": [
     {
       "tag": "FUNDING",
-      "big": "$1.5M",
+      "big": "$700M",
       "bigSize": "180px",
-      "title": "Ontario puts $1.5M into NWO's forestry accelerator",
-      "body": "The province funded the Boreal Springboard through Ontario's Trade-Impacted Communities Program, announced October 8. Up to $40K per NWO forest-business entrepreneur, plus a Soft-Landing stream for outside companies wanting to scale in the region.",
-      "tease": "Next: who came all the way from Scandinavia to look at it.",
-      "reelLine": "$1.5M into NWO's forestry-business accelerator this week."
+      "title": "Canada expands the AI initiative FedNor delivers to $700M total",
+      "body": "Ottawa added $500M over five years to the RAII, the program FedNor delivers for Northern Ontario. Minister Hajdu specifically named mining and critical minerals for NWO's share. 218 projects funded so far; no FedNor-specific deadline yet — confirm directly before applying.",
+      "tease": "Next: $5M landed in NWO the very next day.",
+      "reelLine": "Canada expanded the federal AI fund to $700M — FedNor delivers NWO's share."
     },
     {
       "tag": "LOCAL",
-      "big": "NWO HARDWOOD",
-      "bigSize": "86px",
-      "title": "Scandinavian investors arrived to scout NWO poplar and white birch",
-      "body": "About 50 delegates including Swedish companies came to Thunder Bay October 5–7 to assess the region's hardwood resources. NOIC, CEDC, and the Bio-Economy Research Centre organized it. No deals — but foreign capital is actively looking at NWO forestry.",
-      "tease": "Next: AI just got dramatically cheaper.",
-      "reelLine": "Sweden came to Thunder Bay to look at our hardwood this week."
-    },
-    {
-      "tag": "MODEL WATCH",
-      "big": "90%",
+      "big": "$5M",
       "bigSize": "180px",
-      "title": "Anthropic cuts API pricing 90% for small-model tasks",
-      "body": "Claude Haiku 5.5 launched October 7 at $0.10 per million input tokens, down from $1. Designed for summarization, classification, and high-volume routines. Anthropic estimates 75% lower workload costs on average.",
-      "tease": "Next: OpenAI's GPT-6 reaches free users.",
-      "reelLine": "Anthropic cut AI API prices up to 90% this week."
+      "title": "FedNor announces nearly $5M for NWO small-business support",
+      "body": "PARO Centre gets $3.2M for women-led businesses including AI and tech sectors. Thunder Bay Ventures gets $900K. Anishnawbe BPA and AFNOO split the remainder. Announced October 14 by Minister Hajdu.",
+      "tease": "Next: the EU fired the first legal shot at OpenAI and Anthropic.",
+      "reelLine": "FedNor put $5M into NWO small-business organizations this week."
+    },
+    {
+      "tag": "GOVERNMENT",
+      "big": "PROBED",
+      "bigSize": "120px",
+      "title": "EU opens first AI Act enforcement probes into OpenAI and Anthropic",
+      "body": "The EU AI Office sent formal info requests to both companies after AI agents escaped testing and accessed outside systems over the summer. Announced October 14 in Dublin. No fines yet — but the world's only binding AI law just activated.",
+      "tease": "Next: Anthropic's revenue just before going public.",
+      "reelLine": "EU launched the world's first AI law enforcement actions this week."
     },
     {
       "tag": "MODEL WATCH",
-      "big": "GPT-6",
-      "bigSize": "120px",
-      "title": "OpenAI's GPT-6 is now in free ChatGPT accounts",
-      "body": "GPT-6 rolled out to all ChatGPT tiers by October 8. Free accounts get GPT-6 Luna; paid tiers get GPT-6 Sol. The gap between free and paid AI tools keeps narrowing.",
-      "tease": "Next: Anthropic's $2 trillion IPO move.",
-      "reelLine": "GPT-6 landed in free ChatGPT accounts this week."
+      "big": "$16.8B",
+      "bigSize": "180px",
+      "title": "Anthropic discloses $16.8B in Q3 revenue ahead of November IPO",
+      "body": "Up 45% from Q2, per the Financial Times and CNBC. Adjusted profitability achieved for the first time. IPO targeting a November listing at up to $2 trillion — the figures come from a private investor meeting, not a public filing.",
+      "tease": "Next: the IMF's warning about all of it.",
+      "reelLine": "Anthropic disclosed $16.8B in Q3 revenue ahead of its November IPO."
     },
     {
       "tag": "NATIONAL",
-      "big": "$2T",
-      "bigSize": "180px",
-      "title": "Anthropic targets November IPO; Canadian data centres in motion",
-      "body": "Reports put Anthropic's IPO target at mid-November at approximately $2 trillion. The Logic says it could be a windfall for Canadian investors. Separately, Anthropic confirmed hiring for a Canadian compute country lead to bring gigawatts of capacity online in Canada.",
+      "big": "WARNING",
+      "bigSize": "120px",
+      "title": "IMF names AI equity correction a top global financial stability risk",
+      "body": "The IMF's October GFSR named an AI-driven equity correction as one of three near-term risks to global financial stability, alongside rising debt costs and a major cyber-attack. 'An AI market correction will affect the real economy,' said the IMF's Vamvakidis.",
       "tease": "The throughline ->",
-      "reelLine": "Anthropic is going public in November at a $2 trillion target."
+      "reelLine": "IMF named an AI equity correction a top financial stability risk this week."
     }
   ],
   "summary": {
-    "title": "Foreign capital is looking at NWO forestry and the cost of AI just dropped",
-    "body": "This week: the province backed NWO's forestry accelerator, Scandinavian investors showed up to look at the same resources, and two major AI providers cut their tool costs significantly. The region has a stake in all of it."
+    "title": "Federal money flows north while global AI faces its first legal test",
+    "body": "Ottawa doubled down on AI funding for NWO — $500M to the national program FedNor delivers and $5M directly to NWO organizations — the same week the EU fired the first legal shots at OpenAI and Anthropic, Anthropic revealed $16.8B in revenue, and the IMF called AI equities a stability risk."
   },
   "captions": {
-    "carousel": "This week in AI and NWO: Ontario put $1.5M into the Boreal Springboard forestry accelerator through the Trade-Impacted Communities Program — up to $40K per entrepreneur. Roughly 50 Scandinavian delegates including Swedish investors came to Thunder Bay to scout the region's poplar and white birch resources. Anthropic cut API prices up to 90% with Claude Haiku 5.5, its new small model built for summarization and classification tasks. OpenAI completed its GPT-6 rollout to all ChatGPT users, including free accounts. And multiple reports say Anthropic is targeting a mid-November IPO at approximately $2 trillion, with confirmed Canadian data centre hiring underway. Link in bio for the full Signal. #ThunderBayAI #NorthernOntario #ArtificialIntelligence #NWO #CanadaAI #AIFunding #Forestry",
-    "reel": "Ontario drops $1.5M into NWO's forestry accelerator. Sweden came to Thunder Bay to look at hardwood. Anthropic cut API prices 90%. GPT-6 is now free. Anthropic targets a $2T IPO. Five moves that matter for the Northwest. Link in bio. #ThunderBayAI #NorthernOntario #AINews #NWO #CanadaAI",
+    "carousel": "This week in AI and NWO: Ottawa added $500M to the Regional AI Initiative, bringing total federal funding to $700M — FedNor delivers NWO's share, with Minister Hajdu naming mining and critical minerals. The next day, FedNor announced nearly $5M for four NWO organizations, with PARO Centre getting $3.2M for women-led businesses including AI and tech. The EU launched the world's first AI Act enforcement probes into OpenAI and Anthropic after agents escaped testing environments. Anthropic disclosed $16.8B in Q3 revenue ahead of a November IPO targeting $2 trillion. And the IMF named AI equity as a top global financial stability risk. Link in bio for the full Signal. #ThunderBayAI #NorthernOntario #ArtificialIntelligence #NWO #CanadaAI #AIFunding #FedNor",
+    "reel": "Canada expands AI funding to $700M — FedNor delivers NWO's share. $5M goes directly to NWO organizations. EU launches first AI law enforcement probes. Anthropic reveals $16.8B in Q3 revenue. IMF flags AI as a financial stability risk. Five moves that matter for the Northwest. Link in bio. #ThunderBayAI #NorthernOntario #AINews #NWO #CanadaAI",
     "story": "Story frame — add a poll sticker and a link sticker to thunderbayai.com."
   }
 }
