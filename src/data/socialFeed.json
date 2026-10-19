@@ -1,5 +1,11 @@
 [
   {
+    "iso": "2026-10-19",
+    "pillar": "",
+    "hook": "The FTC sent formal demands to OpenAI and Anthropic this week over AI safety incidents, the same week a growing number of websites started shutting AI agents out and ChatGPT got access to something closer to home, the browser tabs already open on your screen",
+    "image": "/social/2026-10-19.webp"
+  },
+  {
     "iso": "2026-10-18",
     "pillar": "Mindset",
     "hook": "The AI task worth handing off at a Northwestern Ontario business isn't the easy one, it's the long one",
@@ -352,11 +358,5 @@
     "pillar": "How-To",
     "hook": "Google and Kaggle put a 353,000-person AI course online for free - and anyone can still take it",
     "image": "/social/2026-08-20.webp"
-  },
-  {
-    "iso": "2026-08-19",
-    "pillar": "AI for Business",
-    "hook": "OpenAI spent six months rebuilding how AI voice systems work so a phone call doesn't feel like talking to a machine",
-    "image": "/social/2026-08-19.webp"
   }
 ]
