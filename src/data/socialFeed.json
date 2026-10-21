@@ -1,5 +1,11 @@
 [
   {
+    "iso": "2026-10-21",
+    "pillar": "Local Spotlight",
+    "hook": "A 40 year old Thunder Bay helicopter operator is testing a new digital system meant to run fueling, maintenance, and crew scheduling in one place instead of three",
+    "image": "/social/2026-10-21.webp"
+  },
+  {
     "iso": "2026-10-20",
     "pillar": "How-To",
     "hook": "A Thunder Bay business can control exactly what an AI tool sees on its computer, starting with the browser tabs it just got access to",
@@ -352,11 +358,5 @@
     "pillar": "Local Spotlight",
     "hook": "A Thunder Bay health clinic tested whether a photo taken by a non-specialist could catch diabetic eye disease before a patient ever saw an eye doctor",
     "image": "/social/2026-08-22.webp"
-  },
-  {
-    "iso": "2026-08-21",
-    "pillar": "Tips",
-    "hook": "4 questions worth asking before you connect an AI tool to your business's real accounts",
-    "image": "/social/2026-08-21.webp"
   }
 ]
