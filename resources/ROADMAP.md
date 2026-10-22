@@ -282,6 +282,30 @@ stay scheduled (review buffer). Backlog (work a couple per cycle; let engagement
     rows) and whether CTR moves, in 3-4 briefs once Google re-crawls and re-indexes under the
     corrected canonical. If striking-distance is still empty AND this doesn't move the stuck
     zero-CTR pages, move to the content-gap scan (beat coverage vs. the six pillars) next.
+    ~~Google-reviews post title fix (seoTitle lost its own hook)~~ — DONE 2026-10-22
+    (commit `98cce44`): the 2026-10-17 brief's GSC striking-distance was still empty (the
+    8th cycle running — too early to judge the 2026-10-08 canonical fix, since only one
+    brief had elapsed since that commit). This cycle's clearer, new signal was a
+    high-impression/low-CTR page: `/blog/using-ai-to-answer-google-reviews-without-
+    sounding-like-a-robot` had the highest impressions of any page in the sample (49im)
+    but the lowest CTR by a wide margin (2.0%, 1 click) at a near-page-1 position (7.1) —
+    peer posts at similar or worse positions were getting 7-11% CTR. Root cause: the
+    post's `seoTitle` override ("AI for Google reviews: small business guide") had
+    replaced the post's own distinctive hook ("...without sounding like a robot") with
+    generic boilerplate indistinguishable from countless other AI-review-reply pages.
+    Restored the hook in shortened form: "AI Google review replies that don't sound
+    robotic" (49 chars, within the site's <=52-char seoTitle convention).
+    `metaDescription` left as-is (already references the "detectable AI response"
+    angle). No content or claims changed. Verified in the prerendered output
+    (`dist/blog/using-ai-to-answer-google-reviews-.../index.html` `<title>`/`og:title`),
+    `npm run lint` clean (pre-existing `no-useless-escape` warnings only), `npm run
+    build` succeeded. FOLLOW-UP: re-check this URL's CTR in 2-3 briefs once Google
+    re-crawls. Also re-check the 2026-10-08 canonical-URL fix's effect on `/about` and
+    the other stuck zero-CTR pages once 3-4 briefs have elapsed from that commit (next
+    check-worthy brief: ~2026-11-07 onward). If striking-distance is STILL empty by then
+    and neither fix has moved its target pages, run the content-gap scan (beat coverage
+    vs. the six pillars) next — the internal-linking and title/meta levers for
+    currently-known pages will have been exhausted.
 
 ## Autonomous improvement protocol (the monthly agent MUST follow)
 1. Read this ROADMAP, the STRATEGY thesis, and the current site. Pick the **single highest-value
