@@ -1,5 +1,11 @@
 [
   {
+    "iso": "2026-10-22",
+    "pillar": "AI for Business",
+    "hook": "A Northwestern Ontario tourism or retail business's website is now something AI shopping and travel agents either can or cannot see, and that choice is starting to matter",
+    "image": "/social/2026-10-22.webp"
+  },
+  {
     "iso": "2026-10-21",
     "pillar": "Local Spotlight",
     "hook": "A 40 year old Thunder Bay helicopter operator is testing a new digital system meant to run fueling, maintenance, and crew scheduling in one place instead of three",
@@ -352,11 +358,5 @@
     "pillar": "Mindset",
     "hook": "OpenAI's own data shows people mostly stopped asking ChatGPT questions at work - they're using it to just do the task now",
     "image": "/social/2026-08-23.webp"
-  },
-  {
-    "iso": "2026-08-22",
-    "pillar": "Local Spotlight",
-    "hook": "A Thunder Bay health clinic tested whether a photo taken by a non-specialist could catch diabetic eye disease before a patient ever saw an eye doctor",
-    "image": "/social/2026-08-22.webp"
   }
 ]
