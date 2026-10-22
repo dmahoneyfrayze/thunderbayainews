@@ -1935,7 +1935,7 @@ export const POSTS = [
   {
     slug: 'using-ai-to-answer-google-reviews-without-sounding-like-a-robot',
     title: 'Using AI to answer Google reviews without sounding like a robot',
-    seoTitle: 'AI for Google reviews: small business guide',
+    seoTitle: "AI Google review replies that don't sound robotic",
     metaDescription: "A tighter prompt, not a better tool, turns a detectable AI response into one that reads like a real owner wrote it. Here's the three-part structure.",
     dek: 'A tighter prompt — not a better tool — is what turns a detectable AI response into one that reads like a real business owner wrote it. Here is the three-part structure that works.',
     category: 'Tips',
