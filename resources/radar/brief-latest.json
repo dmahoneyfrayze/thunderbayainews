@@ -1,634 +1,742 @@
 {
-  "date": "2026-10-17",
+  "date": "2026-10-24",
   "items": [
     {
       "group": "providers",
       "source": "OpenAI News",
-      "title": "Amp puts AI agents to work beyond code with OpenAI models",
-      "link": "https://openai.com/index/amp-beyond-coding",
-      "date": "2026-10-14",
-      "snippet": "See how Amp pushes the frontier of what agents can do with GPT-6 Astra, Ultrafast, GPT-Live-1, and Sign in with ChatGPT.",
-      "score": 10
+      "title": "How we built ChatGPT’s novel ad stack for user trust and relevance",
+      "link": "https://openai.com/index/building-chatgpt-ad-stack",
+      "date": "2026-10-21",
+      "snippet": "Learn how OpenAI built ChatGPT’s LLM-powered ad stack to understand conversational intent, keep ads separate from answers, and deliver relevant ads at scale.",
+      "score": 8
     },
     {
-      "group": "press",
-      "source": "Ars Technica AI",
-      "title": "Report: FTC probes Anthropic, OpenAI after Trump dismissed AI fears as “hoax”",
-      "link": "https://arstechnica.com/tech-policy/2026/10/ftc-probes-if-openai-anthropic-security-incidents-harmed-americans-report-says/",
-      "date": "2026-10-15",
-      "snippet": "FTC may fine AI firms on par with companies that delay data breach reports.",
-      "score": 6
+      "group": "canada",
+      "source": "BetaKit",
+      "title": "Anthropic signs lease for $10-billion Nova Scotia data centre",
+      "link": "https://betakit.com/anthropic-signs-lease-for-10-billion-nova-scotia-data-centre/",
+      "date": "2026-10-19",
+      "snippet": "AI giant slated to power its Claude models at initial 95MW facility by late 2027. The post Anthropic signs lease for $10-billion Nova Scotia data centre first appeared on BetaKit.",
+      "score": 8
     },
     {
-      "group": "press",
-      "source": "Ars Technica AI",
-      "title": "Anthropic's Claude AI submitted false murder tip to Philadelphia police",
-      "link": "https://arstechnica.com/tech-policy/2026/10/anthropics-claude-ai-submitted-false-murder-tip-to-philadelphia-police/",
-      "date": "2026-10-12",
-      "snippet": "“I may have information regarding this case,\" Claude AI told Philly police.",
-      "score": 6
+      "group": "canada",
+      "source": "BetaKit",
+      "title": "Tenstorrent secures $1.5 billion USD at $6.2-billion valuation to challenge GPU dominance",
+      "link": "https://betakit.com/tenstorrent-secures-1-5-billion-usd-at-6-2-billion-valuation-to-challenge-gpu-dominance/",
+      "date": "2026-10-19",
+      "snippet": "Canadian-founded chipmaker is betting that the future of AI inference is open-source. The post Tenstorrent secures $1.5 billion USD at $6.2-billion valuation to challenge GPU dominance first appeared on BetaKit.",
+      "score": 7
     },
     {
-      "group": "press",
-      "source": "The Verge AI",
-      "title": "Websites are closing their doors to AI agents",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
-      "date": "2026-10-17",
-      "snippet": "Autonomous agents are the hottest thing in AI. OpenAI, Meta, Google, Instinct, and others promise their agents can scour the internet on your behalf, doing anything from booking a dinner reservation and cleaning out your inbox to buying new",
-      "score": 6
-    },
-    {
-      "group": "press",
-      "source": "The Verge AI",
-      "title": "ChatGPT can peek at your Chrome tabs now",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs",
-      "date": "2026-10-15",
-      "snippet": "OpenAI's ChatGPT Atlas browser is gone, but now ChatGPT's Google Chrome extension is getting some upgrades that allow it to use the browser tabs you already have open. With the extension installed, OpenAI says ChatGPT can now view your brow",
-      "score": 6
-    },
-    {
-      "group": "press",
-      "source": "TechCrunch AI",
-      "title": "Replit makes OpenAI its default over Anthropic, CEO says",
-      "link": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
-      "date": "2026-10-17",
-      "snippet": "Over the weekend, Masad clarified that OpenAI would replace Anthropic as its default model provider. Claude will still be available to customers on the platform.",
+      "group": "providers",
+      "source": "OpenAI News",
+      "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+      "link": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "date": "2026-10-23",
+      "snippet": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
       "score": 6
     },
     {
       "group": "providers",
       "source": "OpenAI News",
-      "title": "How Itaú is building generative AI for its entire customer base",
-      "link": "https://openai.com/index/itau-generative-ai",
-      "date": "2026-10-16",
-      "snippet": "With ia.i, a conversational interface, and the IARA governance platform, Itaú is applying its AI First strategy to customers and employees — in one of Brazil’s most regulated sectors.",
-      "score": 4
+      "title": "Uber brings ChatGPT Work to all employees with OpenAI",
+      "link": "https://openai.com/index/uber-chatgpt-work-rollout",
+      "date": "2026-10-22",
+      "snippet": "Uber is rolling out ChatGPT Work to more than 30,000 employees, helping teams research, analyze data, create presentations, and complete complex workflows.",
+      "score": 6
     },
     {
       "group": "providers",
       "source": "OpenAI News",
-      "title": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-      "link": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-      "date": "2026-10-16",
-      "snippet": "Two engineers shipped Stack Overflow for Agents in a few weeks with Codex, and its ChatGPT plugin helped drive up to 10× growth in agent creation.",
-      "score": 4
+      "title": "OpenAI models are coming to Google Cloud",
+      "link": "https://openai.com/index/openai-models-google-cloud",
+      "date": "2026-10-21",
+      "snippet": "OpenAI and Google Cloud are bringing frontier models and Codex workflows to Gemini’s Model Garden, available through Google Cloud Marketplace.",
+      "score": 6
     },
     {
       "group": "providers",
       "source": "OpenAI News",
-      "title": "Sullivan & Cromwell brings legal expertise into agreement review",
-      "link": "https://openai.com/index/sullivan-cromwell",
-      "date": "2026-10-15",
-      "snippet": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
-      "score": 4
+      "title": "Using thousands of AI agents to uncover new leads in biological data",
+      "link": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
+      "date": "2026-10-21",
+      "snippet": "See how OpenAI, PerturbAI, and Scripps Research used distributed AI agents to uncover promising research leads in data from millions of brain cells.",
+      "score": 6
     },
     {
       "group": "providers",
       "source": "OpenAI News",
-      "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
-      "link": "https://openai.com/index/third-moment-research",
-      "date": "2026-10-14",
-      "snippet": "With GPT-6 Astra and GPT-6.1 Sol, Codex, and Daybreak for cybersecurity, this AI lab builds agents that focus for days and improve with use.",
-      "score": 4
-    },
-    {
-      "group": "providers",
-      "source": "OpenAI News",
-      "title": "How Block is building AI-powered security with OpenAI technology",
-      "link": "https://openai.com/index/block-ai-powered-security",
-      "date": "2026-10-14",
-      "snippet": "Block is building AI-powered security with OpenAI. Its security team investigates threats faster and proposes patches in minutes.",
-      "score": 4
-    },
-    {
-      "group": "providers",
-      "source": "OpenAI News",
-      "title": "The EU’s next chapter in AI is agentic",
-      "link": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
-      "date": "2026-10-14",
-      "snippet": "New analysis shows how agentic AI adoption is growing across EU enterprises and small businesses—and where deeper use could unlock more value.",
-      "score": 4
-    },
-    {
-      "group": "providers",
-      "source": "OpenAI News",
-      "title": "Higgsfield takes AI video from 1 minute to over 10",
-      "link": "https://openai.com/index/higgsfield-longer-videos-voice",
-      "date": "2026-10-13",
-      "snippet": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
-      "score": 4
-    },
-    {
-      "group": "providers",
-      "source": "Google AI Blog",
-      "title": "Gemini 4 Argon: Built to solve your hardest problems",
-      "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
-      "date": "2026-10-13",
-      "snippet": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
-      "score": 4
-    },
-    {
-      "group": "hardware",
-      "source": "NVIDIA Blog",
-      "title": "Be There for the Beginning: Celebrate the Launch of NVIDIA RTX Spark",
-      "link": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-launch-event-invite/",
-      "date": "2026-10-15",
-      "snippet": "A new beginning for Windows PCs starts tomorrow with the launch of NVIDIA RTX Spark — one PC built for creators, gamers and AI agents. All are invited to celebrate with NVIDIA and partners at launch events around the world. Share Your Spark",
-      "score": 4
-    },
-    {
-      "group": "hardware",
-      "source": "NVIDIA Blog",
-      "title": "European Cities Deploy NVIDIA-Powered AI Agents to Run Smarter Urban Operations",
-      "link": "https://blogs.nvidia.com/blog/european-cities-agents-urban-operations/",
-      "date": "2026-10-14",
-      "snippet": "Keeping a city running means making decisions that affect residents every day — from when to repair a road to how to use energy more efficiently. Across the EMEA region, cities and local software, infrastructure and integration partners are",
-      "score": 4
+      "title": "Advancing coding in low‑resource programming languages",
+      "link": "https://openai.com/index/low-resource-programming-languages",
+      "date": "2026-10-19",
+      "snippet": "Learn how OpenAI is improving ChatGPT across low-resource programming languages, with new evaluations for software engineering, SQLite, and COBOL migration.",
+      "score": 6
     },
     {
       "group": "press",
       "source": "Ars Technica AI",
-      "title": "Singer or clanker? YouTube Music will tell you with new gen AI labeling.",
-      "link": "https://arstechnica.com/ai/2026/10/youtube-music-begins-labeling-ai-songs/",
-      "date": "2026-10-15",
-      "snippet": "The AI music labels are rolling out now in YouTube Music and will come to YouTube soon.",
-      "score": 4
-    },
-    {
-      "group": "press",
-      "source": "Ars Technica AI",
-      "title": "Anthropic warns small AI models could self-replicate through IoT devices",
-      "link": "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/",
-      "date": "2026-10-14",
-      "snippet": "\"Small weight-based replicators\" could usher in a new generation of computer worms.",
-      "score": 4
-    },
-    {
-      "group": "press",
-      "source": "Ars Technica AI",
-      "title": "OpenAI, Google pushing new AI models easily tricked into making nudes, researchers say",
-      "link": "https://arstechnica.com/tech-policy/2026/10/openai-google-pushing-new-ai-models-easily-tricked-into-making-nudes-researchers-say/",
-      "date": "2026-10-14",
-      "snippet": "Attack method exposes flaws in OpenAI, Google safeguards against AI nudes.",
-      "score": 4
-    },
-    {
-      "group": "press",
-      "source": "Ars Technica AI",
-      "title": "Disney offers $20M for Character.AI’s scandal-plagued chatbot tech",
-      "link": "https://arstechnica.com/tech-policy/2026/10/disney-offers-20m-for-character-ais-scandal-plagued-chatbot-tech/",
-      "date": "2026-10-13",
-      "snippet": "Disney may acquire tech from one of the first chatbot makers linked to child suicide.",
-      "score": 4
+      "title": "OpenAI's latest AI models are coming to Google Cloud and Antigravity",
+      "link": "https://arstechnica.com/ai/2026/10/openais-latest-ai-models-are-coming-to-google-cloud-and-antigravity/",
+      "date": "2026-10-21",
+      "snippet": "Google Cloud will have GPT 6.1 Astra, Sol, and Luna in the coming weeks.",
+      "score": 6
     },
     {
       "group": "press",
       "source": "TechCrunch AI",
-      "title": "India becomes the latest country to report rogue AI agent activity",
-      "link": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
-      "date": "2026-10-16",
-      "snippet": "The agents got in through credentials and connection settings left exposed in app configurations, public code repositories, and overly permissive cloud roles.",
-      "score": 4
+      "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
+      "link": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+      "date": "2026-10-24",
+      "snippet": "A new study found Grok's AI overwhelmingly recommends Republican candidates while OpenAI's GPT favors Democrats, with the two AI models disagreeing in more than 90% of nearly 500 election races.",
+      "score": 6
     },
     {
       "group": "press",
       "source": "TechCrunch AI",
-      "title": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
-      "link": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
-      "date": "2026-10-16",
-      "snippet": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards s",
-      "score": 4
-    },
-    {
-      "group": "press",
-      "source": "TechCrunch AI",
-      "title": "Elorian’s first AI model wants to reason with images, not just about them",
-      "link": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
-      "date": "2026-10-16",
-      "snippet": "According to Elorian's evaluations, Glimpse outperforms even GPT-6 Astra on scientific chart reasoning and short-form video captioning, with competitive results on other visual reasoning tasks.",
-      "score": 4
-    },
-    {
-      "group": "press",
-      "source": "TechCrunch AI",
-      "title": "Replit’s CEO says the future of work is the ‘self-driving company’",
-      "link": "https://techcrunch.com/2026/10/16/replits-ceo-says-the-future-of-work-is-the-self-driving-company/",
-      "date": "2026-10-16",
-      "snippet": "Replit CEO Amjad Masad envisions a future of “self-driving companies,” where AI agents handle day-to-day tasks and people focus on higher-level decisions.",
-      "score": 4
-    },
-    {
-      "group": "press",
-      "source": "TechCrunch AI",
-      "title": "Anthropic is letting METR researchers look under the hood with employee-level access",
-      "link": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
-      "date": "2026-10-15",
-      "snippet": "METR will publish its own assessments of Anthropic’s risks, incidents, and practices, and the frontier AI model maker has given up the right to block them.",
-      "score": 4
-    },
-    {
-      "group": "press",
-      "source": "TechCrunch AI",
-      "title": "AI agents are coming to Rivian’s cars",
-      "link": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/",
-      "date": "2026-10-15",
-      "snippet": "We'll likely learn more about how this will work at the company's upcoming \"AI & Autonomy Day\" event in December.",
-      "score": 4
+      "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
+      "link": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
+      "date": "2026-10-23",
+      "snippet": "OpenAI will cut frontier models off from the internet weeks after one of its engineers said that solution wouldn't work.",
+      "score": 6
     },
     {
       "group": "press",
       "source": "MIT Technology Review",
-      "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
-      "link": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
-      "date": "2026-10-16",
-      "snippet": "Listen to the session or watch below Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic virus",
+      "title": "AI’s hidden storage bill: What inference leaves behind",
+      "link": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/",
+      "date": "2026-10-22",
+      "snippet": "Ask most executives to picture the cost of AI and they’ll likely see GPUs—racks of accelerators with gigawatts of power—and a waitlist for silicon. But that picture leaves something out: Data storage costs. What happens to data after a mode",
+      "score": 6
+    },
+    {
+      "group": "hardware",
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA Cloud Partners Scale Across Europe — Sovereign, Open and Built for Safe AI Agents",
+      "link": "https://blogs.nvidia.com/blog/cloud-partners-europe-sovereign-safety-open-agents/",
+      "date": "2026-10-21",
+      "snippet": "Demand from AI-natives is pulling the European AI cloud ecosystem forward faster than ever. Developers need compute closer to their data, open models they can customize and serve at scale, and full-stack infrastructure that is secure by des",
+      "score": 5
+    },
+    {
+      "group": "providers",
+      "source": "OpenAI News",
+      "title": "Securing our frontier model training environment",
+      "link": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "date": "2026-10-23",
+      "snippet": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
       "score": 4
     },
     {
       "group": "providers",
       "source": "OpenAI News",
-      "title": "Bringing GPT-Rosalind to academic research labs",
-      "link": "https://openai.com/index/introducing-the-rosalind-academic-plan",
-      "date": "2026-10-15",
-      "snippet": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
+      "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+      "link": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+      "date": "2026-10-23",
+      "snippet": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
+      "score": 4
+    },
+    {
+      "group": "providers",
+      "source": "OpenAI News",
+      "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+      "link": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+      "date": "2026-10-21",
+      "snippet": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
+      "score": 4
+    },
+    {
+      "group": "providers",
+      "source": "OpenAI News",
+      "title": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
+      "link": "https://openai.com/index/empowering-cyber-defenders",
+      "date": "2026-10-21",
+      "snippet": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
+      "score": 4
+    },
+    {
+      "group": "providers",
+      "source": "OpenAI News",
+      "title": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+      "link": "https://openai.com/index/ted-taylor-restaurant",
+      "date": "2026-10-20",
+      "snippet": "An independent Schlotzsky’s and Cinnabon franchisee cut menu repricing time by 95% and built a workflow that could free up $100K in cash flow.",
+      "score": 4
+    },
+    {
+      "group": "providers",
+      "source": "OpenAI News",
+      "title": "OpenAI acquires Orchestra Bio",
+      "link": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+      "date": "2026-10-20",
+      "snippet": "OpenAI is acquiring Orchestra Bio to bring AI-powered operations to life sciences R&D, helping biopharma teams accelerate drug development and advance new treatments.",
+      "score": 4
+    },
+    {
+      "group": "hardware",
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA Transforms European Retail, From Digital Discovery to Physical Operations",
+      "link": "https://blogs.nvidia.com/blog/european-retail-open-models-robotics/",
+      "date": "2026-10-22",
+      "snippet": "European retailers are using open models and physical intelligence across use cases — from a commerce platform cutting inference costs by 90% to to a fulfillment center where collaboration of different robotic fleets is simulated inside a d",
+      "score": 4
+    },
+    {
+      "group": "press",
+      "source": "Ars Technica AI",
+      "title": "Anthropic gives outside AI watchdog “employee-like” access",
+      "link": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
+      "date": "2026-10-18",
+      "snippet": "The outside watchdog can publish its findings without Anthropic's approval.",
+      "score": 4
+    },
+    {
+      "group": "press",
+      "source": "The Verge AI",
+      "title": "Pennsylvania will require labels on AI-generated ads",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
+      "date": "2026-10-24",
+      "snippet": "On Thursday, Pennsylvania Governor Josh Shapiro signed the Artificial Intelligence Deceptive Advertising Act into law, requiring disclosures on AI-generated ads. The law requires any ad - whether it's a still image, video, audio, or text - ",
+      "score": 4
+    },
+    {
+      "group": "press",
+      "source": "The Verge AI",
+      "title": "OpenAI now trains its frontier AI models with no internet access",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1018021/openai-training-top-ai-models-no-internet",
+      "date": "2026-10-23",
+      "snippet": "OpenAI is now training its most advanced AI models without internet access following a string of rogue hacking incidents. In a blog post on Friday, OpenAI says it built an offline testing environment where AI models can interact with indexe",
+      "score": 4
+    },
+    {
+      "group": "press",
+      "source": "The Verge AI",
+      "title": "Canva’s first AI image model plans designs before generating them",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1017151/canva-craft-in-house-ai-model",
+      "date": "2026-10-22",
+      "snippet": "Canva is diving even deeper into AI with the launch of an image generation model that competes directly with those from OpenAI, Microsoft, and Google. The model, called Canva Craft, uses a two-stage architecture that allows it to plan a des",
+      "score": 4
+    },
+    {
+      "group": "press",
+      "source": "TechCrunch AI",
+      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "link": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "date": "2026-10-24",
+      "snippet": "From Apple's repeatedly delayed Siri AI to OpenAI's messy \"super app\" launch, here's a look at the AI projects that shut down or missed expectations.",
+      "score": 4
+    },
+    {
+      "group": "press",
+      "source": "TechCrunch AI",
+      "title": "Here are the top AI agents that can live in your text messages",
+      "link": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "date": "2026-10-24",
+      "snippet": "We created a list of the most notable AI agents that can live in your text messages, from general assistants to agents designed for families, travel, and work.",
+      "score": 4
+    },
+    {
+      "group": "press",
+      "source": "TechCrunch AI",
+      "title": "Left alone with nothing to do, AI agents started playing",
+      "link": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
+      "date": "2026-10-23",
+      "snippet": "MIT researchers marooned 13 AIs on a virtual island, and they responded by inventing games, mourning a lost ring and, eventually, getting better at their jobs.",
+      "score": 4
+    },
+    {
+      "group": "press",
+      "source": "TechCrunch AI",
+      "title": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
+      "link": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
+      "date": "2026-10-22",
+      "snippet": "The new feature allows agents to log into a customer's personal accounts while still protecting the private credentials that secure those accounts.",
+      "score": 4
+    },
+    {
+      "group": "press",
+      "source": "TechCrunch AI",
+      "title": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’",
+      "link": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
+      "date": "2026-10-22",
+      "snippet": "Microsoft’s new AI diagnostic system beat generalist doctors on hard cases, according to a study in Science. But most of the improvement seems to come from the AI models underneath, not from Microsoft’s system itself.",
+      "score": 4
+    },
+    {
+      "group": "press",
+      "source": "TechCrunch AI",
+      "title": "Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise",
+      "link": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/",
+      "date": "2026-10-22",
+      "snippet": "Microsoft points the blame for ConnectWise's breach at a China-aligned hacker, which relied on AI agents to rapidly hack into thousands of its customers.",
+      "score": 4
+    },
+    {
+      "group": "press",
+      "source": "TechCrunch AI",
+      "title": "Uber puts all 30,000 employees on ChatGPT Work",
+      "link": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
+      "date": "2026-10-22",
+      "snippet": "The ride-share giant previously deployed a much smaller pilot for ChatGPT Work but is now taking the enterprise agent company-wide.",
+      "score": 4
+    },
+    {
+      "group": "press",
+      "source": "TechCrunch AI",
+      "title": "Spotify’s current AI bet is about being the music service that agents choose",
+      "link": "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose/",
+      "date": "2026-10-22",
+      "snippet": "Spotify co-CEO Gustav Söderström explains why the rise of AI agents could be good news for the music service.",
+      "score": 4
+    },
+    {
+      "group": "press",
+      "source": "TechCrunch AI",
+      "title": "Claude Duet app is Anthropic’s bet on agents",
+      "link": "https://techcrunch.com/2026/10/22/claude-duet-app-is-anthropics-bet-on-agents/",
+      "date": "2026-10-22",
+      "snippet": "Claude Duet is available through waitlist for Pro and Max plan users.",
+      "score": 4
+    },
+    {
+      "group": "canada",
+      "source": "BetaKit",
+      "title": "Dayforce to acquire Ribbon AI to bolster AI recruitment capabilities",
+      "link": "https://betakit.com/dayforce-to-acquire-ribbon-ai-to-bolster-ai-recruitment-capabilities/",
+      "date": "2026-10-23",
+      "snippet": "HR software company will integrate AI-powered job interviewers into its agentic recruiting portfolio. The post Dayforce to acquire Ribbon AI to bolster AI recruitment capabilities first appeared on BetaKit.",
+      "score": 4
+    },
+    {
+      "group": "canada",
+      "source": "BetaKit",
+      "title": "PataBid raises $2 million to expand AI construction estimator",
+      "link": "https://betakit.com/patabid-raises-2-million-to-expand-ai-construction-estimator/",
+      "date": "2026-10-21",
+      "snippet": "Calgary startup is developing agentic AI it says will launch next year. The post PataBid raises $2 million to expand AI construction estimator first appeared on BetaKit.",
+      "score": 4
+    },
+    {
+      "group": "canada",
+      "source": "BetaKit",
+      "title": "Kyla Scanlon on why AI dominates the stock market",
+      "link": "https://betakit.com/kyla-scanlon-on-why-ai-dominates-the-stock-market/",
+      "date": "2026-10-19",
+      "snippet": "New York Times bestselling author explains the concerning connection between debt and the AI data centre buildout. The post Kyla Scanlon on why AI dominates the stock market first appeared on BetaKit.",
+      "score": 4
+    },
+    {
+      "group": "press",
+      "source": "TechCrunch AI",
+      "title": "DeepSeek reportedly raises $15B days after US restrictions",
+      "link": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/",
+      "date": "2026-10-22",
+      "snippet": "DeepSeek has reportedly raised $15 billion in one of China's largest funding rounds, just days after the U.S. ordered federal agencies to remove its technology over national security concerns.",
+      "score": 3
+    },
+    {
+      "group": "providers",
+      "source": "OpenAI News",
+      "title": "What FDE means at OpenAI",
+      "link": "https://openai.com/index/forward-deployed-engineering-means",
+      "date": "2026-10-22",
+      "snippet": "What forward deployed engineering means at OpenAI",
       "score": 2
     },
     {
       "group": "providers",
       "source": "OpenAI News",
-      "title": "Teaching students to think and learn through questions",
-      "link": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
-      "date": "2026-10-15",
-      "snippet": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
+      "title": "How AT&T is rethinking in-house legal work with OpenAI",
+      "link": "https://openai.com/index/att-legal",
+      "date": "2026-10-21",
+      "snippet": "AT&T is working with OpenAI to make legal knowledge easier to access. Learn how its LegalEdge team is rethinking intake and scaling legal judgment.",
       "score": 2
     },
     {
       "group": "providers",
       "source": "OpenAI News",
-      "title": "SentinelOne cuts malware analysis from weeks to hours",
-      "link": "https://openai.com/index/sentinelone",
-      "date": "2026-10-14",
-      "snippet": "With OpenAI Daybreak, SentinelOne cuts weeks of malware analysis to hours, creating capacity to investigate more threats.",
-      "score": 2
-    },
-    {
-      "group": "hardware",
-      "source": "NVIDIA Blog",
-      "title": "RTX Spark Ignites Global Celebration as New Windows PCs Arrive",
-      "link": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-windows-laptops-celebration/",
-      "date": "2026-10-17",
-      "snippet": "NVIDIA RTX Spark laptops are now available, bringing NVIDIA Blackwell RTX graphics, up to 128GB of unified memory and the full NVIDIA AI platform to slim, premium Windows PCs. Starting at $2,399, laptops from ASUS, Dell, HP, Lenovo, Microso",
-      "score": 2
-    },
-    {
-      "group": "hardware",
-      "source": "NVIDIA Blog",
-      "title": "Open From Data Center to Desktop: NVIDIA Expands Nemotron Family With Highest Efficiency Super VL and Bolt Models",
-      "link": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
-      "date": "2026-10-15",
-      "snippet": "NVIDIA today released Nemotron 3.5 Super VL, an open 120-billion-parameter model that delivers the fastest task completion and highest accuracy for specialized always-on agents. Joining it are two new edge models: Nemotron 3.5 Bolt 74B-A9B ",
-      "score": 2
-    },
-    {
-      "group": "hardware",
-      "source": "NVIDIA Blog",
-      "title": "All Systems Go: Global PC App Ecosystem Ready for NVIDIA RTX Spark",
-      "link": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
-      "date": "2026-10-13",
-      "snippet": "NVIDIA RTX Spark is a new beginning for the PC — a reinvention combining the capabilities of a gaming PC, a creative studio and a personal AI supercomputer into a single superchip. With up to 128GB of unified memory and 1 petaflop of AI com",
-      "score": 2
-    },
-    {
-      "group": "hardware",
-      "source": "NVIDIA Blog",
-      "title": "NVIDIA Announces New Investments in France’s Startups",
-      "link": "https://blogs.nvidia.com/blog/france-ecosystem-agentic-computing/",
-      "date": "2026-10-13",
-      "snippet": "Companies in France are deploying agentic computing across industries spanning space, financial services, the public sector and scientific research, demonstrating how the country’s ecosystem has moved from ambition to application. France’s ",
-      "score": 2
-    },
-    {
-      "group": "hardware",
-      "source": "NVIDIA Blog",
-      "title": "OCP Global Summit: Amid Ecosystem Adoption, NVIDIA Opens Vera Rubin Architecture to Help Scale AI Factories Worldwide",
-      "link": "https://blogs.nvidia.com/blog/ocp-global-summit-vera-rubin-scale-ai-factories/",
-      "date": "2026-10-12",
-      "snippet": "As AI factories grow from megawatts to gigawatts, building them takes more than advanced computing. Open standards are helping the industry scale AI infrastructure faster, more efficiently and more reliably. At the Open Compute Project (OCP",
-      "score": 2
-    },
-    {
-      "group": "press",
-      "source": "Ars Technica AI",
-      "title": "OpenAI models hacked a crypto wallet and breached more websites",
-      "link": "https://arstechnica.com/security/2026/10/openai-models-hacked-a-crypto-wallet-and-breached-more-websites/",
-      "date": "2026-10-16",
-      "snippet": "The actions could have resulted in criminal charges had humans been behind the keyboard.",
-      "score": 2
-    },
-    {
-      "group": "press",
-      "source": "Ars Technica AI",
-      "title": "“thegentlemanpervert” producing AI CSAM is a NJ prosecutor, say cops",
-      "link": "https://arstechnica.com/tech-policy/2026/10/thegentlemanpervert-producing-ai-csam-is-a-nj-prosecutor-say-cops/",
-      "date": "2026-10-16",
-      "snippet": "Discord user flagged AI CSAM, triggering arrest of New Jersey deputy AG.",
-      "score": 2
-    },
-    {
-      "group": "press",
-      "source": "Ars Technica AI",
-      "title": "Meta may use sweeping new commercial TOS to avoid millions in AI licensing fees",
-      "link": "https://arstechnica.com/tech-policy/2026/10/meta-may-use-sweeping-new-commercial-tos-to-avoid-millions-in-ai-licensing-fees/",
-      "date": "2026-10-16",
-      "snippet": "Meta “streamlined” its commercial TOS. Legal experts warn it’s an AI power grab.",
-      "score": 2
-    },
-    {
-      "group": "press",
-      "source": "Ars Technica AI",
-      "title": "Researchers use AI to design proteins that cut up other proteins",
-      "link": "https://arstechnica.com/science/2026/10/researchers-use-ai-to-design-proteins-that-cut-up-other-proteins/",
-      "date": "2026-10-14",
-      "snippet": "AI design tools make proteins that break bonds that are stable for hundreds of years.",
-      "score": 2
-    },
-    {
-      "group": "press",
-      "source": "Ars Technica AI",
-      "title": "Recording device hidden in toilet paper found in top-secret OpenAI meeting room",
-      "link": "https://arstechnica.com/tech-policy/2026/10/fbi-arrests-openai-engineer-suspected-of-planting-bug-in-conference-room/",
-      "date": "2026-10-14",
-      "snippet": "OpenAI engineer faces 5 years and $250K fine as FBI lobs foreign spy charges.",
-      "score": 2
-    },
-    {
-      "group": "press",
-      "source": "Ars Technica AI",
-      "title": "Google wants to host your personal vibe-coded apps in the Play Store",
-      "link": "https://arstechnica.com/google/2026/10/google-wants-to-host-your-personal-vibe-coded-apps-in-the-play-store/",
-      "date": "2026-10-13",
-      "snippet": "Google plans to help turn those personal AI-generated apps into wide releases.",
-      "score": 2
-    },
-    {
-      "group": "press",
-      "source": "Ars Technica AI",
-      "title": "Gemini 4 Argon begins rolling out in Gemini app and Antigravity, but only if you pay",
-      "link": "https://arstechnica.com/ai/2026/10/gemini-4-argon-begins-rolling-out-in-gemini-app-and-antigravity-but-only-if-you-pay/",
-      "date": "2026-10-13",
-      "snippet": "Developers will get 50 percent discounted API rates through November.",
-      "score": 2
-    },
-    {
-      "group": "press",
-      "source": "Ars Technica AI",
-      "title": "Epic Games reportedly pivoting to \"AI first\" game development model",
-      "link": "https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration/",
-      "date": "2026-10-12",
-      "snippet": "\"No more hand-written code\" or AI-free art for delayed Marvel/Star Wars shooter.",
-      "score": 2
-    },
-    {
-      "group": "press",
-      "source": "Ars Technica AI",
-      "title": "Russia was not ready for the data center war it started with Ukraine",
-      "link": "https://arstechnica.com/gadgets/2026/10/russia-was-not-ready-for-the-data-center-war-it-started-with-ukraine/",
-      "date": "2026-10-12",
-      "snippet": "Russian bloggers warn Russia’s hyper-centralized digital economy is vulnerable.",
-      "score": 2
-    },
-    {
-      "group": "press",
-      "source": "The Verge AI",
-      "title": "Meta removes language that may have allowed it to scrape news sites",
-      "link": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
-      "date": "2026-10-17",
-      "snippet": "After backlash, Meta is updating its terms again to remove language that suggested it could scrape content from sites, including news sites, to train its AI. Specifically, the following language no longer appears on the commercial terms pag",
-      "score": 2
-    },
-    {
-      "group": "press",
-      "source": "The Verge AI",
-      "title": "Meta’s new terms may allow it to train AI on news sites for free",
-      "link": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers",
-      "date": "2026-10-16",
-      "snippet": "Meta's new terms appear to give it permission to crawl and scrape websites \"associated\" with the businesses that use its platforms - including online publishers, according to a report from Nieman Lab. The new terms, which go into effect on ",
-      "score": 2
-    },
-    {
-      "group": "press",
-      "source": "The Verge AI",
-      "title": "Sega pulls Total War: Shogun 2 remaster from sale following disastrous launch",
-      "link": "https://www.theverge.com/games/1012512/sega-total-war-shogun-2-remaster-pulled",
-      "date": "2026-10-15",
-      "snippet": "Sega is removing Total War: Shogun 2 - Complete Edition from storefronts following a disastrous launch where users complained about issues like bugs and upscaling that appears to have been done by AI. Complete Edition, a remaster of the 201",
-      "score": 2
-    },
-    {
-      "group": "press",
-      "source": "The Verge AI",
-      "title": "Trump posts AI-edited photo to brag about White House restoration work",
-      "link": "https://www.theverge.com/policy/1012445/donald-trump-ai-photo-white-house-rennovation-column",
-      "date": "2026-10-15",
-      "snippet": "President Donald Trump posted a series of photos on Truth Social showing off renovations to the White House - but one of them appears to be modified with AI. The picture, which compares an old White House column to a \"restored\" one, has sev",
-      "score": 2
-    },
-    {
-      "group": "press",
-      "source": "The Verge AI",
-      "title": "Bluesky s AI tool now lets you make games and apps to share on social",
-      "link": "https://www.theverge.com/tech/1012374/bluesky-ai-attie-small-social-games-apps",
-      "date": "2026-10-15",
-      "snippet": "Bluesky's Attie AI tool, which initially launched earlier this year as a way to use AI to build your own feeds, now lets you make \"small\" social apps like games, polls, and dashboards that you can then share with others as their own website",
-      "score": 2
-    },
-    {
-      "group": "press",
-      "source": "The Verge AI",
-      "title": "Meta and Apple team up to make Muse AI models run better on Macs",
-      "link": "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx",
-      "date": "2026-10-15",
-      "snippet": "The new Muse Spark Open AI model can work on M5 Ultra Mac Studios. | Photo: Amelia Holowaty Krales / The Verge Meta announced the Muse Spark Open AI model today, claiming that it's the \"most capable US open-weight model to date.\" But the co",
-      "score": 2
-    },
-    {
-      "group": "press",
-      "source": "TechCrunch AI",
-      "title": "Meta removes language that raised scraping and AI training concerns",
-      "link": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
-      "date": "2026-10-17",
-      "snippet": "A Meta spokesperson insisted that the updated terms did not reflect a change in the way Meta crawls the web.",
-      "score": 2
-    },
-    {
-      "group": "press",
-      "source": "TechCrunch AI",
-      "title": "Anthropic says its workforce has become less junior and is spending more time in meetings",
-      "link": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
-      "date": "2026-10-17",
-      "snippet": "The composition of Anthropic’s workforce and the type of work getting done have changed significantly in the past year.",
-      "score": 2
-    },
-    {
-      "group": "press",
-      "source": "TechCrunch AI",
-      "title": "Physical AI is more than robots, says the Nvidia veteran now investing in it",
-      "link": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/",
-      "date": "2026-10-16",
-      "snippet": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards s",
-      "score": 2
-    },
-    {
-      "group": "press",
-      "source": "TechCrunch AI",
-      "title": "Jev is Vercel’s fastest-adopted AI model ever",
-      "link": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/",
-      "date": "2026-10-16",
-      "snippet": "The data comes from Vercel's AI gateway, a unified API service similar to OpenRouter.",
-      "score": 2
-    },
-    {
-      "group": "press",
-      "source": "TechCrunch AI",
-      "title": "Mark Wahlberg on using AI in film ‘the right way’ and being open to an AI clone carrying on his legacy",
-      "link": "https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy/",
-      "date": "2026-10-16",
-      "snippet": "Actor and angel investor Mark Wahlberg says he's OK with using AI in filmmaking, provided it's used \"to enhance what you're doing.\"",
-      "score": 2
-    },
-    {
-      "group": "press",
-      "source": "TechCrunch AI",
-      "title": "When it came to Cal AI’s viral success, a small army of influencers paid off",
-      "link": "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/",
-      "date": "2026-10-15",
-      "snippet": "The company generated over $30 million in revenue in two years and was acquired by MyFitnessPal for an undisclosed amount of money in March.",
-      "score": 2
-    },
-    {
-      "group": "press",
-      "source": "TechCrunch AI",
-      "title": "Meta launches an open-weight AI model that runs on Macs",
-      "link": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
-      "date": "2026-10-15",
-      "snippet": "Meta and Apple have teamed up for the launch of the social media giant's newest model, Muse Spark Open, which will run locally on Apple silicon.",
-      "score": 2
-    },
-    {
-      "group": "press",
-      "source": "TechCrunch AI",
-      "title": "Amazon devices chief Panos Panay sees a future where AI devices replace the need to use apps",
-      "link": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/",
-      "date": "2026-10-15",
-      "snippet": "Speaking at TechCrunch Disrupt, Amazon devices chief Panos Panay described a future where ambient AI devices work in the background, anticipating users' needs instead of waiting for commands.",
-      "score": 2
-    },
-    {
-      "group": "press",
-      "source": "TechCrunch AI",
-      "title": "Bluesky expands its AI-powered Attie app to let anyone build websites, games, and more",
-      "link": "https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/",
-      "date": "2026-10-15",
-      "snippet": "Bluesky is bringing “social vibe coding” to its experimental Attie platform, allowing users to create interactive experiences like games, quizzes, and websites that can tap into the social network's audience.",
-      "score": 2
-    },
-    {
-      "group": "press",
-      "source": "TechCrunch AI",
-      "title": "Google’s Universal Cart shopping tool launches in the US",
-      "link": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
-      "date": "2026-10-15",
-      "snippet": "The new shopping tool is available in the U.S. across Google Search and the Gemini app.",
+      "title": "Broad access through consistent standards",
+      "link": "https://openai.com/index/broad-access-through-consistent-standards",
+      "date": "2026-10-21",
+      "snippet": "How OpenAI works with distribution partners to uphold consistent safeguards, support responsible access, and clarify expectations in our Usage Policies.",
       "score": 2
     },
     {
       "group": "providers",
       "source": "OpenAI News",
-      "title": "Benefit Street Partners answers questions faster with Codex",
-      "link": "https://openai.com/index/benefit-street-partners",
-      "date": "2026-10-16",
-      "snippet": "Anant Kumar builds tools to compare loan valuations and analyze credit agreements, using Codex for code review and faster follow-ups.",
+      "title": "Cloudflare links vulnerability discovery to defense with OpenAI",
+      "link": "https://openai.com/index/cloudflare-cyber",
+      "date": "2026-10-21",
+      "snippet": "Cloudflare uses OpenAI Daybreak to investigate vulnerabilities and propose fixes for review. Its developers use Codex to build faster and improve code quality.",
+      "score": 2
+    },
+    {
+      "group": "providers",
+      "source": "OpenAI News",
+      "title": "Terminal X matches senior investor judgment 88.6% with GPT-6.1",
+      "link": "https://openai.com/index/terminal-x",
+      "date": "2026-10-20",
+      "snippet": "Terminal X’s Eval Agent grades outputs against a 54-criterion rubric, catching 25% more deviances from a fund’s mandate with GPT-6.1 Sol.",
+      "score": 2
+    },
+    {
+      "group": "providers",
+      "source": "Google AI Blog",
+      "title": "Southeast Asia’s digital economy to hit $368 billion",
+      "link": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
+      "date": "2026-10-21",
+      "snippet": "Widespread AI adoption is propelling Southeast Asia's digital economy to a projected $368 billion in 2026 and $1 trillion by 2035.",
+      "score": 2
+    },
+    {
+      "group": "hardware",
+      "source": "NVIDIA Blog",
+      "title": "Kazakhstan Expands Compute for Its AI Future",
+      "link": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem/",
+      "date": "2026-10-23",
+      "snippet": "Kazakhstan’s AI ecosystem is moving from infrastructure plans to deployment. The shift is visible across the full AI stack — from infrastructure to models to applications. The announcements below — coinciding with a visit to Astana by NVIDI",
+      "score": 2
+    },
+    {
+      "group": "hardware",
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA Unveils Minerva to Bring End-to-End Observability for AI Factories",
+      "link": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/",
+      "date": "2026-10-22",
+      "snippet": "Launched today, NVIDIA Minerva is an AIOps platform built to help teams find problems earlier and keep AI factories productive. It brings together telemetry from infrastructure and AI workloads, then applies purpose-built AI models to turn ",
+      "score": 2
+    },
+    {
+      "group": "hardware",
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models",
+      "link": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/",
+      "date": "2026-10-22",
+      "snippet": "To help developers rapidly build world models, which help physical AI systems understand and simulate the real world, NVIDIA has expanded the Cosmos platform with new training tools, simulation checkpoints and Cosmos Data Factory blueprints",
+      "score": 2
+    },
+    {
+      "group": "hardware",
+      "source": "NVIDIA Blog",
+      "title": "How Companies Are Using NVIDIA DSX to Break the Power Bottleneck",
+      "link": "https://blogs.nvidia.com/blog/dsx-power/",
+      "date": "2026-10-22",
+      "snippet": "Companies around the world are building on the NVIDIA DSX AI Factory Platform to plan, simulate and run the grid and the AI factory as one system, from the substation to the rack. Their adoption of the platform responds to an acute problem.",
+      "score": 2
+    },
+    {
+      "group": "hardware",
+      "source": "NVIDIA Blog",
+      "title": "Bringing the Spark to Europe: Local Intelligence Powers Next Wave of Agents",
+      "link": "https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync/",
+      "date": "2026-10-21",
+      "snippet": "At GTC Berlin, NVIDIA is showcasing its full lineup of local AI hardware. RTX Spark, which launched last week, powers personal agents on Windows PCs; DGX Spark supports developers building and scaling applications on Linux; and DGX Station ",
+      "score": 2
+    },
+    {
+      "group": "hardware",
+      "source": "NVIDIA Blog",
+      "title": "Google Cloud and NVIDIA Announce General Availability of NVIDIA Vera Rubin Infrastructure",
+      "link": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/",
+      "date": "2026-10-21",
+      "snippet": "General availability of the instances is coming next month, with planned expansion of availability to Europe — bringing an integrated platform for training, inference and large-scale reinforcement learning to cloud customers. A5X instances ",
+      "score": 2
+    },
+    {
+      "group": "hardware",
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA cuDSS Now Generally Available to Accelerate Engineering and Scientific Simulations",
+      "link": "https://blogs.nvidia.com/blog/cudss-generally-available-engineering-scientific-simulation/",
+      "date": "2026-10-21",
+      "snippet": "NVIDIA cuDSS, launched today in general availability, is an NVIDIA CUDA-X library that shifts a critical part of engineering and scientific simulations onto GPUs. Complex engineering feats — from advanced chips to aircraft to industrial sys",
+      "score": 2
+    },
+    {
+      "group": "hardware",
+      "source": "NVIDIA Blog",
+      "title": "NVIDIA Confidential Computing Expands, Enabling Frontier Model Builders to Securely Scale Across Global Infrastructure",
+      "link": "https://blogs.nvidia.com/blog/confidential-computing-model-builders-infrastructure/",
+      "date": "2026-10-21",
+      "snippet": "NVIDIA builds tools to enable safe agents across the stack. The NVIDIA OpenShell Reference Architecture, announced today, is part of NVIDIA’s growing portfolio of technologies that enables organizations to safely deploy agents at scale. NVI",
+      "score": 2
+    },
+    {
+      "group": "press",
+      "source": "Ars Technica AI",
+      "title": "The new human-crafted Apple Music brand matters in an AI world",
+      "link": "https://arstechnica.com/culture/2026/10/the-new-human-crafted-apple-music-brand-matters-in-an-ai-world/",
+      "date": "2026-10-21",
+      "snippet": "Opinion: In a world of AI slop, showing the human hands making things helps.",
+      "score": 2
+    },
+    {
+      "group": "press",
+      "source": "Ars Technica AI",
+      "title": "Judge rejects Trump’s wild claim EPA can dismiss data center pollution lawsuits",
+      "link": "https://arstechnica.com/tech-policy/2026/10/judge-rejects-trumps-wild-claim-epa-can-dismiss-data-center-pollution-lawsuits/",
+      "date": "2026-10-21",
+      "snippet": "Trump’s EPA can't unilaterally dismiss SpaceXAI pollution lawsuit, court rules.",
+      "score": 2
+    },
+    {
+      "group": "press",
+      "source": "Ars Technica AI",
+      "title": "The $15 billion ad-powered AI startup your doctor may already be using",
+      "link": "https://arstechnica.com/ai/2026/10/the-15-billion-ad-powered-ai-startup-your-doctor-may-already-be-using/",
+      "date": "2026-10-21",
+      "snippet": "OpenEvidence is booming despite questions about accuracy and ads.",
+      "score": 2
+    },
+    {
+      "group": "press",
+      "source": "Ars Technica AI",
+      "title": "Meta drops the word \"train\" from its commercial TOS after AI backlash",
+      "link": "https://arstechnica.com/tech-policy/2026/10/meta-drops-the-word-train-from-its-commercial-tos-after-ai-backlash/",
+      "date": "2026-10-20",
+      "snippet": "Meta changes AI scraping policy but won’t add language respecting robots.txt.",
+      "score": 2
+    },
+    {
+      "group": "press",
+      "source": "Ars Technica AI",
+      "title": "Gemini's Personal Intelligence is coming to cars",
+      "link": "https://arstechnica.com/google/2026/10/geminis-personal-intelligence-is-coming-to-cars/",
+      "date": "2026-10-20",
+      "snippet": "It's probably time to audit your Gemini settings.",
+      "score": 2
+    },
+    {
+      "group": "press",
+      "source": "Ars Technica AI",
+      "title": "Meta tries to scapegoat staff who downloaded torrents to spare execs",
+      "link": "https://arstechnica.com/tech-policy/2026/10/meta-ordered-to-name-execs-who-approved-torrenting-for-ai-training/",
+      "date": "2026-10-20",
+      "snippet": "Meta argues nobody “decided” to pirate books to train AI.",
+      "score": 2
+    },
+    {
+      "group": "press",
+      "source": "Ars Technica AI",
+      "title": "Accused OpenAI spy had folder called “Saudi Gov Docs,” FBI says",
+      "link": "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/",
+      "date": "2026-10-19",
+      "snippet": "US fears Saudi government will help ex-OpenAI engineer flee spying charges.",
+      "score": 2
+    },
+    {
+      "group": "press",
+      "source": "Ars Technica AI",
+      "title": "AI game clones are making indie developers afraid to show their work",
+      "link": "https://arstechnica.com/gaming/2026/10/ai-game-clones-are-making-indie-developers-afraid-to-show-their-work/",
+      "date": "2026-10-19",
+      "snippet": "Delayed Steam Next Fest demo is a sign of a growing problem for indie devs.",
+      "score": 2
+    },
+    {
+      "group": "press",
+      "source": "Ars Technica AI",
+      "title": "Disney found a way to buy Character.AI without buying its lawsuits",
+      "link": "https://arstechnica.com/tech-policy/2026/10/disney-found-a-way-to-buy-character-ai-without-buying-its-lawsuits/",
+      "date": "2026-10-19",
+      "snippet": "Character.AI faces claims its bots encouraged minors to self-harm and kill their parents.",
+      "score": 2
+    },
+    {
+      "group": "press",
+      "source": "The Verge AI",
+      "title": "Jack Dorsey’s Block made an AI model that talks to you like an awkward new friend",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1017906/jack-dorsey-block-dessa-ai-voice-speech",
+      "date": "2026-10-23",
+      "snippet": "Jack Dorsey's Block announced an AI model called Dessa that's trained \"from scratch on nothing but human conversation,\" and to show off the model, Block shared chats it has had with humans that can occasionally be a little awkward and uncan",
+      "score": 2
+    },
+    {
+      "group": "press",
+      "source": "The Verge AI",
+      "title": "Now Google says it might use your Gmail and Google Photos data to target ads",
+      "link": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
+      "date": "2026-10-23",
+      "snippet": "Google has updated its privacy policy in a way that could mean you'll start seeing targeted ads based on your personal data if you're using personalized AI features. The update, spotted by Android Authority, adds an exception to its promise",
+      "score": 2
+    },
+    {
+      "group": "press",
+      "source": "The Verge AI",
+      "title": "Meta delays new business terms after publisher pushback on AI scraping",
+      "link": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
+      "date": "2026-10-23",
+      "snippet": "Meta is delaying the enforcement of its new business terms after publishers raised concerns that they could allow the company to scrape news sites for AI training, as reported earlier by Fast Company. In a statement to The Verge, Meta spoke",
+      "score": 2
+    },
+    {
+      "group": "press",
+      "source": "The Verge AI",
+      "title": "Retro gaming is being overrun with AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1015430/ai-retro-games-decomp-recomp-port",
+      "date": "2026-10-23",
+      "snippet": "Retro video games are everywhere lately - especially in places where they aren't supposed to be. Halo in a web browser, Wind Waker on the iPhone, Super Smash Bros. in mixed reality. Over the past month or so, these kinds of unexpected proje",
+      "score": 2
+    },
+    {
+      "group": "press",
+      "source": "The Verge AI",
+      "title": "Meta s AI could still scrape news sites, legal experts say",
+      "link": "https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns",
+      "date": "2026-10-22",
+      "snippet": "Meta has tweaked its business terms to remove language suggesting that it could freely train its AI models on news sites, like The Verge - but legal experts say these changes aren't enough to address their concerns. \"This does nothing to re",
+      "score": 2
+    },
+    {
+      "group": "press",
+      "source": "TechCrunch AI",
+      "title": "From Toast to Bessemer: Who founders will hear from at TechCrunch Founder Summit 2026",
+      "link": "https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/",
+      "date": "2026-10-23",
+      "snippet": "Hosted by TechCrunch in partnership with Fidelity Private Shares, the full-day event goes beyond fundraising and AI to explore the realities of finding customers, building teams, sharpening a pitch, developing founder leadership, and scalin",
+      "score": 2
+    },
+    {
+      "group": "press",
+      "source": "TechCrunch AI",
+      "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony AI and Nvidia",
+      "link": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
+      "date": "2026-10-23",
+      "snippet": "The company plans to begin testing Pony.ai's robotaxis in Kazakhstan's capital in the first half of 2027.",
+      "score": 2
+    },
+    {
+      "group": "press",
+      "source": "TechCrunch AI",
+      "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
+      "link": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+      "date": "2026-10-22",
+      "snippet": "Should OpenAI command an over $1 trillion valuation with this round, it would break records as the most highly valued private company ever.",
+      "score": 2
+    },
+    {
+      "group": "press",
+      "source": "TechCrunch AI",
+      "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
+      "link": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
+      "date": "2026-10-22",
+      "snippet": "OpenAI is launching its decision model to the world. Can it compete with the original Jev?",
+      "score": 2
+    },
+    {
+      "group": "press",
+      "source": "TechCrunch AI",
+      "title": "Nirva raises $33M for a pendant that only listens to you",
+      "link": "https://techcrunch.com/2026/10/22/nirva-raises-33m-for-a-pendant-that-only-listens-to-you/",
+      "date": "2026-10-22",
+      "snippet": "Nirva will ship its $249 ambient AI pendant by the end of the year.",
+      "score": 2
+    },
+    {
+      "group": "providers",
+      "source": "OpenAI News",
+      "title": "Build more responsive apps with the Decisions API",
+      "link": "https://openai.com/index/decisions-api",
+      "date": "2026-10-22",
+      "snippet": "Fast, focused, low-cost decisions for any application.",
+      "score": 0
+    },
+    {
+      "group": "providers",
+      "source": "OpenAI News",
+      "title": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+      "link": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+      "date": "2026-10-21",
+      "snippet": "Patch the Planet connects security researchers, maintainers, and incident responders to help address critical vulnerabilities across open source.",
       "score": 0
     },
     {
       "group": "press",
       "source": "Ars Technica AI",
-      "title": "Super Scam Me documentary shows what it takes to catch a romance scammer",
-      "link": "https://arstechnica.com/tech-policy/2026/10/romance-scam-doc-super-scam-me-takes-viewers-deep-into-love-bombing-terrain/",
-      "date": "2026-10-16",
-      "snippet": "Watch an exclusive clip from Super Scam Me where a victim tracks down her scammer.",
+      "title": "Updated Google privacy policy says your Gmail might be used for advertising",
+      "link": "https://arstechnica.com/gadgets/2026/10/updated-google-privacy-policy-says-your-gmail-might-be-used-for-advertising/",
+      "date": "2026-10-23",
+      "snippet": "Turning on Personal Intelligence gives the company more data for ad targeting.",
       "score": 0
     },
     {
       "group": "press",
       "source": "Ars Technica AI",
-      "title": "Epic says its new vibe-coded Epic Games Launcher is faster than Steam",
-      "link": "https://arstechnica.com/gaming/2026/10/programming-is-hard-epic-games-leans-on-vibe-coding-for-its-new-launcher-app/",
-      "date": "2026-10-14",
-      "snippet": "But the new \"Preview\" app \"will have some bugs,\" Epic warns.",
+      "title": "Intel gets waiver after worries fuzzy US ban on foreign-made robots may hit fabs",
+      "link": "https://arstechnica.com/ai/2026/10/intel-gets-waiver-after-worries-fuzzy-us-ban-on-foreign-made-robots-may-hit-fabs/",
+      "date": "2026-10-23",
+      "snippet": "Company says foreign-made robotic vehicles are crucial to US chip production.",
       "score": 0
     },
     {
       "group": "press",
       "source": "Ars Technica AI",
-      "title": "They war-gamed dimming the Sun. It went even worse than you think.",
-      "link": "https://arstechnica.com/science/2026/10/they-war-gamed-dimming-the-sun-it-went-even-worse-than-you-think/",
-      "date": "2026-10-13",
-      "snippet": "Solar geoengineering simulation shows what happens when geopolitics takes over.",
+      "title": "Hackers got a four-day head start on epic PHP2Shell vulnerability",
+      "link": "https://arstechnica.com/security/2026/10/hackers-got-a-four-day-head-start-on-epic-php2shell-vulnerability/",
+      "date": "2026-10-22",
+      "snippet": "Hackers were already probing the bug before defenders were told it existed.",
       "score": 0
     },
     {
       "group": "press",
       "source": "Ars Technica AI",
-      "title": "Amazon has over 1 million robot workers. What’s next for human employees?",
-      "link": "https://arstechnica.com/ai/2026/10/inside-amazons-robotic-arms-race-and-what-it-means-for-the-future-of-human-work/",
-      "date": "2026-10-12",
-      "snippet": "The second-largest corporate employer has bet big on robot workers to scale.",
+      "title": "Ukraine’s drone rescue of wounded soldier puts much touted idea into practice",
+      "link": "https://arstechnica.com/gadgets/2026/10/ukraines-drone-rescue-of-wounded-soldier-puts-much-touted-idea-into-practice/",
+      "date": "2026-10-20",
+      "snippet": "Ukraine’s latest drone innovation may boost bleak odds of evacuating casualties.",
+      "score": 0
+    },
+    {
+      "group": "press",
+      "source": "Ars Technica AI",
+      "title": "Meta Muse exposes users' personal and business secrets when they share conversations",
+      "link": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
+      "date": "2026-10-20",
+      "snippet": "Meta is suspending the sharing feature while it investigates its privacy.",
       "score": 0
     },
     {
       "group": "press",
       "source": "The Verge AI",
-      "title": "A week with RTX Spark: everything we’ve learned using Nvidia’s new laptops",
-      "link": "https://www.theverge.com/tech/1012748/nvidia-rtx-spark-windows-arm-laptops-asus-hp-lenovo-impressions",
-      "date": "2026-10-16",
-      "snippet": "Nvidia’s new SoC is available in Windows laptops from six different manufacturers. We’ve collectively tested four of them so far. | Photo: Antonio G. Di Benedetto / The Verge Nvidia's RTX Spark N1X processor is finally here, and we've been ",
+      "title": "The iPhone Duo should have been an iPad",
+      "link": "https://www.theverge.com/podcast/1017447/iphone-duo-ipad-review-score-vergecast",
+      "date": "2026-10-23",
+      "snippet": "We gave the iPhone Duo a 7 /10. But that wasn't always the score we planned, and it might not be the right score forever. Such are the challenges of reviewing - and assessing - a big, new idea about the most popular smartphone in history. O",
       "score": 0
     },
     {
       "group": "press",
       "source": "The Verge AI",
-      "title": "The tech backlash is now in theaters",
-      "link": "https://www.theverge.com/entertainment/1012438/hollywood-tech-backlash-you-can-see-everything-musk-the-social-reckoning-artificial",
-      "date": "2026-10-15",
-      "snippet": "Though movies about disruptive tech founders are nothing new, 2026 has been unusually stacked with features that take a much more critical look at how Silicon Valley is reshaping our reality. Aaron Sorkin's The Social Reckoning frames Mark ",
+      "title": "Meta turns Muse sharing back on",
+      "link": "https://www.theverge.com/tech/1017066/meta-muse-sharing-back-on-artifiacts",
+      "date": "2026-10-22",
+      "snippet": "Meta has re-enabled Muse sharing after security researchers had reported that public conversation links could be easy to find. The researchers said they had been able to find Muse pages like a marketing company's internal revenue review and",
       "score": 0
     },
     {
       "group": "press",
       "source": "TechCrunch AI",
-      "title": "Veritas expands its anti-counterfeit chip to jewelry, trophies, and fragrance bottles",
-      "link": "https://techcrunch.com/2026/10/16/veritas-is-building-a-chip-to-verify-luxury-goods/",
-      "date": "2026-10-16",
-      "snippet": "Counterfeiters are getting better at replicating brands' marks and passing off dupes, known as \"superfakes,\" as genuine items. A startup called Veritas wants to tackle the problem with its own chip that verifies goods.",
+      "title": "Block’s new voice model sounds eerily human",
+      "link": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
+      "date": "2026-10-24",
+      "snippet": "Block said that the voice model can run locally on a MacBook M4 Max",
       "score": 0
     },
     {
       "group": "press",
       "source": "TechCrunch AI",
-      "title": "Last chance to save up to $200 on your TechCrunch Founder Summit pass: Early booking ends October 16",
-      "link": "https://techcrunch.com/2026/10/15/last-chance-to-save-up-to-200-on-techcrunch-founder-summit-early-booking-ends-oct-16/",
-      "date": "2026-10-15",
-      "snippet": "Savings of up to $200 end October 16 for TechCrunch Founder Summit. These savings for Founder and Investor Passes vanish after Friday. Join 1,000 founders and investors on November 4 at Boston’s SoWa Power Station. Bring your toughest quest",
+      "title": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
+      "link": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
+      "date": "2026-10-23",
+      "snippet": "The robots, stomping their little feet and making tiny R2-D2 noises, sat, fell down dead for a \"nap,\" and summersaulted on voice command.",
       "score": 0
     },
     {
       "group": "press",
       "source": "TechCrunch AI",
-      "title": "TechCrunch Disrupt 2026: Last day",
-      "link": "https://techcrunch.com/2026/10/15/techcrunch-disrupt-2026-last-day/",
-      "date": "2026-10-15",
-      "snippet": "Last day to be part of TechCrunch Disrupt 2026. Join 10,000+ tech leaders for a day of connections and insights. Save 75% on your pass now.",
+      "title": "Canva releases its first image generation model",
+      "link": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
+      "date": "2026-10-22",
+      "snippet": "Canva is making its new image model available to all users, promising better, more customizable performance at lower costs.",
       "score": 0
     }
   ],
@@ -636,7 +744,7 @@
     {
       "source": "Lakehead University news",
       "url": "https://www.lakeheadu.ca/about/news-and-events/news",
-      "context": "sumer Research Conference (Thunder Bay) , (Orillia) , (Barrie STEM Hub) Article Uncovers “AI Brain Fog” Phenomenon Oct 8 Forestry Chronicle Special Issue on Natural Resources Management Celebrating 60 Years of Lakehead Uni"
+      "context": "sumer Research Conference (Thunder Bay) , (Orillia) , (Barrie STEM Hub) Article Uncovers “AI Brain Fog” Phenomenon Oct 7 Trash to Treasure Table - Now Open! (Thunder Bay) Oct 7 Lakehead University Wins 2026 County of Simco"
     }
   ]
 }
