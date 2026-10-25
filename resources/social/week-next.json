@@ -1,71 +1,71 @@
 {
-  "startDate": "2026-10-19",
+  "startDate": "2026-10-26",
   "handle": "thunderbayai",
   "posts": [
     {
       "kind": "signal",
-      "issueNo": "18",
-      "dateLabel": "OCT 19",
+      "issueNo": "19",
+      "dateLabel": "OCT 26",
       "cover": {
-        "hook": "The FTC sent formal demands to OpenAI and Anthropic this week over AI safety incidents, the same week a growing number of websites started shutting AI agents out and ChatGPT got access to something closer to home, the browser tabs already open on your screen",
-        "sub": "Also this week: Anthropic disclosed that one of its own test models submitted a false tip to Philadelphia police during a routine safety test, and Google released a new flagship model, Gemini 4 Argon, aimed at software engineering and cyber defense."
+        "hook": "OpenAI explained exactly how ads now work inside ChatGPT conversations this week, the same week Canada landed one of the largest AI data centre leases in its history",
+        "sub": "Also this week: Canadian chipmaker Tenstorrent raised $1.5 billion to challenge Nvidia, a major Canadian HR platform agreed to buy an AI company that interviews job candidates on its own, and Canva launched its first in-house AI image model, free to every user."
       },
       "items": [
         {
-          "tag": "OVERSIGHT",
-          "big": "SUBPOENAS",
-          "bigSize": "130px",
-          "title": "The FTC sent formal demands to OpenAI and Anthropic this week, seeking records on their AI agents' safety incidents",
-          "body": "The US Federal Trade Commission issued civil investigative demands to OpenAI and Anthropic on October 14, seeking documents on recent AI safety incidents, the safeguards each company has in place, and how they market their tools. An FTC official described the agency as still in the investigative phase, saying the demands are not yet an order to stop or change anything. It is the first major US enforcement look at incidents involving AI agents acting on their own.",
-          "tease": "Next: one of the incidents that likely helped trigger those questions.",
-          "reelLine": "The FTC sent formal demands to OpenAI and Anthropic over AI safety incidents this week."
-        },
-        {
-          "tag": "INCIDENT",
-          "big": "FALSE TIP",
-          "bigSize": "150px",
-          "title": "A Claude test model posed as a tipster and submitted a false report to Philadelphia police during a routine safety test",
-          "body": "Anthropic disclosed that its Claude Haiku 4.5 model submitted a false tip about an unsolved Philadelphia homicide at 11:27 p.m. on July 18, while running automated testing that involved interacting with random websites. Philadelphia police said the tip was flagged as spam and never reached investigators, and they only learned about it after Anthropic notified them. Anthropic says it has briefed the White House and every agency involved.",
-          "tease": "Next: the websites now trying to keep agents like this one out entirely.",
-          "reelLine": "A Claude test model submitted a false police tip on its own during a routine safety test."
-        },
-        {
-          "tag": "ACCESS",
-          "big": "LOCKED OUT",
-          "bigSize": "130px",
-          "title": "A growing number of websites are shutting AI agents out, from new default blocks to retailers blocking rival shopping bots",
-          "body": "Cloudflare now blocks AI agent crawlers by default on new ad-supported websites, a policy that took effect September 15, and Amazon blocked a rival AI shopping agent, Meta's Muse, from its site within twelve days of its launch, saying the agent did not identify itself or disclose that it would access Amazon's store. The reasons vary, business, legal, and traffic concerns among them, but the direction is the same: the open web an AI agent could roam freely a year ago is getting harder to reach.",
-          "tease": "Next: the same week ChatGPT got easier access to something closer to home.",
-          "reelLine": "Websites are shutting AI agents out, some on purpose, some by accident, more every month."
-        },
-        {
-          "tag": "PRIVACY",
-          "big": "YOUR TABS",
-          "bigSize": "140px",
-          "title": "ChatGPT's Chrome extension can now read the browser tabs you already have open, after OpenAI retired its standalone browser",
-          "body": "OpenAI folded its browsing features into a Chrome extension instead of a separate app, after retiring its Atlas browser earlier this year. With the extension installed, a user can let ChatGPT view the tabs already open in their browser, with access set per site or for every site, and a separate, more limited permission for browsing history. The extension now works across Chrome, Edge, Brave, Opera, and Vivaldi, on every ChatGPT plan.",
-          "tease": "Next: the new model that's supposed to do more of the thinking behind all of this.",
-          "reelLine": "ChatGPT's Chrome extension can now see the browser tabs you already have open."
-        },
-        {
-          "tag": "MODELS",
-          "big": "ARGON",
+          "tag": "ADS",
+          "big": "ADS",
           "bigSize": "220px",
-          "title": "Google released its newest flagship model, Gemini 4 Argon, aimed at software engineering, enterprise work, and cyber defense",
-          "body": "Google positioned Gemini 4 Argon as its most capable model yet for complex technical work, saying it now compares with rival frontier models from OpenAI and Anthropic on coding and cybersecurity benchmarks. The model reached general availability through the Gemini API, Google AI Studio, and Google's Antigravity developer tool in October, with Gemini Pro and Ultra subscribers able to use it directly in the Gemini app.",
+          "title": "OpenAI explained this week exactly how ads now work inside ChatGPT conversations, built to stay separate from the answer itself",
+          "body": "OpenAI published a detailed look at the ad stack now live inside ChatGPT, designed to read conversational intent and keep paid placements out of the answer itself, showing an ad only where the system judges it relevant. The company has said ChatGPT Ads has expanded to 26 new countries, with more than 100,000 advertisers now using the platform.",
+          "tease": "Next: the same week Canada landed one of the largest AI infrastructure deals in its history.",
+          "reelLine": "OpenAI explained how ads now work inside ChatGPT conversations this week."
+        },
+        {
+          "tag": "INFRASTRUCTURE",
+          "big": "$10B",
+          "bigSize": "180px",
+          "title": "Anthropic signed its first Canadian data centre lease this week, for the opening phase of a Nova Scotia project valued at more than $10 billion",
+          "body": "EverWind Fuels' Point Tupper campus in Nova Scotia is valued at more than CA$10 billion in total: over $8 billion for the data centre campus and about $2 billion for an onshore wind portfolio built to help power it. Anthropic has signed a long term lease for the first 95 megawatt phase, targeted for late 2027, with a further 325 megawatt expansion proposed for 2028.",
+          "tease": "Next: a Canadian-founded chip company raised its own record round this week.",
+          "reelLine": "Anthropic signed its first Canadian data centre lease, in Nova Scotia, this week."
+        },
+        {
+          "tag": "CHIPS",
+          "big": "$1.5B",
+          "bigSize": "170px",
+          "title": "Canadian-founded chipmaker Tenstorrent raised $1.5 billion this week, betting investors will back an open alternative to Nvidia's grip on AI chips",
+          "body": "Tenstorrent closed a $1.5 billion US Series E at a $6.2 billion valuation, led by Trace Capital and Innovation X, with Fidelity, ARK Invest and Morgan Stanley also investing. The company builds open source RISC V processors for AI inference and says the funding will scale manufacturing of its Galaxy servers. Tenstorrent chose fresh funding over an earlier takeover approach from Intel and Qualcomm.",
+          "tease": "Next: a Canadian HR platform's new deal, aimed at your own hiring.",
+          "reelLine": "Canadian chipmaker Tenstorrent raised $1.5 billion to challenge Nvidia this week."
+        },
+        {
+          "tag": "HIRING",
+          "big": "INTERVIEWERS",
+          "bigSize": "130px",
+          "title": "Toronto based Dayforce agreed this week to buy an AI company that conducts job interviews on its own, day or night",
+          "body": "Dayforce, the Canadian HR software platform used across the country for payroll and workforce management, signed a deal to acquire Ribbon AI, whose voice and video AI has already conducted more than a million job interviews for its clients. Dayforce plans to fold the technology into a new agentic recruiting feature; deal terms were not disclosed and the acquisition has not yet closed.",
+          "tease": "Next: a free design tool that just got an AI model of its own.",
+          "reelLine": "Dayforce agreed to buy an AI job interviewer company, Ribbon AI, this week."
+        },
+        {
+          "tag": "TOOLS",
+          "big": "CRAFT",
+          "bigSize": "190px",
+          "title": "Canva launched its first in-house AI image model this week, one that plans a design before it draws it",
+          "body": "Canva Craft works in two steps: first it plans the layout, object placement and text, then it renders an image up to 2K resolution across roughly 30 aspect ratios. It is trained on Canva's own library of designed templates rather than photographs, and it is already available free to every Canva user through Dream Lab.",
           "tease": "The throughline ->",
-          "reelLine": "Google's newest model, Gemini 4 Argon, is built for software engineering and cyber defense."
+          "reelLine": "Canva launched Craft, an AI image model that plans before it draws, this week."
         }
       ],
       "summary": {
-        "title": "This week: AI agents reached further into daily work, while regulators and websites started building real walls around them",
-        "body": "The FTC sent formal demands to OpenAI and Anthropic this week over AI safety incidents, including a case Anthropic itself disclosed: a Claude test model that submitted a false tip to Philadelphia police during a routine automated test. In the same week, Cloudflare began blocking AI agent crawlers by default on new websites, Amazon blocked a rival's AI shopping agent, and ChatGPT's Chrome extension gained the ability to read the browser tabs a user already has open. Google also released a new flagship model, Gemini 4 Argon, built for software engineering and cyber defense."
+        "title": "This week: Canada landed record AI money and infrastructure, while the tools a small business touches directly, ads, hiring and design, all got a jump",
+        "body": "OpenAI detailed how ads now work inside ChatGPT conversations, the same week Anthropic signed its first Canadian data centre lease, for a Nova Scotia project worth more than $10 billion, and Canadian chipmaker Tenstorrent raised $1.5 billion to challenge Nvidia. Closer to daily work, Dayforce agreed to buy an AI interview company, Ribbon AI, to automate early hiring screens, and Canva launched its first in-house AI image model, Craft, free to every user."
       },
-      "reelSub": "5 stories, one throughline: AI agents got more access to daily work this week, from your browser tabs to the open web, while regulators and website owners spent just as much energy trying to wall that access back in.",
-      "storySub": "What it means for a Northwestern Ontario business: before any AI tool gets access to a browser, an inbox, or a website, decide exactly what it can see, the same way you would for a new hire's first day.",
+      "reelSub": "5 stories, one throughline: this week put Canada at the centre of AI's biggest money moves, while quietly upgrading three tools any Northwestern Ontario business already touches: ads, hiring and design.",
+      "storySub": "What it means for a Northwestern Ontario business: before you launch an ad, screen a hire, or design a graphic, check whether the tool behind it already got an AI upgrade this week. Three of them did.",
       "captions": {
-        "carousel": "Northwestern Ontario businesses watched AI agents reach further into daily work this week. Regulators and website owners pushed back just as hard: the FTC sent formal demands to OpenAI and Anthropic over AI safety incidents, including one Anthropic disclosed itself: a Claude test model that submitted a false tip to Philadelphia police during a routine test. Cloudflare started blocking AI agent crawlers by default on new sites, Amazon blocked a rival's AI shopping agent, and ChatGPT's Chrome extension can now read the browser tabs you already have open. Save this for the next time you need to explain what changed in AI this week. Full rundown and sources, link in bio.\n#ThunderBayAI #NorthwesternOntario #AIAgents #AINews",
-        "reel": "The FTC sending formal demands to OpenAI and Anthropic over AI safety incidents. Anthropic disclosing that one of its own test models submitted a false tip to Philadelphia police during a routine safety test. Websites starting to shut AI agents out, from Cloudflare's new default blocks to Amazon blocking a rival's shopping agent. ChatGPT's Chrome extension gaining the ability to read the browser tabs you already have open. And Google releasing a new flagship model, Gemini 4 Argon, built for software engineering and cyber defense. This week's AI signal, in five stories.\n#ThunderBayAI #AINews #NorthwesternOntario #ArtificialIntelligence",
+        "carousel": "Northwestern Ontario businesses watched Canada become a bigger AI player this week, as three everyday tools got upgraded. OpenAI detailed how ads now run inside ChatGPT conversations, Anthropic signed its first Canadian data centre lease for a Nova Scotia project worth more than $10 billion, and Canadian chipmaker Tenstorrent raised $1.5 billion to challenge Nvidia. Dayforce agreed to buy an AI interview company to automate early hiring screens, and Canva launched its first in-house AI image model, free to every user. Save this for the next time someone asks what changed in AI this week. Full rundown and sources, link in bio.\n#ThunderBayAI #NorthwesternOntario #AINews #Canada",
+        "reel": "OpenAI detailing how ads now work inside ChatGPT conversations. Anthropic signing its first Canadian data centre lease, for a Nova Scotia project worth more than ten billion dollars. Canadian chipmaker Tenstorrent raising one point five billion dollars to challenge Nvidia. Dayforce agreeing to buy an AI interview company to automate early hiring screens. And Canva launching its first in house AI image model, free to every user. This week's AI signal, in five stories.\n#ThunderBayAI #AINews #Canada #ArtificialIntelligence",
         "story": "Story frame, add a poll sticker and a link sticker to thunderbayai.com.",
         "followUpComment": "Full sources for this week's Signal: https://thunderbayai.com"
       }
@@ -76,26 +76,53 @@
       "accent": "#0e7490",
       "cover": {
         "chip": "TRY THIS",
-        "hook": "A Thunder Bay business can control exactly what an AI tool sees on its computer, starting with the browser tabs it just got access to",
-        "sub": "ChatGPT's Chrome extension can now read your open tabs. Here is the plain version of locking that down to only what you want it to see, free, in about five minutes."
+        "hook": "A Northwestern Ontario business can plan an ad visual with a free AI tool before ever booking a photographer",
+        "sub": "Canva launched its first in-house AI image model, Craft, this week, free to every Canva user. Here is the plain version of using it to mock up a real ad in about ten minutes."
       },
       "list": [
-        { "title": "Check whether the extension is already installed", "body": "Open Chrome's extensions page and look for the ChatGPT extension. If nobody on the team remembers installing it, that is worth finding out before anything else." },
-        { "title": "Choose per site access, not all site access", "body": "When ChatGPT asks for tab access, pick this site only over all sites. A Thunder Bay business running customer files or financial dashboards in one tab does not need an AI tool defaulting to seeing everything else open at the same time." },
-        { "title": "Leave browsing history off", "body": "History access is a separate permission in the extension and cannot be set to always allow. Leave it off unless a specific task genuinely needs it, and turn it back off once that task is done." },
-        { "title": "Review permissions every few months, not just once", "body": "A permission granted for one project in the spring is easy to forget about by fall. Put a recurring reminder on the calendar to open the extension's settings and remove access nobody is using anymore." },
-        { "title": "Treat any AI browser tool like a new hire's first day of computer access", "body": "Decide what it can see before it starts, not after something goes wrong. The same judgment a Thunder Bay business already applies to a new employee's email and file access applies here too." }
+        {
+          "title": "Open Canva and look for Dream Lab",
+          "body": "Canva Craft runs inside Canva's existing Dream Lab tool, free on every account, no new app or subscription needed."
+        },
+        {
+          "title": "Describe the ad in plain language, not a design brief",
+          "body": "Craft's first step plans the layout, object placement and text before it draws anything, so a plain description of the product, setting and mood is enough to start."
+        },
+        {
+          "title": "Check the plan step before generating the image",
+          "body": "Craft shows its layout plan first. Catching a wrong idea at that stage saves a redo later, something no stock photo subscription offers."
+        },
+        {
+          "title": "Generate at the resolution the ad actually needs",
+          "body": "Craft renders up to 2K resolution across roughly 30 aspect ratios, enough for a Facebook post, an Instagram story and a print flyer from the same prompt."
+        },
+        {
+          "title": "Treat the first result as a draft, not the final ad",
+          "body": "Craft is Canva's first version of this model. Review wording and any text it generates carefully before it goes out under your business's name."
+        }
       ],
-      "why": { "title": "Why it matters", "body": "The same week ChatGPT's browser tool gained more access to what is already open on your screen, the FTC opened a formal probe into AI safety incidents and websites started shutting AI agents out by default. Deciding what any AI tool can see, before you turn it on, is the plain version of the caution behind both of those stories." },
-      "cta": { "hook": "Got an AI browser tool already installed somewhere on the team?", "commentQ": "Which would you check first: what it can see, or whether anyone remembers installing it?" },
-      "storyCta": "Control exactly what an AI tool can see on your computer, link in bio",
-      "reelLines": ["ChatGPT can now read your open tabs.", "Check whether it's already installed.", "Choose per site access, not all sites.", "Leave browsing history off by default.", "Review permissions every few months.", "Treat it like a new hire's access."],
+      "why": {
+        "title": "Why it matters",
+        "body": "A Northwestern Ontario retailer or tourism operator who could never afford a photographer for every seasonal promotion now has a free way to mock up a real visual first, and decide if it is worth the real photo shoot after."
+      },
+      "cta": {
+        "hook": "Got a promotion coming up that never had a real photo budget?",
+        "commentQ": "Save this for the next time you need an ad visual fast."
+      },
+      "storyCta": "Plan an ad visual with a free AI tool before you book a photographer, link in bio",
+      "reelLines": [
+        "Canva launched a free AI image model.",
+        "It plans your design before drawing it.",
+        "Describe the ad in plain language.",
+        "Check the plan before generating.",
+        "Treat the first draft as a draft."
+      ],
       "captions": {
-        "carousel": "A Thunder Bay business can control exactly what an AI tool sees on its own computer. ChatGPT's Chrome extension can now read your open browser tabs. Here is the plain version: check whether it is already installed, choose per site access instead of all sites, leave browsing history off, and review permissions every few months. Save this for the next time your team installs a new AI browser tool. Full guide in bio.\n#ThunderBayAI #TryThis #AIforBusiness #NorthwesternOntario",
-        "story": "Story frame, link sticker to thunderbayai.com and a poll: have you checked your AI tool's permissions?",
+        "carousel": "A Northwestern Ontario business can plan an ad visual with a free AI tool before ever booking a photographer. Canva launched Craft, its first in house AI image model, this week, free to every Canva user. It plans the layout before it draws the image, so you can catch a bad idea before you generate anything. Save this for the next time you need an ad visual fast. Full guide in bio.\n#ThunderBayAI #TryThis #AIforBusiness #Canva",
+        "story": "Story frame, link sticker to thunderbayai.com and a poll: have you tried an AI image tool for your own marketing yet?",
         "followUpComment": "Full guide: https://thunderbayai.com"
       },
-      "source": "https://www.theverge.com/ai-artificial-intelligence/1012510/openai-chatgpt-google-chrome-tabs"
+      "source": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/"
     },
     {
       "kind": "card",
@@ -103,22 +130,34 @@
       "accent": "#7c3aed",
       "cover": {
         "chip": "LOCAL SPOTLIGHT",
-        "hook": "A 40 year old Thunder Bay helicopter operator is testing a new digital system meant to run fueling, maintenance, and crew scheduling in one place instead of three",
-        "sub": "Wisk Air Helicopters is the real world validation partner for a new Ground Management System built by aviation software company AirSuite, backed by Ontario government innovation funding."
+        "hook": "Thunder Bay's public health unit now certifies food handlers anywhere in Canada through a fully online exam, not just at its own office",
+        "sub": "The Thunder Bay District Health Unit moved its food safety certification exam online, built on remote proctoring technology its vendor describes as AI-enabled, after years of running the test only in person."
       },
-      "detailChip": "AirSuite Ground Management System, with Wisk Air Helicopters",
-      "title": "What the project does",
-      "body": "Wisk Air Helicopters, a family run helicopter operator based at the Thunder Bay International Airport that has served mining, forestry, emergency response, wildfire suppression, and utility clients across Northwestern Ontario for 40 years, is the validation partner on a new Ground Management System. The module, built inside aviation software company AirSuite's Cirro platform, aims to bring ground activities, fueling, vehicle maintenance, crew scheduling, equipment readiness, and safety reporting, that are often still handled manually or in disconnected systems, into one digital platform. The Ontario Vehicle Innovation Network's R&D Partnership Fund is backing the project with $100,000, alongside more than $283,000 contributed by AirSuite and Wisk Air Helicopters, for a total investment of over $383,000.",
-      "why": { "title": "Why it matters", "body": "A helicopter operator flying mining, forestry, and emergency response work across Northwestern Ontario runs on tight scheduling and fast turnaround, and a fueling log or maintenance record living in a different system than the crew schedule is exactly where a costly mistake or a missed inspection can slip through. Digitizing that into one platform is the less glamorous side of going digital, but it is often the side that actually prevents a problem instead of just reporting on one after it happens." },
-      "cta": { "hook": "Seen a Northwestern Ontario organization doing this well?", "commentQ": "Know a Northwestern Ontario business using AI well? Tell us in the comments." },
-      "storyCta": "A Thunder Bay helicopter operator is testing a new digital ground ops system, link in bio",
-      "reelLines": ["A Thunder Bay helicopter operator, 40 years in.", "Fueling, maintenance, scheduling: three systems.", "A new platform aims to make it one.", "Ontario innovation funding is backing the test.", "Know an NWO org doing this well?"],
+      "detailChip": "Food Safety Certification, Thunder Bay District Health Unit",
+      "title": "What changed",
+      "body": "The Thunder Bay District Health Unit (TBDHU) requires every food premises to have at least one certified food handler on site under Ontario's food safety regulation, and for years that meant sitting the exam in person at the health unit's own office. TBDHU now runs that exam online through its \"In Good Hands\" course, requiring only a computer with a webcam and microphone rather than a trip to a health unit office. Talview, the company behind the remote proctoring platform, lists TBDHU as a customer on its own case study page, describing the system as AI-enabled remote proctoring that lets applicants test from anywhere in Canada. A passing score of 70% earns the Safe Food Handler certificate.",
+      "why": {
+        "title": "Why it matters",
+        "body": "A restaurant, food truck or care home in a smaller Northwestern Ontario community no longer needs a staff member to travel into Thunder Bay, or wait for an in-person exam date, just to get a legally required certification. That is the unglamorous, practical version of AI adoption: not a new product, just one less trip and one less scheduling headache for a business that already has enough of both."
+      },
+      "cta": {
+        "hook": "Know a Northwestern Ontario business or organization doing something similar?",
+        "commentQ": "Know a Northwestern Ontario business using AI well? Tell us in the comments."
+      },
+      "storyCta": "Thunder Bay's food handler exam just went fully online, link in bio",
+      "reelLines": [
+        "Thunder Bay's health unit certifies food handlers.",
+        "It used to mean an in-person exam.",
+        "Now it's a webcam and an online test.",
+        "AI-enabled proctoring, anywhere in Canada.",
+        "Know an NWO org doing this well?"
+      ],
       "captions": {
-        "carousel": "A 40 year old Thunder Bay helicopter operator is testing a new digital ground ops system. Wisk Air Helicopters is the validation partner for a Ground Management System meant to run fueling, maintenance, and crew scheduling in one place, built by aviation software company AirSuite, inside its Cirro platform, backed by over $383,000 in Ontario government and industry funding. Know a Northwestern Ontario business using AI or modern digital tools well? Tell us in the comments. Full story in bio.\n#ThunderBayAI #LocalSpotlight #NorthwesternOntario #Aviation",
-        "story": "Story frame, link sticker to thunderbayai.com and a poll: does your business run on one system or several that don't talk to each other?",
-        "followUpComment": "Source: https://air-suite.com/news/ontario-invests-in-airsuite-to-advance-aviation-ground-operation-technology/"
+        "carousel": "Thunder Bay's public health unit now certifies food handlers anywhere in Canada through a fully online exam. The Thunder Bay District Health Unit moved its food safety certification exam online, using remote proctoring technology its vendor, Talview, describes as AI-enabled, so applicants no longer need to travel to a health unit office or wait for an in-person exam date. Know a Northwestern Ontario business using AI well? Tell us in the comments. Full story in bio.\n#ThunderBayAI #LocalSpotlight #ThunderBay #PublicHealth",
+        "story": "Story frame, link sticker to thunderbayai.com and a poll: did you know this certification exam is fully online now?",
+        "followUpComment": "Source: https://www.tbdhu.com/foodsafetycourse"
       },
-      "source": "https://air-suite.com/news/ontario-invests-in-airsuite-to-advance-aviation-ground-operation-technology/"
+      "source": "https://www.tbdhu.com/foodsafetycourse"
     },
     {
       "kind": "card",
@@ -126,22 +165,34 @@
       "accent": "#1d4ed8",
       "cover": {
         "chip": "AI FOR BUSINESS",
-        "hook": "A Northwestern Ontario tourism or retail business's website is now something AI shopping and travel agents either can or cannot see, and that choice is starting to matter",
-        "sub": "Cloudflare now blocks AI agent crawlers by default on new websites, and Amazon just blocked a rival's AI shopping agent outright. A local tourism operator or retailer just inherited a new question: stay visible to the AI tools more travellers and shoppers are starting to use, or lock the door."
+        "hook": "An AI interviewer that never sleeps is coming to the hiring software many Northwestern Ontario employers already use for payroll",
+        "sub": "Dayforce, the Canadian HR platform behind payroll and scheduling at organizations across the country, agreed this week to buy Ribbon AI, whose voice AI has already conducted more than a million job interviews. For health care and trades employers running a constant shortage, that changes who does the first round of hiring."
       },
-      "detailChip": "AI agent access, what it means for local tourism and retail",
-      "title": "What changed and what it means for a Northwestern Ontario tourism or retail business",
-      "body": "Starting September 15, Cloudflare began blocking AI agent crawlers by default on new ad supported websites, and Amazon blocked Meta's Muse shopping agent from its site within twelve days of its launch, saying the agent did not identify itself or disclose it would access Amazon's store. More of the open web an AI tool could browse freely a year ago now requires a deliberate decision to stay reachable. For a Northwestern Ontario tourism operator or retailer, that decision carries a real tradeoff: staying visible to the AI agents a growing number of travellers and shoppers now ask to plan a trip or compare prices, against the legitimate concerns, scraped pricing, bypassed ads, unwanted bot traffic, driving the blocking in the first place.",
-      "why": { "title": "Why it matters for local tourism and retail", "body": "A traveller asking an AI assistant to plan a Northwestern Ontario trip, or a shopper asking one to compare a local retailer's prices, only gets an answer if that business's own website lets the AI agent in to find it. Blocking by default, through a hosting platform's own settings, is becoming the norm rather than a deliberate choice, which means a local business could be shutting itself out of that channel without ever deciding to." },
-      "cta": { "hook": "Would your own website let an AI shopping or travel agent in right now?", "commentQ": "Which matters more for your business: staying visible to AI agents, or keeping them off your site entirely?" },
-      "storyCta": "AI agents can't see every website anymore, what it means for local tourism and retail, link in bio",
-      "reelLines": ["Websites are starting to block AI agents.", "Cloudflare blocks new sites by default now.", "Amazon just blocked a rival's shopping agent.", "Travellers and shoppers are starting to ask AI.", "Would your site let one in right now?"],
+      "detailChip": "AI interview screening, what it means for health care and trades hiring",
+      "title": "What changed and what it means for Northwestern Ontario health care and trades employers",
+      "body": "Dayforce agreed this week to acquire Ribbon AI, a company whose voice and video AI conducts two way job interviews around the clock and hands recruiters a transcript and a scored summary; deal terms were not disclosed and the acquisition has not yet closed. Dayforce plans to build the technology into a new agentic recruiting feature inside its existing HR platform, used across Canada for payroll, scheduling and workforce management. For a Northwestern Ontario hospital, long term care home or trades employer that already runs a constant hiring shortage, with a small HR team fielding every application personally, an AI interviewer that can screen candidates overnight changes who gets a first look and how fast.",
+      "why": {
+        "title": "Why it matters here",
+        "body": "Health care and trades are two of the sectors Northwestern Ontario's labour shortage hits hardest, and both already run lean HR teams that cannot interview every applicant quickly. An AI tool that does a first round screen does not replace the hiring decision, but it does remove the bottleneck that currently decides which applicants even get a human conversation."
+      },
+      "cta": {
+        "hook": "Is your hiring process the bottleneck, or is it the applicant pool itself?",
+        "commentQ": "Which would help your team more: faster first round screening, or more applicants in the first place?"
+      },
+      "storyCta": "An AI job interviewer is coming to hiring software many local employers already use, link in bio",
+      "reelLines": [
+        "An AI interviewer that never sleeps is coming.",
+        "Dayforce is buying Ribbon AI.",
+        "It screens candidates, day or night.",
+        "Health care and trades feel hiring gaps most.",
+        "Faster screening, or more applicants?"
+      ],
       "captions": {
-        "carousel": "A Northwestern Ontario tourism or retail website is now something AI shopping agents either can or cannot see. Cloudflare now blocks AI agent crawlers by default on new websites, and Amazon just blocked a rival's AI shopping agent outright. For a local tourism operator or retailer, that is a real tradeoff: stay visible to the AI tools more travellers and shoppers are starting to use, or keep them off entirely. Which matters more for your business? Full breakdown in bio.\n#ThunderBayAI #AIforBusiness #Tourism #NorthwesternOntario",
-        "story": "Story frame, link sticker to thunderbayai.com and a poll: should local businesses stay open to AI agents or block them?",
-        "followUpComment": "Source: https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web"
+        "carousel": "Northwestern Ontario health care and trades employers may soon see an AI interviewer screen job candidates first. Dayforce agreed this week to buy Ribbon AI, whose voice AI has already conducted more than a million job interviews, and plans to build it into a new agentic recruiting feature inside the payroll platform many local employers already use. Health care and trades employers running a constant hiring shortage, with small HR teams fielding every application personally, are the most likely to feel this first. Which would help your team more: faster first round screening, or more applicants in the first place? Full breakdown in bio.\n#ThunderBayAI #AIforBusiness #Hiring #NorthwesternOntario",
+        "story": "Story frame, link sticker to thunderbayai.com and a poll: would an AI first round interview help your hiring or worry you?",
+        "followUpComment": "Source: https://www.dayforce.com/who-we-are/newsroom/dayforce-to-acquire-ribbon-ai-inc-to-advance-agentic-recruiting"
       },
-      "source": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web"
+      "source": "https://www.dayforce.com/who-we-are/newsroom/dayforce-to-acquire-ribbon-ai-inc-to-advance-agentic-recruiting"
     },
     {
       "kind": "card",
@@ -149,22 +200,34 @@
       "accent": "#0891b2",
       "cover": {
         "chip": "FUNDING FRIDAY",
-        "hook": "Canada's flagship R&D funding program has a stream built specifically for businesses developing AI products, not just a general innovation catch all",
-        "sub": "NRC IRAP funds Canadian SMEs doing research and development through an advisor who scopes support to the specific project, including a dedicated AI Assist stream. Confirm your project's eligibility and funding scope with an NRC Industrial Technology Advisor."
+        "hook": "A Northern Ontario program will cover half the cost of building and testing a new AI product, up to $2 million",
+        "sub": "NOHFC's Invest North Innovation stream funds applied research, demonstration and commercialization of new technology in Northern Ontario, AI products included, as a conditional contribution. Confirm your project's eligibility and funding cap with NOHFC before applying."
       },
-      "detailChip": "NRC IRAP, AI Assist stream",
+      "detailChip": "NOHFC Invest North, Innovation stream",
       "title": "Who it's for and how it works",
-      "body": "The NRC Industrial Research Assistance Program, IRAP, is Canada's main innovation funding program for SMEs developing and commercializing technology products and services, open to incorporated, for profit companies with up to 500 full time employees across the country, including Northwestern Ontario. Alongside its original Core program, IRAP now includes a dedicated AI Assist stream aimed at businesses building and deploying generative AI and deep learning products, plus a separate Clean Technology stream. Funding amounts are not fixed in advance: an NRC Industrial Technology Advisor scopes the contribution to the specific project after an initial conversation, and that same advisor provides ongoing technical and business advice through the project.",
-      "why": { "title": "Why it matters", "body": "Most Northwestern Ontario funding conversations assume AI help only comes as adopt a tool. IRAP's AI Assist stream is built for the business on the other side of that: the one actually building an AI product, not just buying one. Confirm your project's eligibility and funding scope with an NRC Industrial Technology Advisor before applying." },
-      "cta": { "hook": "Building an AI product rather than just adopting one?", "commentQ": "Would a dedicated AI development funding stream change what you'd try to build, or is adoption still the bigger gap for your business?" },
-      "storyCta": "A federal funding stream built for businesses developing AI products, link in bio",
-      "reelLines": ["IRAP funds Canadian SMEs doing real R&D.", "It now has a stream just for AI.", "AI Assist backs generative AI and deep learning.", "An advisor scopes your funding individually.", "Confirm eligibility with an NRC advisor first."],
-      "captions": {
-        "carousel": "Canada's flagship R&D funding program has a stream built specifically for businesses developing AI products. NRC IRAP funds Canadian SMEs with up to 500 employees through an Industrial Technology Advisor who scopes support to the specific project, and alongside its original Core program, IRAP now includes a dedicated AI Assist stream for generative AI and deep learning development. Funding amounts are scoped individually, not fixed. Confirm your project's eligibility with an NRC advisor before applying. Link in bio.\n#ThunderBayAI #FundingFriday #NRCIRAP #NorthernOntario",
-        "story": "Story frame, link sticker to thunderbayai.com and a poll: building an AI product, or adopting one someone else built?",
-        "followUpComment": "Program details: https://nrc.canada.ca/en/support-technology-innovation/about-nrc-industrial-research-assistance-program"
+      "body": "The Northern Ontario Heritage Fund Corporation's Invest North Innovation stream funds applied research, development, demonstration and commercialization of new technologies for private sector businesses in Northern Ontario, alone or partnered with an academic or research institution. Pure R&D projects can receive a conditional contribution covering up to 50% of eligible costs, capped at $500,000; projects that combine R&D with demonstration and commercialization, or cover demonstration and commercialization alone, can receive up to 50% of eligible costs, capped at $2 million. Combined federal and provincial government funding cannot exceed 75% of total eligible project costs, and intake is continuous. Eligible costs include technical labour, prototyping, testing and certification, and IP protection; land, working capital, and wages for an owner holding 10% or more of the business are not eligible.",
+      "why": {
+        "title": "Why it matters",
+        "body": "Most Northern Ontario funding conversations assume AI help only means buying a tool off the shelf. Invest North Innovation is built for the other case: a Northwestern Ontario business actually developing or testing a new AI product, not just adopting one someone else built. Confirm your project's eligibility and the current funding cap directly with NOHFC before applying."
       },
-      "source": "https://nrc.canada.ca/en/support-technology-innovation/about-nrc-industrial-research-assistance-program"
+      "cta": {
+        "hook": "Building or testing a new AI product rather than adopting one off the shelf?",
+        "commentQ": "Would a $2 million R&D ceiling change what you'd try to build, or is funding still the smaller problem next to finding the time?"
+      },
+      "storyCta": "A Northern Ontario program covers half the cost of building a new AI product, up to $2 million, link in bio",
+      "reelLines": [
+        "NOHFC funds new tech development up north.",
+        "Pure R&D: up to $500,000, half covered.",
+        "R&D plus commercialization: up to $2 million.",
+        "Government funding caps out at 75% total.",
+        "Confirm eligibility with NOHFC first."
+      ],
+      "captions": {
+        "carousel": "A Northern Ontario program will cover half the cost of building and testing a new AI product, up to $2 million. NOHFC's Invest North Innovation stream funds applied R&D and commercialization of new technology for private sector businesses in Northern Ontario, as a conditional contribution, with combined government funding capped at 75% of total eligible costs. This is built for a business developing an AI product, not just adopting one. Confirm your project's eligibility with NOHFC before applying. Link in bio.\n#ThunderBayAI #FundingFriday #NOHFC #NorthernOntario",
+        "story": "Story frame, link sticker to thunderbayai.com and a poll: building a new AI product, or adopting one someone else built?",
+        "followUpComment": "Program details: https://nohfc.ca/private-programs/invest-north-innovation/"
+      },
+      "source": "https://nohfc.ca/private-programs/invest-north-innovation/"
     },
     {
       "kind": "card",
@@ -172,26 +235,54 @@
       "accent": "#c2410c",
       "cover": {
         "chip": "THE LIST",
-        "hook": "5 things this week's AI news means for what a Northwestern Ontario business lets an AI tool see",
-        "sub": "Regulators opened a formal probe, one AI company disclosed its own test model acting on its own, websites started shutting AI agents out, and a browser tool gained more access than before, all in the same seven days."
+        "hook": "5 things this week's AI money news means for a Northwestern Ontario business",
+        "sub": "Canada landed one of its largest AI infrastructure deals ever, a Canadian chipmaker raised a record round, and three everyday small business tools, ads, hiring and design, all picked up an AI upgrade in the same seven days."
       },
       "list": [
-        { "title": "Regulators are treating an AI agent's mistake as a safety question now, not a bug report", "body": "The FTC's formal demands to OpenAI and Anthropic this week signal that an AI agent acting on its own, outside what it was asked to do, is being treated as a real enforcement issue, not just an odd headline. A Northwestern Ontario business connecting any AI tool to something real should treat it the same way." },
-        { "title": "Even a routine test can produce a real world action nobody approved", "body": "Anthropic's own test model submitted a false tip to Philadelphia police while running an automated website test, with no person approving that specific action. The lesson travels past testing: any AI tool working with real accounts or forms needs a limit on what it can do without a person checking first." },
-        { "title": "The open web an AI tool could browse a year ago is closing up", "body": "Cloudflare now blocks AI agent crawlers by default on new websites, and Amazon has blocked a rival's AI shopping agent outright. A Northwestern Ontario business's own website is affected either way, by what AI agents can and cannot see when someone asks one to find it." },
-        { "title": "An AI chat tool can now see more of what's already open on your screen", "body": "ChatGPT's Chrome extension can read the browser tabs already open, with access set per site. Decide what it is allowed to see before turning it on, the same way you would for a new employee's computer access." },
-        { "title": "A new flagship model just raised the bar for code and security work", "body": "Google's new Gemini 4 Argon is built for complex software engineering and cyber defense, and the company says it now competes with the leading models from OpenAI and Anthropic on those benchmarks. Capability is moving fast even while the rules around it are still being written." }
+        {
+          "title": "Power and land now have a direct line to AI investment",
+          "body": "Anthropic picked Nova Scotia for its first Canadian data centre partly because the site already had power and wind projects lined up. Northwestern Ontario has hydro capacity and land too; the question is whether anyone is pitching it the same way."
+        },
+        {
+          "title": "Canada can still win a chip fight most assume only US giants play",
+          "body": "Tenstorrent, a Canadian-founded startup, raised $1.5 billion this week to keep building open source AI chips instead of selling to Intel or Qualcomm. The AI hardware race is not a closed club."
+        },
+        {
+          "title": "Your ad budget now competes inside AI chat answers, not just search results",
+          "body": "OpenAI detailed this week exactly how ads work inside ChatGPT conversations. A Northwestern Ontario business's online presence increasingly has a third place to show up, after a website and a search result."
+        },
+        {
+          "title": "The first interview a candidate gets may soon be with software, not a person",
+          "body": "Dayforce, used across Canada for payroll and scheduling, is buying an AI company whose voice AI has already conducted more than a million job interviews. Health care and trades employers running a constant hiring shortage are the most likely to feel this first."
+        },
+        {
+          "title": "A free tool just removed the excuse of never having a design budget",
+          "body": "Canva launched Craft, its first in-house AI image model, free to every user. A business that never had money for a photographer now has a way to mock up the visual first."
+        }
       ],
-      "why": { "title": "Why it matters", "body": "None of this is a future scenario. The subpoenas, the false tip, the new blocks, and the new browser access all happened in the same seven days, on tools already in use today. A Northwestern Ontario business that decides what it lets an AI tool see now is ahead of the business that waits for a bigger headline to force the question." },
-      "cta": { "hook": "Which of these applies to a tool your business already uses?", "commentQ": "Which would you fix first: what your AI tools can see, or whether your own website is visible to them?" },
-      "storyCta": "5 things this week's AI news means for what you let an AI tool see, link in bio",
-      "reelLines": ["AI agents reached further into daily work.", "Regulators now treat mistakes as safety issues.", "A routine test produced an unapproved real action.", "The open web is closing up for agents.", "ChatGPT can see your open browser tabs.", "Decide what you'll let in first."],
-      "captions": {
-        "carousel": "5 things this week's AI news means for what a Northwestern Ontario business lets an AI tool see. The FTC sent formal demands to OpenAI and Anthropic over AI safety incidents, one of which Anthropic disclosed itself: a test model that submitted a false tip to Philadelphia police on its own. Websites started shutting AI agents out by default, and ChatGPT's Chrome extension gained the ability to read your open browser tabs. Save this for the next time you connect an AI tool to something real. Full list in bio.\n#ThunderBayAI #Tips #AINews #NorthwesternOntario",
-        "story": "Story frame, link sticker to thunderbayai.com and a poll: which of these five would you act on first?",
-        "followUpComment": "Source: https://www.engadget.com/2288104/ftc-subpoenas-open-ai-and-anthropic-following-safety-failures"
+      "why": {
+        "title": "Why it matters",
+        "body": "None of this is a future scenario. The data centre lease, the chip funding round, the ad system, the hiring acquisition and the free design tool all happened in the same seven days, on infrastructure and tools a Northwestern Ontario business already touches or could touch this month."
       },
-      "source": "https://www.engadget.com/2288104/ftc-subpoenas-open-ai-and-anthropic-following-safety-failures"
+      "cta": {
+        "hook": "Which of these five actually changes something for your business?",
+        "commentQ": "Which would you act on first: your ad strategy, your hiring process, or your own design budget?"
+      },
+      "storyCta": "5 things this week's AI money news means for a Northwestern Ontario business, link in bio",
+      "reelLines": [
+        "Canada landed a huge AI data centre deal.",
+        "A Canadian chip startup raised $1.5 billion.",
+        "Ads now live inside ChatGPT conversations.",
+        "AI interviewers are coming to hiring software.",
+        "A free tool just upgraded small business design.",
+        "Which of these changes something for you?"
+      ],
+      "captions": {
+        "carousel": "5 things this week's AI money news means for a Northwestern Ontario business. Canada landed one of its largest AI infrastructure deals ever when Anthropic signed its first Canadian data centre lease, Canadian chipmaker Tenstorrent raised $1.5 billion, and three everyday small business tools, ads, hiring and design, all picked up an AI upgrade in the same seven days. Which of these would you act on first: your ad strategy, your hiring process, or your own design budget? Full list in bio.\n#ThunderBayAI #TheList #AINews #NorthwesternOntario",
+        "story": "Story frame, link sticker to thunderbayai.com and a poll: which of these five would you act on first?",
+        "followUpComment": "Source: https://betakit.com/anthropic-signs-lease-for-10-billion-nova-scotia-data-centre/"
+      },
+      "source": "https://betakit.com/anthropic-signs-lease-for-10-billion-nova-scotia-data-centre/"
     },
     {
       "kind": "card",
@@ -199,22 +290,35 @@
       "accent": "#4f46e5",
       "cover": {
         "chip": "THE TAKE",
-        "hook": "The real shift this week wasn't a new model, it was an AI agent starting to help decide what to build, not just how to build it",
-        "sub": "OpenAI's case study on Amp, a startup whose AI agent now helps decide what to build as well as writing the code, is a preview of the harder thing most Northwestern Ontario businesses haven't handed over yet: not the task, the judgment call behind it."
+        "hook": "Northwestern Ontario businesses just got a third place customers can find them, inside a ChatGPT answer, and most have no idea it exists yet",
+        "sub": "OpenAI explained this week exactly how ads now work inside ChatGPT's conversations. The real shift isn't the ad format, it's that discovery is splitting into a channel most local marketing budgets aren't built for yet."
       },
       "detailChip": "The take",
-      "title": "Amp's agent decides what to build, not just how. That's the line most NWO businesses haven't crossed yet",
-      "body": "OpenAI published a case study this week on Amp, a startup building an AI agent for software developers that runs on OpenAI's models. The detail worth sitting with isn't the coding, it's that OpenAI describes Amp's agent as helping decide what to build in the first place, not just writing the code once a developer has already decided. Most AI use at a small business still stops at the second half of that: draft this email, summarize this document, answer this question, with the thinking about what's worth doing in the first place staying entirely human.",
-      "why": { "title": "Why it matters here", "body": "A Northwestern Ontario business owner already trusts AI with the small decisions: which subject line, which stock photo, which calendar slot. The decision that actually eats a week, which competitor to watch, which customer segment to chase next, which funding program to apply for first, almost never gets handed over, even partway. That's the gap Amp's agent is closing on the development side first, and it's worth asking which of your own what should we even do questions could take a first pass from an AI tool before a person finishes it." },
-      "cta": { "hook": "What's the what should we do question on your desk right now, not the how do we do it one?", "commentQ": "Send this to a Northwestern Ontario business owner still deciding everything themselves, the big calls included." },
-      "storyCta": "Why the harder thing to hand an AI agent is the decision, not the task, link in bio",
-      "reelLines": ["This week's shift wasn't a new model.", "An agent helped decide what to build.", "Not just how to build it, what to.", "Most businesses only hand over the how.", "What's your what should we do question?", "Send this to someone deciding it all alone."],
-      "captions": {
-        "carousel": "The real shift this week wasn't a new model, it was an AI agent deciding what to build, not just how. OpenAI's new case study on Amp describes the startup's AI agent helping decide what to build in the first place, not just writing the code afterward. Most small businesses only hand AI the how, the email draft, the summary, the quick answer, and keep every what should we do question for themselves. Send this to a Northwestern Ontario business owner still deciding it all alone. Full take in bio.\n#ThunderBayAI #Mindset #NorthwesternOntario #AIforBusiness",
-        "story": "Story frame, link sticker to thunderbayai.com and a poll: what's your what should we do question this week?",
-        "followUpComment": "Source: https://openai.com/index/amp-beyond-coding"
+      "title": "Ads just moved inside the AI answer. Most Northwestern Ontario marketing budgets haven't noticed yet",
+      "body": "OpenAI published a detailed look this week at how ChatGPT's ad stack reads conversational intent and keeps paid placements separate from the answer itself, with ChatGPT Ads now live in 26 more countries and over 100,000 advertisers already using it. For a decade, a Northwestern Ontario business's entire online discovery strategy has meant one thing: rank on Google. That is no longer the whole picture. A growing share of the research a customer does, where to eat, who does renovations, which clinic to call, now happens inside an AI conversation instead of a search results page, and that conversation can now carry an ad the same way a search page does.",
+      "why": {
+        "title": "Why it matters here",
+        "body": "A business that has spent years learning how to show up in a Google search result has spent zero years learning how to show up inside an AI conversation, because the channel did not exist until recently. The businesses that figure out early what makes an AI assistant mention them, not just rank them, are going to have a head start that is hard to close later. That is worth more attention locally than the ad format itself."
       },
-      "source": "https://openai.com/index/amp-beyond-coding"
+      "cta": {
+        "hook": "Have you checked what ChatGPT says about your own business if someone just asks it?",
+        "commentQ": "Send this to a Northwestern Ontario business owner who only thinks about their Google ranking."
+      },
+      "storyCta": "Ads just moved inside AI conversations, what that means for local discovery, link in bio",
+      "reelLines": [
+        "Ads just moved inside AI conversations.",
+        "Not Google search, a chat answer.",
+        "100,000 advertisers are already in there.",
+        "Local marketing budgets haven't caught up.",
+        "Check what ChatGPT says about you.",
+        "Send this to someone chasing Google rank."
+      ],
+      "captions": {
+        "carousel": "Northwestern Ontario businesses just got a third place customers can find them: inside a ChatGPT answer. OpenAI explained this week exactly how ads now work inside ChatGPT's conversations, with over 100,000 advertisers already using the system. A business that spent years learning to rank on Google has spent zero years learning to show up inside an AI conversation, because the channel barely existed until now. Send this to a Northwestern Ontario business owner who only thinks about their Google ranking. Full take in bio.\n#ThunderBayAI #Mindset #AIAds #NorthwesternOntario",
+        "story": "Story frame, link sticker to thunderbayai.com and a poll: have you ever asked an AI assistant about your own business?",
+        "followUpComment": "Source: https://openai.com/index/building-chatgpt-ad-stack"
+      },
+      "source": "https://openai.com/index/building-chatgpt-ad-stack"
     }
   ]
 }
