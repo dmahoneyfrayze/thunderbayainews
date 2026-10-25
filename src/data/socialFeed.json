@@ -1,5 +1,11 @@
 [
   {
+    "iso": "2026-10-25",
+    "pillar": "Mindset",
+    "hook": "The real shift this week wasn't a new model, it was an AI agent starting to help decide what to build, not just how to build it",
+    "image": "/social/2026-10-25.webp"
+  },
+  {
     "iso": "2026-10-24",
     "pillar": "Tips",
     "hook": "5 things this week's AI news means for what a Northwestern Ontario business lets an AI tool see",
@@ -352,11 +358,5 @@
     "pillar": "AI for Business",
     "hook": "One NVIDIA engineer went from idea to working prototype in 3 to 5 days instead of the 2 to 3 weeks it would have taken building it by hand",
     "image": "/social/2026-08-26.webp"
-  },
-  {
-    "iso": "2026-08-25",
-    "pillar": "Funding",
-    "hook": "Canada's flagship R&D funding program has a stream built specifically for AI adoption and development",
-    "image": "/social/2026-08-25.webp"
   }
 ]
