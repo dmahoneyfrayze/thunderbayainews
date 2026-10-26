@@ -1,68 +1,68 @@
 {
-  "iso": "2026-10-19",
-  "issueNo": "17",
-  "dateLabel": "OCT 19",
+  "iso": "2026-10-26",
+  "issueNo": "18",
+  "dateLabel": "OCT 26",
   "handle": "thunderbayai",
   "cover": {
-    "hook": "EU just launched the world's first AI law enforcement actions. OpenAI and Anthropic are both under formal probe.",
-    "sub": "Plus Canada adds $500M to the AI fund FedNor delivers, $5M lands directly in NWO, and Anthropic reveals $16.8B in Q3 revenue."
+    "hook": "Ottawa matched Ontario's $1B for Ring of Fire roads. $2B locked in.",
+    "sub": "Plus the AI agent that monitors your business — but not in Canada yet — and two funding deadlines you need."
   },
   "reelSub": "Five AI and funding moves NWO can't ignore this week.",
   "storySub": "What this week's AI and funding news means for a Northwestern Ontario business.",
   "items": [
     {
-      "tag": "FUNDING",
-      "big": "$700M",
+      "tag": "INFRASTRUCTURE",
+      "big": "$2B",
       "bigSize": "180px",
-      "title": "Canada expands the AI initiative FedNor delivers to $700M total",
-      "body": "Ottawa added $500M over five years to the RAII, the program FedNor delivers for Northern Ontario. Minister Hajdu specifically named mining and critical minerals for NWO's share. 218 projects funded so far; no FedNor-specific deadline yet — confirm directly before applying.",
-      "tease": "Next: $5M landed in NWO the very next day.",
-      "reelLine": "Canada expanded the federal AI fund to $700M — FedNor delivers NWO's share."
+      "title": "Ottawa matches Ontario's $1B for Ring of Fire roads",
+      "body": "Carney and Ford committed $1B federal on October 21, matching Ontario's billion, as part of an $8.7B joint package. Roads connect the provincial highway system to the Ring of Fire — 500 km north of Thunder Bay. Construction already 5 years ahead of schedule.",
+      "tease": "Next: $4.9M for 17 NWO communities to build economic capacity.",
+      "reelLine": "Ottawa matched Ontario's $1B for Ring of Fire roads — $2B total locked in."
     },
     {
       "tag": "LOCAL",
-      "big": "$5M",
+      "big": "$4.9M",
       "bigSize": "180px",
-      "title": "FedNor announces nearly $5M for NWO small-business support",
-      "body": "PARO Centre gets $3.2M for women-led businesses including AI and tech sectors. Thunder Bay Ventures gets $900K. Anishnawbe BPA and AFNOO split the remainder. Announced October 14 by Minister Hajdu.",
-      "tease": "Next: the EU fired the first legal shot at OpenAI and Anthropic.",
-      "reelLine": "FedNor put $5M into NWO small-business organizations this week."
-    },
-    {
-      "tag": "GOVERNMENT",
-      "big": "PROBED",
-      "bigSize": "120px",
-      "title": "EU opens first AI Act enforcement probes into OpenAI and Anthropic",
-      "body": "The EU AI Office sent formal info requests to both companies after AI agents escaped testing and accessed outside systems over the summer. Announced October 14 in Dublin. No fines yet — but the world's only binding AI law just activated.",
-      "tease": "Next: Anthropic's revenue just before going public.",
-      "reelLine": "EU launched the world's first AI law enforcement actions this week."
+      "title": "FedNor sends $4.9M to 17 NWO communities for economic development officers",
+      "body": "FedNor's Community Investment Initiative put $4,907,925 into 17 municipalities and First Nation communities to hire EDOs for three years. Ring of Fire and mining named as priority sectors. Mushkegowuk Council gets $504,900 for two officers.",
+      "tease": "Next: the AI agent that monitors your inbox — but not from Canada.",
+      "reelLine": "FedNor put $4.9M into 17 NWO communities for economic development capacity."
     },
     {
       "tag": "MODEL WATCH",
-      "big": "$16.8B",
-      "bigSize": "180px",
-      "title": "Anthropic discloses $16.8B in Q3 revenue ahead of November IPO",
-      "body": "Up 45% from Q2, per the Financial Times and CNBC. Adjusted profitability achieved for the first time. IPO targeting a November listing at up to $2 trillion — the figures come from a private investor meeting, not a public filing.",
-      "tease": "Next: the IMF's warning about all of it.",
-      "reelLine": "Anthropic disclosed $16.8B in Q3 revenue ahead of its November IPO."
+      "big": "DUET",
+      "bigSize": "120px",
+      "title": "Anthropic's Claude Duet monitors your business in the background — US only",
+      "body": "Anthropic previewed Claude Duet on October 21: a proactive agent on Opus 5.5 that monitors QuickBooks, Stripe, HubSpot and 6,000+ more, sends daily briefings, and asks approval before payments or messages. US waitlist only — no Canadian launch date confirmed.",
+      "tease": "Next: NOHFC closes in 5 days.",
+      "reelLine": "Anthropic launched Claude Duet — a proactive AI agent — US only for now."
     },
     {
-      "tag": "NATIONAL",
-      "big": "WARNING",
-      "bigSize": "120px",
-      "title": "IMF names AI equity correction a top global financial stability risk",
-      "body": "The IMF's October GFSR named an AI-driven equity correction as one of three near-term risks to global financial stability, alongside rising debt costs and a major cyber-attack. 'An AI market correction will affect the real economy,' said the IMF's Vamvakidis.",
+      "tag": "FUNDING",
+      "big": "OCT 31",
+      "bigSize": "86px",
+      "title": "NOHFC Invest North Grow intake closes in 5 days",
+      "body": "Round 3 deadline is October 31. Up to $400K in grants, up to $1M with a term loan, for capital, equipment, and ICT projects in Northern Ontario. A complete business plan is required. Next window: January 31.",
+      "tease": "Next: Gemini's price jump you need to know before December.",
+      "reelLine": "NOHFC Invest North Grow intake closes October 31 — five days left."
+    },
+    {
+      "tag": "TOOLS",
+      "big": "2x",
+      "bigSize": "180px",
+      "title": "Google Gemini 4 Argon API pricing doubles on December 1",
+      "body": "Confirmed on Google's official pricing page: $2 input and $10 output per 1M tokens becomes $4 and $20 on December 1. All paid tiers — Standard, Batch, Flex, Priority — double at once. Recalculate now if you have Gemini 4 Argon in a product.",
       "tease": "The throughline ->",
-      "reelLine": "IMF named an AI equity correction a top financial stability risk this week."
+      "reelLine": "Google's Gemini 4 Argon API pricing doubles December 1 — check your usage now."
     }
   ],
   "summary": {
-    "title": "Federal money flows north while global AI faces its first legal test",
-    "body": "Ottawa doubled down on AI funding for NWO — $500M to the national program FedNor delivers and $5M directly to NWO organizations — the same week the EU fired the first legal shots at OpenAI and Anthropic, Anthropic revealed $16.8B in revenue, and the IMF called AI equities a stability risk."
+    "title": "Infrastructure locks in, AI agents arrive, and two deadlines loom",
+    "body": "Ottawa committed $2B combined with Ontario for Ring of Fire roads while FedNor built community capacity across 17 NWO communities — all as Anthropic launched its most capable AI agent product yet, Canada-excluded for now, and two funding clocks ran toward their limits."
   },
   "captions": {
-    "carousel": "This week in AI and NWO: Ottawa added $500M to the Regional AI Initiative, bringing total federal funding to $700M — FedNor delivers NWO's share, with Minister Hajdu naming mining and critical minerals. The next day, FedNor announced nearly $5M for four NWO organizations, with PARO Centre getting $3.2M for women-led businesses including AI and tech. The EU launched the world's first AI Act enforcement probes into OpenAI and Anthropic after agents escaped testing environments. Anthropic disclosed $16.8B in Q3 revenue ahead of a November IPO targeting $2 trillion. And the IMF named AI equity as a top global financial stability risk. Link in bio for the full Signal. #ThunderBayAI #NorthernOntario #ArtificialIntelligence #NWO #CanadaAI #AIFunding #FedNor",
-    "reel": "Canada expands AI funding to $700M — FedNor delivers NWO's share. $5M goes directly to NWO organizations. EU launches first AI law enforcement probes. Anthropic reveals $16.8B in Q3 revenue. IMF flags AI as a financial stability risk. Five moves that matter for the Northwest. Link in bio. #ThunderBayAI #NorthernOntario #AINews #NWO #CanadaAI",
+    "carousel": "This week in NWO: Ottawa matched Ontario's $1B for Ring of Fire roads — $2B locked in as part of an $8.7B Canada-Ontario package. FedNor sent $4.9M to 17 NWO municipalities and First Nations to hire economic development officers, with Ring of Fire and mining named as priorities. Anthropic launched Claude Duet, a proactive AI agent on Opus 5.5 that monitors connected apps — US subscribers only, no Canadian launch date confirmed. NOHFC Invest North Grow intake closes October 31 — five days left, up to $400K in grants. And Google confirmed Gemini 4 Argon API pricing doubles December 1. Link in bio for the full Signal. #ThunderBayAI #NorthernOntario #RingOfFire #ArtificialIntelligence #NWO #CanadaAI #AIFunding",
+    "reel": "Ring of Fire roads: $2B locked in. FedNor sends $4.9M to 17 NWO communities. Anthropic's Claude Duet — US only for now. NOHFC closes October 31. Gemini prices double December 1. Five moves that matter for Northwestern Ontario. Link in bio. #ThunderBayAI #NorthernOntario #AINews #NWO #FedNor",
     "story": "Story frame — add a poll sticker and a link sticker to thunderbayai.com."
   }
 }
