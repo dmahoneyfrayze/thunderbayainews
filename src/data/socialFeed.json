@@ -1,5 +1,11 @@
 [
   {
+    "iso": "2026-10-28",
+    "pillar": "Local Spotlight",
+    "hook": "Thunder Bay's public health unit now certifies food handlers anywhere in Canada through a fully online exam, not just at its own office",
+    "image": "/social/2026-10-28.webp"
+  },
+  {
     "iso": "2026-10-27",
     "pillar": "How-To",
     "hook": "A Northwestern Ontario business can plan an ad visual with a free AI tool before ever booking a photographer",
@@ -352,11 +358,5 @@
     "pillar": "Local Spotlight",
     "hook": "A Thunder Bay company that's been fixing phones and networks since 1985 brought AI safety cameras to the world's biggest mining convention",
     "image": "/social/2026-08-29.webp"
-  },
-  {
-    "iso": "2026-08-28",
-    "pillar": "Tips",
-    "hook": "4 things worth doing now that a third of the web has been written by AI since ChatGPT launched",
-    "image": "/social/2026-08-28.webp"
   }
 ]
