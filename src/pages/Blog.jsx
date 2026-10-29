@@ -9,8 +9,8 @@ import { useDocumentMeta } from '../lib/useDocumentMeta';
 
 export default function Blog() {
   useDocumentMeta({
-    title: 'AI, tech and funding news for Northwestern Ontario | Thunder Bay AI',
-    description: 'Structured, source-linked breakdowns of the AI news, funding (FedNor RAII, NOIC BBAA), government moves, model comparisons, and practical tips that matter for Northwestern Ontario businesses.',
+    title: 'Northwestern Ontario AI & Funding News | Thunder Bay AI',
+    description: 'Source-linked briefs on AI, funding (FedNor RAII, NOIC BBAA), and tech news for Northwestern Ontario — published weekly, human-reviewed.',
     path: '/blog',
   });
   return (
