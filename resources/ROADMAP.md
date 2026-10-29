@@ -306,6 +306,30 @@ stay scheduled (review buffer). Backlog (work a couple per cycle; let engagement
     and neither fix has moved its target pages, run the content-gap scan (beat coverage
     vs. the six pillars) next — the internal-linking and title/meta levers for
     currently-known pages will have been exhausted.
+    ~~`/blog` index title/meta pass~~ — DONE 2026-10-29 (commit `9ca8766`): the 2026-10-24
+    brief's GSC striking-distance was empty for the ninth cycle running. Too early to
+    judge the two most recent fixes (canonical-URL, 2026-10-08; google-reviews seoTitle,
+    2026-10-22 — both flagged for re-check from ~2026-11-07 onward). This cycle's clearer,
+    new signal, not yet touched by any prior pass: `/blog/` (the Journal index page
+    itself, `src/pages/Blog.jsx`) at 19 impressions, 0% CTR, position 11.7 — squarely in
+    the striking-distance band at the page level. Root cause matched the now-familiar
+    pattern: a 67-char `<title>` (vs. the site's ~55-60-char convention on other
+    top-level pages) and a 191-char meta description, both past Google's snippet limits
+    and liable to truncate mid-clause or drop the brand suffix entirely. Tightened to a
+    55-char title ("Northwestern Ontario AI & Funding News | Thunder Bay AI") and a
+    136-char description, recomposed only from facts already stated on the page itself
+    (FedNor RAII, NOIC BBAA, weekly cadence, human-reviewed) — no new claims. Verified in
+    the prerendered output (`dist/blog/index.html` title/meta/og:title all updated),
+    `npm run lint` clean (pre-existing `no-useless-escape` warnings only), `npm run build`
+    succeeded. FOLLOW-UP: re-check `/blog/`'s GSC CTR in 3-4 briefs once Google re-crawls.
+    Also still pending from prior cycles: re-check the 2026-10-08 canonical fix and the
+    2026-10-22 google-reviews title fix (~2026-11-07 onward). Noted in passing but out of
+    scope this run: `Home.jsx`'s own description (198 chars) and title (76 chars) are
+    similarly over-length, but the homepage already converts (1cl/47im/2.1%CTR, not 0%
+    CTR) so it wasn't the data-driven target this week — worth a look if it ever shows
+    the same zero-CTR pattern. If striking-distance is STILL empty next cycle and no
+    re-check window has opened yet, the content-gap scan (beat coverage vs. the six
+    pillars) remains the next lever, per the 2026-09-17 FOLLOW-UP.
 
 ## Autonomous improvement protocol (the monthly agent MUST follow)
 1. Read this ROADMAP, the STRATEGY thesis, and the current site. Pick the **single highest-value
