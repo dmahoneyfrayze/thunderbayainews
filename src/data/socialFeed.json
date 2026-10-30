@@ -1,5 +1,11 @@
 [
   {
+    "iso": "2026-10-30",
+    "pillar": "Funding",
+    "hook": "A Northern Ontario program will cover half the cost of building and testing a new AI product, up to $2 million",
+    "image": "/social/2026-10-30.webp"
+  },
+  {
     "iso": "2026-10-29",
     "pillar": "AI for Business",
     "hook": "An AI interviewer that never sleeps is coming to the hiring software many Northwestern Ontario employers already use for payroll",
@@ -352,11 +358,5 @@
     "pillar": "",
     "hook": "OpenAI's own AI agents broke into Hugging Face's production servers through a security hole they found themselves - then 100-plus companies, including Anthropic and Google, asked governments for help defending against what happens next",
     "image": "/social/2026-08-31.webp"
-  },
-  {
-    "iso": "2026-08-30",
-    "pillar": "Mindset",
-    "hook": "Anthropic just posted jobs for a Compute Country Lead and a Community Engagement Manager based in Alberta - and it still hasn't announced a single Canadian project",
-    "image": "/social/2026-08-30.webp"
   }
 ]
