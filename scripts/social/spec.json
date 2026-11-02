@@ -1,68 +1,68 @@
 {
-  "iso": "2026-10-26",
-  "issueNo": "18",
-  "dateLabel": "OCT 26",
+  "iso": "2026-11-02",
+  "issueNo": "19",
+  "dateLabel": "NOV 2",
   "handle": "thunderbayai",
   "cover": {
-    "hook": "Ottawa matched Ontario's $1B for Ring of Fire roads. $2B locked in.",
-    "sub": "Plus the AI agent that monitors your business — but not in Canada yet — and two funding deadlines you need."
+    "hook": "Anthropic just filed to go public. The AI lab behind Claude is heading to Nasdaq — ticker ANT.",
+    "sub": "Plus OpenAI's biggest price cut in months, two FedNor wins for Northern Ontario, and a new US law restricting AI for kids."
   },
   "reelSub": "Five AI and funding moves NWO can't ignore this week.",
   "storySub": "What this week's AI and funding news means for a Northwestern Ontario business.",
   "items": [
     {
-      "tag": "INFRASTRUCTURE",
-      "big": "$2B",
-      "bigSize": "180px",
-      "title": "Ottawa matches Ontario's $1B for Ring of Fire roads",
-      "body": "Carney and Ford committed $1B federal on October 21, matching Ontario's billion, as part of an $8.7B joint package. Roads connect the provincial highway system to the Ring of Fire — 500 km north of Thunder Bay. Construction already 5 years ahead of schedule.",
-      "tease": "Next: $4.9M for 17 NWO communities to build economic capacity.",
-      "reelLine": "Ottawa matched Ontario's $1B for Ring of Fire roads — $2B total locked in."
-    },
-    {
-      "tag": "LOCAL",
-      "big": "$4.9M",
-      "bigSize": "180px",
-      "title": "FedNor sends $4.9M to 17 NWO communities for economic development officers",
-      "body": "FedNor's Community Investment Initiative put $4,907,925 into 17 municipalities and First Nation communities to hire EDOs for three years. Ring of Fire and mining named as priority sectors. Mushkegowuk Council gets $504,900 for two officers.",
-      "tease": "Next: the AI agent that monitors your inbox — but not from Canada.",
-      "reelLine": "FedNor put $4.9M into 17 NWO communities for economic development capacity."
-    },
-    {
       "tag": "MODEL WATCH",
-      "big": "DUET",
-      "bigSize": "120px",
-      "title": "Anthropic's Claude Duet monitors your business in the background — US only",
-      "body": "Anthropic previewed Claude Duet on October 21: a proactive agent on Opus 5.5 that monitors QuickBooks, Stripe, HubSpot and 6,000+ more, sends daily briefings, and asks approval before payments or messages. US waitlist only — no Canadian launch date confirmed.",
-      "tease": "Next: NOHFC closes in 5 days.",
-      "reelLine": "Anthropic launched Claude Duet — a proactive AI agent — US only for now."
-    },
-    {
-      "tag": "FUNDING",
-      "big": "OCT 31",
-      "bigSize": "86px",
-      "title": "NOHFC Invest North Grow intake closes in 5 days",
-      "body": "Round 3 deadline is October 31. Up to $400K in grants, up to $1M with a term loan, for capital, equipment, and ICT projects in Northern Ontario. A complete business plan is required. Next window: January 31.",
-      "tease": "Next: Gemini's price jump you need to know before December.",
-      "reelLine": "NOHFC Invest North Grow intake closes October 31 — five days left."
+      "big": "ANT",
+      "bigSize": "180px",
+      "title": "Anthropic files for Nasdaq IPO — ticker ANT",
+      "body": "Anthropic filed its S-1 on October 26 with $16.3B in H1 2026 revenue. Going public changes the governance of the company behind Claude — NWO businesses on the Claude API now have a public company as a counterparty.",
+      "tease": "Next: OpenAI cuts API costs in half.",
+      "reelLine": "Anthropic just filed to go public — Nasdaq ticker ANT."
     },
     {
       "tag": "TOOLS",
-      "big": "2x",
+      "big": "50%",
       "bigSize": "180px",
-      "title": "Google Gemini 4 Argon API pricing doubles on December 1",
-      "body": "Confirmed on Google's official pricing page: $2 input and $10 output per 1M tokens becomes $4 and $20 on December 1. All paid tiers — Standard, Batch, Flex, Priority — double at once. Recalculate now if you have Gemini 4 Argon in a product.",
+      "title": "OpenAI's GPT-6.1 Terra cuts API pricing in half",
+      "body": "Released October 26. Replaces GPT-5.6 Terra at half the per-token cost. Available in the API, ChatGPT Work, and Codex same day. If you're on the old model, a swap could cut your API spend immediately.",
+      "tease": "Next: $4.5M for Northern Ontario's underground mining-tech lab.",
+      "reelLine": "OpenAI released GPT-6.1 Terra at half the price of its predecessor."
+    },
+    {
+      "tag": "LOCAL",
+      "big": "$4.5M",
+      "bigSize": "180px",
+      "title": "FedNor expands NORCAT's underground innovation centre",
+      "body": "Ottawa committed $4.5M on October 30 to expand NORCAT's Sudbury underground centre — the primary Northern Ontario lab for testing autonomous systems and robotics in mining conditions. Capacity up 50%.",
+      "tease": "Next: $3.8M for NWO agri-food businesses in Toronto.",
+      "reelLine": "FedNor put $4.5M into NORCAT's underground mining-tech centre."
+    },
+    {
+      "tag": "FUNDING",
+      "big": "$3.8M",
+      "bigSize": "180px",
+      "title": "FedNor sends 40+ NWO agri-food businesses to the Royal Winter Fair",
+      "body": "Ottawa put $3,817,640 through three FedNor programs on October 29 to fund the Northern Ontario Agri-Food Pavilion at Canada's largest indoor agricultural show — November 6-15 in Toronto.",
+      "tease": "Next: the first US law banning unsafe AI features for kids.",
+      "reelLine": "FedNor backed 40+ NWO agri-food businesses at the Royal Agricultural Winter Fair."
+    },
+    {
+      "tag": "GOVERNMENT",
+      "big": "MINORS",
+      "bigSize": "120px",
+      "title": "New York bans unsafe AI chatbot features for users under 18",
+      "body": "Governor Hochul signed the first US state AI-for-minors law on October 28. Banned: companion personas, self-harm nudges, AI pretending to be human. Up to $25K per violation. Not Ontario law today — but the model Canadian legislators are watching.",
       "tease": "The throughline ->",
-      "reelLine": "Google's Gemini 4 Argon API pricing doubles December 1 — check your usage now."
+      "reelLine": "New York signed the first US law restricting unsafe AI features for minors."
     }
   ],
   "summary": {
-    "title": "Infrastructure locks in, AI agents arrive, and two deadlines loom",
-    "body": "Ottawa committed $2B combined with Ontario for Ring of Fire roads while FedNor built community capacity across 17 NWO communities — all as Anthropic launched its most capable AI agent product yet, Canada-excluded for now, and two funding clocks ran toward their limits."
+    "title": "The AI industry's governance is changing — at every level",
+    "body": "Anthropic files to go public, OpenAI cuts prices, New York regulates AI for kids, and FedNor invests in Northern Ontario's mining-tech and agri-food infrastructure — the week AI oversight got louder at the corporate, legislative, and regional level simultaneously."
   },
   "captions": {
-    "carousel": "This week in NWO: Ottawa matched Ontario's $1B for Ring of Fire roads — $2B locked in as part of an $8.7B Canada-Ontario package. FedNor sent $4.9M to 17 NWO municipalities and First Nations to hire economic development officers, with Ring of Fire and mining named as priorities. Anthropic launched Claude Duet, a proactive AI agent on Opus 5.5 that monitors connected apps — US subscribers only, no Canadian launch date confirmed. NOHFC Invest North Grow intake closes October 31 — five days left, up to $400K in grants. And Google confirmed Gemini 4 Argon API pricing doubles December 1. Link in bio for the full Signal. #ThunderBayAI #NorthernOntario #RingOfFire #ArtificialIntelligence #NWO #CanadaAI #AIFunding",
-    "reel": "Ring of Fire roads: $2B locked in. FedNor sends $4.9M to 17 NWO communities. Anthropic's Claude Duet — US only for now. NOHFC closes October 31. Gemini prices double December 1. Five moves that matter for Northwestern Ontario. Link in bio. #ThunderBayAI #NorthernOntario #AINews #NWO #FedNor",
+    "carousel": "This week in NWO: Anthropic publicly filed its S-1 to list on Nasdaq as ANT, with $16.3B in H1 2026 revenue — the first major AI lab heading to the public markets. OpenAI released GPT-6.1 Terra at half the API cost of its predecessor, available immediately. FedNor committed $4.5M to expand NORCAT's underground mining-tech centre and $3.8M for 40+ NWO agri-food businesses at the Royal Winter Fair. And New York signed the first US law restricting unsafe AI features for minors. Link in bio for the full Signal. #ThunderBayAI #NorthernOntario #AnthropicIPO #ArtificialIntelligence #NWO #CanadaAI #AIFunding",
+    "reel": "Anthropic files to go public — ticker ANT. OpenAI cuts API prices 50%. FedNor $4.5M into NORCAT mining tech. $3.8M for NWO agri-food. New York restricts AI for minors. Five moves that matter for Northwestern Ontario. Link in bio. #ThunderBayAI #NorthernOntario #AINews #NWO #FedNor",
     "story": "Story frame — add a poll sticker and a link sticker to thunderbayai.com."
   }
 }
