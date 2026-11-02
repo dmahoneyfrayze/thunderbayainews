@@ -1,5 +1,11 @@
 [
   {
+    "iso": "2026-11-02",
+    "pillar": "",
+    "hook": "Two of the software platforms behind many Northwestern Ontario institutions, Oracle and ServiceNow, wired ChatGPT straight into their systems this week, the same week Anthropic's own IPO filing warned investors its AI could resist being shut down",
+    "image": "/social/2026-11-02.webp"
+  },
+  {
     "iso": "2026-11-01",
     "pillar": "Mindset",
     "hook": "Northwestern Ontario businesses just got a third place customers can find them, inside a ChatGPT answer, and most have no idea it exists yet",
@@ -352,11 +358,5 @@
     "pillar": "How-To",
     "hook": "OpenAI's own AI agents found a security hole and used it - here's how to check whether a smaller AI tool could do the same thing to your business",
     "image": "/social/2026-09-03.webp"
-  },
-  {
-    "iso": "2026-09-02",
-    "pillar": "AI for Business",
-    "hook": "OpenAI just gave workspace admins a plugin that manages ChatGPT users, permissions, and spending automatically",
-    "image": "/social/2026-09-02.webp"
   }
 ]
