@@ -1,5 +1,11 @@
 [
   {
+    "iso": "2026-11-04",
+    "pillar": "Local Spotlight",
+    "hook": "Thunder Bay's regional hospital has used a digital app, not just a nurse's phone call, to walk hip and knee replacement patients through recovery since 2020",
+    "image": "/social/2026-11-04.webp"
+  },
+  {
     "iso": "2026-11-03",
     "pillar": "How-To",
     "hook": "A Northwestern Ontario business can turn its own handbook or price list into a question answering assistant with a free Google tool",
@@ -352,11 +358,5 @@
     "pillar": "Local Spotlight",
     "hook": "The Thunder Bay sawmill that used to belong to Resolute is now using AI to catch defects a person would miss",
     "image": "/social/2026-09-05.webp"
-  },
-  {
-    "iso": "2026-09-04",
-    "pillar": "Tips",
-    "hook": "4 signs your business needs an AI use policy before something goes wrong",
-    "image": "/social/2026-09-04.webp"
   }
 ]
