@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, useScroll, useTransform, useSpring } from 'framer-motion';
-import { ChevronDown } from 'lucide-react';
+import { ChevronDown, ShieldCheck } from 'lucide-react';
 import { AnimatedGridPattern } from './AnimatedGridPattern';
 import { scrollToId } from '../lib/smoothScroll';
 import { useIsMobile } from '../lib/useIsMobile';
@@ -62,6 +62,11 @@ export default function Hero() {
             A free local resource tracking the AI news, tools, and grants worth knowing for
             Northwestern Ontario — in plain language, no hype. Updated weekly, reviewed by humans.
           </p>
+
+          <div style={styles.trustPill}>
+            <ShieldCheck size={15} strokeWidth={2} color="hsl(var(--primary-cyan))" />
+            <span>Nothing publishes unread — every brief is human-checked before it goes live</span>
+          </div>
         </motion.div>
 
         <motion.div
@@ -212,8 +217,21 @@ const styles = {
     fontSize: '19px',
     color: 'hsl(var(--text-secondary))',
     maxWidth: '640px',
-    marginBottom: '44px',
+    marginBottom: '20px',
     lineHeight: 1.65,
+  },
+  trustPill: {
+    display: 'inline-flex',
+    alignItems: 'center',
+    gap: '8px',
+    padding: '7px 16px',
+    marginBottom: '36px',
+    borderRadius: '30px',
+    fontSize: '13px',
+    fontWeight: 500,
+    color: 'hsl(var(--text-secondary))',
+    background: 'hsla(192, 91%, 32%, 0.06)',
+    border: '1px solid hsla(192, 91%, 32%, 0.2)',
   },
   ctaGroup: {
     display: 'flex',
