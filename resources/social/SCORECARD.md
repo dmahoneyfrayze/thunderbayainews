@@ -1,20 +1,19 @@
 # Thunder Bay AI scorecard
 
-Updated: 2026-11-01
+Updated: 2026-11-05
 
 Real platform data for the last 28 days. Impressions are attributed to the post of the day they happened;
 comments exclude our own Facebook link comment. Written by ~/frayze-jobs/tbai-social/scorecard.mjs; read by the Sunday refill (SPEC growth rule 8).
 
 | Series | Posts | Impressions per post | Likes | Comments | Shares |
 |---|---|---|---|---|---|
-| MINDSET | 1 | 14 | 1 | 2 | 0 |
 | AI FOR BUSINESS | 4 | 14 | 1 | 0 | 0 |
-| LOCAL SPOTLIGHT | 4 | 11 | 0 | 0 | 0 |
-| TRY THIS | 4 | 10 | 0 | 0 | 0 |
+| TRY THIS | 4 | 11 | 0 | 0 | 0 |
+| LOCAL SPOTLIGHT | 4 | 10 | 0 | 0 | 0 |
 | THE LIST | 4 | 9 | 0 | 0 | 0 |
-| SIGNAL | 4 | 7 | 0 | 0 | 0 |
 | FUNDING FRIDAY | 4 | 7 | 0 | 0 | 0 |
-| THE TAKE | 3 | 6 | 0 | 1 | 0 |
+| SIGNAL | 4 | 7 | 0 | 0 | 0 |
+| THE TAKE | 4 | 6 | 0 | 1 | 0 |
 
 ## Next week
 
