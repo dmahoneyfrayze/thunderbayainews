@@ -1,5 +1,11 @@
 [
   {
+    "iso": "2026-11-05",
+    "pillar": "AI for Business",
+    "hook": "The IT help desk and HR case software many Northwestern Ontario hospitals and municipalities already run on just got a ChatGPT plugin",
+    "image": "/social/2026-11-05.webp"
+  },
+  {
     "iso": "2026-11-04",
     "pillar": "Local Spotlight",
     "hook": "Thunder Bay's regional hospital has used a digital app, not just a nurse's phone call, to walk hip and knee replacement patients through recovery since 2020",
@@ -352,11 +358,5 @@
     "pillar": "Mindset",
     "hook": "OpenAI says people now have up to 70 million ChatGPT conversations a week just testing what they know - most of it happening outside school hours",
     "image": "/social/2026-09-06.webp"
-  },
-  {
-    "iso": "2026-09-05",
-    "pillar": "Local Spotlight",
-    "hook": "The Thunder Bay sawmill that used to belong to Resolute is now using AI to catch defects a person would miss",
-    "image": "/social/2026-09-05.webp"
   }
 ]
