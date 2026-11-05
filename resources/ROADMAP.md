@@ -97,11 +97,29 @@ funding facts stay "confirm with the program," sourced):
    status, sourceUrl, lastVerified) on every build, regenerated from `GRANTS_DATA` so it never drifts.
    A visible "Download the full dataset (JSON)" link was added to the page. Verified in the prerendered
    output.
-7. **Trust/UX**: surface "nothing publishes unread" near the hero; ~~visible contact email~~ (already live —
-   `mailto:denis@frayze.ca` in footer); ~~RSS feed~~ — DONE 2026-07-09 (full-text RSS 2.0 at `/rss.xml`,
-   generated in `scripts/prerender.mjs` from all 27 Journal posts, `<link rel="alternate">` discovery tag
-   in `index.html`, footer link added); check the FundingRadar modal body-scroll-lock on mobile; per-post
-   custom OG cards (the og-image pattern).
+7. **Trust/UX**: ~~surface "nothing publishes unread" near the hero~~ — DONE 2026-11-05
+   (commit `7ff8624`). GSC striking-distance was empty again in the 2026-10-31 brief (10th cycle
+   running) and the re-check windows for the two most recent CTR fixes (2026-10-08 canonical-URL,
+   2026-10-22 google-reviews title) don't open until ~2026-11-07, so per the ROADMAP's own
+   FOLLOW-UP trail this was too early for another data-driven pass. Picked the top still-open P0
+   GROWTH BACKLOG item instead: the "nothing publishes unread" trust claim already existed on the
+   homepage (`FundedBuilds.jsx`'s "Run by an agent. Read by humans." section) but only appeared
+   several scrolls below the fold — never actually "near the hero" as the backlog called for.
+   Added a small trust pill in `Hero.jsx` directly under the subtitle, before the CTA buttons:
+   a `ShieldCheck` icon (same icon already used for this claim on `/about`) + "Nothing publishes
+   unread — every brief is human-checked before it goes live" — reusing the exact claim language
+   already live on `/about` and in `FundedBuilds.jsx`, no new claims. Styled with the light
+   "civic clarity" tokens (`--primary-cyan` tint pill, per `DESIGN.md`). Verified in the
+   prerendered output (`dist/index.html` contains the new line), `npm run lint` clean
+   (pre-existing `no-useless-escape` warnings only), `npm run build` succeeded. ~~visible contact
+   email~~ (already live — `mailto:denis@frayze.ca` in footer); ~~RSS feed~~ — DONE 2026-07-09
+   (full-text RSS 2.0 at `/rss.xml`, generated in `scripts/prerender.mjs` from all 27 Journal
+   posts, `<link rel="alternate">` discovery tag in `index.html`, footer link added); check the
+   FundingRadar modal body-scroll-lock on mobile; per-post custom OG cards (the og-image pattern).
+   FOLLOW-UP: next cycle, once the 2026-11-07 re-check window opens, go back to the GSC
+   striking-distance / zero-CTR data-driven pass on `/about` and the other pages flagged in
+   the 2026-10-08/2026-10-22 commits before returning to this UX backlog (FundingRadar
+   mobile scroll-lock, per-post OG cards).
 
 ### DENIS-ONLY (off-site, can't be automated — distribution is the real fast-views lever for a new domain)
 Submit sitemap + news-sitemap to GSC + Request Indexing; route Netlify subscribers -> GHL (CASL double-opt-in);
