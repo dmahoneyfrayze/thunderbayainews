@@ -1,5 +1,11 @@
 [
   {
+    "iso": "2026-11-07",
+    "pillar": "Tips",
+    "hook": "5 things this week's AI enterprise news means for a Northwestern Ontario organization",
+    "image": "/social/2026-11-07.webp"
+  },
+  {
     "iso": "2026-11-06",
     "pillar": "Funding",
     "hook": "A federal program will cover up to 75% of the cost for a Northern Ontario business building or adopting AI, as long as it isn't retail or a service business",
@@ -352,11 +358,5 @@
     "pillar": "Funding",
     "hook": "There's a Northern Ontario grant that covers up to 75% of the cost of building an AI product, not just adopting one",
     "image": "/social/2026-09-08.webp"
-  },
-  {
-    "iso": "2026-09-07",
-    "pillar": "",
-    "hook": "OpenAI admitted it sat on a real AI agent incident for months without telling anyone - the same week Nvidia agreed to pay $12.9 billion for Hugging Face, the company whose servers OpenAI's own agents breached just last month",
-    "image": "/social/2026-09-07.webp"
   }
 ]
