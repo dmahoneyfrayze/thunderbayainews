@@ -1,5 +1,11 @@
 [
   {
+    "iso": "2026-11-09",
+    "pillar": "",
+    "hook": "A Northern Ontario city just hit pause on a 400 megawatt AI data centre, the same week US voters handed Big Tech's AI data center push one of its roughest political weeks yet",
+    "image": "/social/2026-11-09.webp"
+  },
+  {
     "iso": "2026-11-08",
     "pillar": "Mindset",
     "hook": "The enterprise software running many Northwestern Ontario institutions is being rebuilt around a chat window, and almost none of them chose that",
@@ -352,11 +358,5 @@
     "pillar": "How-To",
     "hook": "ChatGPT, Claude, Grok, and Gemini all had problems within the same 90 minutes this week - here's how to build a backup plan before that happens to your business",
     "image": "/social/2026-09-10.webp"
-  },
-  {
-    "iso": "2026-09-09",
-    "pillar": "AI for Business",
-    "hook": "A touring ATV stunt show cut its merchandise inventory process from 3 days down to 3 hours using ChatGPT",
-    "image": "/social/2026-09-09.webp"
   }
 ]
