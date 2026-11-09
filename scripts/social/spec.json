@@ -1,68 +1,68 @@
 {
-  "iso": "2026-11-02",
-  "issueNo": "19",
-  "dateLabel": "NOV 2",
+  "iso": "2026-11-09",
+  "issueNo": "20",
+  "dateLabel": "NOV 9",
   "handle": "thunderbayai",
   "cover": {
-    "hook": "Anthropic just filed to go public. The AI lab behind Claude is heading to Nasdaq — ticker ANT.",
-    "sub": "Plus OpenAI's biggest price cut in months, two FedNor wins for Northern Ontario, and a new US law restricting AI for kids."
+    "hook": "Ottawa just committed to 500 megawatts of sovereign AI compute — and $1 billion to bring AI inside federal departments.",
+    "sub": "Plus Anthropic's cryptographic model proof, OpenAI flexing the power grid, COP31, and AI funding open in Northern Ontario now."
   },
   "reelSub": "Five AI and funding moves NWO can't ignore this week.",
   "storySub": "What this week's AI and funding news means for a Northwestern Ontario business.",
   "items": [
     {
+      "tag": "GOVERNMENT",
+      "big": "$1B",
+      "bigSize": "180px",
+      "title": "Budget 2026: Ottawa puts $1B into AI-first federal services",
+      "body": "Budget 2026 creates Digital Transformation Canada and a $1B Government Transformation Fund. Canada also commits to 500 MW of sovereign AI computing for Canadian companies — terms still to come.",
+      "tease": "Next: a cryptographic proof of which AI model answered you.",
+      "reelLine": "Canada's Budget 2026 commits $1 billion to federal AI and creates Digital Transformation Canada."
+    },
+    {
       "tag": "MODEL WATCH",
-      "big": "ANT",
-      "bigSize": "180px",
-      "title": "Anthropic files for Nasdaq IPO — ticker ANT",
-      "body": "Anthropic filed its S-1 on October 26 with $16.3B in H1 2026 revenue. Going public changes the governance of the company behind Claude — NWO businesses on the Claude API now have a public company as a counterparty.",
-      "tease": "Next: OpenAI cuts API costs in half.",
-      "reelLine": "Anthropic just filed to go public — Nasdaq ticker ANT."
+      "big": "PROVABLE",
+      "bigSize": "120px",
+      "title": "Anthropic open-sources a proof of which AI model answered you",
+      "body": "FlashProve uses a zero-knowledge proof (zkSNARK) to verify model identity without revealing the weights. It targets the risk of a provider swapping in a cheaper model. Research prototype — not production-ready yet.",
+      "tease": "Next: who pays when AI drains the power grid.",
+      "reelLine": "Anthropic released FlashProve — an open-source cryptographic proof of which AI model answered a request."
     },
     {
-      "tag": "TOOLS",
-      "big": "50%",
+      "tag": "INFRASTRUCTURE",
+      "big": "8.6%",
       "bigSize": "180px",
-      "title": "OpenAI's GPT-6.1 Terra cuts API pricing in half",
-      "body": "Released October 26. Replaces GPT-5.6 Terra at half the per-token cost. Available in the API, ChatGPT Work, and Codex same day. If you're on the old model, a swap could cut your API spend immediately.",
-      "tease": "Next: $4.5M for Northern Ontario's underground mining-tech lab.",
-      "reelLine": "OpenAI released GPT-6.1 Terra at half the price of its predecessor."
-    },
-    {
-      "tag": "LOCAL",
-      "big": "$4.5M",
-      "bigSize": "180px",
-      "title": "FedNor expands NORCAT's underground innovation centre",
-      "body": "Ottawa committed $4.5M on October 30 to expand NORCAT's Sudbury underground centre — the primary Northern Ontario lab for testing autonomous systems and robotics in mining conditions. Capacity up 50%.",
-      "tease": "Next: $3.8M for NWO agri-food businesses in Toronto.",
-      "reelLine": "FedNor put $4.5M into NORCAT's underground mining-tech centre."
-    },
-    {
-      "tag": "FUNDING",
-      "big": "$3.8M",
-      "bigSize": "180px",
-      "title": "FedNor sends 40+ NWO agri-food businesses to the Royal Winter Fair",
-      "body": "Ottawa put $3,817,640 through three FedNor programs on October 29 to fund the Northern Ontario Agri-Food Pavilion at Canada's largest indoor agricultural show — November 6-15 in Toronto.",
-      "tease": "Next: the first US law banning unsafe AI features for kids.",
-      "reelLine": "FedNor backed 40+ NWO agri-food businesses at the Royal Agricultural Winter Fair."
+      "title": "OpenAI will flex power during grid stress — Ontario is writing the rules",
+      "body": "OpenAI's Grid Protectors Program commits future campuses to cut power during strain events. Ontario's grid operator projects data centres at 8.6% of provincial demand by 2050. The Data Centre Playbook puts connection costs on developers.",
+      "tease": "Next: Canada's climate credibility at COP31.",
+      "reelLine": "OpenAI announced its Grid Protectors Program. Ontario's data centre rules are coming this fall."
     },
     {
       "tag": "GOVERNMENT",
-      "big": "MINORS",
+      "big": "COP31",
       "bigSize": "120px",
-      "title": "New York bans unsafe AI chatbot features for users under 18",
-      "body": "Governor Hochul signed the first US state AI-for-minors law on October 28. Banned: companion personas, self-harm nudges, AI pretending to be human. Up to $25K per violation. Not Ontario law today — but the model Canadian legislators are watching.",
+      "title": "COP31 opens; Canada's delegation faces rollback scrutiny",
+      "body": "Climate talks run November 9–20 in Antalya, Turkey. Canada promoting methane cuts but eliminated the carbon price, cancelled the oil-and-gas emissions cap, and paused the coal export ban. What is committed here shapes NWO resource-sector rules next.",
+      "tease": "Next: AI adoption funding open in Northern Ontario now.",
+      "reelLine": "COP31 opened November 9. Canada's climate credibility is on the table."
+    },
+    {
+      "tag": "FUNDING",
+      "big": "$700M",
+      "bigSize": "180px",
+      "title": "FedNor RAII is open for Northern Ontario AI projects",
+      "body": "Rolling intake, no fixed deadline. Three streams: AI adoption, commercialization, ecosystem. National program expanded to $700M. Worth a call to FedNor before the fiscal year runs out.",
       "tease": "The throughline ->",
-      "reelLine": "New York signed the first US law restricting unsafe AI features for minors."
+      "reelLine": "FedNor's RAII is open for Northern Ontario businesses — no fixed deadline, three streams."
     }
   ],
   "summary": {
-    "title": "The AI industry's governance is changing — at every level",
-    "body": "Anthropic files to go public, OpenAI cuts prices, New York regulates AI for kids, and FedNor invests in Northern Ontario's mining-tech and agri-food infrastructure — the week AI oversight got louder at the corporate, legislative, and regional level simultaneously."
+    "title": "Federal AI is becoming funded infrastructure",
+    "body": "Budget 2026 moves Canada from AI strategy to AI spend — $1 billion and a new central body — while technical accountability tools and grid rules catch up around the edges. For NWO, it means the AI operating environment is changing at every level: policy, power, and funding."
   },
   "captions": {
-    "carousel": "This week in NWO: Anthropic publicly filed its S-1 to list on Nasdaq as ANT, with $16.3B in H1 2026 revenue — the first major AI lab heading to the public markets. OpenAI released GPT-6.1 Terra at half the API cost of its predecessor, available immediately. FedNor committed $4.5M to expand NORCAT's underground mining-tech centre and $3.8M for 40+ NWO agri-food businesses at the Royal Winter Fair. And New York signed the first US law restricting unsafe AI features for minors. Link in bio for the full Signal. #ThunderBayAI #NorthernOntario #AnthropicIPO #ArtificialIntelligence #NWO #CanadaAI #AIFunding",
-    "reel": "Anthropic files to go public — ticker ANT. OpenAI cuts API prices 50%. FedNor $4.5M into NORCAT mining tech. $3.8M for NWO agri-food. New York restricts AI for minors. Five moves that matter for Northwestern Ontario. Link in bio. #ThunderBayAI #NorthernOntario #AINews #NWO #FedNor",
+    "carousel": "Canada's Budget 2026 moves federal AI from strategy to spend — $1 billion for a new Digital Transformation Canada, 500 megawatts of sovereign compute, and a new data safety commission. Anthropic released FlashProve, an open-source cryptographic proof of which AI model answered you. OpenAI is designing campuses to flex power during grid stress, as Ontario finalizes data centre electricity rules. COP31 opened in Turkey with Canada's delegation under scrutiny. And FedNor's AI adoption funding for Northern Ontario is open now. Link in bio for the full Signal. #ThunderBayAI #NorthernOntario #CanadaAI #AIFunding #FedNor #NWO #Budget2026",
+    "reel": "Budget 2026: $1B into federal AI, 500 MW sovereign compute. Anthropic proves which AI model answered you. OpenAI flexes the power grid. COP31 opens. FedNor RAII is open in Northern Ontario. What it means for Northwestern Ontario — link in bio. #ThunderBayAI #NorthernOntario #AICanada #NWO #FedNor",
     "story": "Story frame — add a poll sticker and a link sticker to thunderbayai.com."
   }
 }
