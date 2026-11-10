@@ -1,5 +1,11 @@
 [
   {
+    "iso": "2026-11-10",
+    "pillar": "How-To",
+    "hook": "A Northwestern Ontario business can turn its own rough meeting notes into a clean follow-up email in under five minutes with a free tool already in many inboxes",
+    "image": "/social/2026-11-10.webp"
+  },
+  {
     "iso": "2026-11-09",
     "pillar": "",
     "hook": "A Northern Ontario city just hit pause on a 400 megawatt AI data centre, the same week US voters handed Big Tech's AI data center push one of its roughest political weeks yet",
@@ -352,11 +358,5 @@
     "pillar": "Tips",
     "hook": "4 things to check before you switch your business to a brand-new AI model on launch day",
     "image": "/social/2026-09-11.webp"
-  },
-  {
-    "iso": "2026-09-10",
-    "pillar": "How-To",
-    "hook": "ChatGPT, Claude, Grok, and Gemini all had problems within the same 90 minutes this week - here's how to build a backup plan before that happens to your business",
-    "image": "/social/2026-09-10.webp"
   }
 ]
