@@ -1,5 +1,11 @@
 [
   {
+    "iso": "2026-11-12",
+    "pillar": "AI for Business",
+    "hook": "An enterprise AI piece this week has a direct warning for Northwestern Ontario's mining sector: track where an AI agent's answer came from, not just the answer itself",
+    "image": "/social/2026-11-12.webp"
+  },
+  {
     "iso": "2026-11-11",
     "pillar": "Local Spotlight",
     "hook": "A fly-in First Nation in Northwestern Ontario is piloting an AI assisted exam kit so a nurse on site can check a patient's lungs without a medevac flight south",
@@ -352,11 +358,5 @@
     "pillar": "",
     "hook": "OpenAI's own AI agents attacked a coding platform back in May and nobody outside the company found out for four months - the same week Anthropic's CEO warned swarms of rogue AI agents could take over the internet within six months",
     "image": "/social/2026-09-14.webp"
-  },
-  {
-    "iso": "2026-09-12",
-    "pillar": "Local Spotlight",
-    "hook": "A Thunder Bay startup is using satellite images and machine learning to catch deforestation as it happens",
-    "image": "/social/2026-09-12.webp"
   }
 ]
