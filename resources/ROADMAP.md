@@ -114,12 +114,30 @@ funding facts stay "confirm with the program," sourced):
    (pre-existing `no-useless-escape` warnings only), `npm run build` succeeded. ~~visible contact
    email~~ (already live — `mailto:denis@frayze.ca` in footer); ~~RSS feed~~ — DONE 2026-07-09
    (full-text RSS 2.0 at `/rss.xml`, generated in `scripts/prerender.mjs` from all 27 Journal
-   posts, `<link rel="alternate">` discovery tag in `index.html`, footer link added); check the
-   FundingRadar modal body-scroll-lock on mobile; per-post custom OG cards (the og-image pattern).
-   FOLLOW-UP: next cycle, once the 2026-11-07 re-check window opens, go back to the GSC
-   striking-distance / zero-CTR data-driven pass on `/about` and the other pages flagged in
-   the 2026-10-08/2026-10-22 commits before returning to this UX backlog (FundingRadar
-   mobile scroll-lock, per-post OG cards).
+   posts, `<link rel="alternate">` discovery tag in `index.html`, footer link added); ~~check the
+   FundingRadar modal body-scroll-lock on mobile~~ — DONE 2026-11-12 (commit `d22ced8`); per-post
+   custom OG cards (the og-image pattern) still open.
+   FOLLOW-UP: the 2026-11-07 brief's GSC striking-distance (positions 8-20) was still empty (11th
+   cycle running) and every number in it was noise-level (single-digit impressions, mostly 0
+   clicks) — too thin to act on, including for the 2026-10-08 canonical-URL and 2026-10-22
+   google-reviews re-checks (`/about` still shows 0% CTR at 20im/pos6.2, essentially unchanged,
+   but that sample is too small 4-5 weeks post-fix to read as a real signal either way). Per
+   protocol this fell back to the backlog, and the FundingRadar mobile bug — flagged open in the
+   prior cycle's FOLLOW-UP — was picked: `.modal-content` had no `max-height`/`overflow-y`, so on
+   short mobile viewports the eligibility form + result panel + lead-capture form routinely
+   exceeded the screen with no way to scroll to the bottom fields, and `document.body` was never
+   locked, so the page behind kept scrolling under the fixed overlay at the same time. Fixed both:
+   `max-height: calc(100vh - 40px); overflow-y: auto;` on `.modal-content` (`src/index.css`) so the
+   modal scrolls internally, and a `useEffect` in `FundingRadar.jsx` that sets
+   `document.body.style.overflow = 'hidden'` while `selectedGrant` is set (cleared on close/
+   unmount). No content or copy changed. Verified in the built CSS (`dist/assets/index-*.css`
+   contains the new `max-height`/`overflow-y` rule), `npm run lint` clean (pre-existing
+   `no-useless-escape` warnings only), `npm run build` succeeded. NEXT cycle: re-check the
+   2026-11-07 brief's thinness isn't just this sample — if GSC striking-distance is STILL empty
+   and impressions are still too thin to act on, move to the content-gap scan (beat coverage vs.
+   the six pillars) per the long-standing FOLLOW-UP chain above; otherwise resume the data-driven
+   pass on `/about` and the other flagged pages. Per-post custom OG cards remains the next UX
+   backlog item if another data-driven pass isn't clearly indicated.
 
 ### DENIS-ONLY (off-site, can't be automated — distribution is the real fast-views lever for a new domain)
 Submit sitemap + news-sitemap to GSC + Request Indexing; route Netlify subscribers -> GHL (CASL double-opt-in);
