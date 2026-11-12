@@ -245,6 +245,8 @@ h1, h2, h3, h4 {
   border: 1px solid hsla(var(--border-light));
   max-width: 600px;
   width: 100%;
+  max-height: calc(100vh - 40px);
+  overflow-y: auto;
   border-radius: 20px;
   padding: 36px;
   box-shadow: var(--glass-shadow);

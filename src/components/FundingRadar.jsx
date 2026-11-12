@@ -210,6 +210,16 @@ export default function FundingRadar() {
     }
   };
 
+  // Lock background scroll while the modal is open (mobile: without this the
+  // page behind keeps scrolling under the fixed overlay, which is disorienting
+  // once the modal's own content needs its own scroll on short viewports).
+  useEffect(() => {
+    document.body.style.overflow = selectedGrant ? 'hidden' : '';
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [selectedGrant]);
+
   const elResult = calculateGrantMatch(selectedGrant, inNwo, isIncorporated, isScalable);
 
   return (
