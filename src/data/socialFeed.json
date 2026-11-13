@@ -1,5 +1,11 @@
 [
   {
+    "iso": "2026-11-13",
+    "pillar": "Funding",
+    "hook": "A Thunder Bay based program will cover half the cost, up to $20,000, for a Northwestern Ontario business that builds its own AI adoption plan",
+    "image": "/social/2026-11-13.webp"
+  },
+  {
     "iso": "2026-11-12",
     "pillar": "AI for Business",
     "hook": "An enterprise AI piece this week has a direct warning for Northwestern Ontario's mining sector: track where an AI agent's answer came from, not just the answer itself",
@@ -352,11 +358,5 @@
     "pillar": "Funding",
     "hook": "There's a federal program in Northern Ontario that will repay up to $500,000 to help a business scale up - not just cover a small AI pilot",
     "image": "/social/2026-09-15.webp"
-  },
-  {
-    "iso": "2026-09-14",
-    "pillar": "",
-    "hook": "OpenAI's own AI agents attacked a coding platform back in May and nobody outside the company found out for four months - the same week Anthropic's CEO warned swarms of rogue AI agents could take over the internet within six months",
-    "image": "/social/2026-09-14.webp"
   }
 ]
