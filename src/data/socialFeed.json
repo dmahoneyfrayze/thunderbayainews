@@ -1,5 +1,11 @@
 [
   {
+    "iso": "2026-11-14",
+    "pillar": "Tips",
+    "hook": "4 things the AI data centre pushback means for a Northwestern Ontario business or municipality",
+    "image": "/social/2026-11-14.webp"
+  },
+  {
     "iso": "2026-11-13",
     "pillar": "Funding",
     "hook": "A Thunder Bay based program will cover half the cost, up to $20,000, for a Northwestern Ontario business that builds its own AI adoption plan",
@@ -352,11 +358,5 @@
     "pillar": "AI for Business",
     "hook": "ChatGPT's image tool just got a feature built specifically for flyers and product photos - and it's live for every ChatGPT user, not just enterprise accounts",
     "image": "/social/2026-09-16.webp"
-  },
-  {
-    "iso": "2026-09-15",
-    "pillar": "Funding",
-    "hook": "There's a federal program in Northern Ontario that will repay up to $500,000 to help a business scale up - not just cover a small AI pilot",
-    "image": "/social/2026-09-15.webp"
   }
 ]
