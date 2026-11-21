@@ -1,59 +1,58 @@
-# TBAI Radar Brief — 2026-11-14
+# TBAI Radar Brief — 2026-11-21
 
-Aggregated 87 scored items from 12 feeds (last 7 days) + 3 civic watch pages.
+Aggregated 92 scored items from 12 feeds (last 7 days) + 3 civic watch pages.
 Deterministic pull; every link is a real source. Consumers verify claims against the linked source before use.
 
 ## Top signal (op-ed seeds — highest combined AI + NWO weight)
 
-1. **ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you** — The Verge AI, 2026-11-13 (score 10) [link](https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet)
-2. **Government of Canada signs international declaration on AI safety and security** — BetaKit, 2026-11-10 (score 9) [link](https://betakit.com/government-of-canada-signs-international-declaration-on-ai-safety-and-security/)
-3. **Helping caregivers use AI in everyday life** — OpenAI News, 2026-11-10 (score 8) [link](https://openai.com/index/helping-caregivers-use-ai-in-everyday-life)
-4. **Claude’s Duet agent is a little neurotic and surprisingly helpful** — The Verge AI, 2026-11-13 (score 8) [link](https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on)
-5. **ChatGPT’s new Wallet lets AI agents shop and check out for you** — TechCrunch AI, 2026-11-13 (score 8) [link](https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/)
+1. **Broadening access to AI for scientists** — OpenAI News, 2026-11-16 (score 8) [link](https://openai.com/index/expanding-chatgpt-for-academic-researchers)
+2. **LVMH’s Media Division announces strategic partnership with OpenAI** — OpenAI News, 2026-11-16 (score 8) [link](https://openai.com/index/lvmh-media-division-partnership)
+3. **Apple may be developing its own AI agent that runs your Mac** — TechCrunch AI, 2026-11-20 (score 8) [link](https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/)
+4. **How OpenAI’s Performance Factory keeps ChatGPT fast** — OpenAI News, 2026-11-19 (score 6) [link](https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast)
+5. **Advancing chip design with OpenAI models** — OpenAI News, 2026-11-18 (score 6) [link](https://openai.com/index/advancing-chip-design-with-our-models)
 
 ## The big moves — providers and models
 
-- **Helping caregivers use AI in everyday life** — OpenAI News, 2026-11-10. OpenAI Academy is bringing free, hands-on ChatGPT workshops to caregivers in five U.S. cities, helping them build practical AI skills for everyday life. [link](https://openai.com/index/helping-caregivers-use-ai-in-everyday-life)
-- **CodeRabbit scales agentic software development and ships 20x more** — OpenAI News, 2026-11-09. CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team. [link](https://openai.com/index/coderabbit-codex-daybreak)
-- **Introducing ChatGPT Wallet** — OpenAI News, 2026-11-13. Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections. [link](https://openai.com/index/introducing-chatgpt-wallet)
-- **Gondola doubles revenue as its team builds more with Codex** — OpenAI News, 2026-11-12. Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work. [link](https://openai.com/business/customer-stories/gondola)
-- **Supporting research on AI and children’s safety** — OpenAI News, 2026-11-12. OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people. [link](https://openai.com/index/children-first-declaration)
-- **ChatGPT Plus for veterans and servicemembers** — OpenAI News, 2026-11-11. More than 20,000 veterans and transitioning service members have claimed a free year of ChatGPT Plus. See how they use it to prepare for civilian careers. [link](https://openai.com/index/chatgpt-plus-for-veterans)
-- **Introducing Businesses in ChatGPT** — OpenAI News, 2026-11-10. Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT. [link](https://openai.com/index/introducing-businesses-chatgpt)
-- **Closing the AI guidance gap in education** — OpenAI News, 2026-11-10. New ThinkYoung research and lessons from OpenAI’s EMEA education partnerships on supporting teachers, AI literacy, and independent learning. [link](https://openai.com/index/closing-ai-guidance-gap-education)
-- **Singapore Airlines elevates travel & work with OpenAI technology** — OpenAI News, 2026-11-10. Discover how Singapore Airlines uses OpenAI models and API to enhance customer support, travel discovery, and employee productivity, doubling CSAT for its Kris chatbot. [link](https://openai.com/index/singapore-airlines-travel-work)
-- **Work at the Frontier: AI’s effect on freelance work** — OpenAI News, 2026-11-10. New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects. [link](https://openai.com/index/ai-effect-on-freelance-work)
+- **Broadening access to AI for scientists** — OpenAI News, 2026-11-16. We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models. [link](https://openai.com/index/expanding-chatgpt-for-academic-researchers)
+- **LVMH’s Media Division announces strategic partnership with OpenAI** — OpenAI News, 2026-11-16. LVMH’s Media Division and OpenAI announce a partnership to support journalism with AI and make its publications more accessible through ChatGPT. [link](https://openai.com/index/lvmh-media-division-partnership)
+- **How OpenAI’s Performance Factory keeps ChatGPT fast** — OpenAI News, 2026-11-19. Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast. [link](https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast)
+- **Advancing chip design with OpenAI models** — OpenAI News, 2026-11-18. OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra. [link](https://openai.com/index/advancing-chip-design-with-our-models)
+- **Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT** — OpenAI News, 2026-11-18. Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories. [link](https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership)
+- **The Silent Consensus** — OpenAI News, 2026-11-18. Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions. [link](https://openai.com/index/the-silent-consensus)
+- **How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise** — OpenAI News, 2026-11-18. Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption. [link](https://openai.com/business/customer-stories/sumitomo-life)
+- **Research acceleration: The jagged frontier** — OpenAI News, 2026-11-18. OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement. [link](https://openai.com/index/research-acceleration-jagged-frontier)
+- **Managing frontier AI risk: From training to deployment** — OpenAI News, 2026-11-18. OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring. [link](https://openai.com/index/managing-frontier-ai-risk)
+- **Introducing GPT-6.2 Astra and Sol** — OpenAI News, 2026-11-17. Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API. [link](https://openai.com/index/introducing-gpt-6-2-astra-sol)
 
 ## Hardware and infrastructure
 
-- **From Chips to Skills, NVIDIA and Korea Expand Sovereign AI Collaboration** — NVIDIA Blog, 2026-11-09. NVIDIA and Korea’s Ministry of Science and ICT (MSIT) are expanding their collaboration across the country’s sovereign AI ecosystem, from AI semiconductors and data center infrastructure to talent, startups, models, agents and security. The [link](https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration/)
-- **Korea’s AI Ecosystem Advances and Secures Agentic AI With NVIDIA** — NVIDIA Blog, 2026-11-09. As AI agents take on more work, they need capable open models and security that advances alongside them. Hyundai Motor Group is exploring NVIDIA NemoClaw blueprints and the NVIDIA OpenShell runtime, while AIM Intelligence is integrating its [link](https://blogs.nvidia.com/blog/korea-secure-agentic-ai/)
-- **NVIDIA Announces New Planned Investments in Korean Startups at the MSIT-NVIDIA AI Startup Partnership Forum** — NVIDIA Blog, 2026-11-09. Korea’s Ministry of Science and ICT and NVIDIA hosted the MSIT-NVIDIA AI Startup Partnership Forum at COEX. Representatives from the Ministry of Science and ICT and NVIDIA met with over 20 Korean startups across foundation models, physical  [link](https://blogs.nvidia.com/blog/korean-startup-investments-msit/)
-- **How AI Is Helping Care Teams Get Patients the Right Care, Sooner** — NVIDIA Blog, 2026-11-13. From pediatric research to smart hospitals, AI is helping care teams spend less time on routine tasks and more time with patients. Health systems and startups are putting it to work across healthcare, from matching patients to clinical tria [link](https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/)
-- **How AI Helps Recyclers Turn Mixed Waste Into Reusable Material** — NVIDIA Blog, 2026-11-11. Vision AI and robotics pick what’s worth recovering out of conveyor belts of used clothing, bottles and mixed recyclables, diverting thousands of tons of materials from landfills. [link](https://blogs.nvidia.com/blog/ai-recycling-startups/)
-- **NVIDIA Expands Open Source Commitment With OpenShell Contribution and New AI Infrastructure** — NVIDIA Blog, 2026-11-10. Kubernetes, the open source system that manages how applications run across thousands of AI factories, has become the foundation for AI, and the demands on it are only growing. To help meet them, NVIDIA is deepening its commitment to open s [link](https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/)
-- **Korea Advances Physical AI Across Industries With NVIDIA** — NVIDIA Blog, 2026-11-09. Tapping into the country’s strengths in manufacturing and engineering, NVIDIA is helping advance Korea’s physical AI ecosystem. The country’s industry leaders are applying accelerated computing, AI and simulation to everything from semicond [link](https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem/)
-- **NVIDIA Dynamo Recipes Bring Korea’s Leading Open Models to Production** — NVIDIA Blog, 2026-11-09. NVIDIA is releasing Dynamo-optimized deployment recipes for Korea’s leading open models: A.X K2 from SK Telecom, K-EXAONE 2.0 from LG AI Research, Solar Open 2 from Upstage and Motif-3 from Motif Technologies. As models grow beyond the capa [link](https://blogs.nvidia.com/blog/nvidia-dynamo-korea-open-models/)
+- **Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents** — NVIDIA Blog, 2026-11-19. Turning a simulation idea into a working application means assembling assets, connecting physics and rendering, and checking that the scene behaves as intended. Developers are combining frontier AI models with NVIDIA Omniverse libraries to  [link](https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/)
+- **NVIDIA RTX Spark Compact Desktops Out Now** — NVIDIA Blog, 2026-11-18. New NVIDIA RTX Spark compact desktops from ASUS, Dell and MSI are available today, bringing local AI agents, image and video generation, and model fine-tuning to a dedicated Windows PC. With up to 128GB of unified memory and NVIDIA’s AI sof [link](https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/)
+- **Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents** — NVIDIA Blog, 2026-11-17. NVIDIA’s Ian Buck kicked off the company’s week at SC26 in Chicago on Monday with new tools for AI agents, software that can plan experiments, run code and check results on researchers’ own systems. In NVIDIA’s special address, Buck announc [link](https://blogs.nvidia.com/blog/ian-buck-sc26/)
+- **Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics** — NVIDIA Blog, 2026-11-16. To train an AI model, thousands of GPUs have to work together, requiring a network that’s fast, efficient and resilient. Lambda is tackling the network piece of the puzzle with NVIDIA Photonics co-packaged optics (CPO) switches. The cloud p [link](https://blogs.nvidia.com/blog/lambda-photonics/)
+- **NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance** — NVIDIA Blog, 2026-11-16. In its MLPerf benchmarks debut, with results released today, the NVIDIA Vera Rubin platform delivers leading performance across training, post-training and agentic inference. NVIDIA swept every MLPerf Training v6.1 benchmark and, in its fir [link](https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/)
+- **CUDA at 20: How the Platform Transformed Scientific Computing** — NVIDIA Blog, 2026-11-16. This week at SC26, NVIDIA is marking two decades of CUDA by honoring the researchers, developers and engineers who helped make GPU computing a foundation for modern science and AI. CUDA’s 20th anniversary presents an occasion to reflect acr [link](https://blogs.nvidia.com/blog/20-years-cuda/)
+- **AI Day Seoul Brings Together Korea’s Industry Leaders, Startups and Developer Communities** — NVIDIA Blog, 2026-11-16. Over two days at COEX, more than 2,000 attendees converged for AI Day Seoul, bringing together Korea’s industry leaders, startups and developer communities advancing physical AI and AI agents. At the plenary sessions, Deepu Talla, vice pres [link](https://blogs.nvidia.com/blog/ai-day-seoul-wrapup/)
+- **How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future** — NVIDIA Blog, 2026-11-16. Deb Shoquist leads operations at NVIDIA, overseeing the supply chain and manufacturing behind its AI platforms. That description sums up the job, but it doesn’t begin to encompass what Shoquist has made possible over decades. Shoquist, her  [link](https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain/)
+- **NVIDIA Announces Rubin HPC — A New GPU to Accelerate Agents for Science, Engineering and Analytics** — NVIDIA Blog, 2026-11-16. Announced today at SC26, NVIDIA Rubin HPC is a new GPU in the NVIDIA Vera Rubin platform designed to accelerate simulation and data processing for science, engineering and analytics workflows. As agents help scientists and engineers explore [link](https://blogs.nvidia.com/blog/rubin-hpc/)
 
 ## Tech press
 
-- **ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you** — The Verge AI, 2026-11-13. After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and  [link](https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet)
-- **Claude’s Duet agent is a little neurotic and surprisingly helpful** — The Verge AI, 2026-11-13. Let’s get to work. | Photo: Allison Johnson / The Verge Normally, the products I test don't offer to help me write up my experience with them. Duet is different. Claude Duet is Anthropic's AI agent for consumers, the latest attempt by an AI [link](https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on)
-- **ChatGPT’s new Wallet lets AI agents shop and check out for you** — TechCrunch AI, 2026-11-13. ChatGPT Wallet lets AI agents shop and check out on users' behalf, starting with a limited rollout to U.S. Pro subscribers. [link](https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/)
-- **Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI** — Ars Technica AI, 2026-11-11. Latest example of the AI boom’s circular financing comes as AI trade wobbles. [link](https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/)
-- **OpenAI board member worries an AI "takeover" of society could be months away** — Ars Technica AI, 2026-11-13. Researcher traces a path from AI reward hacking to potential human extinction. [link](https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/)
-- **Google faces calls for AI moratoriums in schools after Gemini pilot backlash** — Ars Technica AI, 2026-11-12. Families confront Google after teen’s lawsuit labels Gemini a “suicide coach.” [link](https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks/)
-- **Ukraine’s fiber-optic drones get squeezed by AI data center demand** — Ars Technica AI, 2026-11-10. Ukraine competes with Russia and data centers for China’s optical fiber supply. [link](https://arstechnica.com/gadgets/2026/11/ukraines-fiber-optic-drones-get-squeezed-by-ai-data-center-demand/)
-- **The OpenAI board member who fired Sam Altman says we still can t trust AI CEOs** — The Verge AI, 2026-11-14. Today, I’m talking with Helen Toner, the executive director of the Center for Security and Emerging Technology at Georgetown University. This episode is part two of our series on AI in real life. Helen is a well-known figure in the AI safet [link](https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview)
-- **No, AI agents did not discover a previously unknown Maya site** — The Verge AI, 2026-11-12. “I woke up and checked the agents' reports. 'DAMN!' They had found lots of villages and other regular shapes that looked like structures or houses,“ Pietro Miotti wrote on his blog. | Image: Pietro Miotti Armed with a team of AI agents, Goo [link](https://www.theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery)
-- **The AI graveyard: a running list of projects and startups that didn’t make it** — TechCrunch AI, 2026-11-14. From Apple's repeatedly delayed Siri AI to OpenAI's messy "super app" launch, here's a look at the AI projects that shut down or missed expectations. [link](https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/)
+- **Apple may be developing its own AI agent that runs your Mac** — TechCrunch AI, 2026-11-20. The iPhone maker appears to be building agents that can compete with the likes of Meta Muse, Instinct, Claude, and OpenAI Dots. [link](https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/)
+- **Can Anthropic afford to put safety first?** — The Verge AI, 2026-11-21. Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life. The AI lab behind Claude went public on the Nasdaq last Thursday. The numbers [link](https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure)
+- **Google gives Gemini the ability to use your Mac for you** — TechCrunch AI, 2026-11-19. Google's latest update to Gemini brings an AI agent to the Mac that can organize files, fill out forms, and tackle multistep workflows. [link](https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/)
+- **Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers** — Ars Technica AI, 2026-11-20. Meta is “re-evaluating” 2030 sustainability goals. Will others follow? [link](https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/)
+- **Google makes it easier to use Gemini without training AI on your data** — Ars Technica AI, 2026-11-17. AI training and chat history will now have separate toggles in the Gemini activity settings. [link](https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history/)
+- **Grok Bot took unapproved actions, ignored orders to stop, and then denied it** — Ars Technica AI, 2026-11-17. AI agent takes unapproved actions even when laptop lid is closed and told not to. [link](https://arstechnica.com/security/2026/11/grok-bot-took-unapproved-actions-ignored-orders-to-stop-and-then-denied-it/)
+- **Trump threatens ‘tremendous tax’ for moving AI data centers outside the US** — The Verge AI, 2026-11-20. President Donald Trump promised to put a "tremendous tax" on companies that build data centers outside of the US, even as states and cities around the country are placing restrictions on new applications to build them. "We're not going to a [link](https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax)
+- **Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude** — The Verge AI, 2026-11-20. Anthropic went public on November 19th, 2026. | Photo: Getty Images Anthropic mathematician Levent Alpöge claims he has proved the Riemann hypothesis, one of mathematics's most notoriously difficult problems, with the help of Claude, cracki [link](https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem)
+- **Signal is blocking Gemini and Siri AI from reading your screen** — The Verge AI, 2026-11-20. Signal users on iOS will see this option to toggle blocking screenshots and preventing Siri AI from scanning on-screen content. | Image: Signal Signal is restricting the ability to take screenshots on Android and iOS devices in an effort to [link](https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app)
+- **Apple is hiring engineers to build its own AI agent** — The Verge AI, 2026-11-19. Apple is working on its own AI agent that can perform a range of tasks for you, including browsing the web, working across apps, writing code, and calling services. That's according to a now-removed job listing spotted by Bloomberg, which s [link](https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing)
 
 ## Canada
 
-- **Government of Canada signs international declaration on AI safety and security** — BetaKit, 2026-11-10. Feds join other countries and major developers like Anthropic, OpenAI, Mistral, and Cohere. The post Government of Canada signs international declaration on AI safety and security first appeared on BetaKit. [link](https://betakit.com/government-of-canada-signs-international-declaration-on-ai-safety-and-security/)
-- **BluWave-ai secures $8.1 million for energy grid software as data centres strain load** — BetaKit, 2026-11-12. Nearly 10 years in, Ottawa company eyes surge in demand from AI infrastructure build-out. The post BluWave-ai secures $8.1 million for energy grid software as data centres strain load first appeared on BetaKit. [link](https://betakit.com/bluwave-ai-secures-8-1-million-for-energy-grid-software-as-data-centres-strain-load/)
-- **AI development unlikely to slow anytime soon, OpenAI Foundation board member says** — BetaKit, 2026-11-11. US AI safety researcher Paul Christiano says progress will accelerate thanks to AI itself. The post AI development unlikely to slow anytime soon, OpenAI Foundation board member says first appeared on BetaKit. [link](https://betakit.com/ai-development-unlikely-to-slow-anytime-soon-openai-foundation-board-member-says/)
-- **OpenAI acquires Sonder co-founder’s new travel tech company Odessia** — BetaKit, 2026-11-10. Francis Davidson founded the AI travel agent shortly after overseeing Sonder’s Marriott deal. The post OpenAI acquires Sonder co-founder’s new travel tech company Odessia first appeared on BetaKit. [link](https://betakit.com/openai-acquires-sonder-co-founders-new-travel-tech-company-odessia/)
+- **Telus pulls out of two government-backed AI data centres in Vancouver** — BetaKit, 2026-11-16. Projects were among first to advance under federal government’s sovereign AI data centre initiative. The post Telus pulls out of two government-backed AI data centres in Vancouver first appeared on BetaKit. [link](https://betakit.com/telus-pulls-out-of-two-government-backed-ai-data-centres-in-vancouver/)
+- **Vercel brings on Toronto team behind AI developer platform Traces** — BetaKit, 2026-11-19. Traces allows developers to save and publish conversations with AI agents. The post Vercel brings on Toronto team behind AI developer platform Traces first appeared on BetaKit. [link](https://betakit.com/vercel-brings-on-toronto-team-behind-ai-developer-platform-traces/)
 
 
 ## Civic watch — NEW AI-adjacent mentions
@@ -62,15 +61,15 @@ No new mentions this run.
 
 ---
 Source status:
-- ok    OpenAI News (19 kept)
-- ok    Google AI Blog (7 kept)
-- ok    NVIDIA Blog (8 kept)
-- ok    Ars Technica AI (16 kept)
+- ok    OpenAI News (32 kept)
+- ok    Google AI Blog (5 kept)
+- ok    NVIDIA Blog (9 kept)
+- ok    Ars Technica AI (14 kept)
 - ok    The Verge AI (10 kept)
 - ok    TechCrunch AI (20 kept)
-- ok    MIT Technology Review (2 kept)
-- ok    BetaKit (4 kept)
-- ok    Hacker News 150+ (1 kept)
+- ok    MIT Technology Review (0 kept)
+- ok    BetaKit (2 kept)
+- ok    Hacker News 150+ (0 kept)
 - ok    NetNewsLedger (0 kept)
 - ok    TBNewswatch (0 kept)
 - ok    NW Ontario Innovation Centre (0 kept)
@@ -78,7 +77,7 @@ Source status:
 - ok    watch: Lakehead Public Schools news (0 mentions, 0 new)
 - ok    watch: Lakehead University news (0 mentions, 0 new)
 
-## Site analytics — thunderbayai.com (auto-pulled 2026-11-14)
+## Site analytics — thunderbayai.com (auto-pulled 2026-11-21)
 
 Real GSC/GA4 numbers for the consumers of this brief (refill, op-ed, site-improvement).
 Use these to pick data-driven work: striking-distance queries to strengthen, high-impression
@@ -87,41 +86,40 @@ beyond what is printed here.
 
 ### GSC top queries (28d: clicks, impressions, CTR, position)
 ```
-     0cl       1im  0.0% p 11.0  "from assistance to execution: how enterprises put ai t
      0cl       1im  0.0% p  2.0  ai14090
-     0cl       2im  0.0% p  2.0  ai24038
+     0cl       1im  0.0% p  3.0  ai21090
      0cl       1im  0.0% p  2.0  ai24057
+     0cl       1im  0.0% p  3.0  ai53805
      0cl       1im  0.0% p  6.0  ai90153
-     0cl       1im  0.0% p  2.0  ai94476
      0cl       2im  0.0% p  4.0  can ai respond to customer reviews without sounding rob
      0cl       1im  0.0% p 10.0  in thunder bay
+     0cl       3im  0.0% p 40.7  ipc ai
      0cl       9im  0.0% p 42.9  machine learning mineral exploration canada
      0cl       1im  0.0% p  9.0  nwo ai
-     0cl       1im  0.0% p 35.0  small business grants thunder bay
-     0cl       8im  0.0% p 30.4  startup funding thunder bay
+     0cl       4im  0.0% p 24.8  startup funding thunder bay
+     0cl       1im  0.0% p  8.0  techarcade.io
 ```
 ### GSC top pages (28d)
 ```
-     3cl      51im  5.9% p  5.5  https://thunderbayai.com/
-     1cl       5im 20.0% p  6.2  https://thunderbayai.com/blog/bbaa-ai-adoption-grant-no
-     1cl      31im  3.2% p  5.6  https://thunderbayai.com/blog/openai-canada-obvious-pla
-     1cl       2im 50.0% p  7.0  https://thunderbayai.com/blog/signal-ai-funding-nwo-wee
-     1cl       9im 11.1% p  5.7  https://thunderbayai.com/funding/nadf-business-loans/
-     1cl      13im  7.7% p  8.8  https://thunderbayai.com/funding/nohfc-workforce-develo
-     1cl       7im 14.3% p  7.4  https://thunderbayai.com/funding/norcat-raii-micro-gran
-     0cl      24im  0.0% p  6.5  https://thunderbayai.com/about/
-     0cl      27im  0.0% p  6.6  https://thunderbayai.com/blog/
-     0cl       1im  0.0% p 11.0  https://thunderbayai.com/blog/ai-adoption-gap-tripled-n
-     0cl       2im  0.0% p  5.0  https://thunderbayai.com/blog/ai-auto-dealers-service-s
-     0cl       8im  0.0% p  5.1  https://thunderbayai.com/blog/ai-auto-dealers-service-s
+     6cl      41im 14.6% p  4.3  https://thunderbayai.com/
+     1cl       4im 25.0% p  5.2  https://thunderbayai.com/blog/bbaa-ai-adoption-grant-no
+     1cl      18im  5.6% p  5.8  https://thunderbayai.com/blog/openai-canada-obvious-pla
+     1cl       3im 33.3% p 14.7  https://thunderbayai.com/blog/signal-ai-funding-nwo-wee
+     1cl      22im  4.5% p  7.5  https://thunderbayai.com/funding/
+     1cl      11im  9.1% p  6.0  https://thunderbayai.com/funding/nadf-business-loans/
+     1cl      14im  7.1% p  8.5  https://thunderbayai.com/funding/nohfc-workforce-develo
+     0cl      25im  0.0% p  6.4  https://thunderbayai.com/about/
+     0cl      23im  0.0% p  8.0  https://thunderbayai.com/blog/
+     0cl       1im  0.0% p 11.0  https://thunderbayai.com/blog/ai-auto-dealers-service-s
+     0cl       6im  0.0% p  8.5  https://thunderbayai.com/blog/ai-auto-dealers-service-s
+     0cl       1im  0.0% p  4.0  https://thunderbayai.com/blog/ai-customer-service-agent
 ```
 ### GSC striking distance (positions 8-20 — one push from page 1)
 ```
 ```
 ### GA4 channels (7d: sessions, engagement, conversions)
 ```
-  Direct                 sess=     4 eng=  25% conv=0
-  Organic Search         sess=     4 eng=  50% conv=0
-  Organic Social         sess=     3 eng=  33% conv=0
-  AI Assistant           sess=     2 eng=  50% conv=0
+  Organic Search         sess=     5 eng=  80% conv=0
+  Organic Social         sess=     4 eng=  75% conv=0
+  Direct                 sess=     3 eng=   0% conv=0
 ```
