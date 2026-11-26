@@ -366,6 +366,40 @@ stay scheduled (review buffer). Backlog (work a couple per cycle; let engagement
     the same zero-CTR pattern. If striking-distance is STILL empty next cycle and no
     re-check window has opened yet, the content-gap scan (beat coverage vs. the six
     pillars) remains the next lever, per the 2026-09-17 FOLLOW-UP.
+    ~~Reduced-motion support for cursor follow + card tilt~~ — DONE 2026-11-26
+    (commit `7b44ec2`): the 2026-11-21 brief's GSC striking-distance was empty for
+    roughly the tenth cycle running. Both re-check windows flagged in prior cycles had
+    now opened: the 2026-10-08 canonical-URL fix (window: ~2026-11-07 onward, now 2
+    briefs past) and the 2026-10-29 `/blog/` title/meta fix (window: 3-4 briefs, now at
+    3) — neither moved anything. `/about/` sits at 25im/0%CTR/pos6.4 and `/blog/` at
+    23im/0%CTR/pos8.0, both statistically unchanged from before their respective fixes.
+    Sample sizes are still small (23-25 impressions/28d) so this isn't proof the levers
+    are dead, but title/meta and internal-linking have now each had 2+ passes on these
+    exact pages with zero movement — that data-driven avenue looks exhausted for now
+    without a larger sample. The content-gap scan (the next lever per the long-standing
+    FOLLOW-UP chain) is beat-coverage work already owned by the content engine's own
+    rotation (`CONTENT-ENGINE.md` line 79: "check `src/data/posts.js` for what is
+    under-covered and rotate beats"), not a site-structure change, so this run instead
+    picked the next open SITE-level item: backlog item 6, "accessibility pass... reduced-
+    motion (the cursor/parallax)" — flagged since the original backlog, never shipped.
+    Verified by grep that no component checked `prefers-reduced-motion` except
+    `smoothScroll.js`. Fixed: `CustomCursor.jsx` (rAF lerp-follow dot, always-on for any
+    mouse user) and `TiltCard.jsx` (3D hover tilt on funding/program cards) now both
+    skip their transform logic when the OS reduced-motion preference is set, via a new
+    `src/lib/usePrefersReducedMotion.js` hook (same lazy-init + `matchMedia` pattern as
+    `useIsMobile.js`). Added a matching CSS rule hiding `.custom-cursor` under
+    `prefers-reduced-motion: reduce`, mirroring the existing touch-device hide rule in
+    `index.css`. No content, copy, or layout changed — purely a motion-sensitivity
+    accessibility fix (WCAG 2.3.3). Verified: `npm run lint` clean (pre-existing
+    `no-useless-escape` warnings only), `npm run build` succeeded (prerendered all
+    routes), and `dist/assets/*.css` contains the new reduced-motion rule. FOLLOW-UP:
+    re-check `/about/` and `/blog/`'s GSC CTR again once a few more briefs accumulate a
+    larger sample (current 23-25im/28d is still thin); if still flat with more data, the
+    content-gap scan is the next data-driven lever (coordinate with the content engine
+    rather than duplicate its beat-rotation work). Remaining open SITE-level items:
+    per-post custom OG cards (the og-image pattern), a Lighthouse/perf pass as content
+    grows, and a contrast/focus-state accessibility sweep (this run addressed only the
+    motion half of backlog item 6).
 
 ## Autonomous improvement protocol (the monthly agent MUST follow)
 1. Read this ROADMAP, the STRATEGY thesis, and the current site. Pick the **single highest-value
