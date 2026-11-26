@@ -1,4 +1,5 @@
 import React, { useEffect, useRef } from 'react';
+import { usePrefersReducedMotion } from '../lib/usePrefersReducedMotion';
 
 // rAF lerp-follow cursor. The previous version wrote `transform` on every
 // mousemove against a CSS transform-transition, which made it lag and snap.
@@ -6,9 +7,11 @@ import React, { useEffect, useRef } from 'react';
 // for a smooth trailing follow — the premium "Stitch" feel.
 export default function CustomCursor() {
   const ref = useRef(null);
+  const reducedMotion = usePrefersReducedMotion();
 
   useEffect(() => {
     if (typeof window === 'undefined') return;
+    if (reducedMotion) return;
     if (window.matchMedia('(hover: none) and (pointer: coarse)').matches) return;
 
     const el = ref.current;
@@ -51,7 +54,7 @@ export default function CustomCursor() {
       window.removeEventListener('mousemove', onMove);
       window.removeEventListener('mouseover', onOver);
     };
-  }, []);
+  }, [reducedMotion]);
 
   return (
     <div ref={ref} className="custom-cursor">

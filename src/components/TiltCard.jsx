@@ -1,4 +1,5 @@
 import React, { useRef } from 'react';
+import { usePrefersReducedMotion } from '../lib/usePrefersReducedMotion';
 
 // Ref-based 3D tilt. The previous version called setState on every mousemove,
 // re-rendering the component each frame (jank) while a 0.2s transform-transition
@@ -7,8 +8,10 @@ import React, { useRef } from 'react';
 // leave so it settles smoothly.
 export default function TiltCard({ children, style, className, max = 8 }) {
   const ref = useRef(null);
+  const reducedMotion = usePrefersReducedMotion();
 
   const handleMouseMove = (e) => {
+    if (reducedMotion) return;
     const el = ref.current;
     if (!el) return;
     const rect = el.getBoundingClientRect();
@@ -21,6 +24,7 @@ export default function TiltCard({ children, style, className, max = 8 }) {
   };
 
   const handleMouseLeave = () => {
+    if (reducedMotion) return;
     const el = ref.current;
     if (!el) return;
     el.style.transition = 'transform 0.6s cubic-bezier(0.22, 1, 0.36, 1)';
